@@ -1,3 +1,4 @@
+# Base project plus pinned decoders for the official PASDA LAZ files.
 -r requirements.txt
 laspy==2.7.0
 laszip==0.3.0

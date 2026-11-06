@@ -1,1 +1,2 @@
+# Install this checkout and its test dependencies. Run from the repository root.
 -e .[dev]

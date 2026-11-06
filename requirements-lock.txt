@@ -1,3 +1,4 @@
+# Exact versions from the recorded test environment; platform availability can differ.
 certifi==2026.10.23
 iniconfig==2.3.1
 nbtlib==2.0.4

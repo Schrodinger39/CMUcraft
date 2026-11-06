@@ -1,21 +1,29 @@
+# Build backend used by pip to install the src/ package.
 [build-system]
 requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
 
+# Python package metadata; preview release tags may have a separate version.
 [project]
 name = "cmucraft"
 version = "0.2.0"
 description = "One metre per block CMU campus footprint pipeline"
+# Minimum supported interpreter for the library and command-line tools.
 requires-python = ">=3.10"
+# Small geometry, projection, image, array, NBT and HTTPS dependencies.
 dependencies = ["shapely>=2,<3", "pyproj>=3.6,<4", "Pillow>=10.1,<13", "numpy>=1.26,<3", "nbtlib>=2,<3", "certifi>=2024"]
+# Optional tools: survey decodes LAZ files; dev runs regression tests.
 [project.optional-dependencies]
 survey = ["laspy>=2.7,<3", "laszip>=0.3,<1"]
 dev = ["pytest>=8,<10"]
+# Installed terminal commands and their Python entry functions.
 [project.scripts]
 cmucraft = "cmucraft.cli:main"
 cmucraft-campus = "cmucraft.campus:main"
+# Discover cmucraft beneath src/ rather than packaging generated artifacts.
 [tool.setuptools.packages.find]
 where = ["src"]
+# Let tests import the source tree and limit collection to tests/.
 [tool.pytest.ini_options]
 pythonpath = ["src"]
 testpaths = ["tests"]

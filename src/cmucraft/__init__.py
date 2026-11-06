@@ -1,1 +1,1 @@
-"""CMUcraft: auditable real-world footprints at one metre per block."""
+"""CMUcraft package. Use cmucraft.cli for the small survey entry point."""
