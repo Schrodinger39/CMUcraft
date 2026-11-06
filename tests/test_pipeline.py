@@ -141,3 +141,13 @@ def test_source_integrity_guard(tmp_path):
 
 def test_expansion_requires_download(tmp_path):
     with pytest.raises(ValueError,match='bbox'): build(SOURCE,tmp_path/'out',Region(size=1024))
+
+
+def test_architecture_keeps_named_gates_hillman_parts():
+    features,warnings=parse(SOURCE,separate_named_parts=True)
+    names={f['tags'].get('name') for f in features}
+    assert not warnings
+    assert 'Gates and Hillman Centers' not in names
+    assert 'Gates Center for Computer Science' in names
+    assert 'Hillman Center for Future Generation Technologies' in names
+

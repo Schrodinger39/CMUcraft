@@ -32,7 +32,7 @@ def download(region, output, endpoint="https://api.openstreetmap.org/api/0.6/map
     return meta
 
 
-def parse(path):
+def parse(path, separate_named_parts=False):
     root = ET.parse(path).getroot()
     if root.tag != "osm":
         raise ValueError("Expected OSM XML")
@@ -101,6 +101,10 @@ def parse(path):
         return geometry,descendants
 
     for rid,rel in relations.items():
+        # Gates/Hillman parent combines separate named buildings and a skybridge.
+        # Retain child geometry for architecture; preserve parent for legacy 2D surveys.
+        if separate_named_parts and rid == '21724638':
+            continue
         if tags(rel).get('building','no') == 'no':
             continue
         try:
