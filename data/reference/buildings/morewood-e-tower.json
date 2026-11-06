@@ -1,0 +1,227 @@
+{
+  "name": "Morewood E-Tower",
+  "osm_id": "way/1002531075",
+  "source_url": "https://www.openstreetmap.org/way/1002531075",
+  "snapshot_sha256": "7d8857f29e2e29a48ddb4d52182175ac4af61c7b7e6c9c7727f93af1192bc1e2",
+  "crs": "EPSG:32617",
+  "axis_convention": "X east; Z south; one coordinate unit is one metre",
+  "utm_origin": [
+    589144.82561034,
+    4478009.6777666835
+  ],
+  "footprint_wgs84": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -79.9435829,
+          40.4452139
+        ],
+        [
+          -79.9434437,
+          40.4451675
+        ],
+        [
+          -79.943398,
+          40.4451518
+        ],
+        [
+          -79.9430589,
+          40.4450358
+        ],
+        [
+          -79.9431218,
+          40.4449304
+        ],
+        [
+          -79.9434204,
+          40.445032
+        ],
+        [
+          -79.9434746,
+          40.4449347
+        ],
+        [
+          -79.9434836,
+          40.444938
+        ],
+        [
+          -79.9434956,
+          40.4449192
+        ],
+        [
+          -79.9435473,
+          40.4449365
+        ],
+        [
+          -79.9435535,
+          40.4449272
+        ],
+        [
+          -79.9435644,
+          40.4449313
+        ],
+        [
+          -79.9435737,
+          40.4449348
+        ],
+        [
+          -79.9435678,
+          40.4449438
+        ],
+        [
+          -79.9435741,
+          40.4449459
+        ],
+        [
+          -79.9435623,
+          40.4449656
+        ],
+        [
+          -79.9436117,
+          40.4449828
+        ],
+        [
+          -79.9435553,
+          40.44508
+        ],
+        [
+          -79.943643,
+          40.4451095
+        ],
+        [
+          -79.9435829,
+          40.4452139
+        ]
+      ]
+    ]
+  },
+  "footprint_xz": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          443.0629031439312,
+          300.34818630851805
+        ],
+        [
+          454.9293883325299,
+          305.3574459897354
+        ],
+        [
+          458.8258332979167,
+          307.05380576848984
+        ],
+        [
+          487.73736392648425,
+          319.58589178789407
+        ],
+        [
+          482.54312748136,
+          331.3493227865547
+        ],
+        [
+          457.0852990540443,
+          320.37455061543733
+        ],
+        [
+          452.61806502589025,
+          331.2300181137398
+        ],
+        [
+          451.85043399990536,
+          330.8728433204815
+        ],
+        [
+          450.85773464583326,
+          332.97185205481946
+        ],
+        [
+          446.4503212572308,
+          331.10397218633443
+        ],
+        [
+          445.93687701853923,
+          332.1425789222121
+        ],
+        [
+          445.00705364742316,
+          331.6985295386985
+        ],
+        [
+          444.21371576329693,
+          331.3194579537958
+        ],
+        [
+          444.70211691828445,
+          330.31445622909814
+        ],
+        [
+          444.1650543853175,
+          330.08774369582534
+        ],
+        [
+          445.1395990140736,
+          327.88903713505715
+        ],
+        [
+          440.92737517738715,
+          326.029920916073
+        ],
+        [
+          445.5813268338097,
+          315.18332881014794
+        ],
+        [
+          438.1047387726139,
+          311.9977435693145
+        ],
+        [
+          443.0629031439312,
+          300.34818630851805
+        ]
+      ]
+    ]
+  },
+  "centroid_xz_m": [
+    459.934,
+    317.591
+  ],
+  "footprint_area_m2": 792.032,
+  "bounds_xz_m": [
+    438.105,
+    300.348,
+    487.737,
+    332.972
+  ],
+  "independent_footprint_comparison": {
+    "osm_id": "way/1002531075",
+    "name": "Morewood E-Tower",
+    "county_ids": "546903",
+    "overlap_iou": 0.2115,
+    "centroid_difference_m": 45.475,
+    "boundary_hausdorff_m": 104.466,
+    "status": "needs_review",
+    "name_verified": false,
+    "facade_verified": false,
+    "height_verified": false
+  },
+  "exterior_requirements": [
+    "warm red masonry, concrete bays",
+    "flat roof",
+    "do not merge with Gardens wings"
+  ],
+  "inventory_source": "https://www.cmu.edu/cdfd/planning-and-design/master-plan/pdf/june-2022-cmu-imp-appendices.pdf",
+  "inventory_date": 2022,
+  "inventory_level_string": "7+1",
+  "surveyed_height_m": null,
+  "height_policy": "Do not convert ambiguous inventory level strings to a verified total height.",
+  "verification": {
+    "identity": false,
+    "location": false,
+    "height": false,
+    "facades": false,
+    "game_walkthrough": false
+  },
+  "status": "reference_packet_not_approved_model"
+}
