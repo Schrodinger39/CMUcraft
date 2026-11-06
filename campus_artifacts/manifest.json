@@ -1,0 +1,59 @@
+{
+  "region": {
+    "lon": -79.9428,
+    "lat": 40.4433,
+    "size_m": 1024,
+    "utm_origin": [
+      589144.82561034,
+      4478009.6777666835
+    ]
+  },
+  "source_osm": {
+    "source_kind": "real_osm",
+    "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-79.95010110,40.43772116,-79.93549773,40.44887841",
+    "bbox_wgs84": [
+      -79.95010109553186,
+      40.43772115896057,
+      -79.93549772601958,
+      40.44887841092221
+    ],
+    "retrieved_utc": "2026-11-06T00:14:23.689466+00:00",
+    "sha256": "7d8857f29e2e29a48ddb4d52182175ac4af61c7b7e6c9c7727f93af1192bc1e2",
+    "attribution": "© OpenStreetMap contributors",
+    "license": "ODbL 1.0",
+    "license_url": "https://www.openstreetmap.org/copyright"
+  },
+  "source_dem": {
+    "source": "USGS 3DEP elevation ImageServer",
+    "source_url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=589144.82561034,4476985.67776668,590168.82561034,4478009.67776668&bboxSR=32617&size=256,256&imageSR=32617&format=tiff&pixelType=F32&interpolation=RSP_BilinearInterpolation&f=image",
+    "retrieved_utc": "2026-11-06T00:16:43.301170+00:00",
+    "sha256": "8c1b7019ca9bee67da510eac020e33000d36cb31dd15b656771695ac7d7c1ef2",
+    "crs": "EPSG:32617",
+    "pixel_spacing_m": 4,
+    "note": "Service-resampled 4m bare-earth elevation, bilinearly interpolated to 1m blocks; not a native 1m DEM. Vertical coordinates retain metre differences with a constant Minecraft offset."
+  },
+  "vertical_offset_m": 208,
+  "elevation_range_m": [
+    248.38705444335938,
+    328.5489196777344
+  ],
+  "buildings": 342,
+  "routes": 888,
+  "bridges": 12,
+  "trees": 337,
+  "chunks": 4096,
+  "spawn": [
+    475,
+    85,
+    589
+  ],
+  "game_version": "Java 1.16.5",
+  "contributor": "Chris Yu",
+  "limitations": [
+    "4m service-resampled DEM interpolated to 1m; building foundations flattened",
+    "Campus inventory is historical (2022), not current architectural drawings",
+    "Heights derived from storeys are estimates; facades, roofs, floors and ladders are procedural",
+    "Bridge deck elevations, road widths without OSM tags, and inferred entrances are approximate",
+    "1024m square covers central campus and nearby residences, not every off-campus CMU property"
+  ]
+}

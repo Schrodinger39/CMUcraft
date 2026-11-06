@@ -1,0 +1,9 @@
+{
+  "source": "USGS 3DEP elevation ImageServer",
+  "source_url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=589144.82561034,4476985.67776668,590168.82561034,4478009.67776668&bboxSR=32617&size=256,256&imageSR=32617&format=tiff&pixelType=F32&interpolation=RSP_BilinearInterpolation&f=image",
+  "retrieved_utc": "2026-11-06T00:16:43.301170+00:00",
+  "sha256": "8c1b7019ca9bee67da510eac020e33000d36cb31dd15b656771695ac7d7c1ef2",
+  "crs": "EPSG:32617",
+  "pixel_spacing_m": 4,
+  "note": "Service-resampled 4m bare-earth elevation, bilinearly interpolated to 1m blocks; not a native 1m DEM. Vertical coordinates retain metre differences with a constant Minecraft offset."
+}

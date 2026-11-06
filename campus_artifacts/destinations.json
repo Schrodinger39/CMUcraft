@@ -1,0 +1,646 @@
+[
+  {
+    "name": "Scott Hall",
+    "x": 189,
+    "y": 84,
+    "z": 589,
+    "command": "/tp @s 189 84 589"
+  },
+  {
+    "name": "Phipps Conservatory",
+    "x": 84,
+    "y": 99,
+    "z": 987,
+    "command": "/tp @s 84 99 987"
+  },
+  {
+    "name": "Gates and Hillman Centers",
+    "x": 361,
+    "y": 112,
+    "z": 516,
+    "command": "/tp @s 361 112 516"
+  },
+  {
+    "name": "Wean Hall",
+    "x": 318,
+    "y": 92,
+    "z": 605,
+    "command": "/tp @s 318 92 605"
+  },
+  {
+    "name": "Phipps Conservatory",
+    "x": 51,
+    "y": 98,
+    "z": 1002,
+    "command": "/tp @s 51 98 1002"
+  },
+  {
+    "name": "Tartans Pavilion",
+    "x": 726,
+    "y": 103,
+    "z": 574,
+    "command": "/tp @s 726 103 574"
+  },
+  {
+    "name": "ANSYS Hall",
+    "x": 198,
+    "y": 94,
+    "z": 652,
+    "command": "/tp @s 198 94 652"
+  },
+  {
+    "name": "Morewood E-Tower",
+    "x": 445,
+    "y": 107,
+    "z": 331,
+    "command": "/tp @s 445 107 331"
+  },
+  {
+    "name": "Hall of the Arts",
+    "x": 546,
+    "y": 106,
+    "z": 768,
+    "command": "/tp @s 546 106 768"
+  },
+  {
+    "name": "Fifth and Clyde Residence Hall",
+    "x": 253,
+    "y": 96,
+    "z": 40,
+    "command": "/tp @s 253 96 40"
+  },
+  {
+    "name": "Seoul Mart",
+    "x": 131,
+    "y": 84,
+    "z": 80,
+    "command": "/tp @s 131 84 80"
+  },
+  {
+    "name": "Highmark Center",
+    "x": 659,
+    "y": 111,
+    "z": 760,
+    "command": "/tp @s 659 111 760"
+  },
+  {
+    "name": "Holy Spirit Byzantine Catholic Church",
+    "x": 365,
+    "y": 90,
+    "z": 32,
+    "command": "/tp @s 365 90 32"
+  },
+  {
+    "name": "Holy Spirit Byzantine Church",
+    "x": 316,
+    "y": 89,
+    "z": 44,
+    "command": "/tp @s 316 89 44"
+  },
+  {
+    "name": "Forbes Beeler Apartments",
+    "x": 807,
+    "y": 111,
+    "z": 397,
+    "command": "/tp @s 807 111 397"
+  },
+  {
+    "name": "Starbucks",
+    "x": 18,
+    "y": 90,
+    "z": 378,
+    "command": "/tp @s 18 90 378"
+  },
+  {
+    "name": "Fairfax Apartments",
+    "x": 58,
+    "y": 111,
+    "z": 129,
+    "command": "/tp @s 58 111 129"
+  },
+  {
+    "name": "Rodef Shalom Congregation",
+    "x": 461,
+    "y": 92,
+    "z": 18,
+    "command": "/tp @s 461 92 18"
+  },
+  {
+    "name": "Warwick Plaza",
+    "x": 768,
+    "y": 99,
+    "z": 66,
+    "command": "/tp @s 768 99 66"
+  },
+  {
+    "name": "Park Plaza",
+    "x": 20,
+    "y": 111,
+    "z": 4,
+    "command": "/tp @s 20 111 4"
+  },
+  {
+    "name": "University Square",
+    "x": 7,
+    "y": 114,
+    "z": 74,
+    "command": "/tp @s 7 114 74"
+  },
+  {
+    "name": "Chipotle",
+    "x": 61,
+    "y": 90,
+    "z": 363,
+    "command": "/tp @s 61 90 363"
+  },
+  {
+    "name": "Pepper Space",
+    "x": 56,
+    "y": 80,
+    "z": 364,
+    "command": "/tp @s 56 80 364"
+  },
+  {
+    "name": "Joseph Stern Building",
+    "x": 48,
+    "y": 86,
+    "z": 365,
+    "command": "/tp @s 48 86 365"
+  },
+  {
+    "name": "Union Grill",
+    "x": 32,
+    "y": 91,
+    "z": 351,
+    "command": "/tp @s 32 91 351"
+  },
+  {
+    "name": "Crêpes Parisiennes",
+    "x": 13,
+    "y": 92,
+    "z": 211,
+    "command": "/tp @s 13 92 211"
+  },
+  {
+    "name": "Michael J. Feigel, DMD LLC",
+    "x": 11,
+    "y": 92,
+    "z": 225,
+    "command": "/tp @s 11 92 225"
+  },
+  {
+    "name": "Porter Hall",
+    "x": 233,
+    "y": 100,
+    "z": 658,
+    "command": "/tp @s 233 100 658"
+  },
+  {
+    "name": "Scaife Hall",
+    "x": 128,
+    "y": 93,
+    "z": 698,
+    "command": "/tp @s 128 93 698"
+  },
+  {
+    "name": "Hamerschlag Hall",
+    "x": 154,
+    "y": 101,
+    "z": 650,
+    "command": "/tp @s 154 101 650"
+  },
+  {
+    "name": "Newell-Simon Hall",
+    "x": 278,
+    "y": 81,
+    "z": 484,
+    "command": "/tp @s 278 81 484"
+  },
+  {
+    "name": "Hunt Library",
+    "x": 431,
+    "y": 116,
+    "z": 738,
+    "command": "/tp @s 431 116 738"
+  },
+  {
+    "name": "East Campus Garage",
+    "x": 692,
+    "y": 105,
+    "z": 457,
+    "command": "/tp @s 692 105 457"
+  },
+  {
+    "name": "Cohon University Center",
+    "x": 628,
+    "y": 100,
+    "z": 524,
+    "command": "/tp @s 628 100 524"
+  },
+  {
+    "name": "Purnell Center for the Arts",
+    "x": 429,
+    "y": 98,
+    "z": 527,
+    "command": "/tp @s 429 98 527"
+  },
+  {
+    "name": "Doherty Hall",
+    "x": 325,
+    "y": 106,
+    "z": 628,
+    "command": "/tp @s 325 106 628"
+  },
+  {
+    "name": "Warner Hall",
+    "x": 468,
+    "y": 110,
+    "z": 417,
+    "command": "/tp @s 468 110 417"
+  },
+  {
+    "name": "Cyert Hall",
+    "x": 396,
+    "y": 95,
+    "z": 413,
+    "command": "/tp @s 396 95 413"
+  },
+  {
+    "name": "Roberts Engineering Hall",
+    "x": 121,
+    "y": 89,
+    "z": 641,
+    "command": "/tp @s 121 89 641"
+  },
+  {
+    "name": "Baker Hall",
+    "x": 283,
+    "y": 106,
+    "z": 675,
+    "command": "/tp @s 283 106 675"
+  },
+  {
+    "name": "Facilities Management Services Building",
+    "x": 203,
+    "y": 76,
+    "z": 537,
+    "command": "/tp @s 203 76 537"
+  },
+  {
+    "name": "Collaborative Innovation Center",
+    "x": 191,
+    "y": 86,
+    "z": 474,
+    "command": "/tp @s 191 86 474"
+  },
+  {
+    "name": "Hamburg Hall",
+    "x": 311,
+    "y": 87,
+    "z": 410,
+    "command": "/tp @s 311 87 410"
+  },
+  {
+    "name": "Smith Hall",
+    "x": 268,
+    "y": 83,
+    "z": 449,
+    "command": "/tp @s 268 83 449"
+  },
+  {
+    "name": "College of Fine Arts",
+    "x": 487,
+    "y": 113,
+    "z": 698,
+    "command": "/tp @s 487 113 698"
+  },
+  {
+    "name": "Posner Hall",
+    "x": 580,
+    "y": 108,
+    "z": 702,
+    "command": "/tp @s 580 108 702"
+  },
+  {
+    "name": "Margaret Morrison Carnegie Hall",
+    "x": 632,
+    "y": 94,
+    "z": 588,
+    "command": "/tp @s 632 94 588"
+  },
+  {
+    "name": "Donner House",
+    "x": 695,
+    "y": 98,
+    "z": 680,
+    "command": "/tp @s 695 98 680"
+  },
+  {
+    "name": "West Wing",
+    "x": 652,
+    "y": 103,
+    "z": 576,
+    "command": "/tp @s 652 103 576"
+  },
+  {
+    "name": "Resnik House",
+    "x": 758,
+    "y": 103,
+    "z": 612,
+    "command": "/tp @s 758 103 612"
+  },
+  {
+    "name": "Boss House",
+    "x": 808,
+    "y": 106,
+    "z": 682,
+    "command": "/tp @s 808 106 682"
+  },
+  {
+    "name": "McGill House",
+    "x": 822,
+    "y": 106,
+    "z": 674,
+    "command": "/tp @s 822 106 674"
+  },
+  {
+    "name": "Hamerschlag House",
+    "x": 827,
+    "y": 110,
+    "z": 739,
+    "command": "/tp @s 827 110 739"
+  },
+  {
+    "name": "Scobell House",
+    "x": 782,
+    "y": 107,
+    "z": 720,
+    "command": "/tp @s 782 107 720"
+  },
+  {
+    "name": "Welch House",
+    "x": 797,
+    "y": 109,
+    "z": 751,
+    "command": "/tp @s 797 109 751"
+  },
+  {
+    "name": "Henderson House",
+    "x": 818,
+    "y": 112,
+    "z": 767,
+    "command": "/tp @s 818 112 767"
+  },
+  {
+    "name": "Spirit House",
+    "x": 929,
+    "y": 101,
+    "z": 613,
+    "command": "/tp @s 929 101 613"
+  },
+  {
+    "name": "Woodlawn Apartments",
+    "x": 948,
+    "y": 99,
+    "z": 606,
+    "command": "/tp @s 948 99 606"
+  },
+  {
+    "name": "Tech House",
+    "x": 935,
+    "y": 107,
+    "z": 660,
+    "command": "/tp @s 935 107 660"
+  },
+  {
+    "name": "Delta Tau Delta House",
+    "x": 849,
+    "y": 107,
+    "z": 661,
+    "command": "/tp @s 849 107 661"
+  },
+  {
+    "name": "Disability Resources",
+    "x": 872,
+    "y": 107,
+    "z": 647,
+    "command": "/tp @s 872 107 647"
+  },
+  {
+    "name": "Margaret Morrison Apartments",
+    "x": 886,
+    "y": 106,
+    "z": 677,
+    "command": "/tp @s 886 106 677"
+  },
+  {
+    "name": "Stever House",
+    "x": 524,
+    "y": 103,
+    "z": 185,
+    "command": "/tp @s 524 103 185"
+  },
+  {
+    "name": "Mudge House C Building",
+    "x": 490,
+    "y": 93,
+    "z": 143,
+    "command": "/tp @s 490 93 143"
+  },
+  {
+    "name": "Mudge House A Building",
+    "x": 523,
+    "y": 93,
+    "z": 109,
+    "command": "/tp @s 523 93 109"
+  },
+  {
+    "name": "Mudge House B Building",
+    "x": 487,
+    "y": 92,
+    "z": 91,
+    "command": "/tp @s 487 92 91"
+  },
+  {
+    "name": "Alumni House",
+    "x": 572,
+    "y": 99,
+    "z": 342,
+    "command": "/tp @s 572 99 342"
+  },
+  {
+    "name": "99 Gladstone",
+    "x": 948,
+    "y": 121,
+    "z": 691,
+    "command": "/tp @s 948 121 691"
+  },
+  {
+    "name": "1094 Devon",
+    "x": 664,
+    "y": 116,
+    "z": 302,
+    "command": "/tp @s 664 116 302"
+  },
+  {
+    "name": "Bramer House",
+    "x": 659,
+    "y": 111,
+    "z": 215,
+    "command": "/tp @s 659 111 215"
+  },
+  {
+    "name": "Carnegie Museum of Art",
+    "x": 16,
+    "y": 87,
+    "z": 472,
+    "command": "/tp @s 16 87 472"
+  },
+  {
+    "name": "PNC Bank",
+    "x": 19,
+    "y": 94,
+    "z": 143,
+    "command": "/tp @s 19 94 143"
+  },
+  {
+    "name": "Information Networking Institute",
+    "x": 71,
+    "y": 91,
+    "z": 200,
+    "command": "/tp @s 71 91 200"
+  },
+  {
+    "name": "Carnegie Mellon University",
+    "x": 14,
+    "y": 92,
+    "z": 326,
+    "command": "/tp @s 14 92 326"
+  },
+  {
+    "name": "Center for Technology Transfer and Enterprise Creation",
+    "x": 86,
+    "y": 90,
+    "z": 373,
+    "command": "/tp @s 86 90 373"
+  },
+  {
+    "name": "Pittsburgh Golf Club",
+    "x": 812,
+    "y": 132,
+    "z": 854,
+    "command": "/tp @s 812 132 854"
+  },
+  {
+    "name": "Pittsburgh Golf Club",
+    "x": 837,
+    "y": 135,
+    "z": 878,
+    "command": "/tp @s 837 135 878"
+  },
+  {
+    "name": "B2",
+    "x": 914,
+    "y": 102,
+    "z": 429,
+    "command": "/tp @s 914 102 429"
+  },
+  {
+    "name": "B3",
+    "x": 922,
+    "y": 102,
+    "z": 422,
+    "command": "/tp @s 922 102 422"
+  },
+  {
+    "name": "B1",
+    "x": 899,
+    "y": 102,
+    "z": 436,
+    "command": "/tp @s 899 102 436"
+  },
+  {
+    "name": "Park Mansions",
+    "x": 678,
+    "y": 141,
+    "z": 812,
+    "command": "/tp @s 678 141 812"
+  },
+  {
+    "name": "Alumni Hall",
+    "x": 218,
+    "y": 83,
+    "z": 230,
+    "command": "/tp @s 218 83 230"
+  },
+  {
+    "name": "Central Catholic High School",
+    "x": 274,
+    "y": 89,
+    "z": 158,
+    "command": "/tp @s 274 89 158"
+  },
+  {
+    "name": "The Brother's House",
+    "x": 234,
+    "y": 85,
+    "z": 157,
+    "command": "/tp @s 234 85 157"
+  },
+  {
+    "name": "WQED",
+    "x": 339,
+    "y": 88,
+    "z": 164,
+    "command": "/tp @s 339 88 164"
+  },
+  {
+    "name": "Morewood Gardens",
+    "x": 470,
+    "y": 108,
+    "z": 290,
+    "command": "/tp @s 470 108 290"
+  },
+  {
+    "name": "Fifth Neville Apartments",
+    "x": 177,
+    "y": 87,
+    "z": 59,
+    "command": "/tp @s 177 87 59"
+  },
+  {
+    "name": "Campus Design and Facility Development",
+    "x": 220,
+    "y": 90,
+    "z": 33,
+    "command": "/tp @s 220 90 33"
+  },
+  {
+    "name": "Tepper School of Business",
+    "x": 326,
+    "y": 98,
+    "z": 301,
+    "command": "/tp @s 326 98 301"
+  },
+  {
+    "name": "Residence on Fifth",
+    "x": 170,
+    "y": 98,
+    "z": 107,
+    "command": "/tp @s 170 98 107"
+  },
+  {
+    "name": "Zupanic Family STEM Center",
+    "x": 190,
+    "y": 89,
+    "z": 170,
+    "command": "/tp @s 190 89 170"
+  },
+  {
+    "name": "TCS Hall",
+    "x": 121,
+    "y": 91,
+    "z": 303,
+    "command": "/tp @s 121 91 303"
+  }
+]

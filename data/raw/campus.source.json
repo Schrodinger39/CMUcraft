@@ -1,0 +1,15 @@
+{
+  "source_kind": "real_osm",
+  "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-79.95010110,40.43772116,-79.93549773,40.44887841",
+  "bbox_wgs84": [
+    -79.95010109553186,
+    40.43772115896057,
+    -79.93549772601958,
+    40.44887841092221
+  ],
+  "retrieved_utc": "2026-11-06T00:14:23.689466+00:00",
+  "sha256": "7d8857f29e2e29a48ddb4d52182175ac4af61c7b7e6c9c7727f93af1192bc1e2",
+  "attribution": "\u00a9 OpenStreetMap contributors",
+  "license": "ODbL 1.0",
+  "license_url": "https://www.openstreetmap.org/copyright"
+}

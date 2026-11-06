@@ -1,0 +1,6500 @@
+[
+  {
+    "osm_id": "relation/13441031",
+    "name": "Scott Hall",
+    "model_base_y": 62,
+    "model_height_m": 14,
+    "height_basis": "CMU 2022 inventory; model height estimated",
+    "inventory_levels_raw": "4",
+    "material": "light_gray_concrete",
+    "roof": "flat",
+    "entrance_source": "OSM entrance",
+    "entrance_xyz": [
+      189,
+      63,
+      589
+    ],
+    "clipped": false,
+    "footprint_cells": 1802,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "relation/18260908",
+    "name": "Phipps Conservatory",
+    "model_base_y": 77,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      84,
+      78,
+      987
+    ],
+    "clipped": true,
+    "footprint_cells": 3061,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "relation/21724638",
+    "name": "Gates and Hillman Centers",
+    "model_base_y": 72,
+    "model_height_m": 32,
+    "height_basis": "CMU 2022 inventory; model height estimated",
+    "inventory_levels_raw": "9+2",
+    "material": "gray_concrete",
+    "roof": "flat",
+    "entrance_source": "OSM entrance",
+    "entrance_xyz": [
+      361,
+      73,
+      516
+    ],
+    "clipped": false,
+    "footprint_cells": 4008,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "relation/21724639",
+    "name": "Wean Hall",
+    "model_base_y": 70,
+    "model_height_m": 14,
+    "height_basis": "CMU 2022 inventory; model height estimated",
+    "inventory_levels_raw": "4+5",
+    "material": "smooth_sandstone",
+    "roof": "flat",
+    "entrance_source": "OSM entrance",
+    "entrance_xyz": [
+      318,
+      71,
+      605
+    ],
+    "clipped": false,
+    "footprint_cells": 3930,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "relation/2785563",
+    "name": "Phipps Conservatory",
+    "model_base_y": 76,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      51,
+      77,
+      1002
+    ],
+    "clipped": true,
+    "footprint_cells": 2474,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/1000419332",
+    "name": "Tartans Pavilion",
+    "model_base_y": 81,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "OSM entrance",
+    "entrance_xyz": [
+      726,
+      82,
+      574
+    ],
+    "clipped": false,
+    "footprint_cells": 461,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/1001793197",
+    "name": "",
+    "model_base_y": 75,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      446,
+      76,
+      347
+    ],
+    "clipped": false,
+    "footprint_cells": 20,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/1001941217",
+    "name": "ANSYS Hall",
+    "model_base_y": 72,
+    "model_height_m": 14,
+    "height_basis": "CMU 2022 inventory; model height estimated",
+    "inventory_levels_raw": "4",
+    "material": "light_gray_concrete",
+    "roof": "flat",
+    "entrance_source": "OSM entrance",
+    "entrance_xyz": [
+      198,
+      73,
+      652
+    ],
+    "clipped": false,
+    "footprint_cells": 805,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/1002531075",
+    "name": "Morewood E-Tower",
+    "model_base_y": 75,
+    "model_height_m": 24,
+    "height_basis": "CMU 2022 inventory; model height estimated",
+    "inventory_levels_raw": "7+1",
+    "material": "bricks",
+    "roof": "flat",
+    "entrance_source": "OSM entrance",
+    "entrance_xyz": [
+      445,
+      76,
+      331
+    ],
+    "clipped": false,
+    "footprint_cells": 792,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/1002857138",
+    "name": "Hall of the Arts",
+    "model_base_y": 88,
+    "model_height_m": 10,
+    "height_basis": "CMU 2022 inventory; model height estimated",
+    "inventory_levels_raw": "1+3",
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      546,
+      89,
+      768
+    ],
+    "clipped": false,
+    "footprint_cells": 2074,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/1007453778",
+    "name": "Fifth and Clyde Residence Hall",
+    "model_base_y": 67,
+    "model_height_m": 21,
+    "height_basis": "OSM levels; storey height estimated",
+    "inventory_levels_raw": "6",
+    "material": "bricks",
+    "roof": "flat",
+    "entrance_source": "OSM entrance",
+    "entrance_xyz": [
+      253,
+      68,
+      40
+    ],
+    "clipped": false,
+    "footprint_cells": 1486,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/1010489527",
+    "name": "Seoul Mart",
+    "model_base_y": 69,
+    "model_height_m": 7,
+    "height_basis": "OSM levels; storey height estimated",
+    "inventory_levels_raw": "2",
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      131,
+      70,
+      80
+    ],
+    "clipped": false,
+    "footprint_cells": 161,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/1039908831",
+    "name": "Highmark Center",
+    "model_base_y": 89,
+    "model_height_m": 14,
+    "height_basis": "CMU 2022 inventory; model height estimated",
+    "inventory_levels_raw": "4",
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      659,
+      90,
+      760
+    ],
+    "clipped": false,
+    "footprint_cells": 5137,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/118675283",
+    "name": "Holy Spirit Byzantine Catholic Church",
+    "model_base_y": 68,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      365,
+      69,
+      32
+    ],
+    "clipped": false,
+    "footprint_cells": 181,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/118675284",
+    "name": "Holy Spirit Byzantine Church",
+    "model_base_y": 67,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      316,
+      68,
+      44
+    ],
+    "clipped": false,
+    "footprint_cells": 809,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/1203786280",
+    "name": "Forbes Beeler Apartments",
+    "model_base_y": 89,
+    "model_height_m": 14,
+    "height_basis": "OSM levels; storey height estimated",
+    "inventory_levels_raw": "4",
+    "material": "bricks",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      807,
+      90,
+      397
+    ],
+    "clipped": false,
+    "footprint_cells": 3745,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/1306720931",
+    "name": "Starbucks",
+    "model_base_y": 68,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "OSM entrance",
+    "entrance_xyz": [
+      18,
+      69,
+      378
+    ],
+    "clipped": false,
+    "footprint_cells": 149,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/1511149577",
+    "name": "",
+    "model_base_y": 65,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      105,
+      66,
+      409
+    ],
+    "clipped": false,
+    "footprint_cells": 4928,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/152567349",
+    "name": "Fairfax Apartments",
+    "model_base_y": 71,
+    "model_height_m": 32,
+    "height_basis": "OSM levels; storey height estimated",
+    "inventory_levels_raw": "9",
+    "material": "bricks",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      58,
+      72,
+      129
+    ],
+    "clipped": false,
+    "footprint_cells": 1729,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/158307506",
+    "name": "Rodef Shalom Congregation",
+    "model_base_y": 70,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      461,
+      71,
+      18
+    ],
+    "clipped": true,
+    "footprint_cells": 2152,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/166499085",
+    "name": "",
+    "model_base_y": 79,
+    "model_height_m": 10,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "bricks",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      630,
+      80,
+      86
+    ],
+    "clipped": false,
+    "footprint_cells": 2745,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/166507535",
+    "name": "Warwick Plaza",
+    "model_base_y": 81,
+    "model_height_m": 10,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "bricks",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      768,
+      82,
+      66
+    ],
+    "clipped": false,
+    "footprint_cells": 1164,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/166507536",
+    "name": "",
+    "model_base_y": 73,
+    "model_height_m": 10,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "bricks",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      612,
+      74,
+      10
+    ],
+    "clipped": true,
+    "footprint_cells": 482,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/166507537",
+    "name": "",
+    "model_base_y": 73,
+    "model_height_m": 10,
+    "height_basis": "OSM levels; storey height estimated",
+    "inventory_levels_raw": "3",
+    "material": "bricks",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      569,
+      74,
+      21
+    ],
+    "clipped": true,
+    "footprint_cells": 842,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/166852448",
+    "name": "",
+    "model_base_y": 84,
+    "model_height_m": 10,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "bricks",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      916,
+      85,
+      45
+    ],
+    "clipped": false,
+    "footprint_cells": 492,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/167498538",
+    "name": "Park Plaza",
+    "model_base_y": 71,
+    "model_height_m": 32,
+    "height_basis": "OSM levels; storey height estimated",
+    "inventory_levels_raw": "9",
+    "material": "bricks",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      20,
+      72,
+      4
+    ],
+    "clipped": true,
+    "footprint_cells": 320,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/167499007",
+    "name": "University Square",
+    "model_base_y": 71,
+    "model_height_m": 35,
+    "height_basis": "OSM levels; storey height estimated",
+    "inventory_levels_raw": "10",
+    "material": "bricks",
+    "roof": "flat",
+    "entrance_source": "OSM entrance",
+    "entrance_xyz": [
+      7,
+      72,
+      74
+    ],
+    "clipped": true,
+    "footprint_cells": 3327,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/171843174",
+    "name": "Chipotle",
+    "model_base_y": 68,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      61,
+      69,
+      363
+    ],
+    "clipped": false,
+    "footprint_cells": 146,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/172171273",
+    "name": "",
+    "model_base_y": 81,
+    "model_height_m": 10,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "bricks",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      695,
+      82,
+      64
+    ],
+    "clipped": false,
+    "footprint_cells": 952,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/172290635",
+    "name": "",
+    "model_base_y": 84,
+    "model_height_m": 10,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "bricks",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      842,
+      85,
+      50
+    ],
+    "clipped": false,
+    "footprint_cells": 2259,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/172658859",
+    "name": "",
+    "model_base_y": 71,
+    "model_height_m": 10,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "bricks",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      14,
+      72,
+      196
+    ],
+    "clipped": false,
+    "footprint_cells": 103,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/172658860",
+    "name": "Pepper Space",
+    "model_base_y": 68,
+    "model_height_m": 4,
+    "height_basis": "OSM levels; storey height estimated",
+    "inventory_levels_raw": "1",
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      56,
+      69,
+      364
+    ],
+    "clipped": false,
+    "footprint_cells": 217,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/172661098",
+    "name": "Joseph Stern Building",
+    "model_base_y": 68,
+    "model_height_m": 10,
+    "height_basis": "OSM levels; storey height estimated",
+    "inventory_levels_raw": "3",
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      48,
+      69,
+      365
+    ],
+    "clipped": false,
+    "footprint_cells": 433,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/172661493",
+    "name": "",
+    "model_base_y": 69,
+    "model_height_m": 10,
+    "height_basis": "OSM levels; storey height estimated",
+    "inventory_levels_raw": "3",
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      18,
+      70,
+      360
+    ],
+    "clipped": false,
+    "footprint_cells": 220,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/172662340",
+    "name": "",
+    "model_base_y": 69,
+    "model_height_m": 7,
+    "height_basis": "OSM levels; storey height estimated",
+    "inventory_levels_raw": "2",
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      34,
+      70,
+      342
+    ],
+    "clipped": false,
+    "footprint_cells": 268,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/172662341",
+    "name": "Union Grill",
+    "model_base_y": 69,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      32,
+      70,
+      351
+    ],
+    "clipped": false,
+    "footprint_cells": 251,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/172944549",
+    "name": "",
+    "model_base_y": 71,
+    "model_height_m": 10,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "bricks",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      12,
+      72,
+      205
+    ],
+    "clipped": false,
+    "footprint_cells": 145,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/172944551",
+    "name": "",
+    "model_base_y": 69,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      99,
+      70,
+      134
+    ],
+    "clipped": false,
+    "footprint_cells": 433,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/173057615",
+    "name": "Crêpes Parisiennes",
+    "model_base_y": 70,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      13,
+      71,
+      211
+    ],
+    "clipped": false,
+    "footprint_cells": 125,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/173057616",
+    "name": "",
+    "model_base_y": 70,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      11,
+      71,
+      218
+    ],
+    "clipped": false,
+    "footprint_cells": 99,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/173057617",
+    "name": "",
+    "model_base_y": 70,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      12,
+      71,
+      223
+    ],
+    "clipped": false,
+    "footprint_cells": 94,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/173057618",
+    "name": "Michael J. Feigel, DMD LLC",
+    "model_base_y": 70,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      11,
+      71,
+      225
+    ],
+    "clipped": false,
+    "footprint_cells": 95,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/173057992",
+    "name": "",
+    "model_base_y": 71,
+    "model_height_m": 10,
+    "height_basis": "OSM levels; storey height estimated",
+    "inventory_levels_raw": "3",
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      14,
+      72,
+      188
+    ],
+    "clipped": true,
+    "footprint_cells": 224,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/173058901",
+    "name": "",
+    "model_base_y": 70,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      34,
+      71,
+      312
+    ],
+    "clipped": false,
+    "footprint_cells": 356,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/173059417",
+    "name": "",
+    "model_base_y": 71,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      42,
+      72,
+      190
+    ],
+    "clipped": false,
+    "footprint_cells": 131,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/173059419",
+    "name": "",
+    "model_base_y": 70,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      55,
+      71,
+      310
+    ],
+    "clipped": false,
+    "footprint_cells": 177,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/220799870",
+    "name": "",
+    "model_base_y": 82,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "OSM entrance",
+    "entrance_xyz": [
+      692,
+      83,
+      459
+    ],
+    "clipped": false,
+    "footprint_cells": 1330,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/27549961",
+    "name": "Porter Hall",
+    "model_base_y": 78,
+    "model_height_m": 14,
+    "height_basis": "CMU 2022 inventory; model height estimated",
+    "inventory_levels_raw": "3+4",
+    "material": "sandstone",
+    "roof": "pitched",
+    "entrance_source": "OSM entrance",
+    "entrance_xyz": [
+      233,
+      79,
+      658
+    ],
+    "clipped": false,
+    "footprint_cells": 3836,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/27550292",
+    "name": "Scaife Hall",
+    "model_base_y": 71,
+    "model_height_m": 14,
+    "height_basis": "CMU 2022 inventory; model height estimated",
+    "inventory_levels_raw": "4+2",
+    "material": "gray_concrete",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      128,
+      72,
+      698
+    ],
+    "clipped": false,
+    "footprint_cells": 1432,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/27551077",
+    "name": "Hamerschlag Hall",
+    "model_base_y": 72,
+    "model_height_m": 21,
+    "height_basis": "CMU 2022 inventory; model height estimated",
+    "inventory_levels_raw": "6+4",
+    "material": "sandstone",
+    "roof": "pitched",
+    "entrance_source": "OSM entrance",
+    "entrance_xyz": [
+      154,
+      73,
+      650
+    ],
+    "clipped": false,
+    "footprint_cells": 2614,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/27551590",
+    "name": "Newell-Simon Hall",
+    "model_base_y": 59,
+    "model_height_m": 14,
+    "height_basis": "CMU 2022 inventory; model height estimated",
+    "inventory_levels_raw": "2+4",
+    "material": "sandstone",
+    "roof": "pitched",
+    "entrance_source": "OSM entrance",
+    "entrance_xyz": [
+      278,
+      60,
+      484
+    ],
+    "clipped": false,
+    "footprint_cells": 3445,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/27574204",
+    "name": "Hunt Library",
+    "model_base_y": 87,
+    "model_height_m": 21,
+    "height_basis": "CMU 2022 inventory; model height estimated",
+    "inventory_levels_raw": "6+2",
+    "material": "quartz_block",
+    "roof": "flat",
+    "entrance_source": "OSM entrance",
+    "entrance_xyz": [
+      431,
+      88,
+      738
+    ],
+    "clipped": false,
+    "footprint_cells": 1987,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/27574237",
+    "name": "East Campus Garage",
+    "model_base_y": 83,
+    "model_height_m": 14,
+    "height_basis": "CMU 2022 inventory; model height estimated",
+    "inventory_levels_raw": "4",
+    "material": "smooth_stone",
+    "roof": "flat",
+    "entrance_source": "OSM entrance",
+    "entrance_xyz": [
+      692,
+      84,
+      457
+    ],
+    "clipped": false,
+    "footprint_cells": 6451,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/27574394",
+    "name": "Cohon University Center",
+    "model_base_y": 82,
+    "model_height_m": 10,
+    "height_basis": "CMU 2022 inventory; model height estimated",
+    "inventory_levels_raw": "3",
+    "material": "stone_bricks",
+    "roof": "flat",
+    "entrance_source": "OSM entrance",
+    "entrance_xyz": [
+      628,
+      83,
+      524
+    ],
+    "clipped": false,
+    "footprint_cells": 11266,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/27574406",
+    "name": "Purnell Center for the Arts",
+    "model_base_y": 80,
+    "model_height_m": 10,
+    "height_basis": "CMU 2022 inventory; model height estimated",
+    "inventory_levels_raw": "3+1",
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "OSM entrance",
+    "entrance_xyz": [
+      429,
+      81,
+      527
+    ],
+    "clipped": false,
+    "footprint_cells": 3959,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/27574545",
+    "name": "Doherty Hall",
+    "model_base_y": 77,
+    "model_height_m": 21,
+    "height_basis": "CMU 2022 inventory; model height estimated",
+    "inventory_levels_raw": "6+4",
+    "material": "sandstone",
+    "roof": "pitched",
+    "entrance_source": "OSM entrance",
+    "entrance_xyz": [
+      325,
+      78,
+      628
+    ],
+    "clipped": false,
+    "footprint_cells": 5127,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/27574704",
+    "name": "Warner Hall",
+    "model_base_y": 81,
+    "model_height_m": 21,
+    "height_basis": "CMU 2022 inventory; model height estimated",
+    "inventory_levels_raw": "6+2",
+    "material": "quartz_block",
+    "roof": "flat",
+    "entrance_source": "OSM entrance",
+    "entrance_xyz": [
+      468,
+      82,
+      417
+    ],
+    "clipped": false,
+    "footprint_cells": 537,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/27574718",
+    "name": "Cyert Hall",
+    "model_base_y": 77,
+    "model_height_m": 10,
+    "height_basis": "CMU 2022 inventory; model height estimated",
+    "inventory_levels_raw": "3",
+    "material": "gray_concrete",
+    "roof": "flat",
+    "entrance_source": "OSM entrance",
+    "entrance_xyz": [
+      396,
+      78,
+      413
+    ],
+    "clipped": false,
+    "footprint_cells": 1962,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/27590641",
+    "name": "Roberts Engineering Hall",
+    "model_base_y": 63,
+    "model_height_m": 18,
+    "height_basis": "CMU 2022 inventory; model height estimated",
+    "inventory_levels_raw": "5+1",
+    "material": "white_concrete",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      121,
+      64,
+      641
+    ],
+    "clipped": false,
+    "footprint_cells": 1790,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/27590907",
+    "name": "Baker Hall",
+    "model_base_y": 84,
+    "model_height_m": 14,
+    "height_basis": "CMU 2022 inventory; model height estimated",
+    "inventory_levels_raw": "4+1",
+    "material": "sandstone",
+    "roof": "pitched",
+    "entrance_source": "OSM entrance",
+    "entrance_xyz": [
+      283,
+      85,
+      675
+    ],
+    "clipped": false,
+    "footprint_cells": 4597,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/27590940",
+    "name": "Facilities Management Services Building",
+    "model_base_y": 58,
+    "model_height_m": 10,
+    "height_basis": "OSM levels; storey height estimated",
+    "inventory_levels_raw": "3",
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      203,
+      59,
+      537
+    ],
+    "clipped": false,
+    "footprint_cells": 2177,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/27591069",
+    "name": "Collaborative Innovation Center",
+    "model_base_y": 60,
+    "model_height_m": 18,
+    "height_basis": "CMU 2022 inventory; model height estimated",
+    "inventory_levels_raw": "5",
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      191,
+      61,
+      474
+    ],
+    "clipped": false,
+    "footprint_cells": 2999,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/27591096",
+    "name": "Hamburg Hall",
+    "model_base_y": 69,
+    "model_height_m": 10,
+    "height_basis": "CMU 2022 inventory; model height estimated",
+    "inventory_levels_raw": "3+1",
+    "material": "sandstone",
+    "roof": "pitched",
+    "entrance_source": "OSM entrance",
+    "entrance_xyz": [
+      311,
+      70,
+      410
+    ],
+    "clipped": false,
+    "footprint_cells": 3869,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/27591104",
+    "name": "Smith Hall",
+    "model_base_y": 68,
+    "model_height_m": 7,
+    "height_basis": "CMU 2022 inventory; model height estimated",
+    "inventory_levels_raw": "2",
+    "material": "sandstone",
+    "roof": "pitched",
+    "entrance_source": "OSM entrance",
+    "entrance_xyz": [
+      268,
+      69,
+      449
+    ],
+    "clipped": false,
+    "footprint_cells": 983,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/27591225",
+    "name": "College of Fine Arts",
+    "model_base_y": 87,
+    "model_height_m": 18,
+    "height_basis": "CMU 2022 inventory; model height estimated",
+    "inventory_levels_raw": "5+1",
+    "material": "sandstone",
+    "roof": "pitched",
+    "entrance_source": "OSM entrance",
+    "entrance_xyz": [
+      487,
+      88,
+      698
+    ],
+    "clipped": false,
+    "footprint_cells": 3088,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/27591241",
+    "name": "Posner Hall",
+    "model_base_y": 86,
+    "model_height_m": 14,
+    "height_basis": "CMU 2022 inventory; model height estimated",
+    "inventory_levels_raw": "4",
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "OSM entrance",
+    "entrance_xyz": [
+      580,
+      87,
+      702
+    ],
+    "clipped": false,
+    "footprint_cells": 2035,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/27591314",
+    "name": "Margaret Morrison Carnegie Hall",
+    "model_base_y": 76,
+    "model_height_m": 10,
+    "height_basis": "CMU 2022 inventory; model height estimated",
+    "inventory_levels_raw": "3+4",
+    "material": "quartz_block",
+    "roof": "pitched",
+    "entrance_source": "OSM entrance",
+    "entrance_xyz": [
+      632,
+      77,
+      588
+    ],
+    "clipped": false,
+    "footprint_cells": 2205,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/27591346",
+    "name": "Donner House",
+    "model_base_y": 80,
+    "model_height_m": 10,
+    "height_basis": "CMU 2022 inventory; model height estimated",
+    "inventory_levels_raw": "2+3",
+    "material": "white_concrete",
+    "roof": "flat",
+    "entrance_source": "OSM entrance",
+    "entrance_xyz": [
+      695,
+      81,
+      680
+    ],
+    "clipped": false,
+    "footprint_cells": 1335,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/27591351",
+    "name": "West Wing",
+    "model_base_y": 81,
+    "model_height_m": 14,
+    "height_basis": "CMU 2022 inventory; model height estimated",
+    "inventory_levels_raw": "4+1",
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "OSM entrance",
+    "entrance_xyz": [
+      652,
+      82,
+      576
+    ],
+    "clipped": false,
+    "footprint_cells": 884,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/27591352",
+    "name": "Resnik House",
+    "model_base_y": 81,
+    "model_height_m": 14,
+    "height_basis": "CMU 2022 inventory; model height estimated",
+    "inventory_levels_raw": "4+1",
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "OSM entrance",
+    "entrance_xyz": [
+      758,
+      82,
+      612
+    ],
+    "clipped": false,
+    "footprint_cells": 1472,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/27591450",
+    "name": "Boss House",
+    "model_base_y": 88,
+    "model_height_m": 10,
+    "height_basis": "CMU 2022 inventory; model height estimated",
+    "inventory_levels_raw": "3+1",
+    "material": "bricks",
+    "roof": "pitched",
+    "entrance_source": "OSM entrance",
+    "entrance_xyz": [
+      808,
+      89,
+      682
+    ],
+    "clipped": false,
+    "footprint_cells": 463,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/27591456",
+    "name": "McGill House",
+    "model_base_y": 88,
+    "model_height_m": 10,
+    "height_basis": "CMU 2022 inventory; model height estimated",
+    "inventory_levels_raw": "3+1",
+    "material": "bricks",
+    "roof": "pitched",
+    "entrance_source": "OSM entrance",
+    "entrance_xyz": [
+      822,
+      89,
+      674
+    ],
+    "clipped": false,
+    "footprint_cells": 467,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/27591466",
+    "name": "Hamerschlag House",
+    "model_base_y": 92,
+    "model_height_m": 10,
+    "height_basis": "CMU 2022 inventory; model height estimated",
+    "inventory_levels_raw": "3+1",
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      827,
+      93,
+      739
+    ],
+    "clipped": false,
+    "footprint_cells": 1311,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/27591482",
+    "name": "Scobell House",
+    "model_base_y": 89,
+    "model_height_m": 10,
+    "height_basis": "CMU 2022 inventory; model height estimated",
+    "inventory_levels_raw": "3+1",
+    "material": "sandstone",
+    "roof": "pitched",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      782,
+      90,
+      720
+    ],
+    "clipped": false,
+    "footprint_cells": 422,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/27591484",
+    "name": "Welch House",
+    "model_base_y": 91,
+    "model_height_m": 10,
+    "height_basis": "CMU 2022 inventory; model height estimated",
+    "inventory_levels_raw": "3+1",
+    "material": "sandstone",
+    "roof": "pitched",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      797,
+      92,
+      751
+    ],
+    "clipped": false,
+    "footprint_cells": 430,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/27591488",
+    "name": "Henderson House",
+    "model_base_y": 94,
+    "model_height_m": 10,
+    "height_basis": "CMU 2022 inventory; model height estimated",
+    "inventory_levels_raw": "3+1",
+    "material": "bricks",
+    "roof": "pitched",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      818,
+      95,
+      767
+    ],
+    "clipped": false,
+    "footprint_cells": 458,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/27591497",
+    "name": "Spirit House",
+    "model_base_y": 83,
+    "model_height_m": 10,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "bricks",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      929,
+      84,
+      613
+    ],
+    "clipped": false,
+    "footprint_cells": 123,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/27591503",
+    "name": "Woodlawn Apartments",
+    "model_base_y": 81,
+    "model_height_m": 10,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "bricks",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      948,
+      82,
+      606
+    ],
+    "clipped": false,
+    "footprint_cells": 312,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/27591583",
+    "name": "",
+    "model_base_y": 86,
+    "model_height_m": 10,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "bricks",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      918,
+      87,
+      633
+    ],
+    "clipped": false,
+    "footprint_cells": 279,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/27591588",
+    "name": "",
+    "model_base_y": 86,
+    "model_height_m": 10,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "bricks",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      890,
+      87,
+      647
+    ],
+    "clipped": false,
+    "footprint_cells": 275,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/27591593",
+    "name": "",
+    "model_base_y": 89,
+    "model_height_m": 10,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "bricks",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      904,
+      90,
+      671
+    ],
+    "clipped": false,
+    "footprint_cells": 270,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/27591602",
+    "name": "Tech House",
+    "model_base_y": 89,
+    "model_height_m": 10,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "bricks",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      935,
+      90,
+      660
+    ],
+    "clipped": false,
+    "footprint_cells": 176,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/27591621",
+    "name": "Delta Tau Delta House",
+    "model_base_y": 85,
+    "model_height_m": 14,
+    "height_basis": "OSM levels; storey height estimated",
+    "inventory_levels_raw": "4",
+    "material": "bricks",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      849,
+      86,
+      661
+    ],
+    "clipped": false,
+    "footprint_cells": 226,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/27591646",
+    "name": "Disability Resources",
+    "model_base_y": 85,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      872,
+      86,
+      647
+    ],
+    "clipped": false,
+    "footprint_cells": 329,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/27591674",
+    "name": "",
+    "model_base_y": 90,
+    "model_height_m": 10,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "bricks",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      859,
+      91,
+      702
+    ],
+    "clipped": false,
+    "footprint_cells": 242,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/27591681",
+    "name": "Margaret Morrison Apartments",
+    "model_base_y": 88,
+    "model_height_m": 10,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "bricks",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      886,
+      89,
+      677
+    ],
+    "clipped": false,
+    "footprint_cells": 581,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/27591700",
+    "name": "Stever House",
+    "model_base_y": 77,
+    "model_height_m": 18,
+    "height_basis": "CMU 2022 inventory; model height estimated",
+    "inventory_levels_raw": "5",
+    "material": "bricks",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      524,
+      78,
+      185
+    ],
+    "clipped": false,
+    "footprint_cells": 1123,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/27591702",
+    "name": "Mudge House C Building",
+    "model_base_y": 75,
+    "model_height_m": 10,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "bricks",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      490,
+      76,
+      143
+    ],
+    "clipped": false,
+    "footprint_cells": 570,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/27591703",
+    "name": "Mudge House A Building",
+    "model_base_y": 75,
+    "model_height_m": 10,
+    "height_basis": "OSM levels; storey height estimated",
+    "inventory_levels_raw": "3",
+    "material": "bricks",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      523,
+      76,
+      109
+    ],
+    "clipped": false,
+    "footprint_cells": 614,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/27591706",
+    "name": "Mudge House B Building",
+    "model_base_y": 74,
+    "model_height_m": 10,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "bricks",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      487,
+      75,
+      91
+    ],
+    "clipped": false,
+    "footprint_cells": 565,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/27630030",
+    "name": "",
+    "model_base_y": 84,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      624,
+      85,
+      272
+    ],
+    "clipped": false,
+    "footprint_cells": 597,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/27630031",
+    "name": "",
+    "model_base_y": 82,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      592,
+      83,
+      323
+    ],
+    "clipped": false,
+    "footprint_cells": 471,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/27630032",
+    "name": "",
+    "model_base_y": 81,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      594,
+      82,
+      234
+    ],
+    "clipped": false,
+    "footprint_cells": 613,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/27630033",
+    "name": "",
+    "model_base_y": 79,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      553,
+      80,
+      311
+    ],
+    "clipped": false,
+    "footprint_cells": 494,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/27630034",
+    "name": "Alumni House",
+    "model_base_y": 81,
+    "model_height_m": 10,
+    "height_basis": "CMU 2022 inventory; model height estimated",
+    "inventory_levels_raw": "3",
+    "material": "bricks",
+    "roof": "pitched",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      572,
+      82,
+      342
+    ],
+    "clipped": false,
+    "footprint_cells": 257,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/27630035",
+    "name": "",
+    "model_base_y": 79,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      528,
+      80,
+      343
+    ],
+    "clipped": false,
+    "footprint_cells": 493,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/27630242",
+    "name": "",
+    "model_base_y": 86,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      650,
+      87,
+      326
+    ],
+    "clipped": false,
+    "footprint_cells": 614,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/27630262",
+    "name": "",
+    "model_base_y": 84,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      626,
+      85,
+      365
+    ],
+    "clipped": false,
+    "footprint_cells": 491,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/27643470",
+    "name": "99 Gladstone",
+    "model_base_y": 99,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      948,
+      100,
+      691
+    ],
+    "clipped": false,
+    "footprint_cells": 125,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/27643505",
+    "name": "1094 Devon",
+    "model_base_y": 94,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      664,
+      95,
+      302
+    ],
+    "clipped": false,
+    "footprint_cells": 161,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/27643509",
+    "name": "Bramer House",
+    "model_base_y": 89,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      659,
+      90,
+      215
+    ],
+    "clipped": false,
+    "footprint_cells": 197,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/31899525",
+    "name": "Carnegie Museum of Art",
+    "model_base_y": 65,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      16,
+      66,
+      472
+    ],
+    "clipped": true,
+    "footprint_cells": 1031,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/34264357",
+    "name": "PNC Bank",
+    "model_base_y": 72,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      19,
+      73,
+      143
+    ],
+    "clipped": true,
+    "footprint_cells": 919,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/44156182",
+    "name": "",
+    "model_base_y": 69,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      51,
+      70,
+      274
+    ],
+    "clipped": false,
+    "footprint_cells": 601,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/44156183",
+    "name": "",
+    "model_base_y": 69,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      44,
+      70,
+      217
+    ],
+    "clipped": false,
+    "footprint_cells": 280,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/44156184",
+    "name": "Information Networking Institute",
+    "model_base_y": 69,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      71,
+      70,
+      200
+    ],
+    "clipped": false,
+    "footprint_cells": 680,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/44157443",
+    "name": "Carnegie Mellon University",
+    "model_base_y": 70,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "OSM entrance",
+    "entrance_xyz": [
+      14,
+      71,
+      326
+    ],
+    "clipped": false,
+    "footprint_cells": 588,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/44157444",
+    "name": "Center for Technology Transfer and Enterprise Creation",
+    "model_base_y": 68,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "OSM entrance",
+    "entrance_xyz": [
+      86,
+      69,
+      373
+    ],
+    "clipped": false,
+    "footprint_cells": 1058,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/534164154",
+    "name": "",
+    "model_base_y": 77,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      62,
+      78,
+      978
+    ],
+    "clipped": false,
+    "footprint_cells": 40,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/543159678",
+    "name": "",
+    "model_base_y": 69,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      38,
+      70,
+      245
+    ],
+    "clipped": false,
+    "footprint_cells": 71,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/543159679",
+    "name": "",
+    "model_base_y": 68,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      47,
+      69,
+      245
+    ],
+    "clipped": false,
+    "footprint_cells": 70,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/543159680",
+    "name": "",
+    "model_base_y": 70,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      13,
+      71,
+      268
+    ],
+    "clipped": false,
+    "footprint_cells": 959,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/543159681",
+    "name": "",
+    "model_base_y": 67,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      107,
+      68,
+      212
+    ],
+    "clipped": false,
+    "footprint_cells": 92,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/543159682",
+    "name": "",
+    "model_base_y": 67,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      126,
+      68,
+      180
+    ],
+    "clipped": false,
+    "footprint_cells": 64,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/543159683",
+    "name": "",
+    "model_base_y": 64,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      105,
+      65,
+      262
+    ],
+    "clipped": false,
+    "footprint_cells": 16,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/543159685",
+    "name": "",
+    "model_base_y": 58,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      160,
+      59,
+      266
+    ],
+    "clipped": false,
+    "footprint_cells": 76,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/543159687",
+    "name": "",
+    "model_base_y": 67,
+    "model_height_m": 10,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "bricks",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      87,
+      68,
+      282
+    ],
+    "clipped": false,
+    "footprint_cells": 121,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/543159688",
+    "name": "",
+    "model_base_y": 59,
+    "model_height_m": 10,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "bricks",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      154,
+      60,
+      249
+    ],
+    "clipped": false,
+    "footprint_cells": 122,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/543159689",
+    "name": "",
+    "model_base_y": 63,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      121,
+      64,
+      264
+    ],
+    "clipped": false,
+    "footprint_cells": 130,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/543159690",
+    "name": "",
+    "model_base_y": 67,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      117,
+      68,
+      209
+    ],
+    "clipped": false,
+    "footprint_cells": 108,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/543159691",
+    "name": "",
+    "model_base_y": 69,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      62,
+      70,
+      280
+    ],
+    "clipped": false,
+    "footprint_cells": 63,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/543159692",
+    "name": "",
+    "model_base_y": 67,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      123,
+      68,
+      210
+    ],
+    "clipped": false,
+    "footprint_cells": 25,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/543159693",
+    "name": "",
+    "model_base_y": 65,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      104,
+      66,
+      240
+    ],
+    "clipped": false,
+    "footprint_cells": 95,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/543159694",
+    "name": "",
+    "model_base_y": 70,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      77,
+      71,
+      185
+    ],
+    "clipped": false,
+    "footprint_cells": 119,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/543159695",
+    "name": "",
+    "model_base_y": 66,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      130,
+      67,
+      210
+    ],
+    "clipped": false,
+    "footprint_cells": 56,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/543159696",
+    "name": "",
+    "model_base_y": 59,
+    "model_height_m": 10,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "bricks",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      159,
+      60,
+      254
+    ],
+    "clipped": false,
+    "footprint_cells": 96,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/543159697",
+    "name": "",
+    "model_base_y": 67,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      127,
+      68,
+      198
+    ],
+    "clipped": false,
+    "footprint_cells": 47,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/543159698",
+    "name": "",
+    "model_base_y": 58,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      158,
+      59,
+      274
+    ],
+    "clipped": false,
+    "footprint_cells": 111,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/543159699",
+    "name": "",
+    "model_base_y": 65,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      116,
+      66,
+      238
+    ],
+    "clipped": false,
+    "footprint_cells": 73,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/543159700",
+    "name": "",
+    "model_base_y": 67,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      87,
+      68,
+      208
+    ],
+    "clipped": false,
+    "footprint_cells": 192,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/543159701",
+    "name": "",
+    "model_base_y": 64,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      116,
+      65,
+      260
+    ],
+    "clipped": false,
+    "footprint_cells": 116,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/543159702",
+    "name": "",
+    "model_base_y": 69,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      111,
+      70,
+      180
+    ],
+    "clipped": false,
+    "footprint_cells": 55,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/543159703",
+    "name": "",
+    "model_base_y": 69,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      116,
+      70,
+      180
+    ],
+    "clipped": false,
+    "footprint_cells": 38,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/543159704",
+    "name": "",
+    "model_base_y": 70,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      88,
+      71,
+      181
+    ],
+    "clipped": false,
+    "footprint_cells": 146,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/543159705",
+    "name": "",
+    "model_base_y": 71,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      66,
+      72,
+      188
+    ],
+    "clipped": false,
+    "footprint_cells": 118,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/543159706",
+    "name": "",
+    "model_base_y": 63,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      139,
+      64,
+      237
+    ],
+    "clipped": false,
+    "footprint_cells": 126,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/543159707",
+    "name": "",
+    "model_base_y": 69,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      96,
+      70,
+      183
+    ],
+    "clipped": false,
+    "footprint_cells": 79,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544173491",
+    "name": "",
+    "model_base_y": 83,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      1006,
+      84,
+      608
+    ],
+    "clipped": false,
+    "footprint_cells": 150,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544173496",
+    "name": "",
+    "model_base_y": 84,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      959,
+      85,
+      39
+    ],
+    "clipped": false,
+    "footprint_cells": 294,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544173522",
+    "name": "",
+    "model_base_y": 95,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      1014,
+      96,
+      531
+    ],
+    "clipped": false,
+    "footprint_cells": 84,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544173533",
+    "name": "",
+    "model_base_y": 83,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      948,
+      84,
+      530
+    ],
+    "clipped": false,
+    "footprint_cells": 139,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544173568",
+    "name": "",
+    "model_base_y": 83,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      958,
+      84,
+      542
+    ],
+    "clipped": false,
+    "footprint_cells": 137,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544173578",
+    "name": "",
+    "model_base_y": 95,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      1023,
+      96,
+      543
+    ],
+    "clipped": true,
+    "footprint_cells": 85,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544173584",
+    "name": "",
+    "model_base_y": 94,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      994,
+      95,
+      515
+    ],
+    "clipped": false,
+    "footprint_cells": 209,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544173587",
+    "name": "",
+    "model_base_y": 84,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      934,
+      85,
+      503
+    ],
+    "clipped": false,
+    "footprint_cells": 220,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544173588",
+    "name": "",
+    "model_base_y": 84,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      939,
+      85,
+      518
+    ],
+    "clipped": false,
+    "footprint_cells": 135,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544173599",
+    "name": "",
+    "model_base_y": 94,
+    "model_height_m": 10,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "bricks",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      996,
+      95,
+      525
+    ],
+    "clipped": false,
+    "footprint_cells": 107,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544173601",
+    "name": "",
+    "model_base_y": 83,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      968,
+      84,
+      562
+    ],
+    "clipped": false,
+    "footprint_cells": 265,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544173613",
+    "name": "",
+    "model_base_y": 116,
+    "model_height_m": 10,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "bricks",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      1023,
+      117,
+      869
+    ],
+    "clipped": true,
+    "footprint_cells": 89,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544173618",
+    "name": "",
+    "model_base_y": 114,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      951,
+      115,
+      812
+    ],
+    "clipped": false,
+    "footprint_cells": 108,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544173620",
+    "name": "",
+    "model_base_y": 106,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      1023,
+      107,
+      770
+    ],
+    "clipped": true,
+    "footprint_cells": 42,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544173624",
+    "name": "Pittsburgh Golf Club",
+    "model_base_y": 110,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      812,
+      111,
+      854
+    ],
+    "clipped": false,
+    "footprint_cells": 2403,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544173641",
+    "name": "",
+    "model_base_y": 87,
+    "model_height_m": 10,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "bricks",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      992,
+      88,
+      672
+    ],
+    "clipped": false,
+    "footprint_cells": 205,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544173654",
+    "name": "",
+    "model_base_y": 105,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      996,
+      106,
+      745
+    ],
+    "clipped": false,
+    "footprint_cells": 120,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544173665",
+    "name": "Pittsburgh Golf Club",
+    "model_base_y": 113,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      837,
+      114,
+      878
+    ],
+    "clipped": false,
+    "footprint_cells": 1127,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544173680",
+    "name": "",
+    "model_base_y": 113,
+    "model_height_m": 10,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "bricks",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      1003,
+      114,
+      805
+    ],
+    "clipped": false,
+    "footprint_cells": 160,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544173688",
+    "name": "",
+    "model_base_y": 89,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      1008,
+      90,
+      691
+    ],
+    "clipped": false,
+    "footprint_cells": 95,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544173689",
+    "name": "",
+    "model_base_y": 113,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      932,
+      114,
+      848
+    ],
+    "clipped": false,
+    "footprint_cells": 120,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544173701",
+    "name": "",
+    "model_base_y": 117,
+    "model_height_m": 10,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "bricks",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      975,
+      118,
+      876
+    ],
+    "clipped": false,
+    "footprint_cells": 359,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544173702",
+    "name": "",
+    "model_base_y": 109,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      766,
+      110,
+      823
+    ],
+    "clipped": false,
+    "footprint_cells": 126,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544173710",
+    "name": "",
+    "model_base_y": 110,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      915,
+      111,
+      789
+    ],
+    "clipped": false,
+    "footprint_cells": 182,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544173711",
+    "name": "",
+    "model_base_y": 108,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      835,
+      109,
+      829
+    ],
+    "clipped": false,
+    "footprint_cells": 28,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544173714",
+    "name": "",
+    "model_base_y": 113,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      935,
+      114,
+      807
+    ],
+    "clipped": false,
+    "footprint_cells": 168,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544173719",
+    "name": "",
+    "model_base_y": 113,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      937,
+      114,
+      836
+    ],
+    "clipped": false,
+    "footprint_cells": 29,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544173721",
+    "name": "",
+    "model_base_y": 107,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      927,
+      108,
+      734
+    ],
+    "clipped": false,
+    "footprint_cells": 84,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544173723",
+    "name": "",
+    "model_base_y": 105,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      982,
+      106,
+      740
+    ],
+    "clipped": false,
+    "footprint_cells": 159,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544173729",
+    "name": "",
+    "model_base_y": 114,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      913,
+      115,
+      869
+    ],
+    "clipped": false,
+    "footprint_cells": 129,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544173742",
+    "name": "",
+    "model_base_y": 108,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      886,
+      109,
+      783
+    ],
+    "clipped": false,
+    "footprint_cells": 34,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544173747",
+    "name": "",
+    "model_base_y": 85,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      965,
+      86,
+      636
+    ],
+    "clipped": false,
+    "footprint_cells": 96,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544173749",
+    "name": "",
+    "model_base_y": 112,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      929,
+      113,
+      826
+    ],
+    "clipped": false,
+    "footprint_cells": 36,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544173751",
+    "name": "",
+    "model_base_y": 110,
+    "model_height_m": 10,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "bricks",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      968,
+      111,
+      773
+    ],
+    "clipped": false,
+    "footprint_cells": 92,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544173759",
+    "name": "",
+    "model_base_y": 111,
+    "model_height_m": 10,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "bricks",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      1019,
+      112,
+      819
+    ],
+    "clipped": true,
+    "footprint_cells": 194,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544173779",
+    "name": "",
+    "model_base_y": 114,
+    "model_height_m": 10,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "bricks",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      995,
+      115,
+      849
+    ],
+    "clipped": false,
+    "footprint_cells": 496,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544173787",
+    "name": "",
+    "model_base_y": 83,
+    "model_height_m": 10,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "bricks",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      914,
+      84,
+      469
+    ],
+    "clipped": false,
+    "footprint_cells": 192,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544173801",
+    "name": "",
+    "model_base_y": 109,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      901,
+      110,
+      770
+    ],
+    "clipped": false,
+    "footprint_cells": 106,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544173803",
+    "name": "",
+    "model_base_y": 116,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      961,
+      117,
+      830
+    ],
+    "clipped": false,
+    "footprint_cells": 130,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544173804",
+    "name": "",
+    "model_base_y": 115,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      945,
+      116,
+      842
+    ],
+    "clipped": false,
+    "footprint_cells": 41,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544173825",
+    "name": "",
+    "model_base_y": 84,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      1023,
+      85,
+      636
+    ],
+    "clipped": true,
+    "footprint_cells": 14,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544173836",
+    "name": "",
+    "model_base_y": 113,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      927,
+      114,
+      854
+    ],
+    "clipped": false,
+    "footprint_cells": 83,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544173841",
+    "name": "",
+    "model_base_y": 90,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      977,
+      91,
+      679
+    ],
+    "clipped": false,
+    "footprint_cells": 55,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544173847",
+    "name": "",
+    "model_base_y": 109,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      939,
+      110,
+      744
+    ],
+    "clipped": false,
+    "footprint_cells": 115,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544173848",
+    "name": "",
+    "model_base_y": 110,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      893,
+      111,
+      866
+    ],
+    "clipped": false,
+    "footprint_cells": 98,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544173859",
+    "name": "",
+    "model_base_y": 106,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      960,
+      107,
+      733
+    ],
+    "clipped": false,
+    "footprint_cells": 32,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544173879",
+    "name": "",
+    "model_base_y": 107,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      1014,
+      108,
+      764
+    ],
+    "clipped": false,
+    "footprint_cells": 135,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544173882",
+    "name": "",
+    "model_base_y": 87,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      943,
+      88,
+      644
+    ],
+    "clipped": false,
+    "footprint_cells": 32,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544173891",
+    "name": "",
+    "model_base_y": 88,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      1002,
+      89,
+      681
+    ],
+    "clipped": false,
+    "footprint_cells": 98,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544173893",
+    "name": "",
+    "model_base_y": 88,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      1008,
+      89,
+      420
+    ],
+    "clipped": false,
+    "footprint_cells": 41,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544173918",
+    "name": "",
+    "model_base_y": 89,
+    "model_height_m": 10,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "bricks",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      971,
+      90,
+      465
+    ],
+    "clipped": false,
+    "footprint_cells": 177,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544173919",
+    "name": "",
+    "model_base_y": 88,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      964,
+      89,
+      670
+    ],
+    "clipped": false,
+    "footprint_cells": 30,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544173961",
+    "name": "",
+    "model_base_y": 99,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      758,
+      100,
+      203
+    ],
+    "clipped": false,
+    "footprint_cells": 353,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544173966",
+    "name": "",
+    "model_base_y": 89,
+    "model_height_m": 10,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "bricks",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      1011,
+      90,
+      700
+    ],
+    "clipped": false,
+    "footprint_cells": 153,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174002",
+    "name": "",
+    "model_base_y": 103,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      925,
+      104,
+      704
+    ],
+    "clipped": false,
+    "footprint_cells": 94,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174014",
+    "name": "",
+    "model_base_y": 86,
+    "model_height_m": 10,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "bricks",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      981,
+      87,
+      659
+    ],
+    "clipped": false,
+    "footprint_cells": 128,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174024",
+    "name": "",
+    "model_base_y": 83,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      1023,
+      84,
+      625
+    ],
+    "clipped": true,
+    "footprint_cells": 87,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174028",
+    "name": "",
+    "model_base_y": 98,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      748,
+      99,
+      759
+    ],
+    "clipped": false,
+    "footprint_cells": 25,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174030",
+    "name": "",
+    "model_base_y": 96,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      998,
+      97,
+      245
+    ],
+    "clipped": false,
+    "footprint_cells": 128,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174033",
+    "name": "",
+    "model_base_y": 90,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      948,
+      91,
+      668
+    ],
+    "clipped": false,
+    "footprint_cells": 24,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174034",
+    "name": "",
+    "model_base_y": 108,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      897,
+      109,
+      767
+    ],
+    "clipped": false,
+    "footprint_cells": 123,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174036",
+    "name": "",
+    "model_base_y": 83,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      999,
+      84,
+      595
+    ],
+    "clipped": false,
+    "footprint_cells": 278,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174042",
+    "name": "",
+    "model_base_y": 83,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      944,
+      84,
+      430
+    ],
+    "clipped": false,
+    "footprint_cells": 22,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174046",
+    "name": "",
+    "model_base_y": 85,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      975,
+      86,
+      647
+    ],
+    "clipped": false,
+    "footprint_cells": 159,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174050",
+    "name": "",
+    "model_base_y": 111,
+    "model_height_m": 10,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "bricks",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      957,
+      112,
+      763
+    ],
+    "clipped": false,
+    "footprint_cells": 107,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174054",
+    "name": "",
+    "model_base_y": 91,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      969,
+      92,
+      303
+    ],
+    "clipped": false,
+    "footprint_cells": 116,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174058",
+    "name": "",
+    "model_base_y": 83,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      978,
+      84,
+      581
+    ],
+    "clipped": false,
+    "footprint_cells": 271,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174062",
+    "name": "B2",
+    "model_base_y": 84,
+    "model_height_m": 10,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "bricks",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      914,
+      85,
+      429
+    ],
+    "clipped": false,
+    "footprint_cells": 81,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174071",
+    "name": "",
+    "model_base_y": 83,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      901,
+      84,
+      450
+    ],
+    "clipped": false,
+    "footprint_cells": 20,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174077",
+    "name": "",
+    "model_base_y": 84,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      955,
+      85,
+      423
+    ],
+    "clipped": false,
+    "footprint_cells": 20,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174082",
+    "name": "",
+    "model_base_y": 83,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      897,
+      84,
+      464
+    ],
+    "clipped": false,
+    "footprint_cells": 79,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174084",
+    "name": "",
+    "model_base_y": 92,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      986,
+      93,
+      501
+    ],
+    "clipped": false,
+    "footprint_cells": 181,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174100",
+    "name": "",
+    "model_base_y": 87,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      952,
+      88,
+      458
+    ],
+    "clipped": false,
+    "footprint_cells": 174,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174106",
+    "name": "",
+    "model_base_y": 100,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      965,
+      101,
+      263
+    ],
+    "clipped": false,
+    "footprint_cells": 169,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174107",
+    "name": "",
+    "model_base_y": 96,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      676,
+      97,
+      275
+    ],
+    "clipped": false,
+    "footprint_cells": 166,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174118",
+    "name": "",
+    "model_base_y": 85,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      936,
+      86,
+      634
+    ],
+    "clipped": false,
+    "footprint_cells": 34,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174124",
+    "name": "",
+    "model_base_y": 84,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      936,
+      85,
+      459
+    ],
+    "clipped": false,
+    "footprint_cells": 189,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174128",
+    "name": "",
+    "model_base_y": 84,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      964,
+      85,
+      418
+    ],
+    "clipped": false,
+    "footprint_cells": 16,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174129",
+    "name": "B3",
+    "model_base_y": 84,
+    "model_height_m": 10,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "bricks",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      922,
+      85,
+      422
+    ],
+    "clipped": false,
+    "footprint_cells": 87,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174133",
+    "name": "",
+    "model_base_y": 86,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      987,
+      87,
+      421
+    ],
+    "clipped": false,
+    "footprint_cells": 44,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174140",
+    "name": "",
+    "model_base_y": 86,
+    "model_height_m": 10,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "bricks",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      891,
+      87,
+      393
+    ],
+    "clipped": false,
+    "footprint_cells": 125,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174146",
+    "name": "",
+    "model_base_y": 108,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      982,
+      109,
+      756
+    ],
+    "clipped": false,
+    "footprint_cells": 24,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174152",
+    "name": "",
+    "model_base_y": 97,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      697,
+      98,
+      199
+    ],
+    "clipped": false,
+    "footprint_cells": 62,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174156",
+    "name": "",
+    "model_base_y": 90,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      979,
+      91,
+      488
+    ],
+    "clipped": false,
+    "footprint_cells": 177,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174164",
+    "name": "",
+    "model_base_y": 84,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      949,
+      85,
+      406
+    ],
+    "clipped": false,
+    "footprint_cells": 81,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174167",
+    "name": "",
+    "model_base_y": 95,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      946,
+      96,
+      300
+    ],
+    "clipped": false,
+    "footprint_cells": 234,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174168",
+    "name": "",
+    "model_base_y": 85,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      975,
+      86,
+      416
+    ],
+    "clipped": false,
+    "footprint_cells": 17,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174173",
+    "name": "",
+    "model_base_y": 86,
+    "model_height_m": 10,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "bricks",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      941,
+      87,
+      363
+    ],
+    "clipped": false,
+    "footprint_cells": 63,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174183",
+    "name": "",
+    "model_base_y": 86,
+    "model_height_m": 10,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "bricks",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      929,
+      87,
+      370
+    ],
+    "clipped": false,
+    "footprint_cells": 69,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174187",
+    "name": "",
+    "model_base_y": 100,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      720,
+      101,
+      277
+    ],
+    "clipped": false,
+    "footprint_cells": 169,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174188",
+    "name": "",
+    "model_base_y": 94,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      990,
+      95,
+      265
+    ],
+    "clipped": false,
+    "footprint_cells": 123,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174196",
+    "name": "",
+    "model_base_y": 86,
+    "model_height_m": 10,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "bricks",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      953,
+      87,
+      351
+    ],
+    "clipped": false,
+    "footprint_cells": 103,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174207",
+    "name": "",
+    "model_base_y": 111,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      846,
+      112,
+      280
+    ],
+    "clipped": false,
+    "footprint_cells": 603,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174208",
+    "name": "",
+    "model_base_y": 84,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      932,
+      85,
+      420
+    ],
+    "clipped": false,
+    "footprint_cells": 118,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174210",
+    "name": "",
+    "model_base_y": 84,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      959,
+      85,
+      402
+    ],
+    "clipped": false,
+    "footprint_cells": 76,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174211",
+    "name": "",
+    "model_base_y": 84,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      941,
+      85,
+      412
+    ],
+    "clipped": false,
+    "footprint_cells": 70,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174214",
+    "name": "",
+    "model_base_y": 97,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      638,
+      98,
+      148
+    ],
+    "clipped": false,
+    "footprint_cells": 530,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174216",
+    "name": "",
+    "model_base_y": 103,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      802,
+      104,
+      149
+    ],
+    "clipped": false,
+    "footprint_cells": 388,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174217",
+    "name": "",
+    "model_base_y": 105,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      860,
+      106,
+      312
+    ],
+    "clipped": false,
+    "footprint_cells": 274,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174222",
+    "name": "",
+    "model_base_y": 105,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      905,
+      106,
+      273
+    ],
+    "clipped": false,
+    "footprint_cells": 185,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174226",
+    "name": "",
+    "model_base_y": 110,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      799,
+      111,
+      265
+    ],
+    "clipped": false,
+    "footprint_cells": 411,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174230",
+    "name": "",
+    "model_base_y": 97,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      722,
+      98,
+      212
+    ],
+    "clipped": false,
+    "footprint_cells": 171,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174233",
+    "name": "",
+    "model_base_y": 102,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      792,
+      103,
+      197
+    ],
+    "clipped": false,
+    "footprint_cells": 39,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174242",
+    "name": "",
+    "model_base_y": 85,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      983,
+      86,
+      392
+    ],
+    "clipped": false,
+    "footprint_cells": 79,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174245",
+    "name": "",
+    "model_base_y": 109,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      887,
+      110,
+      281
+    ],
+    "clipped": false,
+    "footprint_cells": 286,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174253",
+    "name": "",
+    "model_base_y": 97,
+    "model_height_m": 10,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "bricks",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      704,
+      98,
+      229
+    ],
+    "clipped": false,
+    "footprint_cells": 296,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174257",
+    "name": "",
+    "model_base_y": 107,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      965,
+      108,
+      222
+    ],
+    "clipped": false,
+    "footprint_cells": 172,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174263",
+    "name": "",
+    "model_base_y": 89,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      993,
+      90,
+      291
+    ],
+    "clipped": false,
+    "footprint_cells": 101,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174270",
+    "name": "",
+    "model_base_y": 120,
+    "model_height_m": 10,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "bricks",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      1009,
+      121,
+      928
+    ],
+    "clipped": false,
+    "footprint_cells": 248,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174271",
+    "name": "",
+    "model_base_y": 94,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      675,
+      95,
+      236
+    ],
+    "clipped": false,
+    "footprint_cells": 118,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174281",
+    "name": "",
+    "model_base_y": 97,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      1001,
+      98,
+      233
+    ],
+    "clipped": false,
+    "footprint_cells": 122,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174282",
+    "name": "",
+    "model_base_y": 99,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      717,
+      100,
+      301
+    ],
+    "clipped": false,
+    "footprint_cells": 279,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174290",
+    "name": "",
+    "model_base_y": 91,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      988,
+      92,
+      280
+    ],
+    "clipped": false,
+    "footprint_cells": 124,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174299",
+    "name": "",
+    "model_base_y": 94,
+    "model_height_m": 10,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "bricks",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      717,
+      95,
+      103
+    ],
+    "clipped": false,
+    "footprint_cells": 136,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174301",
+    "name": "",
+    "model_base_y": 87,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      1023,
+      88,
+      375
+    ],
+    "clipped": true,
+    "footprint_cells": 113,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174303",
+    "name": "",
+    "model_base_y": 86,
+    "model_height_m": 10,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "bricks",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      959,
+      87,
+      346
+    ],
+    "clipped": false,
+    "footprint_cells": 112,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174313",
+    "name": "",
+    "model_base_y": 102,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      730,
+      103,
+      296
+    ],
+    "clipped": false,
+    "footprint_cells": 68,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174316",
+    "name": "",
+    "model_base_y": 101,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      947,
+      102,
+      273
+    ],
+    "clipped": false,
+    "footprint_cells": 64,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174333",
+    "name": "",
+    "model_base_y": 86,
+    "model_height_m": 10,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "bricks",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      900,
+      87,
+      381
+    ],
+    "clipped": false,
+    "footprint_cells": 96,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174343",
+    "name": "",
+    "model_base_y": 86,
+    "model_height_m": 10,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "bricks",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      912,
+      87,
+      376
+    ],
+    "clipped": false,
+    "footprint_cells": 67,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174344",
+    "name": "",
+    "model_base_y": 85,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      995,
+      86,
+      325
+    ],
+    "clipped": false,
+    "footprint_cells": 127,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174348",
+    "name": "",
+    "model_base_y": 100,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      738,
+      101,
+      263
+    ],
+    "clipped": false,
+    "footprint_cells": 264,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174350",
+    "name": "",
+    "model_base_y": 103,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      748,
+      104,
+      264
+    ],
+    "clipped": false,
+    "footprint_cells": 112,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174354",
+    "name": "",
+    "model_base_y": 104,
+    "model_height_m": 10,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "bricks",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      954,
+      105,
+      248
+    ],
+    "clipped": false,
+    "footprint_cells": 280,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174356",
+    "name": "",
+    "model_base_y": 94,
+    "model_height_m": 10,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "bricks",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      689,
+      95,
+      191
+    ],
+    "clipped": false,
+    "footprint_cells": 189,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174364",
+    "name": "",
+    "model_base_y": 106,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      800,
+      107,
+      234
+    ],
+    "clipped": false,
+    "footprint_cells": 245,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174378",
+    "name": "",
+    "model_base_y": 86,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      998,
+      87,
+      388
+    ],
+    "clipped": false,
+    "footprint_cells": 143,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174389",
+    "name": "",
+    "model_base_y": 100,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      768,
+      101,
+      151
+    ],
+    "clipped": false,
+    "footprint_cells": 531,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174395",
+    "name": "",
+    "model_base_y": 90,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      676,
+      91,
+      212
+    ],
+    "clipped": false,
+    "footprint_cells": 99,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174396",
+    "name": "",
+    "model_base_y": 98,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      703,
+      99,
+      140
+    ],
+    "clipped": false,
+    "footprint_cells": 244,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174407",
+    "name": "",
+    "model_base_y": 83,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      952,
+      84,
+      619
+    ],
+    "clipped": false,
+    "footprint_cells": 162,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174416",
+    "name": "",
+    "model_base_y": 84,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      955,
+      85,
+      623
+    ],
+    "clipped": false,
+    "footprint_cells": 94,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174430",
+    "name": "",
+    "model_base_y": 85,
+    "model_height_m": 10,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "bricks",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      704,
+      86,
+      85
+    ],
+    "clipped": false,
+    "footprint_cells": 148,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174433",
+    "name": "",
+    "model_base_y": 99,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      757,
+      100,
+      228
+    ],
+    "clipped": false,
+    "footprint_cells": 230,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174442",
+    "name": "",
+    "model_base_y": 86,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      881,
+      87,
+      396
+    ],
+    "clipped": false,
+    "footprint_cells": 68,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174445",
+    "name": "",
+    "model_base_y": 97,
+    "model_height_m": 10,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "bricks",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      672,
+      98,
+      139
+    ],
+    "clipped": false,
+    "footprint_cells": 270,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174452",
+    "name": "",
+    "model_base_y": 86,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      1006,
+      87,
+      391
+    ],
+    "clipped": false,
+    "footprint_cells": 140,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174460",
+    "name": "",
+    "model_base_y": 83,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      1016,
+      84,
+      618
+    ],
+    "clipped": false,
+    "footprint_cells": 150,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174464",
+    "name": "",
+    "model_base_y": 97,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      719,
+      98,
+      147
+    ],
+    "clipped": false,
+    "footprint_cells": 282,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174469",
+    "name": "",
+    "model_base_y": 84,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      963,
+      85,
+      398
+    ],
+    "clipped": false,
+    "footprint_cells": 86,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174474",
+    "name": "",
+    "model_base_y": 97,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      709,
+      98,
+      160
+    ],
+    "clipped": false,
+    "footprint_cells": 47,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174476",
+    "name": "",
+    "model_base_y": 96,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      670,
+      97,
+      166
+    ],
+    "clipped": false,
+    "footprint_cells": 48,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174481",
+    "name": "",
+    "model_base_y": 97,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      715,
+      98,
+      162
+    ],
+    "clipped": false,
+    "footprint_cells": 62,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174491",
+    "name": "B1",
+    "model_base_y": 84,
+    "model_height_m": 10,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "bricks",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      899,
+      85,
+      436
+    ],
+    "clipped": false,
+    "footprint_cells": 69,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174492",
+    "name": "",
+    "model_base_y": 83,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      929,
+      84,
+      439
+    ],
+    "clipped": false,
+    "footprint_cells": 24,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174496",
+    "name": "",
+    "model_base_y": 83,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      937,
+      84,
+      436
+    ],
+    "clipped": false,
+    "footprint_cells": 17,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174507",
+    "name": "",
+    "model_base_y": 84,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      897,
+      85,
+      445
+    ],
+    "clipped": false,
+    "footprint_cells": 18,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174511",
+    "name": "",
+    "model_base_y": 83,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      917,
+      84,
+      447
+    ],
+    "clipped": false,
+    "footprint_cells": 26,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174515",
+    "name": "",
+    "model_base_y": 83,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      886,
+      84,
+      449
+    ],
+    "clipped": false,
+    "footprint_cells": 103,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174528",
+    "name": "",
+    "model_base_y": 86,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      1002,
+      87,
+      322
+    ],
+    "clipped": false,
+    "footprint_cells": 165,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174531",
+    "name": "",
+    "model_base_y": 98,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      695,
+      99,
+      250
+    ],
+    "clipped": false,
+    "footprint_cells": 171,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174537",
+    "name": "",
+    "model_base_y": 87,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      995,
+      88,
+      305
+    ],
+    "clipped": false,
+    "footprint_cells": 134,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174556",
+    "name": "",
+    "model_base_y": 111,
+    "model_height_m": 10,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "bricks",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      942,
+      112,
+      755
+    ],
+    "clipped": false,
+    "footprint_cells": 127,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174563",
+    "name": "",
+    "model_base_y": 107,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      887,
+      108,
+      759
+    ],
+    "clipped": false,
+    "footprint_cells": 119,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174564",
+    "name": "",
+    "model_base_y": 91,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      1005,
+      92,
+      710
+    ],
+    "clipped": false,
+    "footprint_cells": 39,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174580",
+    "name": "",
+    "model_base_y": 114,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      980,
+      115,
+      793
+    ],
+    "clipped": false,
+    "footprint_cells": 125,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174581",
+    "name": "",
+    "model_base_y": 103,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      955,
+      104,
+      715
+    ],
+    "clipped": false,
+    "footprint_cells": 114,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174595",
+    "name": "",
+    "model_base_y": 118,
+    "model_height_m": 10,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "bricks",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      960,
+      119,
+      906
+    ],
+    "clipped": false,
+    "footprint_cells": 530,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174598",
+    "name": "",
+    "model_base_y": 108,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      976,
+      109,
+      749
+    ],
+    "clipped": false,
+    "footprint_cells": 14,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174601",
+    "name": "",
+    "model_base_y": 108,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      891,
+      109,
+      798
+    ],
+    "clipped": false,
+    "footprint_cells": 50,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174604",
+    "name": "",
+    "model_base_y": 104,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      958,
+      105,
+      724
+    ],
+    "clipped": false,
+    "footprint_cells": 26,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174606",
+    "name": "",
+    "model_base_y": 104,
+    "model_height_m": 10,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "bricks",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      905,
+      105,
+      716
+    ],
+    "clipped": false,
+    "footprint_cells": 149,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174608",
+    "name": "",
+    "model_base_y": 105,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      938,
+      106,
+      721
+    ],
+    "clipped": false,
+    "footprint_cells": 26,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174609",
+    "name": "",
+    "model_base_y": 90,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      1023,
+      91,
+      710
+    ],
+    "clipped": true,
+    "footprint_cells": 11,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174610",
+    "name": "",
+    "model_base_y": 104,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      889,
+      105,
+      721
+    ],
+    "clipped": false,
+    "footprint_cells": 115,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174613",
+    "name": "",
+    "model_base_y": 118,
+    "model_height_m": 10,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "bricks",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      1011,
+      119,
+      901
+    ],
+    "clipped": true,
+    "footprint_cells": 216,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174625",
+    "name": "",
+    "model_base_y": 112,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      928,
+      113,
+      797
+    ],
+    "clipped": false,
+    "footprint_cells": 126,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174627",
+    "name": "",
+    "model_base_y": 104,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      975,
+      105,
+      728
+    ],
+    "clipped": false,
+    "footprint_cells": 167,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174630",
+    "name": "",
+    "model_base_y": 98,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      914,
+      99,
+      313
+    ],
+    "clipped": false,
+    "footprint_cells": 229,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174634",
+    "name": "",
+    "model_base_y": 111,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      938,
+      112,
+      179
+    ],
+    "clipped": false,
+    "footprint_cells": 673,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174638",
+    "name": "",
+    "model_base_y": 97,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      722,
+      98,
+      180
+    ],
+    "clipped": false,
+    "footprint_cells": 233,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174642",
+    "name": "",
+    "model_base_y": 96,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      694,
+      97,
+      180
+    ],
+    "clipped": false,
+    "footprint_cells": 57,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174643",
+    "name": "",
+    "model_base_y": 111,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      876,
+      112,
+      191
+    ],
+    "clipped": false,
+    "footprint_cells": 1005,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174646",
+    "name": "Park Mansions",
+    "model_base_y": 98,
+    "model_height_m": 35,
+    "height_basis": "OSM levels; storey height estimated",
+    "inventory_levels_raw": "10",
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      678,
+      99,
+      812
+    ],
+    "clipped": false,
+    "footprint_cells": 952,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174649",
+    "name": "",
+    "model_base_y": 73,
+    "model_height_m": 7,
+    "height_basis": "OSM levels; storey height estimated",
+    "inventory_levels_raw": "2",
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      405,
+      74,
+      109
+    ],
+    "clipped": false,
+    "footprint_cells": 96,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174651",
+    "name": "",
+    "model_base_y": 74,
+    "model_height_m": 7,
+    "height_basis": "OSM levels; storey height estimated",
+    "inventory_levels_raw": "2",
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      448,
+      75,
+      182
+    ],
+    "clipped": false,
+    "footprint_cells": 169,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174653",
+    "name": "",
+    "model_base_y": 73,
+    "model_height_m": 7,
+    "height_basis": "OSM levels; storey height estimated",
+    "inventory_levels_raw": "2",
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      411,
+      74,
+      182
+    ],
+    "clipped": false,
+    "footprint_cells": 163,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174655",
+    "name": "",
+    "model_base_y": 74,
+    "model_height_m": 7,
+    "height_basis": "OSM levels; storey height estimated",
+    "inventory_levels_raw": "2",
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      443,
+      75,
+      141
+    ],
+    "clipped": false,
+    "footprint_cells": 202,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174658",
+    "name": "",
+    "model_base_y": 72,
+    "model_height_m": 7,
+    "height_basis": "OSM levels; storey height estimated",
+    "inventory_levels_raw": "2",
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      443,
+      73,
+      89
+    ],
+    "clipped": false,
+    "footprint_cells": 184,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174660",
+    "name": "",
+    "model_base_y": 73,
+    "model_height_m": 7,
+    "height_basis": "OSM levels; storey height estimated",
+    "inventory_levels_raw": "2",
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      405,
+      74,
+      127
+    ],
+    "clipped": false,
+    "footprint_cells": 141,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174662",
+    "name": "",
+    "model_base_y": 73,
+    "model_height_m": 7,
+    "height_basis": "OSM levels; storey height estimated",
+    "inventory_levels_raw": "2",
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      405,
+      74,
+      145
+    ],
+    "clipped": false,
+    "footprint_cells": 133,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174664",
+    "name": "Alumni Hall",
+    "model_base_y": 61,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      218,
+      62,
+      230
+    ],
+    "clipped": false,
+    "footprint_cells": 1318,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174666",
+    "name": "",
+    "model_base_y": 74,
+    "model_height_m": 7,
+    "height_basis": "OSM levels; storey height estimated",
+    "inventory_levels_raw": "2",
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      445,
+      75,
+      162
+    ],
+    "clipped": false,
+    "footprint_cells": 158,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174667",
+    "name": "",
+    "model_base_y": 73,
+    "model_height_m": 7,
+    "height_basis": "OSM levels; storey height estimated",
+    "inventory_levels_raw": "2",
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      442,
+      74,
+      122
+    ],
+    "clipped": false,
+    "footprint_cells": 136,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174668",
+    "name": "",
+    "model_base_y": 73,
+    "model_height_m": 7,
+    "height_basis": "OSM levels; storey height estimated",
+    "inventory_levels_raw": "2",
+    "material": "bricks",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      402,
+      74,
+      163
+    ],
+    "clipped": false,
+    "footprint_cells": 156,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174669",
+    "name": "",
+    "model_base_y": 72,
+    "model_height_m": 7,
+    "height_basis": "OSM levels; storey height estimated",
+    "inventory_levels_raw": "2",
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      404,
+      73,
+      92
+    ],
+    "clipped": false,
+    "footprint_cells": 90,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174671",
+    "name": "Central Catholic High School",
+    "model_base_y": 67,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "OSM entrance",
+    "entrance_xyz": [
+      274,
+      68,
+      158
+    ],
+    "clipped": false,
+    "footprint_cells": 2384,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174672",
+    "name": "The Brother's House",
+    "model_base_y": 67,
+    "model_height_m": 10,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "bricks",
+    "roof": "flat",
+    "entrance_source": "OSM entrance",
+    "entrance_xyz": [
+      234,
+      68,
+      157
+    ],
+    "clipped": false,
+    "footprint_cells": 621,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174673",
+    "name": "WQED",
+    "model_base_y": 66,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      339,
+      67,
+      164
+    ],
+    "clipped": false,
+    "footprint_cells": 2674,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/544174675",
+    "name": "Morewood Gardens",
+    "model_base_y": 76,
+    "model_height_m": 24,
+    "height_basis": "CMU 2022 inventory; model height estimated",
+    "inventory_levels_raw": "7+2",
+    "material": "bricks",
+    "roof": "flat",
+    "entrance_source": "OSM entrance",
+    "entrance_xyz": [
+      470,
+      77,
+      290
+    ],
+    "clipped": false,
+    "footprint_cells": 2577,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/545283419",
+    "name": "",
+    "model_base_y": 70,
+    "model_height_m": 7,
+    "height_basis": "OSM levels; storey height estimated",
+    "inventory_levels_raw": "2",
+    "material": "bricks",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      133,
+      71,
+      45
+    ],
+    "clipped": false,
+    "footprint_cells": 364,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/545283426",
+    "name": "",
+    "model_base_y": 74,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      638,
+      75,
+      14
+    ],
+    "clipped": false,
+    "footprint_cells": 132,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/545283431",
+    "name": "",
+    "model_base_y": 69,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      410,
+      70,
+      26
+    ],
+    "clipped": false,
+    "footprint_cells": 60,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/545283450",
+    "name": "Fifth Neville Apartments",
+    "model_base_y": 69,
+    "model_height_m": 10,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "bricks",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      177,
+      70,
+      59
+    ],
+    "clipped": false,
+    "footprint_cells": 783,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/545283494",
+    "name": "Campus Design and Facility Development",
+    "model_base_y": 68,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      220,
+      69,
+      33
+    ],
+    "clipped": false,
+    "footprint_cells": 737,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/545283549",
+    "name": "",
+    "model_base_y": 69,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      148,
+      70,
+      19
+    ],
+    "clipped": true,
+    "footprint_cells": 1254,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/545283551",
+    "name": "",
+    "model_base_y": 76,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      683,
+      77,
+      0
+    ],
+    "clipped": true,
+    "footprint_cells": 17,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/545283627",
+    "name": "",
+    "model_base_y": 67,
+    "model_height_m": 10,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "bricks",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      307,
+      68,
+      12
+    ],
+    "clipped": true,
+    "footprint_cells": 183,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/583510520",
+    "name": "Tepper School of Business",
+    "model_base_y": 72,
+    "model_height_m": 18,
+    "height_basis": "CMU 2022 inventory; model height estimated",
+    "inventory_levels_raw": "4+1",
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "OSM entrance",
+    "entrance_xyz": [
+      326,
+      73,
+      301
+    ],
+    "clipped": false,
+    "footprint_cells": 6545,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/739910512",
+    "name": "Residence on Fifth",
+    "model_base_y": 69,
+    "model_height_m": 21,
+    "height_basis": "OSM levels; storey height estimated",
+    "inventory_levels_raw": "6",
+    "material": "bricks",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      170,
+      70,
+      107
+    ],
+    "clipped": false,
+    "footprint_cells": 1050,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/853372508",
+    "name": "",
+    "model_base_y": 68,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      0,
+      69,
+      380
+    ],
+    "clipped": true,
+    "footprint_cells": 7,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/878747158",
+    "name": "",
+    "model_base_y": 45,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      5,
+      46,
+      729
+    ],
+    "clipped": true,
+    "footprint_cells": 83,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/878747159",
+    "name": "",
+    "model_base_y": 46,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      12,
+      47,
+      707
+    ],
+    "clipped": true,
+    "footprint_cells": 152,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/879491687",
+    "name": "Zupanic Family STEM Center",
+    "model_base_y": 67,
+    "model_height_m": 14,
+    "height_basis": "generic estimate",
+    "inventory_levels_raw": null,
+    "material": "sandstone",
+    "roof": "flat",
+    "entrance_source": "OSM entrance",
+    "entrance_xyz": [
+      190,
+      68,
+      170
+    ],
+    "clipped": false,
+    "footprint_cells": 882,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  },
+  {
+    "osm_id": "way/946491335",
+    "name": "TCS Hall",
+    "model_base_y": 65,
+    "model_height_m": 18,
+    "height_basis": "CMU 2022 inventory; model height estimated",
+    "inventory_levels_raw": "5",
+    "material": "gray_concrete",
+    "roof": "flat",
+    "entrance_source": "inferred opening",
+    "entrance_xyz": [
+      121,
+      66,
+      303
+    ],
+    "clipped": false,
+    "footprint_cells": 2064,
+    "interior": "procedural open floors and ladder, not real floor plan"
+  }
+]

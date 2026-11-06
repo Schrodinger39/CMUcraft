@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "cmucraft"
-version = "0.1.0"
+version = "0.2.0"
 description = "One metre per block CMU campus footprint pipeline"
 requires-python = ">=3.10"
 dependencies = ["shapely>=2,<3", "pyproj>=3.6,<4", "Pillow>=10.1,<13", "numpy>=1.26,<3", "nbtlib>=2,<3", "certifi>=2024"]
@@ -12,6 +12,7 @@ dependencies = ["shapely>=2,<3", "pyproj>=3.6,<4", "Pillow>=10.1,<13", "numpy>=1
 dev = ["pytest>=8,<10"]
 [project.scripts]
 cmucraft = "cmucraft.cli:main"
+cmucraft-campus = "cmucraft.campus:main"
 [tool.setuptools.packages.find]
 where = ["src"]
 [tool.pytest.ini_options]
