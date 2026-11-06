@@ -1,0 +1,215 @@
+{
+  "name": "Scott Hall",
+  "osm_id": "relation/13441031",
+  "source_url": "https://www.openstreetmap.org/relation/13441031",
+  "snapshot_sha256": "7d8857f29e2e29a48ddb4d52182175ac4af61c7b7e6c9c7727f93af1192bc1e2",
+  "crs": "EPSG:32617",
+  "axis_convention": "X east; Z south; one coordinate unit is one metre",
+  "utm_origin": [
+    589144.82561034,
+    4478009.6777666835
+  ],
+  "footprint_wgs84": {
+    "type": "MultiPolygon",
+    "coordinates": [
+      [
+        [
+          [
+            -79.9465955,
+            40.4426372
+          ],
+          [
+            -79.9466251,
+            40.4425509
+          ],
+          [
+            -79.9467376,
+            40.4425749
+          ],
+          [
+            -79.9467069,
+            40.4426612
+          ],
+          [
+            -79.9466154,
+            40.4426415
+          ],
+          [
+            -79.9465955,
+            40.4426372
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            -79.9470952,
+            40.4429454
+          ],
+          [
+            -79.9470022,
+            40.4431996
+          ],
+          [
+            -79.9464705,
+            40.4430869
+          ],
+          [
+            -79.9464872,
+            40.4430393
+          ],
+          [
+            -79.9464263,
+            40.4430269
+          ],
+          [
+            -79.9464958,
+            40.4428358
+          ],
+          [
+            -79.9465192,
+            40.4428409
+          ],
+          [
+            -79.9465607,
+            40.4427288
+          ],
+          [
+            -79.9465806,
+            40.4427372
+          ],
+          [
+            -79.9467045,
+            40.442816
+          ],
+          [
+            -79.9470952,
+            40.4429454
+          ]
+        ]
+      ]
+    ]
+  },
+  "footprint_xz": {
+    "type": "MultiPolygon",
+    "coordinates": [
+      [
+        [
+          [
+            190.99082195584197,
+            589.418299597688
+          ],
+          [
+            188.5947540915804,
+            599.0276921959594
+          ],
+          [
+            179.02203791041393,
+            596.4774423632771
+          ],
+          [
+            181.5114061004715,
+            586.8669403679669
+          ],
+          [
+            189.2974439408863,
+            588.9611220927909
+          ],
+          [
+            190.99082195584197,
+            589.418299597688
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            148.2042576734675,
+            555.7129218103364
+          ],
+          [
+            155.754959652666,
+            527.4022409757599
+          ],
+          [
+            200.99638396140654,
+            539.3743586465716
+          ],
+          [
+            199.6431241837563,
+            544.6749372668564
+          ],
+          [
+            204.82433852378745,
+            545.9897462995723
+          ],
+          [
+            199.1832374605583,
+            567.2724942443892
+          ],
+          [
+            197.19197644747328,
+            566.7300580041483
+          ],
+          [
+            193.82086831296328,
+            579.2153364084661
+          ],
+          [
+            192.12206392048392,
+            578.3030524058267
+          ],
+          [
+            181.5100122379372,
+            569.6814423445612
+          ],
+          [
+            148.2042576734675,
+            555.7129218103364
+          ]
+        ]
+      ]
+    ]
+  },
+  "centroid_xz_m": [
+    177.669,
+    552.958
+  ],
+  "footprint_area_m2": 1801.514,
+  "bounds_xz_m": [
+    148.204,
+    527.402,
+    204.824,
+    599.028
+  ],
+  "independent_footprint_comparison": {
+    "osm_id": "relation/13441031",
+    "name": "Scott Hall",
+    "county_ids": "560587;558395",
+    "overlap_iou": 0.8646,
+    "centroid_difference_m": 1.986,
+    "boundary_hausdorff_m": 3.173,
+    "status": "agreement_candidate",
+    "name_verified": false,
+    "facade_verified": false,
+    "height_verified": false
+  },
+  "exterior_requirements": [
+    "glass curtain wall",
+    "flat roof",
+    "elevated legs; do not fill underside as a solid box"
+  ],
+  "inventory_source": "https://www.cmu.edu/cdfd/planning-and-design/master-plan/pdf/june-2022-cmu-imp-appendices.pdf",
+  "inventory_date": 2022,
+  "inventory_level_string": "4",
+  "surveyed_height_m": null,
+  "height_policy": "Do not convert ambiguous inventory level strings to a verified total height.",
+  "verification": {
+    "identity": false,
+    "location": false,
+    "height": false,
+    "facades": false,
+    "game_walkthrough": false
+  },
+  "status": "reference_packet_not_approved_model"
+}
