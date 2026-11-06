@@ -1,0 +1,227 @@
+{
+  "name": "TCS Hall",
+  "osm_id": "way/946491335",
+  "source_url": "https://www.openstreetmap.org/way/946491335",
+  "snapshot_sha256": "7d8857f29e2e29a48ddb4d52182175ac4af61c7b7e6c9c7727f93af1192bc1e2",
+  "crs": "EPSG:32617",
+  "axis_convention": "X east; Z south; one coordinate unit is one metre",
+  "utm_origin": [
+    589144.82561034,
+    4478009.6777666835
+  ],
+  "footprint_wgs84": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -79.9473877,
+          40.4452471
+        ],
+        [
+          -79.9470491,
+          40.4452574
+        ],
+        [
+          -79.9470382,
+          40.4450712
+        ],
+        [
+          -79.9470482,
+          40.4450707
+        ],
+        [
+          -79.947049,
+          40.4450292
+        ],
+        [
+          -79.9470337,
+          40.4449872
+        ],
+        [
+          -79.9470166,
+          40.4447053
+        ],
+        [
+          -79.9470675,
+          40.4447046
+        ],
+        [
+          -79.9470661,
+          40.4446117
+        ],
+        [
+          -79.9472371,
+          40.4446109
+        ],
+        [
+          -79.9472803,
+          40.4447421
+        ],
+        [
+          -79.947354,
+          40.4447399
+        ],
+        [
+          -79.9473528,
+          40.4447238
+        ],
+        [
+          -79.9474371,
+          40.4447088
+        ],
+        [
+          -79.9474137,
+          40.4448861
+        ],
+        [
+          -79.9474233,
+          40.4450721
+        ],
+        [
+          -79.9473937,
+          40.4450734
+        ],
+        [
+          -79.9473964,
+          40.4451322
+        ],
+        [
+          -79.9473792,
+          40.4451329
+        ],
+        [
+          -79.9473877,
+          40.4452471
+        ]
+      ]
+    ]
+  },
+  "footprint_xz": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          120.35270824853797,
+          300.5158529160544
+        ],
+        [
+          149.0540507787373,
+          299.030215206556
+        ],
+        [
+          150.22486233490054,
+          319.68772708904
+        ],
+        [
+          149.37747181521263,
+          319.7533394973725
+        ],
+        [
+          149.3645525103202,
+          324.3607226414606
+        ],
+        [
+          150.71766066679265,
+          329.0073270909488
+        ],
+        [
+          152.54093388246838,
+          360.28143929410726
+        ],
+        [
+          148.22525085799862,
+          360.41060810163617
+        ],
+        [
+          148.46692814538255,
+          370.72125799767673
+        ],
+        [
+          133.96619430172723,
+          370.982948070392
+        ],
+        [
+          130.12898102763575,
+          356.46318718325347
+        ],
+        [
+          123.88171624671668,
+          356.78189343214035
+        ],
+        [
+          124.00478493259288,
+          358.567809083499
+        ],
+        [
+          116.87551255896688,
+          360.3180472049862
+        ],
+        [
+          118.6253930440871,
+          340.61377898976207
+        ],
+        [
+          117.56517921329942,
+          319.9771505407989
+        ],
+        [
+          120.07369385950733,
+          319.8029285185039
+        ],
+        [
+          119.76692408591043,
+          313.2787526054308
+        ],
+        [
+          121.22464648168534,
+          313.1836652364582
+        ],
+        [
+          120.35270824853797,
+          300.5158529160544
+        ]
+      ]
+    ]
+  },
+  "centroid_xz_m": [
+    135.358,
+    333.554
+  ],
+  "footprint_area_m2": 2067.66,
+  "bounds_xz_m": [
+    116.876,
+    299.03,
+    152.541,
+    370.983
+  ],
+  "independent_footprint_comparison": {
+    "osm_id": "way/946491335",
+    "name": "TCS Hall",
+    "county_ids": "547129",
+    "overlap_iou": 0.0449,
+    "centroid_difference_m": 30.562,
+    "boundary_hausdorff_m": 55.405,
+    "status": "needs_review",
+    "name_verified": false,
+    "facade_verified": false,
+    "height_verified": false
+  },
+  "exterior_requirements": [
+    "gray masonry, steel and glazing",
+    "flat roof",
+    "confirm entry placement from current photos"
+  ],
+  "inventory_source": "https://www.cmu.edu/cdfd/planning-and-design/master-plan/pdf/june-2022-cmu-imp-appendices.pdf",
+  "inventory_date": 2022,
+  "inventory_level_string": "5",
+  "surveyed_height_m": null,
+  "height_policy": "Do not convert ambiguous inventory level strings to a verified total height.",
+  "verification": {
+    "identity": false,
+    "location": false,
+    "height": false,
+    "facades": false,
+    "game_walkthrough": false
+  },
+  "status": "reference_packet_not_approved_model"
+}
