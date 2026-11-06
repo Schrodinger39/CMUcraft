@@ -1,0 +1,107 @@
+{
+  "name": "Scobell House",
+  "osm_id": "way/27591482",
+  "source_url": "https://www.openstreetmap.org/way/27591482",
+  "snapshot_sha256": "7d8857f29e2e29a48ddb4d52182175ac4af61c7b7e6c9c7727f93af1192bc1e2",
+  "crs": "EPSG:32617",
+  "axis_convention": "X east; Z south; one coordinate unit is one metre",
+  "utm_origin": [
+    589144.82561034,
+    4478009.6777666835
+  ],
+  "footprint_wgs84": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -79.9394724,
+          40.4414729
+        ],
+        [
+          -79.9394047,
+          40.4413823
+        ],
+        [
+          -79.9397873,
+          40.4412213
+        ],
+        [
+          -79.9398514,
+          40.4413118
+        ],
+        [
+          -79.9394724,
+          40.4414729
+        ]
+      ]
+    ]
+  },
+  "footprint_xz": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          796.6407893170835,
+          711.4278018279001
+        ],
+        [
+          802.5031817001291,
+          721.4156136512756
+        ],
+        [
+          770.2694505193504,
+          739.6764924721792
+        ],
+        [
+          764.71253771591,
+          729.6960914228112
+        ],
+        [
+          796.6407893170835,
+          711.4278018279001
+        ]
+      ]
+    ]
+  },
+  "centroid_xz_m": [
+    783.571,
+    725.539
+  ],
+  "footprint_area_m2": 424.584,
+  "bounds_xz_m": [
+    764.713,
+    711.428,
+    802.503,
+    739.676
+  ],
+  "independent_footprint_comparison": {
+    "osm_id": "way/27591482",
+    "name": "Scobell House",
+    "county_ids": "540493",
+    "overlap_iou": 0.9582,
+    "centroid_difference_m": 0.223,
+    "boundary_hausdorff_m": 0.448,
+    "status": "agreement_candidate",
+    "name_verified": false,
+    "facade_verified": false,
+    "height_verified": false
+  },
+  "exterior_requirements": [
+    "cream masonry and stone base",
+    "hipped roof",
+    "confirm renovations after inventory"
+  ],
+  "inventory_source": "https://www.cmu.edu/cdfd/planning-and-design/master-plan/pdf/june-2022-cmu-imp-appendices.pdf",
+  "inventory_date": 2022,
+  "inventory_level_string": "3+1",
+  "surveyed_height_m": null,
+  "height_policy": "Do not convert ambiguous inventory level strings to a verified total height.",
+  "verification": {
+    "identity": false,
+    "location": false,
+    "height": false,
+    "facades": false,
+    "game_walkthrough": false
+  },
+  "status": "reference_packet_not_approved_model"
+}
