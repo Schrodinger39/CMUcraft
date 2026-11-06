@@ -1,0 +1,219 @@
+{
+  "name": "Newell-Simon Hall",
+  "osm_id": "way/27551590",
+  "source_url": "https://www.openstreetmap.org/way/27551590",
+  "snapshot_sha256": "7d8857f29e2e29a48ddb4d52182175ac4af61c7b7e6c9c7727f93af1192bc1e2",
+  "crs": "EPSG:32617",
+  "axis_convention": "X east; Z south; one coordinate unit is one metre",
+  "utm_origin": [
+    589144.82561034,
+    4478009.6777666835
+  ],
+  "footprint_wgs84": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -79.9460511,
+          40.4432213
+        ],
+        [
+          -79.9459775,
+          40.4434227
+        ],
+        [
+          -79.9459459,
+          40.4434149
+        ],
+        [
+          -79.9459228,
+          40.4434689
+        ],
+        [
+          -79.9460301,
+          40.4434901
+        ],
+        [
+          -79.9459493,
+          40.443697
+        ],
+        [
+          -79.9457261,
+          40.4436507
+        ],
+        [
+          -79.9457375,
+          40.4436181
+        ],
+        [
+          -79.9455568,
+          40.4435813
+        ],
+        [
+          -79.9453919,
+          40.4435457
+        ],
+        [
+          -79.9453765,
+          40.4435769
+        ],
+        [
+          -79.9451555,
+          40.4435318
+        ],
+        [
+          -79.9452105,
+          40.4433695
+        ],
+        [
+          -79.9452195,
+          40.4433421
+        ],
+        [
+          -79.9452359,
+          40.443298
+        ],
+        [
+          -79.9453222,
+          40.4430652
+        ],
+        [
+          -79.9456309,
+          40.4431313
+        ],
+        [
+          -79.9456847,
+          40.4431428
+        ],
+        [
+          -79.9460511,
+          40.4432213
+        ]
+      ]
+    ]
+  },
+  "footprint_xz": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          236.38670484302565,
+          524.031334864907
+        ],
+        [
+          242.36172812560108,
+          501.6010871771723
+        ],
+        [
+          245.05197262542788,
+          502.4349160240963
+        ],
+        [
+          246.93947897059843,
+          496.41743872500956
+        ],
+        [
+          237.8115772540914,
+          494.17280682362616
+        ],
+        [
+          244.3898924255045,
+          471.1247589988634
+        ],
+        [
+          263.38015868281946,
+          476.0381952608004
+        ],
+        [
+          262.4565569764236,
+          479.6683943485841
+        ],
+        [
+          277.82996468199417,
+          483.57030359935015
+        ],
+        [
+          291.86184555420186,
+          487.35498064756393
+        ],
+        [
+          293.1265184334479,
+          483.87612927146256
+        ],
+        [
+          311.92868536978494,
+          488.65846930630505
+        ],
+        [
+          307.4794616671279,
+          506.72976758889854
+        ],
+        [
+          306.75252071220893,
+          509.780332101509
+        ],
+        [
+          305.42014361114707,
+          514.6921213371679
+        ],
+        [
+          298.40986174030695,
+          540.6207396592945
+        ],
+        [
+          272.142110569519,
+          533.596126774326
+        ],
+        [
+          267.564218571526,
+          532.3740774737671
+        ],
+        [
+          236.38670484302565,
+          524.031334864907
+        ]
+      ]
+    ]
+  },
+  "centroid_xz_m": [
+    273.071,
+    506.414
+  ],
+  "footprint_area_m2": 3445.441,
+  "bounds_xz_m": [
+    236.387,
+    471.125,
+    311.929,
+    540.621
+  ],
+  "independent_footprint_comparison": {
+    "osm_id": "way/27551590",
+    "name": "Newell-Simon Hall",
+    "county_ids": "573661",
+    "overlap_iou": 0.1482,
+    "centroid_difference_m": 80.903,
+    "boundary_hausdorff_m": 177.326,
+    "status": "needs_review",
+    "name_verified": false,
+    "facade_verified": false,
+    "height_verified": false
+  },
+  "exterior_requirements": [
+    "cream masonry",
+    "cross-hipped roof",
+    "retain courtyards and connecting wings"
+  ],
+  "inventory_source": "https://www.cmu.edu/cdfd/planning-and-design/master-plan/pdf/june-2022-cmu-imp-appendices.pdf",
+  "inventory_date": 2022,
+  "inventory_level_string": "2+4",
+  "surveyed_height_m": null,
+  "height_policy": "Do not convert ambiguous inventory level strings to a verified total height.",
+  "verification": {
+    "identity": false,
+    "location": false,
+    "height": false,
+    "facades": false,
+    "game_walkthrough": false
+  },
+  "status": "reference_packet_not_approved_model"
+}
