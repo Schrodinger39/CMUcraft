@@ -1,0 +1,36 @@
+{
+  "model": "raised rectangular hipped roof above flat lower deck",
+  "source": "PASDA USGS 2024 surface candidates",
+  "basis_origin_xz": [
+    410.7644372214563,
+    732.3377786483616
+  ],
+  "basis_u": [
+    0.9677349838087236,
+    0.25197023854560574
+  ],
+  "basis_v": [
+    -0.25197023854560574,
+    0.9677349838087236
+  ],
+  "hip_u_min_max_m": [
+    4.625,
+    56.0
+  ],
+  "hip_v_min_max_m": [
+    5.625,
+    28.875
+  ],
+  "hip_eave_elevation_m": 313.925,
+  "hip_slope": 0.20999999999999996,
+  "lower_roof_elevation_m": 310.0,
+  "held_out_cells": 326,
+  "held_out_median_absolute_error_m": 0.06483062027803044,
+  "held_out_p95_absolute_error_m": 0.22368098655782376,
+  "approved": false,
+  "limits": [
+    "Model does not include mechanical equipment or roof seams",
+    "Facade dimensions require separate review",
+    "Fitted surface cannot independently certify original footprint accuracy"
+  ]
+}

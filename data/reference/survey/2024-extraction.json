@@ -1,0 +1,97 @@
+{
+  "sources": [
+    {
+      "file": "41001350PAS_NE_NE.laz",
+      "sha256": "9bcd7c71e90bf940a39b0ef4953ae82e8a033e9c4af364e78be40e556c10d1e0",
+      "points": 11452371,
+      "retained": 0,
+      "elevation_to_metres": 0.30480060960121924
+    },
+    {
+      "file": "41001350PAS_NE_NW.laz",
+      "sha256": "9b86b76f416fc7598f5d1dab71e6733c1f386c142aa7d07b66f85ce0c58b8bd6",
+      "points": 10331610,
+      "retained": 0,
+      "elevation_to_metres": 0.30480060960121924
+    },
+    {
+      "file": "41001360PAS_NW_NW.laz",
+      "sha256": "299aeaa5632ae9e5cd93115290f42495a3a5213d7bd801fc0b136bc8976a05b1",
+      "points": 10077783,
+      "retained": 0,
+      "elevation_to_metres": 0.30480060960121924
+    },
+    {
+      "file": "42001350PAS_SE_NE.laz",
+      "sha256": "9e02c25f8033cc66956c8079d3ba32bf6c8074c2f8ad661110cb9a755408f169",
+      "points": 8505259,
+      "retained": 3884673,
+      "elevation_to_metres": 0.30480060960121924
+    },
+    {
+      "file": "42001350PAS_SE_NW.laz",
+      "sha256": "d91b475b49a1bd9a735e3423a33ca99de7d403a1825540ec3c2887a8e64a6914",
+      "points": 7349725,
+      "retained": 1261134,
+      "elevation_to_metres": 0.30480060960121924
+    },
+    {
+      "file": "42001350PAS_SE_SE.laz",
+      "sha256": "ccf25c31ee6b42b0bf2f4af7a1a16bf8192388148dfde7b709162a819d0da15a",
+      "points": 11562104,
+      "retained": 10169171,
+      "elevation_to_metres": 0.30480060960121924
+    },
+    {
+      "file": "42001350PAS_SE_SW.laz",
+      "sha256": "acc06e28e8fdf406a13fce7e071aa42507816218678248ecbf38f2c5c5c2b479",
+      "points": 11116872,
+      "retained": 3687237,
+      "elevation_to_metres": 0.30480060960121924
+    },
+    {
+      "file": "42001360PAS_SW_NW.laz",
+      "sha256": "372823f0d3fbd3b3dedecdc4bf8a2098756e1149128c322ac55bfeb63f754e5f",
+      "points": 8101099,
+      "retained": 0,
+      "elevation_to_metres": 0.30480060960121924
+    },
+    {
+      "file": "42001360PAS_SW_SW.laz",
+      "sha256": "b8dede71e2679579d9d187624f310c1e087eb302a6b265f0a377f7f302cdf319",
+      "points": 12527903,
+      "retained": 0,
+      "elevation_to_metres": 0.30480060960121924
+    }
+  ],
+  "source_crs": "EPSG:6565",
+  "output_crs": "EPSG:32617",
+  "transformation": "Inverse of SPCS83 Pennsylvania South zone (US survey foot) + NAD83(2011) to WGS 84 (1) + UTM zone 17N",
+  "horizontal_operation_accuracy_m": 2.0,
+  "utm_origin": [
+    589144.82561034,
+    4478009.6777666835
+  ],
+  "size_m": 1024,
+  "vertical_datum": "NAVD88; output elevations in metres; input conversion recorded per tile",
+  "acquisition_interval": [
+    "2024-04-14",
+    "2024-05-08"
+  ],
+  "point_class_histogram": {
+    "1": 58598645,
+    "2": 32167981,
+    "7": 38318,
+    "18": 39115,
+    "17": 180667
+  },
+  "include_unclassified_surface_candidates": true,
+  "method": "Class 2 ground; class 6 building or explicitly enabled class 1 surface candidates; discard withheld; median in observed 1m cells",
+  "limits": [
+    "Missing cells remain NaN",
+    "Historical observations cannot certify later building changes",
+    "Unclassified surface candidates can include vegetation and must be checked within footprints",
+    "Roof returns do not establish facade details or entrances",
+    "Horizontal datum transformation accuracy is not survey accuracy"
+  ]
+}

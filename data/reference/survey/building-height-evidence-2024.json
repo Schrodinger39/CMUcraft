@@ -1,0 +1,1150 @@
+[
+  {
+    "name": "Alumni House",
+    "osm_id": "way/27630034",
+    "roof_returns": 3521,
+    "ground_returns": 4418,
+    "method": "Inset surface candidates vs surrounding classified ground; no total-height certification",
+    "acquisition_interval": [
+      "2024-04-14",
+      "2024-05-08"
+    ],
+    "unclassified_surface_candidates": true,
+    "approved": false,
+    "roof_elevation_p05_p50_p95_m": [
+      293.5686950683594,
+      300.987548828125,
+      302.8498840332031
+    ],
+    "ground_elevation_p05_p50_p95_m": [
+      288.207275390625,
+      289.0271911621094,
+      289.42950439453125
+    ],
+    "roof_p95_above_low_high_ground_m": [
+      14.642608642578125,
+      13.420379638671875
+    ],
+    "status": "measured_evidence_requires_current_building_review"
+  },
+  {
+    "name": "ANSYS Hall",
+    "osm_id": "way/1001941217",
+    "roof_returns": 13386,
+    "ground_returns": 538,
+    "method": "Inset surface candidates vs surrounding classified ground; no total-height certification",
+    "acquisition_interval": [
+      "2024-04-14",
+      "2024-05-08"
+    ],
+    "unclassified_surface_candidates": true,
+    "approved": false,
+    "roof_elevation_p05_p50_p95_m": [
+      283.4188537597656,
+      298.56744384765625,
+      300.5463562011719
+    ],
+    "ground_elevation_p05_p50_p95_m": [
+      279.93665008544923,
+      279.9989929199219,
+      280.0386047363281
+    ],
+    "roof_p95_above_low_high_ground_m": [
+      20.609706115722645,
+      20.50775146484375
+    ],
+    "status": "measured_evidence_requires_current_building_review"
+  },
+  {
+    "name": "Baker Hall",
+    "osm_id": "way/27590907",
+    "roof_returns": 80820,
+    "ground_returns": 17322,
+    "method": "Inset surface candidates vs surrounding classified ground; no total-height certification",
+    "acquisition_interval": [
+      "2024-04-14",
+      "2024-05-08"
+    ],
+    "unclassified_surface_candidates": true,
+    "approved": false,
+    "roof_elevation_p05_p50_p95_m": [
+      293.9588623046875,
+      307.4676208496094,
+      311.0276794433594
+    ],
+    "ground_elevation_p05_p50_p95_m": [
+      288.8199157714844,
+      292.0294494628906,
+      293.8796081542969
+    ],
+    "roof_p95_above_low_high_ground_m": [
+      22.207763671875,
+      17.1480712890625
+    ],
+    "status": "measured_evidence_requires_current_building_review"
+  },
+  {
+    "name": "Boss House",
+    "osm_id": "way/27591450",
+    "roof_returns": 7948,
+    "ground_returns": 5098,
+    "method": "Inset surface candidates vs surrounding classified ground; no total-height certification",
+    "acquisition_interval": [
+      "2024-04-14",
+      "2024-05-08"
+    ],
+    "unclassified_surface_candidates": true,
+    "approved": false,
+    "roof_elevation_p05_p50_p95_m": [
+      300.0915817260742,
+      307.138427734375,
+      308.43994140625
+    ],
+    "ground_elevation_p05_p50_p95_m": [
+      291.3479309082031,
+      295.98883056640625,
+      297.2293701171875
+    ],
+    "roof_p95_above_low_high_ground_m": [
+      17.092010498046875,
+      11.2105712890625
+    ],
+    "status": "measured_evidence_requires_current_building_review"
+  },
+  {
+    "name": "Cohon University Center",
+    "osm_id": "way/27574394",
+    "roof_returns": 211269,
+    "ground_returns": 27532,
+    "method": "Inset surface candidates vs surrounding classified ground; no total-height certification",
+    "acquisition_interval": [
+      "2024-04-14",
+      "2024-05-08"
+    ],
+    "unclassified_surface_candidates": true,
+    "approved": false,
+    "roof_elevation_p05_p50_p95_m": [
+      299.7378845214844,
+      303.32843017578125,
+      306.0198059082031
+    ],
+    "ground_elevation_p05_p50_p95_m": [
+      288.93878173828125,
+      289.4691467285156,
+      290.1579895019531
+    ],
+    "roof_p95_above_low_high_ground_m": [
+      17.081024169921875,
+      15.86181640625
+    ],
+    "status": "measured_evidence_requires_current_building_review"
+  },
+  {
+    "name": "Collaborative Innovation Center",
+    "osm_id": "way/27591069",
+    "roof_returns": 56925,
+    "ground_returns": 11435,
+    "method": "Inset surface candidates vs surrounding classified ground; no total-height certification",
+    "acquisition_interval": [
+      "2024-04-14",
+      "2024-05-08"
+    ],
+    "unclassified_surface_candidates": true,
+    "approved": false,
+    "roof_elevation_p05_p50_p95_m": [
+      288.6675109863281,
+      292.849365234375,
+      296.9885559082031
+    ],
+    "ground_elevation_p05_p50_p95_m": [
+      257.3343200683594,
+      268.79754638671875,
+      275.9695129394531
+    ],
+    "roof_p95_above_low_high_ground_m": [
+      39.65423583984375,
+      21.01904296875
+    ],
+    "status": "measured_evidence_requires_current_building_review"
+  },
+  {
+    "name": "College of Fine Arts",
+    "osm_id": "way/27591225",
+    "roof_returns": 59697,
+    "ground_returns": 11030,
+    "method": "Inset surface candidates vs surrounding classified ground; no total-height certification",
+    "acquisition_interval": [
+      "2024-04-14",
+      "2024-05-08"
+    ],
+    "unclassified_surface_candidates": true,
+    "approved": false,
+    "roof_elevation_p05_p50_p95_m": [
+      304.3495178222656,
+      317.2395324707031,
+      320.33935546875
+    ],
+    "ground_elevation_p05_p50_p95_m": [
+      290.0970153808594,
+      294.6385498046875,
+      294.99822998046875
+    ],
+    "roof_p95_above_low_high_ground_m": [
+      30.242340087890625,
+      25.34112548828125
+    ],
+    "status": "measured_evidence_requires_current_building_review"
+  },
+  {
+    "name": "Cyert Hall",
+    "osm_id": "way/27574718",
+    "roof_returns": 33610,
+    "ground_returns": 10316,
+    "method": "Inset surface candidates vs surrounding classified ground; no total-height certification",
+    "acquisition_interval": [
+      "2024-04-14",
+      "2024-05-08"
+    ],
+    "unclassified_surface_candidates": true,
+    "approved": false,
+    "roof_elevation_p05_p50_p95_m": [
+      292.459228515625,
+      296.8483581542969,
+      298.8742202758789
+    ],
+    "ground_elevation_p05_p50_p95_m": [
+      280.2793884277344,
+      284.2478942871094,
+      288.5882568359375
+    ],
+    "roof_p95_above_low_high_ground_m": [
+      18.59483184814451,
+      10.285963439941384
+    ],
+    "status": "measured_evidence_requires_current_building_review"
+  },
+  {
+    "name": "Doherty Hall",
+    "osm_id": "way/27574545",
+    "roof_returns": 98839,
+    "ground_returns": 11430,
+    "method": "Inset surface candidates vs surrounding classified ground; no total-height certification",
+    "acquisition_interval": [
+      "2024-04-14",
+      "2024-05-08"
+    ],
+    "unclassified_surface_candidates": true,
+    "approved": false,
+    "roof_elevation_p05_p50_p95_m": [
+      280.2976989746094,
+      307.77850341796875,
+      312.9082946777344
+    ],
+    "ground_elevation_p05_p50_p95_m": [
+      268.99871826171875,
+      285.8389587402344,
+      292.76708984375
+    ],
+    "roof_p95_above_low_high_ground_m": [
+      43.909576416015625,
+      20.141204833984375
+    ],
+    "status": "measured_evidence_requires_current_building_review"
+  },
+  {
+    "name": "Donner House",
+    "osm_id": "way/27591346",
+    "roof_returns": 23762,
+    "ground_returns": 8411,
+    "method": "Inset surface candidates vs surrounding classified ground; no total-height certification",
+    "acquisition_interval": [
+      "2024-04-14",
+      "2024-05-08"
+    ],
+    "unclassified_surface_candidates": true,
+    "approved": false,
+    "roof_elevation_p05_p50_p95_m": [
+      291.9471740722656,
+      301.4081726074219,
+      301.478271484375
+    ],
+    "ground_elevation_p05_p50_p95_m": [
+      285.17755126953125,
+      289.9080505371094,
+      291.91973876953125
+    ],
+    "roof_p95_above_low_high_ground_m": [
+      16.30072021484375,
+      9.55853271484375
+    ],
+    "status": "measured_evidence_requires_current_building_review"
+  },
+  {
+    "name": "East Campus Garage",
+    "osm_id": "way/27574237",
+    "roof_returns": 116776,
+    "ground_returns": 18499,
+    "method": "Inset surface candidates vs surrounding classified ground; no total-height certification",
+    "acquisition_interval": [
+      "2024-04-14",
+      "2024-05-08"
+    ],
+    "unclassified_surface_candidates": true,
+    "approved": false,
+    "roof_elevation_p05_p50_p95_m": [
+      297.86944580078125,
+      299.3385925292969,
+      299.59765625
+    ],
+    "ground_elevation_p05_p50_p95_m": [
+      288.8778381347656,
+      290.5694580078125,
+      292.86767578125
+    ],
+    "roof_p95_above_low_high_ground_m": [
+      10.719818115234375,
+      6.72998046875
+    ],
+    "status": "measured_evidence_requires_current_building_review"
+  },
+  {
+    "name": "Gates Center for Computer Science",
+    "osm_id": "relation/21724637",
+    "roof_returns": 53535,
+    "ground_returns": 6503,
+    "method": "Inset surface candidates vs surrounding classified ground; no total-height certification",
+    "acquisition_interval": [
+      "2024-04-14",
+      "2024-05-08"
+    ],
+    "unclassified_surface_candidates": true,
+    "approved": false,
+    "roof_elevation_p05_p50_p95_m": [
+      276.2194519042969,
+      307.37921142578125,
+      311.5793762207031
+    ],
+    "ground_elevation_p05_p50_p95_m": [
+      267.2095642089844,
+      275.7774963378906,
+      285.817626953125
+    ],
+    "roof_p95_above_low_high_ground_m": [
+      44.36981201171875,
+      25.761749267578125
+    ],
+    "status": "measured_evidence_requires_current_building_review"
+  },
+  {
+    "name": "Hall of the Arts",
+    "osm_id": "way/1002857138",
+    "roof_returns": 27991,
+    "ground_returns": 7831,
+    "method": "Inset surface candidates vs surrounding classified ground; no total-height certification",
+    "acquisition_interval": [
+      "2024-04-14",
+      "2024-05-08"
+    ],
+    "unclassified_surface_candidates": true,
+    "approved": false,
+    "roof_elevation_p05_p50_p95_m": [
+      300.4633026123047,
+      305.3675537109375,
+      310.9834899902344
+    ],
+    "ground_elevation_p05_p50_p95_m": [
+      294.4587097167969,
+      295.68707275390625,
+      296.57708740234375
+    ],
+    "roof_p95_above_low_high_ground_m": [
+      16.5247802734375,
+      14.406402587890625
+    ],
+    "status": "measured_evidence_requires_current_building_review"
+  },
+  {
+    "name": "Hamburg Hall",
+    "osm_id": "way/27591096",
+    "roof_returns": 71912,
+    "ground_returns": 20787,
+    "method": "Inset surface candidates vs surrounding classified ground; no total-height certification",
+    "acquisition_interval": [
+      "2024-04-14",
+      "2024-05-08"
+    ],
+    "unclassified_surface_candidates": true,
+    "approved": false,
+    "roof_elevation_p05_p50_p95_m": [
+      281.2882995605469,
+      290.3073425292969,
+      294.949462890625
+    ],
+    "ground_elevation_p05_p50_p95_m": [
+      274.4180908203125,
+      276.03961181640625,
+      277.82879638671875
+    ],
+    "roof_p95_above_low_high_ground_m": [
+      20.5313720703125,
+      17.12066650390625
+    ],
+    "status": "measured_evidence_requires_current_building_review"
+  },
+  {
+    "name": "Hamerschlag Hall",
+    "osm_id": "way/27551077",
+    "roof_returns": 43653,
+    "ground_returns": 9694,
+    "method": "Inset surface candidates vs surrounding classified ground; no total-height certification",
+    "acquisition_interval": [
+      "2024-04-14",
+      "2024-05-08"
+    ],
+    "unclassified_surface_candidates": true,
+    "approved": false,
+    "roof_elevation_p05_p50_p95_m": [
+      287.4178161621094,
+      299.40869140625,
+      308.56793212890625
+    ],
+    "ground_elevation_p05_p50_p95_m": [
+      275.0276794433594,
+      286.8387145996094,
+      287.3172607421875
+    ],
+    "roof_p95_above_low_high_ground_m": [
+      33.540252685546875,
+      21.25067138671875
+    ],
+    "status": "measured_evidence_requires_current_building_review"
+  },
+  {
+    "name": "Hamerschlag House",
+    "osm_id": "way/27591466",
+    "roof_returns": 23625,
+    "ground_returns": 3244,
+    "method": "Inset surface candidates vs surrounding classified ground; no total-height certification",
+    "acquisition_interval": [
+      "2024-04-14",
+      "2024-05-08"
+    ],
+    "unclassified_surface_candidates": true,
+    "approved": false,
+    "roof_elevation_p05_p50_p95_m": [
+      305.6296691894531,
+      310.5979309082031,
+      310.7472839355469
+    ],
+    "ground_elevation_p05_p50_p95_m": [
+      297.0586853027344,
+      297.717041015625,
+      304.81890869140625
+    ],
+    "roof_p95_above_low_high_ground_m": [
+      13.6885986328125,
+      5.928375244140625
+    ],
+    "status": "measured_evidence_requires_current_building_review"
+  },
+  {
+    "name": "Henderson House",
+    "osm_id": "way/27591488",
+    "roof_returns": 6887,
+    "ground_returns": 4206,
+    "method": "Inset surface candidates vs surrounding classified ground; no total-height certification",
+    "acquisition_interval": [
+      "2024-04-14",
+      "2024-05-08"
+    ],
+    "unclassified_surface_candidates": true,
+    "approved": false,
+    "roof_elevation_p05_p50_p95_m": [
+      301.9476623535156,
+      312.9296569824219,
+      314.0482482910156
+    ],
+    "ground_elevation_p05_p50_p95_m": [
+      299.9969482421875,
+      301.1673889160156,
+      303.11810302734375
+    ],
+    "roof_p95_above_low_high_ground_m": [
+      14.051300048828125,
+      10.930145263671875
+    ],
+    "status": "measured_evidence_requires_current_building_review"
+  },
+  {
+    "name": "Highmark Center",
+    "osm_id": "way/1039908831",
+    "roof_returns": 77153,
+    "ground_returns": 6897,
+    "method": "Inset surface candidates vs surrounding classified ground; no total-height certification",
+    "acquisition_interval": [
+      "2024-04-14",
+      "2024-05-08"
+    ],
+    "unclassified_surface_candidates": true,
+    "approved": false,
+    "roof_elevation_p05_p50_p95_m": [
+      303.82830810546875,
+      309.77801513671875,
+      310.3479919433594
+    ],
+    "ground_elevation_p05_p50_p95_m": [
+      293.6156372070312,
+      298.698486328125,
+      304.7274475097656
+    ],
+    "roof_p95_above_low_high_ground_m": [
+      16.732354736328148,
+      5.62054443359375
+    ],
+    "status": "measured_evidence_requires_current_building_review"
+  },
+  {
+    "name": "Hillman Center for Future Generation Technologies",
+    "osm_id": "way/1569847706",
+    "roof_returns": 27573,
+    "ground_returns": 5420,
+    "method": "Inset surface candidates vs surrounding classified ground; no total-height certification",
+    "acquisition_interval": [
+      "2024-04-14",
+      "2024-05-08"
+    ],
+    "unclassified_surface_candidates": true,
+    "approved": false,
+    "roof_elevation_p05_p50_p95_m": [
+      284.54478149414064,
+      298.75946044921875,
+      303.1394348144531
+    ],
+    "ground_elevation_p05_p50_p95_m": [
+      278.4591369628906,
+      283.8973693847656,
+      286.3296813964844
+    ],
+    "roof_p95_above_low_high_ground_m": [
+      24.6802978515625,
+      16.80975341796875
+    ],
+    "status": "measured_evidence_requires_current_building_review"
+  },
+  {
+    "name": "Hunt Library",
+    "osm_id": "way/27574204",
+    "roof_returns": 39601,
+    "ground_returns": 5844,
+    "method": "Inset surface candidates vs surrounding classified ground; no total-height certification",
+    "acquisition_interval": [
+      "2024-04-14",
+      "2024-05-08"
+    ],
+    "unclassified_surface_candidates": true,
+    "approved": false,
+    "roof_elevation_p05_p50_p95_m": [
+      306.0198059082031,
+      314.13970947265625,
+      315.90753173828125
+    ],
+    "ground_elevation_p05_p50_p95_m": [
+      293.6875915527344,
+      294.358154296875,
+      294.547119140625
+    ],
+    "roof_p95_above_low_high_ground_m": [
+      22.219940185546875,
+      21.36041259765625
+    ],
+    "status": "measured_evidence_requires_current_building_review"
+  },
+  {
+    "name": "Margaret Morrison Carnegie Hall",
+    "osm_id": "way/27591314",
+    "roof_returns": 43389,
+    "ground_returns": 10152,
+    "method": "Inset surface candidates vs surrounding classified ground; no total-height certification",
+    "acquisition_interval": [
+      "2024-04-14",
+      "2024-05-08"
+    ],
+    "unclassified_surface_candidates": true,
+    "approved": false,
+    "roof_elevation_p05_p50_p95_m": [
+      290.0086364746094,
+      306.2179260253906,
+      308.1686706542969
+    ],
+    "ground_elevation_p05_p50_p95_m": [
+      280.0386047363281,
+      284.6380615234375,
+      289.0088806152344
+    ],
+    "roof_p95_above_low_high_ground_m": [
+      28.13006591796875,
+      19.1597900390625
+    ],
+    "status": "measured_evidence_requires_current_building_review"
+  },
+  {
+    "name": "McGill House",
+    "osm_id": "way/27591456",
+    "roof_returns": 8002,
+    "ground_returns": 3309,
+    "method": "Inset surface candidates vs surrounding classified ground; no total-height certification",
+    "acquisition_interval": [
+      "2024-04-14",
+      "2024-05-08"
+    ],
+    "unclassified_surface_candidates": true,
+    "approved": false,
+    "roof_elevation_p05_p50_p95_m": [
+      300.09814453125,
+      307.2176818847656,
+      308.56793212890625
+    ],
+    "ground_elevation_p05_p50_p95_m": [
+      290.4079284667969,
+      295.1597595214844,
+      297.1287841796875
+    ],
+    "roof_p95_above_low_high_ground_m": [
+      18.160003662109375,
+      11.43914794921875
+    ],
+    "status": "measured_evidence_requires_current_building_review"
+  },
+  {
+    "name": "Morewood E-Tower",
+    "osm_id": "way/1002531075",
+    "roof_returns": 12388,
+    "ground_returns": 5845,
+    "method": "Inset surface candidates vs surrounding classified ground; no total-height certification",
+    "acquisition_interval": [
+      "2024-04-14",
+      "2024-05-08"
+    ],
+    "unclassified_surface_candidates": true,
+    "approved": false,
+    "roof_elevation_p05_p50_p95_m": [
+      302.8681640625,
+      302.92913818359375,
+      307.6687927246094
+    ],
+    "ground_elevation_p05_p50_p95_m": [
+      282.49835205078125,
+      282.647705078125,
+      282.9585876464844
+    ],
+    "roof_p95_above_low_high_ground_m": [
+      25.170440673828125,
+      24.710205078125
+    ],
+    "status": "measured_evidence_requires_current_building_review"
+  },
+  {
+    "name": "Morewood Gardens",
+    "osm_id": "way/544174675",
+    "roof_returns": 29533,
+    "ground_returns": 12896,
+    "method": "Inset surface candidates vs surrounding classified ground; no total-height certification",
+    "acquisition_interval": [
+      "2024-04-14",
+      "2024-05-08"
+    ],
+    "unclassified_surface_candidates": true,
+    "approved": false,
+    "roof_elevation_p05_p50_p95_m": [
+      286.2382507324219,
+      304.5384826660156,
+      309.8481140136719
+    ],
+    "ground_elevation_p05_p50_p95_m": [
+      282.3794860839844,
+      282.58978271484375,
+      284.97943115234375
+    ],
+    "roof_p95_above_low_high_ground_m": [
+      27.4686279296875,
+      24.868682861328125
+    ],
+    "status": "measured_evidence_requires_current_building_review"
+  },
+  {
+    "name": "Newell-Simon Hall",
+    "osm_id": "way/27551590",
+    "roof_returns": 66052,
+    "ground_returns": 9617,
+    "method": "Inset surface candidates vs surrounding classified ground; no total-height certification",
+    "acquisition_interval": [
+      "2024-04-14",
+      "2024-05-08"
+    ],
+    "unclassified_surface_candidates": true,
+    "approved": false,
+    "roof_elevation_p05_p50_p95_m": [
+      280.59942626953125,
+      288.3992919921875,
+      290.91998291015625
+    ],
+    "ground_elevation_p05_p50_p95_m": [
+      261.3970031738281,
+      267.0876159667969,
+      276.14935302734375
+    ],
+    "roof_p95_above_low_high_ground_m": [
+      29.522979736328125,
+      14.7706298828125
+    ],
+    "status": "measured_evidence_requires_current_building_review"
+  },
+  {
+    "name": "Porter Hall",
+    "osm_id": "way/27549961",
+    "roof_returns": 71415,
+    "ground_returns": 9895,
+    "method": "Inset surface candidates vs surrounding classified ground; no total-height certification",
+    "acquisition_interval": [
+      "2024-04-14",
+      "2024-05-08"
+    ],
+    "unclassified_surface_candidates": true,
+    "approved": false,
+    "roof_elevation_p05_p50_p95_m": [
+      287.0185546875,
+      298.3784484863281,
+      303.4991149902344
+    ],
+    "ground_elevation_p05_p50_p95_m": [
+      282.138671875,
+      286.1376647949219,
+      288.1676330566406
+    ],
+    "roof_p95_above_low_high_ground_m": [
+      21.360443115234375,
+      15.33148193359375
+    ],
+    "status": "measured_evidence_requires_current_building_review"
+  },
+  {
+    "name": "Posner Hall",
+    "osm_id": "way/27591241",
+    "roof_returns": 33668,
+    "ground_returns": 5327,
+    "method": "Inset surface candidates vs surrounding classified ground; no total-height certification",
+    "acquisition_interval": [
+      "2024-04-14",
+      "2024-05-08"
+    ],
+    "unclassified_surface_candidates": true,
+    "approved": false,
+    "roof_elevation_p05_p50_p95_m": [
+      309.528076171875,
+      309.75970458984375,
+      312.64923095703125
+    ],
+    "ground_elevation_p05_p50_p95_m": [
+      290.33782958984375,
+      291.968505859375,
+      296.76910400390625
+    ],
+    "roof_p95_above_low_high_ground_m": [
+      22.3114013671875,
+      15.880126953125
+    ],
+    "status": "measured_evidence_requires_current_building_review"
+  },
+  {
+    "name": "Purnell Center for the Arts",
+    "osm_id": "way/27574406",
+    "roof_returns": 69921,
+    "ground_returns": 10786,
+    "method": "Inset surface candidates vs surrounding classified ground; no total-height certification",
+    "acquisition_interval": [
+      "2024-04-14",
+      "2024-05-08"
+    ],
+    "unclassified_surface_candidates": true,
+    "approved": false,
+    "roof_elevation_p05_p50_p95_m": [
+      303.3985290527344,
+      305.1877136230469,
+      314.67919921875
+    ],
+    "ground_elevation_p05_p50_p95_m": [
+      280.7304992675781,
+      289.0180358886719,
+      289.53924560546875
+    ],
+    "roof_p95_above_low_high_ground_m": [
+      33.948699951171875,
+      25.13995361328125
+    ],
+    "status": "measured_evidence_requires_current_building_review"
+  },
+  {
+    "name": "Resnik House",
+    "osm_id": "way/27591352",
+    "roof_returns": 26954,
+    "ground_returns": 9413,
+    "method": "Inset surface candidates vs surrounding classified ground; no total-height certification",
+    "acquisition_interval": [
+      "2024-04-14",
+      "2024-05-08"
+    ],
+    "unclassified_surface_candidates": true,
+    "approved": false,
+    "roof_elevation_p05_p50_p95_m": [
+      295.47979736328125,
+      305.16943359375,
+      306.8397216796875
+    ],
+    "ground_elevation_p05_p50_p95_m": [
+      287.05816650390625,
+      288.83819580078125,
+      288.9570617675781
+    ],
+    "roof_p95_above_low_high_ground_m": [
+      19.78155517578125,
+      17.882659912109375
+    ],
+    "status": "measured_evidence_requires_current_building_review"
+  },
+  {
+    "name": "Roberts Engineering Hall",
+    "osm_id": "way/27590641",
+    "roof_returns": 30320,
+    "ground_returns": 6934,
+    "method": "Inset surface candidates vs surrounding classified ground; no total-height certification",
+    "acquisition_interval": [
+      "2024-04-14",
+      "2024-05-08"
+    ],
+    "unclassified_surface_candidates": true,
+    "approved": false,
+    "roof_elevation_p05_p50_p95_m": [
+      279.779541015625,
+      283.6078186035156,
+      286.219970703125
+    ],
+    "ground_elevation_p05_p50_p95_m": [
+      259.58526611328125,
+      273.4579772949219,
+      277.8074645996094
+    ],
+    "roof_p95_above_low_high_ground_m": [
+      26.63470458984375,
+      8.412506103515625
+    ],
+    "status": "measured_evidence_requires_current_building_review"
+  },
+  {
+    "name": "Scaife Hall",
+    "osm_id": "way/27550292",
+    "roof_returns": 27298,
+    "ground_returns": 7078,
+    "method": "Inset surface candidates vs surrounding classified ground; no total-height certification",
+    "acquisition_interval": [
+      "2024-04-14",
+      "2024-05-08"
+    ],
+    "unclassified_surface_candidates": true,
+    "approved": false,
+    "roof_elevation_p05_p50_p95_m": [
+      280.0477600097656,
+      294.3672790527344,
+      302.4079284667969
+    ],
+    "ground_elevation_p05_p50_p95_m": [
+      266.8773193359375,
+      279.80238342285156,
+      280.748779296875
+    ],
+    "roof_p95_above_low_high_ground_m": [
+      35.530609130859375,
+      21.659149169921875
+    ],
+    "status": "measured_evidence_requires_current_building_review"
+  },
+  {
+    "name": "Scobell House",
+    "osm_id": "way/27591482",
+    "roof_returns": 7537,
+    "ground_returns": 7327,
+    "method": "Inset surface candidates vs surrounding classified ground; no total-height certification",
+    "acquisition_interval": [
+      "2024-04-14",
+      "2024-05-08"
+    ],
+    "unclassified_surface_candidates": true,
+    "approved": false,
+    "roof_elevation_p05_p50_p95_m": [
+      299.5867004394531,
+      308.77825927734375,
+      310.018798828125
+    ],
+    "ground_elevation_p05_p50_p95_m": [
+      296.4094543457031,
+      297.2476501464844,
+      297.509765625
+    ],
+    "roof_p95_above_low_high_ground_m": [
+      13.609344482421875,
+      12.509033203125
+    ],
+    "status": "measured_evidence_requires_current_building_review"
+  },
+  {
+    "name": "Scott Hall",
+    "osm_id": "relation/13441031",
+    "roof_returns": 36391,
+    "ground_returns": 8244,
+    "method": "Inset surface candidates vs surrounding classified ground; no total-height certification",
+    "acquisition_interval": [
+      "2024-04-14",
+      "2024-05-08"
+    ],
+    "unclassified_surface_candidates": true,
+    "approved": false,
+    "roof_elevation_p05_p50_p95_m": [
+      260.9138946533203,
+      294.98907470703125,
+      300.55780029296875
+    ],
+    "ground_elevation_p05_p50_p95_m": [
+      257.79730224609375,
+      270.9677429199219,
+      287.2380065917969
+    ],
+    "roof_p95_above_low_high_ground_m": [
+      42.760498046875,
+      13.319793701171875
+    ],
+    "status": "measured_evidence_requires_current_building_review"
+  },
+  {
+    "name": "Smith Hall",
+    "osm_id": "way/27591104",
+    "roof_returns": 17072,
+    "ground_returns": 7805,
+    "method": "Inset surface candidates vs surrounding classified ground; no total-height certification",
+    "acquisition_interval": [
+      "2024-04-14",
+      "2024-05-08"
+    ],
+    "unclassified_surface_candidates": true,
+    "approved": false,
+    "roof_elevation_p05_p50_p95_m": [
+      285.37872314453125,
+      286.46990966796875,
+      287.8872375488281
+    ],
+    "ground_elevation_p05_p50_p95_m": [
+      275.8171081542969,
+      276.04876708984375,
+      276.3169860839844
+    ],
+    "roof_p95_above_low_high_ground_m": [
+      12.07012939453125,
+      11.57025146484375
+    ],
+    "status": "measured_evidence_requires_current_building_review"
+  },
+  {
+    "name": "Stever House",
+    "osm_id": "way/27591700",
+    "roof_returns": 9996,
+    "ground_returns": 6348,
+    "method": "Inset surface candidates vs surrounding classified ground; no total-height certification",
+    "acquisition_interval": [
+      "2024-04-14",
+      "2024-05-08"
+    ],
+    "unclassified_surface_candidates": true,
+    "approved": false,
+    "roof_elevation_p05_p50_p95_m": [
+      301.0789794921875,
+      301.14910888671875,
+      305.58013916015625
+    ],
+    "ground_elevation_p05_p50_p95_m": [
+      282.6598815917969,
+      284.427734375,
+      284.87884521484375
+    ],
+    "roof_p95_above_low_high_ground_m": [
+      22.920257568359375,
+      20.7012939453125
+    ],
+    "status": "measured_evidence_requires_current_building_review"
+  },
+  {
+    "name": "TCS Hall",
+    "osm_id": "way/946491335",
+    "roof_returns": 36839,
+    "ground_returns": 8931,
+    "method": "Inset surface candidates vs surrounding classified ground; no total-height certification",
+    "acquisition_interval": [
+      "2024-04-14",
+      "2024-05-08"
+    ],
+    "unclassified_surface_candidates": true,
+    "approved": false,
+    "roof_elevation_p05_p50_p95_m": [
+      278.4079284667969,
+      294.3672790527344,
+      295.3091125488281
+    ],
+    "ground_elevation_p05_p50_p95_m": [
+      268.00811767578125,
+      273.1592712402344,
+      274.84783935546875
+    ],
+    "roof_p95_above_low_high_ground_m": [
+      27.300994873046875,
+      20.461273193359375
+    ],
+    "status": "measured_evidence_requires_current_building_review"
+  },
+  {
+    "name": "Tepper School of Business",
+    "osm_id": "way/583510520",
+    "roof_returns": 109342,
+    "ground_returns": 10764,
+    "method": "Inset surface candidates vs surrounding classified ground; no total-height certification",
+    "acquisition_interval": [
+      "2024-04-14",
+      "2024-05-08"
+    ],
+    "unclassified_surface_candidates": true,
+    "approved": false,
+    "roof_elevation_p05_p50_p95_m": [
+      281.3888854980469,
+      299.4391784667969,
+      304.9895935058594
+    ],
+    "ground_elevation_p05_p50_p95_m": [
+      269.8277893066406,
+      273.6896057128906,
+      281.5595703125
+    ],
+    "roof_p95_above_low_high_ground_m": [
+      35.16180419921875,
+      23.430023193359375
+    ],
+    "status": "measured_evidence_requires_current_building_review"
+  },
+  {
+    "name": "Warner Hall",
+    "osm_id": "way/27574704",
+    "roof_returns": 8490,
+    "ground_returns": 4170,
+    "method": "Inset surface candidates vs surrounding classified ground; no total-height certification",
+    "acquisition_interval": [
+      "2024-04-14",
+      "2024-05-08"
+    ],
+    "unclassified_surface_candidates": true,
+    "approved": false,
+    "roof_elevation_p05_p50_p95_m": [
+      312.7071228027344,
+      312.7772521972656,
+      316.99871826171875
+    ],
+    "ground_elevation_p05_p50_p95_m": [
+      288.45721435546875,
+      288.6187438964844,
+      288.8290710449219
+    ],
+    "roof_p95_above_low_high_ground_m": [
+      28.54150390625,
+      28.169647216796875
+    ],
+    "status": "measured_evidence_requires_current_building_review"
+  },
+  {
+    "name": "Wean Hall",
+    "osm_id": "relation/21724639",
+    "roof_returns": 79620,
+    "ground_returns": 12682,
+    "method": "Inset surface candidates vs surrounding classified ground; no total-height certification",
+    "acquisition_interval": [
+      "2024-04-14",
+      "2024-05-08"
+    ],
+    "unclassified_surface_candidates": true,
+    "approved": false,
+    "roof_elevation_p05_p50_p95_m": [
+      295.9095764160156,
+      308.5069885253906,
+      311.6982421875
+    ],
+    "ground_elevation_p05_p50_p95_m": [
+      267.5997009277344,
+      285.8389587402344,
+      286.9393005371094
+    ],
+    "roof_p95_above_low_high_ground_m": [
+      44.098541259765625,
+      24.758941650390625
+    ],
+    "status": "measured_evidence_requires_current_building_review"
+  },
+  {
+    "name": "Welch House",
+    "osm_id": "way/27591484",
+    "roof_returns": 7923,
+    "ground_returns": 4714,
+    "method": "Inset surface candidates vs surrounding classified ground; no total-height certification",
+    "acquisition_interval": [
+      "2024-04-14",
+      "2024-05-08"
+    ],
+    "unclassified_surface_candidates": true,
+    "approved": false,
+    "roof_elevation_p05_p50_p95_m": [
+      300.34869079589845,
+      310.308349609375,
+      311.59765625
+    ],
+    "ground_elevation_p05_p50_p95_m": [
+      297.4975891113281,
+      298.1376647949219,
+      299.7227783203125
+    ],
+    "roof_p95_above_low_high_ground_m": [
+      14.100067138671875,
+      11.8748779296875
+    ],
+    "status": "measured_evidence_requires_current_building_review"
+  },
+  {
+    "name": "West Wing",
+    "osm_id": "way/27591351",
+    "roof_returns": 14368,
+    "ground_returns": 6538,
+    "method": "Inset surface candidates vs surrounding classified ground; no total-height certification",
+    "acquisition_interval": [
+      "2024-04-14",
+      "2024-05-08"
+    ],
+    "unclassified_surface_candidates": true,
+    "approved": false,
+    "roof_elevation_p05_p50_p95_m": [
+      305.1480712890625,
+      305.20904541015625,
+      306.8671569824219
+    ],
+    "ground_elevation_p05_p50_p95_m": [
+      288.7193298339844,
+      288.8686828613281,
+      288.9692687988281
+    ],
+    "roof_p95_above_low_high_ground_m": [
+      18.1478271484375,
+      17.89788818359375
+    ],
+    "status": "measured_evidence_requires_current_building_review"
+  }
+]

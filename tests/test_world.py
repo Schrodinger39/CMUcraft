@@ -63,3 +63,27 @@ def test_block_properties_and_edges():
     assert block_state('minecraft:oak_log[axis=y]')['Properties']['axis']=='y'
     mask=np.ones((5,5),dtype=bool)
     assert erode(mask).sum()==9
+
+
+def test_oversized_chunk_uses_external_stream(tmp_path, monkeypatch):
+    import cmucraft.world as module
+    # Exercise the storage boundary without building thousands of tile entities.
+    payload = bytes(255 * 4096)
+    monkeypatch.setattr(module, 'chunk_bytes', lambda *args: payload)
+    volume = np.zeros((16,16,16), dtype=np.uint8)
+    write_world(volume, ['minecraft:air'], tmp_path/'large', [0,1,0])
+    folder=tmp_path/'large/region';raw=(folder/'r.0.0.mca').read_bytes()
+    loc=int.from_bytes(raw[:4],'big');assert loc&255==1
+    offset=(loc>>8)*4096
+    assert raw[offset:offset+5] == b'\x00\x00\x00\x01\x82'
+    assert (folder/'c.0.0.mcc').read_bytes() == payload
+
+
+def test_block_entity_position_guards(tmp_path):
+    volume=np.zeros((16,16,16),dtype=np.uint8)
+    entity=nbtlib.Compound({'id':nbtlib.String('test:entity'),'x':nbtlib.Int(16),'y':nbtlib.Int(1),'z':nbtlib.Int(0)})
+    with pytest.raises(ValueError,match='outside'):
+        write_world(volume,['minecraft:air'],tmp_path/'outside',[0,1,0],extra_entities=[entity])
+    entity['x']=nbtlib.Int(1)
+    with pytest.raises(ValueError,match='Duplicate'):
+        write_world(volume,['minecraft:air'],tmp_path/'duplicate',[0,1,0],extra_entities=[entity,entity])

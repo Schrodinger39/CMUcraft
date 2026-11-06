@@ -83,7 +83,7 @@ def level_file(path,spawn,size):
     n.File({'Data':data},gzipped=True).save(path/'level.dat')
 
 
-def write_world(volume,palette,path,spawn,signs=()):
+def write_world(volume,palette,path,spawn,signs=(),extra_entities=()):
     path=Path(path)
     if (path/'level.dat').exists():
         raise ValueError('Refusing to overwrite an existing world; select a new output directory')
@@ -94,6 +94,14 @@ def write_world(volume,palette,path,spawn,signs=()):
         sign=n.Compound({'id':n.String('minecraft:sign'),'x':n.Int(x),'y':n.Int(y),'z':n.Int(z),'Color':n.String('black')})
         for i,line in enumerate(lines[:4]):sign[f'Text{i+1}']=n.String(json.dumps({'text':line}))
         entities.setdefault((x//16,z//16),[]).append(sign)
+    occupied_entities={(int(e['x']),int(e['y']),int(e['z'])) for group in entities.values() for e in group}
+    for entity in extra_entities:
+        x,y,z=(int(entity[k]) for k in ('x','y','z'))
+        if not (0<=x<size and 0<=z<size and 0<=y<volume.shape[0]):
+            raise ValueError('Block entity outside exported volume')
+        if (x,y,z) in occupied_entities:raise ValueError('Duplicate block entity position')
+        occupied_entities.add((x,y,z))
+        entities.setdefault((x//16,z//16),[]).append(entity)
     for rz in range(math.ceil(chunks/32)):
         for rx in range(math.ceil(chunks/32)):
             header=bytearray(8192); body=bytearray();sector=2
@@ -104,7 +112,11 @@ def write_world(volume,palette,path,spawn,signs=()):
                     raw=chunk_bytes(cx,cz,volume[:,cz*16:(cz+1)*16,cx*16:(cx+1)*16],palette,entities.get((cx,cz),[]))
                     record=struct.pack('>I',len(raw)+1)+b'\x02'+raw
                     count=math.ceil(len(record)/4096)
-                    if count>255:raise ValueError('Chunk exceeds region record size')
+                    if count>255:
+                        # Java external chunk stream: a one-sector stub points to
+                        # the unchanged zlib payload in c.<chunkX>.<chunkZ>.mcc.
+                        (path/'region'/f'c.{cx}.{cz}.mcc').write_bytes(raw)
+                        record=struct.pack('>I',1)+b'\x82';count=1
                     index=lx+lz*32
                     header[index*4:index*4+4]=((sector<<8)|count).to_bytes(4,'big')
                     body.extend(record);body.extend(bytes(count*4096-len(record)));sector+=count

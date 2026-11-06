@@ -10,6 +10,7 @@ A Minecraft Java reconstruction of Carnegie Mellon University's Pittsburgh campu
 
 **v0.2 was rejected during the campus walkthrough for poor recognizability. It is a legacy reference, not the requested realistic campus.** No replacement campus is certified yet. The current workbench contains construction tools and a scale calibration world, not completed realistic buildings.
 
+- [Measured 2024 survey](docs/SURVEY.md): reproducible official point-cloud downloads, explicit vertical units, and per-building height evidence. Hunt roof fitting is under development; no exterior is certified by this measurement alone.
 - [Position comparison](audit/position_overlay.png): independent county footprint comparison, with unresolved cases explicitly flagged.
 - [Acceptance requirements](docs/RECONSTRUCTION.md): location, exterior, scale, and runtime checks required before a replacement release.
 - [Architecture modpack](modpack/README.md): pinned Forge tools, download hashes, and installation status.
@@ -25,7 +26,7 @@ A **1024 × 1024 metre Java 1.16.5 world**, generated from real OpenStreetMap fo
 | Elevated bridge segments | 12 |
 | Mapped trees | 337 |
 | Generated chunks | 4,096 |
-| Tests | 39 passed locally (including new review guards) |
+| Tests | 48 passed locally (including survey units and external chunk storage) |
 | Whole-world audit | All 4,096 chunk records decoded; palette indices and region allocation checked |
 
 **This is a runnable architectural approximation, not a finished survey-grade replica.** Footprints and route geometry are real source data. Building heights derived from floors, facade rhythms, roof shapes, bridge elevations, and interiors are estimates. The 2022 CMU inventory is historical. A full realistic reconstruction still needs current exterior references, measured heights, detailed building parts, interior plans, and game walkthroughs.
