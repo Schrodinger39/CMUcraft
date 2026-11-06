@@ -20,7 +20,7 @@ No shader, texture pack, or automatic facade reconstruction is included. Install
 
 ## Installation
 
-Import `CMUcraft-Workbench.mrpack` in HMCL as a **new instance**. The package pins mod URLs and hashes; it does not redistribute Minecraft or Forge game binaries. Keep the launcher-created runtime. Do not overlay an existing instance.
+Import `CMUcraft-Workbench.mrpack` as a **new instance** in a launcher that supports `.mrpack`; HMCL is not required. For the Hunt and campus previews, choose `CMUcraft-Preview.mrpack` instead. See [launcher options](../docs/LAUNCHERS.md) for format support, the manual route and unverified configurations. The package pins mod URLs and hashes; it does not redistribute Minecraft or Forge game binaries. Keep the launcher-created runtime. Do not overlay an existing instance.
 
 The delivery computer has a separate local profile named `CMUcraft-Architecture-1.16.5`. Choose that exact name. The original `1.16.5` profile does not load these installed mods. Its saves have not been overwritten.
 

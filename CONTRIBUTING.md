@@ -4,6 +4,8 @@ Thanks for helping. The most useful contribution is one that makes a particular 
 
 ## Start here
 
+If this is your first GitHub project, you can start with an issue containing one observation or photo link. You do not need to make a commit or install the development tools. A pull request becomes useful when you have a specific file or model change to share. You can also ask for help choosing a small part of your favorite building.
+
 1. Read the current limitations in [README.md](README.md).
 2. Pick one task from [ROADMAP.md](ROADMAP.md), or open an issue describing a specific problem.
 3. Comment on the issue before starting a substantial model change. Include the building or file you want to work on and the evidence you will use. A maintainer can help narrow the scope.

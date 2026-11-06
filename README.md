@@ -1,10 +1,14 @@
 # CMUcraft
 
-Help rebuild Carnegie Mellon University's Pittsburgh campus in Minecraft Java.
+**Rebuilding CMU in Minecraft, just for fun.**
 
-The goal is a campus you can recognize while walking through it: buildings in the right places, believable proportions, and the materials, windows, roofs and entrances that make each building different. We use real geographic data as a starting point, then check the architecture against measurements and photographs.
+CMUcraft is a project to recreate Carnegie Mellon's Pittsburgh campus in Minecraft. The idea is simple: build a place we know, explore it with friends, and make something fun together.
 
-**This is an independent student project, not an official CMU map. It is under active reconstruction.** The full-campus model is still rough; Hunt Library is the first detailed development specimen. Contributions from Minecraft builders, CMU students, photographers, GIS users and programmers are welcome. You do not need to write Python to help.
+Hopefully, it can also become a cool way for people who are new to CMU to explore campus and get a feel for where things are before arriving. That is a goal, not a promise that the current map is accurate enough for navigation.
+
+It's still a work in progress. If you know campus, enjoy building in Minecraft, or just want to help, you're welcome to join—even if you've never written code. **Want to help build your favorite spot on campus?**
+
+This is an independent student project, not an official CMU map. The full-campus preview is still rough, and Hunt Library is the first detailed specimen. You can start by looking at the images below; Minecraft, Python and a different launcher are not prerequisites for giving feedback.
 
 [Try the preview](https://github.com/Schrodinger39/CMUcraft/releases/tag/v0.3.0-preview) · [How to contribute](CONTRIBUTING.md) · [Open tasks](ROADMAP.md) · [Report a problem](https://github.com/Schrodinger39/CMUcraft/issues/new/choose) · [Development journal](DEVLOG.md)
 
@@ -27,9 +31,13 @@ The earlier v0.2 world was not recognizable enough during a campus walkthrough. 
 
 ## Try the current preview
 
+**You do not need HMCL.** The world uses Minecraft Java 1.16.5 + Forge 36.2.42; the launcher is a way to set up that environment, not part of the campus itself. You need your own access to Minecraft Java to play. You do not need Python or Git to try the downloaded worlds.
+
 1. Download **CMUcraft-Preview.mrpack** from [v0.3.0-preview](https://github.com/Schrodinger39/CMUcraft/releases/tag/v0.3.0-preview).
-2. Import it into HMCL as a separate instance. Use **Minecraft Java 1.16.5 + Forge 36.2.42** and the pinned mods.
-3. Choose **Hunt Detail Preview** to inspect the detailed specimen, or **Campus Preview (Legacy Geometry)** for the earlier full-campus layout. Scale Calibration is also included.
+2. Import it as a separate instance in a launcher that supports `.mrpack`. HMCL is the existing local setup; [Prism Launcher documents importing this format](https://prismlauncher.org/wiki/help-pages/Zip-import/). **Prism's format support is not a completed test of this particular pack.**
+3. Choose **Hunt Detail Preview** for the detailed building, or **Campus Preview (Legacy Geometry)** for the rough campus overview. They are separate worlds, not two parts of one finished map.
+
+If your launcher cannot import `.mrpack`, see [launcher options and the manual route](docs/LAUNCHERS.md). There is also a worlds-only ZIP, but it does not install the required mods. You do not have to switch launchers just to report a building mismatch or contribute photos.
 
 Xaero's World Map uses **M** by default and fills as you explore. Hunt requires Chisels & Bits; opening it without the mod can lose its details. Keep copies of saves before changing versions. Bedrock is not supported.
 
@@ -38,6 +46,8 @@ The known experimental-world-settings defect has been corrected and checked with
 See the [modpack guide](modpack/README.md) for versions, credits and verification limits. The separate worlds ZIP is for people who already have the matching environment.
 
 ## Pick a small contribution
+
+Not sure where to start? Look at the Hunt preview and pick **one thing you recognize**: its entrance, a window bay, or its roof. Open a [building review](https://github.com/Schrodinger39/CMUcraft/issues/new?template=building-review.md) with “I think this part should look like…” and a reference if you have one. You do not need an OSM ID, measurements or a finished solution to start a conversation.
 
 | If you enjoy… | A useful first contribution |
 | --- | --- |

@@ -23,3 +23,7 @@ These are proposed tasks, not claims that someone has taken them on. Open an iss
 5. Test the shared world with multiple clients before advertising multiplayer as verified.
 
 The long-term target is a recognizable, explorable campus. Full interiors, additional campus areas and a permanent public server can follow; they should not delay correcting the buildings already in scope.
+
+## Make it easier to join
+
+Before expanding the feature list, work through the [first-time contributor review](docs/ONBOARDING_REVIEW.md): verify another launcher, simplify the download choice, show an actual in-game walkthrough, and create a few small reference-backed issues. These are proposed improvements, not completed usability tests.
