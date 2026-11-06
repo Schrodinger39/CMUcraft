@@ -1,10 +1,12 @@
+> Historical record of an earlier milestone. For current setup, see [Developer setup](../DEVELOPMENT.md); for current client-test results, see [Builder validation](../BUILDER-VALIDATION.md). Test counts and limitations below describe that milestone.
+
 # CMUcraft
 
 **A runnable, one-metre-per-block survey model of Carnegie Mellon University's Pittsburgh campus for Minecraft Java Edition.**
 
 Week 1 delivers real OpenStreetMap building footprints, a 256 × 256 m raster, inspectable data exports, distance checks, and a Sponge `.schem` prototype. It does **not** yet recreate building facades, interior spaces, roads, or campus terrain.
 
-![CMU campus footprint map](../artifacts/campus.png)
+![CMU campus footprint map](../../artifacts/campus.png)
 
 ## Delivered results
 
@@ -118,4 +120,4 @@ Next phases: independently verify landmark dimensions; acquire a DEM for elevati
 
 ## License and attribution
 
-Code is MIT-licensed. **OSM source data and derived database outputs are not relicensed as MIT.** They are provided under ODbL 1.0; images and the schematic retain OSM attribution. See [DATA_LICENSE.md](../DATA_LICENSE.md) and [OpenStreetMap copyright](https://www.openstreetmap.org/copyright). The upstream map response contains public OSM contributor metadata and is preserved unchanged for provenance.
+Code is MIT-licensed. **OSM source data and derived database outputs are not relicensed as MIT.** They are provided under ODbL 1.0; images and the schematic retain OSM attribution. See [DATA_LICENSE.md](../../DATA_LICENSE.md) and [OpenStreetMap copyright](https://www.openstreetmap.org/copyright). The upstream map response contains public OSM contributor metadata and is preserved unchanged for provenance.

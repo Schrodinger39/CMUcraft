@@ -17,21 +17,15 @@ base using `python scripts/build_first_contributor_pack.py --base /path/to/base 
 The packager removes player data, backup saves and personal progress; maintainers
 must still inspect custom source worlds for unexpected files before publishing.
 
-## Historical example
+## Maintainer example
 
+`hunt-library-example/` contains a readable manifest, footprint and instructions
+for the original generator example. New builders should use the First Builds
+release above. The old generated ZIP has been removed to keep one clear download
+entry point; maintainers can recreate it when testing the generator.
 
-`hunt-library-example.zip` is an experimental, generated starter kit based on the
-committed legacy campus. It is **not** the detailed Hunt model, a finished building,
-an active claim or a client-validated release. No Python/Git is needed to unzip it.
-Download the ZIP using GitHub's file download button; do not download the HTML page.
-
-The expanded `hunt-library-example/` directory contains the readable manifest,
-reference and instructions for review. Its save is in the ZIP to avoid duplicating
-binary world data. The ZIP includes the full base context and required license notices.
-
-Maintainers must confirm the reservation and spawn, inspect references, and complete
-the client checks before giving a kit to a new builder. Builders should use the kit
-linked from their confirmed claim, not assume this sample grants permission to edit.
+This example uses the rough legacy campus and has not been client-validated.
+Review its reservation and surrounding structures before using it for a new kit.
 
 Reproduce with:
 

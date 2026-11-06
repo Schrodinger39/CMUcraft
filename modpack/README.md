@@ -22,7 +22,8 @@ No shader, texture pack, or automatic facade reconstruction is included. Install
 
 Import `CMUcraft-Workbench.mrpack` as a **new instance** in a launcher that supports `.mrpack`; HMCL is not required. For the Hunt and campus previews, choose `CMUcraft-Preview.mrpack` instead. See [launcher options](../docs/LAUNCHERS.md) for format support, the manual route and unverified configurations. The package pins mod URLs and hashes; it does not redistribute Minecraft or Forge game binaries. Keep the launcher-created runtime. Do not overlay an existing instance.
 
-The delivery computer has a separate local profile named `CMUcraft-Architecture-1.16.5`. Choose that exact name. The original `1.16.5` profile does not load these installed mods. Its saves have not been overwritten.
+Select the new instance you imported. Its name depends on your launcher; confirm
+that it uses the pinned Minecraft, Forge and mod versions before opening a world.
 
 The included `CMUcraft - Scale Calibration` world contains nominal rooms at three scales. Only the 1 block/metre case matches the default player scale; the larger rooms do not change player size. It is not a campus model.
 
@@ -30,7 +31,7 @@ The included `CMUcraft - Scale Calibration` world contains nominal rooms at thre
 
 JAR integrity and pinned versions were checked. WorldEdit and FerriteCore hashes were compared with published Modrinth metadata. The Chisels & Bits download was taken from the official CurseForge file; its recorded hashes pin that download, rather than claiming an independently published signature.
 
-**A local three-block C&B sample passed save/re-entry and raw-chunk integration/re-entry on the existing HMCL profile. Full-building behavior, collisions and multiplayer remain unverified.** A reported main-menu launch may have used the original profile. Do not interpret static checks as a crash-free guarantee.
+**A local three-block C&B sample passed save/re-entry and raw-chunk integration/re-entry on the existing HMCL profile. Full-building behavior, collisions and multiplayer remain unverified.** See [testing notes](../docs/BUILDER-VALIDATION.md) for the scope of that test.
 
 Before distributing a finished world: launch the exact pack, confirm all six mods in the Mods menu, load a copied world, place a chiseled test block, save/quit/reload, and verify persistence. Check client/server matching versions before multiplayer. Keep backups; never downgrade an upgraded save.
 
@@ -47,4 +48,4 @@ The portable package can be shared through repository releases. A hosted multipl
 
 ## Builder contributions
 
-Use a maintainer-issued [Building Kit](../docs/BUILDERS.md) in a separate save. Keep these exact versions; do not assume WorldEdit can transfer C&B details. [Compatibility evidence](../docs/BUILDER-COMPATIBILITY.md) distinguishes generic block-entity support from a verified C&B round trip. Full original saves are required for chiseled builds.
+Start with the Hunt and CUC trial worlds in the [First Builds release](https://github.com/Schrodinger39/CMUcraft/releases/tag/builders-round1), following the [Builder guide](../docs/BUILDERS.md). Work in a separate save. Keep these exact versions; do not assume WorldEdit can transfer C&B details. [Compatibility evidence](../docs/BUILDER-COMPATIBILITY.md) distinguishes generic block-entity support from a verified C&B round trip. Full original saves are required for chiseled builds.

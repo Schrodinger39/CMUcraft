@@ -48,3 +48,14 @@ Start with the [code and file guide](CODE_GUIDE.md). The [reconstruction require
 See [BUILDER-MAINTENANCE.md](BUILDER-MAINTENANCE.md) for `python -m cmucraft.building_kit` create, unpack, plan and stage commands. Builders do not run these tools. Tests use synthetic saves plus the existing pipeline suite; runtime checks are tracked separately.
 
 Maintainers with GitHub label permissions can run `python scripts/setup_builder_labels.py` after authenticating `gh`. It creates missing labels from `.github/builder-labels.json` and does not overwrite existing labels. Forms work even when labels are unavailable.
+
+## Historical records
+
+The [original footprint prototype](archive/WEEK1.md), its
+[validation record](archive/VALIDATION.md), and the
+[early workbench checks](archive/WORKBENCH-VALIDATION.md) describe earlier milestones.
+Use [Builder validation](BUILDER-VALIDATION.md) for the later client-test results.
+
+The Python test workflow in `docs/ci/tests.yml` is an inactive template. To enable
+GitHub Actions, move it to `.github/workflows/tests.yml` using a credential with
+workflow permission.

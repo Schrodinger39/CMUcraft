@@ -1,3 +1,5 @@
+> Historical record of an earlier milestone. For current setup, see [Developer setup](../DEVELOPMENT.md); for current client-test results, see [Builder validation](../BUILDER-VALIDATION.md). Test counts and limitations below describe that milestone.
+
 # Workbench validation
 
 This revision is a review/construction workbench, not a replacement campus release.

@@ -1,7 +1,9 @@
 # Builder workflow validation record
 
-Recorded 2026-11-05 (America/New_York). This is offline implementation evidence,
-not a completed client or end-to-end Builder acceptance test.
+Recorded 2026-11-05 (America/New_York). Includes initial offline checks and a
+[follow-up local client test](#follow-up-local-client-small-sample-test). The small
+C&B sample passed save/re-entry and integration; full volunteer onboarding remains
+untested.
 
 ## Initial offline checks
 
@@ -41,7 +43,7 @@ The sample copies rough legacy architecture and terrain. It does not contain a
 cleared plot, newly verified dimensions, permitted facade photos, or a completed
 Hunt model. The linked references are starting evidence for a maintainer and builder.
 
-No Minecraft client/launcher test, live C&B save/reload, collision check, schematic
+At this initial offline stage, no Minecraft client/launcher test, live C&B save/reload, collision check, schematic
 round trip, multiplayer run or real volunteer onboarding was performed. No building
 was accepted, no production world was replaced, and the PR is not an approval of a
 playable release. Global-data changes intentionally block automatic staging; that
