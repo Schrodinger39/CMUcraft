@@ -1,0 +1,18 @@
+{
+  "profile_name": "CMUcraft-Architecture-1.16.5",
+  "minecraft": "1.16.5",
+  "forge": "36.2.42",
+  "instance_isolation": "version folder",
+  "mod_count": 3,
+  "checks": [
+    "JAR ZIP integrity",
+    "WorldEdit and FerriteCore published SHA512",
+    "Forge metadata and Minecraft version compatibility",
+    "HMCL isolated profile configuration"
+  ],
+  "runtime_launch_verified": false,
+  "contributor": "Chris Yu",
+  "user_reported_main_menu": true,
+  "selected_profile_confirmed": false,
+  "runtime_note": "User subsequently reported the original 1.16.5 profile may have been selected. No isolated-profile log found. Modded launch and world round-trip remain unverified."
+}
