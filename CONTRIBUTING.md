@@ -13,6 +13,18 @@ If this is your first GitHub project, you can start with an issue containing one
 
 No Discord, public build server or external coordination channel has been set up. Use repository issues and pull requests for project work. Do not post account tokens, launcher account files or unfiltered logs.
 
+## Ways to contribute
+
+| If you enjoy… | A useful first contribution |
+| --- | --- |
+| Walking around campus | Compare one building's entrance, window pattern or roof with the model. Include a dated reference. |
+| Minecraft building | Improve one facade in a copied save, preserving the building's coordinates and scale. |
+| Photography | Share your own exterior photos with building name, side, date and permission to reuse them. |
+| Maps and measurements | Investigate one flagged footprint or height discrepancy without moving a whole building on a guess. |
+| Testing games | Load the pinned preview, inspect Hunt, save/reload, and report what persists or breaks. |
+| Python | Improve a documented pipeline step or reproduce a bug with a small test. |
+| Explaining things | Try the setup instructions on a fresh machine and fix unclear steps. |
+
 ## You do not need to code
 
 For a building observation, include its name or OSM ID, the side you are looking at, and a screenshot or coordinate. Describe one concrete mismatch: a missing wing, the wrong entrance level, a roof shape, a color, or a window pattern. “This facade has six bays; the model has four” is more actionable than “make it realistic.” Mark estimates as estimates.
@@ -33,7 +45,7 @@ For playtesting, record the pack version, operating system and exact world name.
 
 ## Contributing code
 
-Use Python 3.10+ and install `python -m pip install -e '.[dev]'`. See [CODE_GUIDE.md](docs/CODE_GUIDE.md) for module responsibilities, array layouts and the data flow.
+Follow [Developer setup](docs/DEVELOPMENT.md) to install the tools and reproduce builds. See [CODE_GUIDE.md](docs/CODE_GUIDE.md) for module responsibilities, array layouts and data flow.
 
 Write readable English comments. Explain units, coordinate axes, assumptions, validation boundaries and reasons for unusual operations. Split dense statements so another contributor can follow them. A comment should explain the operation or decision, not simply repeat the variable name. Machine-readable formats that do not support comments are documented in the file guide instead.
 
