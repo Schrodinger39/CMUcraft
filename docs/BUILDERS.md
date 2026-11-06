@@ -23,7 +23,7 @@ you if you do not use GitHub. We coordinate in the building tasks; no live serve
 2. Import it as a **new instance** in a launcher that supports `.mrpack`. It contains
    the pinned mod download list and both trial worlds; you do not need to choose each
    mod yourself. You still need your own Minecraft Java access. See [launcher help](LAUNCHERS.md)
-   if import fails. Fresh import of this new package has not been client-tested.
+   if import fails.
 3. Open **CMUcraft Kit - Hunt Library** or **CMUcraft Kit - Cohon University Center**.
    Read the building brief, try one small exterior detail, and keep neighbors intact.
    One block is one metre; keep the existing location and orientation. Ordinary
@@ -44,18 +44,13 @@ Include the original `kit.json`, reference links, credit name and permission to 
 your original build. Do not send your launcher/account folder. The maintainer handles
 coordinate checks, backup and staging into a new campus copy.
 
-A trial proposal is not an exclusive building assignment. Each building has one main
-save coordinator; overlapping submissions are reviewed as alternatives, not automatically
-combined. Whole-building work gets an agreed scope and current integration kit before
-acceptance. C&B contributions require the original full save; schematic-only C&B
+If you want to build a whole building, agree on the scope in its task first so
+people do not overwrite each other’s work. C&B contributions require the original full save; schematic-only C&B
 transfer has not been verified. No need to learn WorldEdit export for this route.
 
-## What has been tested?
+## Still in progress
 
-On the existing local HMCL setup, a three-block C&B sample survived building,
-save/re-entry, transfer into a separate campus copy, and another save/re-entry.
-Automated checks verified the transferred payloads. This is a small-sample result.
-Fresh pack import, the new CUC trial world's client behavior, complete-building
-transfer, detailed collisions, schematics and multiplayer remain unverified.
+These are early trial packs. A small C&B build has passed a local save-and-transfer
+test; broader testing is ongoing. If something goes wrong, tell us in the building task.
 
-[Full validation record](BUILDER-VALIDATION.md) · [Maintainer workflow](BUILDER-MAINTENANCE.md)
+[Testing details](BUILDER-VALIDATION.md) · [Maintainer workflow](BUILDER-MAINTENANCE.md)
