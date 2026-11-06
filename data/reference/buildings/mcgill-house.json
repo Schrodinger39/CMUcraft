@@ -1,0 +1,123 @@
+{
+  "name": "McGill House",
+  "osm_id": "way/27591456",
+  "source_url": "https://www.openstreetmap.org/way/27591456",
+  "snapshot_sha256": "7d8857f29e2e29a48ddb4d52182175ac4af61c7b7e6c9c7727f93af1192bc1e2",
+  "crs": "EPSG:32617",
+  "axis_convention": "X east; Z south; one coordinate unit is one metre",
+  "utm_origin": [
+    589144.82561034,
+    4478009.6777666835
+  ],
+  "footprint_wgs84": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -79.9391997,
+          40.4418379
+        ],
+        [
+          -79.939064,
+          40.4418939
+        ],
+        [
+          -79.9388564,
+          40.4416111
+        ],
+        [
+          -79.9389929,
+          40.4415577
+        ],
+        [
+          -79.9391005,
+          40.4417029
+        ],
+        [
+          -79.9391731,
+          40.4418043
+        ],
+        [
+          -79.9391997,
+          40.4418379
+        ]
+      ]
+    ]
+  },
+  "footprint_xz": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          819.2817752133124,
+          670.6344013949856
+        ],
+        [
+          830.7157279810635,
+          664.2800600193441
+        ],
+        [
+          848.699300209526,
+          695.4598386483267
+        ],
+        [
+          837.1939983437769,
+          701.5264171268791
+        ],
+        [
+          827.874868601677,
+          685.5185842653736
+        ],
+        [
+          821.5825023129582,
+          674.3369641052559
+        ],
+        [
+          819.2817752133124,
+          670.6344013949856
+        ]
+      ]
+    ]
+  },
+  "centroid_xz_m": [
+    833.992,
+    682.974
+  ],
+  "footprint_area_m2": 466.796,
+  "bounds_xz_m": [
+    819.282,
+    664.28,
+    848.699,
+    701.526
+  ],
+  "independent_footprint_comparison": {
+    "osm_id": "way/27591456",
+    "name": "McGill House",
+    "county_ids": "540494",
+    "overlap_iou": 0.9013,
+    "centroid_difference_m": 0.91,
+    "boundary_hausdorff_m": 1.196,
+    "status": "agreement_candidate",
+    "name_verified": false,
+    "facade_verified": false,
+    "height_verified": false
+  },
+  "exterior_requirements": [
+    "red masonry, stone base",
+    "gable roof",
+    "separate from neighboring dorms"
+  ],
+  "inventory_source": "https://www.cmu.edu/cdfd/planning-and-design/master-plan/pdf/june-2022-cmu-imp-appendices.pdf",
+  "inventory_date": 2022,
+  "inventory_level_string": "3+1",
+  "surveyed_height_m": null,
+  "height_policy": "Do not convert ambiguous inventory level strings to a verified total height.",
+  "verification": {
+    "identity": false,
+    "location": false,
+    "height": false,
+    "facades": false,
+    "game_walkthrough": false
+  },
+  "status": "reference_packet_not_approved_model"
+}
