@@ -1,0 +1,107 @@
+{
+  "name": "Henderson House",
+  "osm_id": "way/27591488",
+  "source_url": "https://www.openstreetmap.org/way/27591488",
+  "snapshot_sha256": "7d8857f29e2e29a48ddb4d52182175ac4af61c7b7e6c9c7727f93af1192bc1e2",
+  "crs": "EPSG:32617",
+  "axis_convention": "X east; Z south; one coordinate unit is one metre",
+  "utm_origin": [
+    589144.82561034,
+    4478009.6777666835
+  ],
+  "footprint_wgs84": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -79.9390797,
+          40.4411366
+        ],
+        [
+          -79.9390146,
+          40.441051
+        ],
+        [
+          -79.93943,
+          40.4408687
+        ],
+        [
+          -79.9394963,
+          40.4409592
+        ],
+        [
+          -79.9390797,
+          40.4411366
+        ]
+      ]
+    ]
+  },
+  "footprint_xz": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          830.3940166747198,
+          748.3576943166554
+        ],
+        [
+          836.0293074378278,
+          757.793120556511
+        ],
+        [
+          801.0421007426921,
+          778.4518841179088
+        ],
+        [
+          795.2985367048532,
+          768.4737457791343
+        ],
+        [
+          830.3940166747198,
+          748.3576943166554
+        ]
+      ]
+    ]
+  },
+  "centroid_xz_m": [
+    815.557,
+    763.352
+  ],
+  "footprint_area_m2": 456.131,
+  "bounds_xz_m": [
+    795.299,
+    748.358,
+    836.029,
+    778.452
+  ],
+  "independent_footprint_comparison": {
+    "osm_id": "way/27591488",
+    "name": "Henderson House",
+    "county_ids": "569463",
+    "overlap_iou": 0.9249,
+    "centroid_difference_m": 0.428,
+    "boundary_hausdorff_m": 1.431,
+    "status": "agreement_candidate",
+    "name_verified": false,
+    "facade_verified": false,
+    "height_verified": false
+  },
+  "exterior_requirements": [
+    "red masonry above exposed stone",
+    "hipped roof with dormers",
+    "model hillside foundation exposure"
+  ],
+  "inventory_source": "https://www.cmu.edu/cdfd/planning-and-design/master-plan/pdf/june-2022-cmu-imp-appendices.pdf",
+  "inventory_date": 2022,
+  "inventory_level_string": "3+1",
+  "surveyed_height_m": null,
+  "height_policy": "Do not convert ambiguous inventory level strings to a verified total height.",
+  "verification": {
+    "identity": false,
+    "location": false,
+    "height": false,
+    "facades": false,
+    "game_walkthrough": false
+  },
+  "status": "reference_packet_not_approved_model"
+}
