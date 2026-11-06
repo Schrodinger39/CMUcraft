@@ -1,0 +1,345 @@
+osm_id,name,county_ids,overlap_iou,centroid_difference_m,boundary_hausdorff_m,status,name_verified,facade_verified,height_verified
+relation/13441031,Scott Hall,560587;558395,0.8646,1.986,3.173,agreement_candidate,False,False,False
+relation/18260908,Phipps Conservatory,569225;537840,0.4332,39.07,70.202,needs_review,False,False,False
+relation/19755654,,558395,0.8706,2.071,3.173,agreement_candidate,False,False,False
+relation/21724638,Gates and Hillman Centers,573661,0.175,61.064,151.213,needs_review,False,False,False
+relation/21724639,Wean Hall,573661,0.1712,95.273,210.66,needs_review,False,False,False
+relation/2785563,Phipps Conservatory,569225;537840,0.9808,0.082,3.351,agreement_candidate,False,False,False
+way/1000419332,Tartans Pavilion,535331,0.2239,11.559,27.855,needs_review,False,False,False
+way/1001793197,,,0,,,no_independent_match,False,False,False
+way/1001941217,ANSYS Hall,550157,0.0159,94.704,200.662,needs_review,False,False,False
+way/1002531075,Morewood E-Tower,546903,0.2115,45.475,104.466,needs_review,False,False,False
+way/1002857138,Hall of the Arts,573710,0.4325,27.194,71.453,needs_review,False,False,False
+way/1007453778,Fifth and Clyde Residence Hall,,0,,,no_independent_match,False,False,False
+way/1010489527,Seoul Mart,562102,0.6887,0.836,2.629,needs_review,False,False,False
+way/1039908831,Highmark Center,561635,0.6597,6.822,20.358,needs_review,False,False,False
+way/118675283,Holy Spirit Byzantine Catholic Church,557848,0.1738,22.57,45.483,needs_review,False,False,False
+way/118675284,Holy Spirit Byzantine Church,557848,0.7412,5.809,17.029,needs_review,False,False,False
+way/1203786280,Forbes Beeler Apartments,563537,0.2017,35.049,85.225,needs_review,False,False,False
+way/1306720931,Starbucks,571982,0.1371,14.601,29.531,needs_review,False,False,False
+way/1511149577,,545933,0.0232,34.948,69.691,needs_review,False,False,False
+way/152567349,Fairfax Apartments,573837,0.7533,1.906,3.814,needs_review,False,False,False
+way/158307506,Rodef Shalom Congregation,567077,0.942,0.833,2.486,agreement_candidate,False,False,False
+way/166499085,,533653,0.8842,1.592,2.129,agreement_candidate,False,False,False
+way/166507535,Warwick Plaza,538059,0.8792,0.9,1.854,agreement_candidate,False,False,False
+way/166507536,,537287,0.3093,26.509,59.753,needs_review,False,False,False
+way/166507537,,537287,0.5844,13.466,35.465,needs_review,False,False,False
+way/166852448,,560379,0.7821,1.761,3.347,needs_review,False,False,False
+way/167498538,Park Plaza,555551,0.9045,0.563,6.545,agreement_candidate,False,False,False
+way/167499007,University Square,573664,0.7637,6.312,13.265,needs_review,False,False,False
+way/171843174,Chipotle,562798,0.7928,0.588,0.753,needs_review,False,False,False
+way/172171273,,570441,0.8167,1.664,6.753,agreement_candidate,False,False,False
+way/172290635,,539991,0.8337,1.785,9.713,needs_review,False,False,False
+way/172658859,,556378,0.6923,1.24,1.7,needs_review,False,False,False
+way/172658860,Pepper Space,571982,0.1832,15.898,31.556,needs_review,False,False,False
+way/172661098,Joseph Stern Building,571982,0.4119,3.89,15.068,needs_review,False,False,False
+way/172661493,,571982,0.2075,13.465,27.373,needs_review,False,False,False
+way/172662340,,543131,0.237,4.183,15.579,needs_review,False,False,False
+way/172662341,Union Grill,543131,0.2207,12.117,23.782,needs_review,False,False,False
+way/172944549,,551874,0.7325,1.052,1.388,needs_review,False,False,False
+way/172944551,,543231,0.8912,1.931,2.56,agreement_candidate,False,False,False
+way/173057615,Crêpes Parisiennes,567142,0.2127,8.558,16.789,needs_review,False,False,False
+way/173057616,,567142,0.2554,2.035,10.671,needs_review,False,False,False
+way/173057617,,567142,0.2351,4.017,13.115,needs_review,False,False,False
+way/173057618,"Michael J. Feigel, DMD LLC",567142,0.1852,9.834,18.904,needs_review,False,False,False
+way/173057992,,560369,0.7091,1.498,1.898,needs_review,False,False,False
+way/173058901,,567334;561945,0.7692,1.544,6.958,needs_review,False,False,False
+way/173059417,,571370,0.7326,1.563,3.684,needs_review,False,False,False
+way/173059419,,543498,0.7505,1.284,2.453,needs_review,False,False,False
+way/220799870,,552706,0.1638,19.191,54.307,needs_review,False,False,False
+way/27549961,Porter Hall,550157,0.3821,57.687,133.647,needs_review,False,False,False
+way/27550292,Scaife Hall,562184,0.3125,14.339,22.276,needs_review,False,False,False
+way/27551077,Hamerschlag Hall,531918,0.4672,19.407,39.315,needs_review,False,False,False
+way/27551590,Newell-Simon Hall,573661,0.1482,80.903,177.326,needs_review,False,False,False
+way/27574204,Hunt Library,554925,0.9375,0.874,2.013,agreement_candidate,False,False,False
+way/27574237,East Campus Garage,552706,0.7794,2.951,9.655,needs_review,False,False,False
+way/27574394,Cohon University Center,541832,0.9506,1.682,9.005,needs_review,False,False,False
+way/27574406,Purnell Center for the Arts,573661,0.1676,113.173,229.478,needs_review,False,False,False
+way/27574545,Doherty Hall,573661,0.2268,66.072,157.581,needs_review,False,False,False
+way/27574704,Warner Hall,544018,0.8241,0.262,5.569,agreement_candidate,False,False,False
+way/27574718,Cyert Hall,557814,0.8814,1.844,2.588,agreement_candidate,False,False,False
+way/27590641,Roberts Engineering Hall,531918,0.291,25.196,78.645,needs_review,False,False,False
+way/27590907,Baker Hall,550157,0.3908,53.806,99.092,needs_review,False,False,False
+way/27590940,Facilities Management Services Building,564135;560282,0.6008,4.508,19.927,needs_review,False,False,False
+way/27591069,Collaborative Innovation Center,562161,0.8722,2.551,4.335,agreement_candidate,False,False,False
+way/27591096,Hamburg Hall,556153,0.8193,3.249,10.867,needs_review,False,False,False
+way/27591104,Smith Hall,570776,0.8292,1.736,2.49,agreement_candidate,False,False,False
+way/27591225,College of Fine Arts,547189,0.9318,1.265,1.817,agreement_candidate,False,False,False
+way/27591241,Posner Hall,573710,0.4463,26.73,54.544,needs_review,False,False,False
+way/27591314,Margaret Morrison Carnegie Hall,573797,0.8954,0.917,10.189,needs_review,False,False,False
+way/27591346,Donner House,569642,0.9075,0.903,1.202,agreement_candidate,False,False,False
+way/27591351,West Wing,566181,0.8214,2.106,5.48,agreement_candidate,False,False,False
+way/27591352,Resnik House,535331,0.6481,5.192,14.802,needs_review,False,False,False
+way/27591450,Boss House,538892,0.9304,0.511,0.854,agreement_candidate,False,False,False
+way/27591456,McGill House,540494,0.9013,0.91,1.196,agreement_candidate,False,False,False
+way/27591466,Hamerschlag House,564418,0.9292,0.584,1.688,agreement_candidate,False,False,False
+way/27591482,Scobell House,540493,0.9582,0.223,0.448,agreement_candidate,False,False,False
+way/27591484,Welch House,568328,0.9718,0.296,0.468,agreement_candidate,False,False,False
+way/27591488,Henderson House,569463,0.9249,0.428,1.431,agreement_candidate,False,False,False
+way/27591497,Spirit House,561927,0.6758,1.829,3.293,needs_review,False,False,False
+way/27591503,Woodlawn Apartments,557231,0.8441,0.539,2.363,agreement_candidate,False,False,False
+way/27591583,,561318,0.8404,0.881,2.211,agreement_candidate,False,False,False
+way/27591588,,543154,0.7397,1.708,3.297,needs_review,False,False,False
+way/27591593,,536755,0.7305,1.77,3.302,needs_review,False,False,False
+way/27591602,Tech House,556682;570100,0.729,1.499,2.162,needs_review,False,False,False
+way/27591621,Delta Tau Delta House,547274,0.3649,14.265,28.067,needs_review,False,False,False
+way/27591646,Disability Resources,547274,0.5292,9.269,19.997,needs_review,False,False,False
+way/27591674,,552399,0.9265,0.527,0.53,agreement_candidate,False,False,False
+way/27591681,Margaret Morrison Apartments,564489,0.9186,0.314,0.93,agreement_candidate,False,False,False
+way/27591700,Stever House,548125,0.9408,0.49,4.68,agreement_candidate,False,False,False
+way/27591702,Mudge House C Building,556485,0.948,0.505,0.817,agreement_candidate,False,False,False
+way/27591703,Mudge House A Building,573819,0.4534,17.879,45.231,needs_review,False,False,False
+way/27591706,Mudge House B Building,573819,0.4105,21.726,43.619,needs_review,False,False,False
+way/27630030,,556379,0.7033,1.138,4.687,needs_review,False,False,False
+way/27630031,,540936,0.7935,1.227,2.431,needs_review,False,False,False
+way/27630032,,537699,0.6836,3.247,9.171,needs_review,False,False,False
+way/27630033,,566734,0.8079,0.798,3.446,agreement_candidate,False,False,False
+way/27630034,Alumni House,541728,0.7414,0.979,3.163,needs_review,False,False,False
+way/27630035,,556832,0.8222,1.42,3.3,agreement_candidate,False,False,False
+way/27630242,,542106;560134,0.462,9.109,12.629,needs_review,False,False,False
+way/27630262,,566007,0.8338,1.178,3.542,agreement_candidate,False,False,False
+way/27643470,99 Gladstone,540975,0.8178,0.684,1.389,agreement_candidate,False,False,False
+way/27643505,1094 Devon,568182,0.7355,1.408,3.107,needs_review,False,False,False
+way/27643509,Bramer House,537301,0.7122,1.649,2.237,needs_review,False,False,False
+way/31899525,Carnegie Museum of Art,533341,0.2444,88.417,138.132,needs_review,False,False,False
+way/34264357,PNC Bank,560848,0.8806,1.369,4.999,agreement_candidate,False,False,False
+way/44156182,,560435,0.3519,14.41,30.152,needs_review,False,False,False
+way/44156183,,546979,0.7574,1.071,4.926,needs_review,False,False,False
+way/44156184,Information Networking Institute,537501,0.7748,2.566,7.339,needs_review,False,False,False
+way/44157443,Carnegie Mellon University,543131,0.4984,7.274,15.419,needs_review,False,False,False
+way/44157444,Center for Technology Transfer and Enterprise Creation,543352,0.7859,3.11,3.582,needs_review,False,False,False
+way/534164154,,551069,0.9525,0.086,0.248,agreement_candidate,False,False,False
+way/543159678,,538556,0.7579,0.885,1.066,needs_review,False,False,False
+way/543159679,,535871,0.7341,0.958,1.235,needs_review,False,False,False
+way/543159680,,560435,0.5691,8.444,22.366,needs_review,False,False,False
+way/543159681,,568817,0.7462,0.249,1.858,needs_review,False,False,False
+way/543159682,,532167,0.644,1.175,2.567,needs_review,False,False,False
+way/543159683,,567322,0.6621,0.513,1.014,needs_review,False,False,False
+way/543159685,,567647,0.6971,1.218,4.094,needs_review,False,False,False
+way/543159687,,550562,0.905,0.265,1.784,agreement_candidate,False,False,False
+way/543159688,,540705,0.7536,0.947,2.754,needs_review,False,False,False
+way/543159689,,567141,0.7609,0.268,3.222,needs_review,False,False,False
+way/543159690,,552367,0.7621,0.955,1.456,needs_review,False,False,False
+way/543159691,,547055,0.7901,0.324,0.998,needs_review,False,False,False
+way/543159692,,556906,0.3959,2.568,4.785,needs_review,False,False,False
+way/543159693,,556160,0.7563,0.683,2.315,needs_review,False,False,False
+way/543159694,,534689,0.1955,5.917,20.14,needs_review,False,False,False
+way/543159695,,559468,0.4747,1.359,4.798,needs_review,False,False,False
+way/543159696,,568034,0.8059,0.538,0.925,agreement_candidate,False,False,False
+way/543159697,,534690,0.5019,1.662,2.853,needs_review,False,False,False
+way/543159698,,542423,0.8477,0.499,0.604,agreement_candidate,False,False,False
+way/543159699,,557444,0.7821,0.73,1.581,needs_review,False,False,False
+way/543159700,,546980,0.8533,0.097,1.696,agreement_candidate,False,False,False
+way/543159701,,569842,0.8391,0.791,1.343,agreement_candidate,False,False,False
+way/543159702,,560414,0.4178,2.269,5.098,needs_review,False,False,False
+way/543159703,,560414,0.3192,3.251,6.259,needs_review,False,False,False
+way/543159704,,534689,0.2304,3.739,15.333,needs_review,False,False,False
+way/543159705,,534689,0.1775,13.183,26.788,needs_review,False,False,False
+way/543159706,,567631,0.8898,0.288,1.05,agreement_candidate,False,False,False
+way/543159707,,534689,0.1262,13.192,27.204,needs_review,False,False,False
+way/544173491,,566696,0.8163,0.843,1.493,agreement_candidate,False,False,False
+way/544173496,,532378,0.6506,1.184,6.102,needs_review,False,False,False
+way/544173522,,553703,0.6746,0.555,2.352,needs_review,False,False,False
+way/544173533,,533438,0.8648,0.571,0.838,agreement_candidate,False,False,False
+way/544173568,,566297,0.8887,0.451,0.822,agreement_candidate,False,False,False
+way/544173578,,553704,0.706,1.621,4.645,needs_review,False,False,False
+way/544173584,,543424,0.9164,0.442,0.669,agreement_candidate,False,False,False
+way/544173587,,546435,0.8463,0.536,1.823,agreement_candidate,False,False,False
+way/544173588,,543482,0.8601,0.421,1.115,agreement_candidate,False,False,False
+way/544173599,,567913,0.8107,0.882,1.226,agreement_candidate,False,False,False
+way/544173601,,540888,0.8085,1.329,1.534,agreement_candidate,False,False,False
+way/544173613,,537145;547385;542408,0.5379,9.473,18.068,needs_review,False,False,False
+way/544173618,,552509,0.6771,1.623,4.334,needs_review,False,False,False
+way/544173620,,546042,0.7524,1.016,2.003,needs_review,False,False,False
+way/544173624,Pittsburgh Golf Club,573746,0.632,20.366,53.958,needs_review,False,False,False
+way/544173641,,557871,0.7449,1.319,1.766,needs_review,False,False,False
+way/544173654,,568970,0.5813,4.958,12.442,needs_review,False,False,False
+way/544173665,Pittsburgh Golf Club,573746,0.2917,45.823,75.164,needs_review,False,False,False
+way/544173680,,551467,0.7645,0.795,2.279,needs_review,False,False,False
+way/544173688,,547702,0.7465,0.865,2.09,needs_review,False,False,False
+way/544173689,,561998,0.7603,0.644,1.886,needs_review,False,False,False
+way/544173701,,545581;548922;551465;558467,0.9155,0.216,1.609,agreement_candidate,False,False,False
+way/544173702,,568935,0.7584,0.881,3.674,needs_review,False,False,False
+way/544173710,,561590,0.8544,0.609,1.086,agreement_candidate,False,False,False
+way/544173711,,572557,0.6206,1.081,2.631,needs_review,False,False,False
+way/544173714,,548341,0.7897,1.439,2.504,needs_review,False,False,False
+way/544173719,,563704,0.6447,0.451,1.493,needs_review,False,False,False
+way/544173721,,566110,0.7003,1.061,3.576,needs_review,False,False,False
+way/544173723,,542774,0.5872,0.911,6.929,needs_review,False,False,False
+way/544173729,,547025,0.7291,0.73,1.831,needs_review,False,False,False
+way/544173742,,562570,0.8095,0.5,0.896,agreement_candidate,False,False,False
+way/544173747,,560833,0.7032,0.913,1.752,needs_review,False,False,False
+way/544173749,,571251,0.7116,0.807,1.145,needs_review,False,False,False
+way/544173751,,541542,0.7468,0.732,2.861,needs_review,False,False,False
+way/544173759,,572168;543950;555475,0.8739,0.495,1.15,agreement_candidate,False,False,False
+way/544173779,,538814;566967;563091;534759;549793,0.8808,0.652,1.614,agreement_candidate,False,False,False
+way/544173787,,541341,0.853,0.12,2.105,agreement_candidate,False,False,False
+way/544173801,,543991,0.6671,0.402,3.297,needs_review,False,False,False
+way/544173803,,552510,0.7073,0.856,2.28,needs_review,False,False,False
+way/544173804,,531722,0.8255,0.156,0.607,agreement_candidate,False,False,False
+way/544173825,,562485,0.7425,1.493,3.327,needs_review,False,False,False
+way/544173836,,544480,0.6857,0.367,2.074,needs_review,False,False,False
+way/544173841,,568606,0.8475,0.47,0.612,agreement_candidate,False,False,False
+way/544173847,,543990,0.6695,1.396,3.472,needs_review,False,False,False
+way/544173848,,571252,0.8562,0.598,2.264,agreement_candidate,False,False,False
+way/544173859,,532789,0.6129,1.117,2.686,needs_review,False,False,False
+way/544173879,,533795,0.713,0.697,2.818,needs_review,False,False,False
+way/544173882,,,0,,,no_independent_match,False,False,False
+way/544173891,,549800,0.7339,1.275,1.746,needs_review,False,False,False
+way/544173893,,561451,0.7676,0.164,0.806,needs_review,False,False,False
+way/544173918,,564424,0.8254,0.707,2.961,agreement_candidate,False,False,False
+way/544173919,,545987,0.7824,0.31,1.084,needs_review,False,False,False
+way/544173961,,535276,0.7876,0.302,2.235,needs_review,False,False,False
+way/544173966,,571444,0.7603,0.945,3.014,needs_review,False,False,False
+way/544174002,,553948,0.7269,0.864,1.77,needs_review,False,False,False
+way/544174014,,571138,0.725,1.442,3.249,needs_review,False,False,False
+way/544174024,,531555,0.8443,0.488,0.829,agreement_candidate,False,False,False
+way/544174028,,556904,0.5493,1.042,1.741,needs_review,False,False,False
+way/544174030,,538669,0.8422,0.41,1.067,agreement_candidate,False,False,False
+way/544174033,,,0,,,no_independent_match,False,False,False
+way/544174034,,542884,0.7936,0.945,2.137,needs_review,False,False,False
+way/544174036,,561319,0.8973,0.722,1.353,agreement_candidate,False,False,False
+way/544174042,,539278,0.7119,0.252,1.34,needs_review,False,False,False
+way/544174046,,542687,0.8155,1.267,1.509,agreement_candidate,False,False,False
+way/544174050,,566772,0.8374,0.247,2.01,agreement_candidate,False,False,False
+way/544174054,,538147,0.7421,0.953,2.144,needs_review,False,False,False
+way/544174058,,532467,0.872,0.853,0.988,agreement_candidate,False,False,False
+way/544174062,B2,542769,0.7533,0.414,1.667,needs_review,False,False,False
+way/544174071,,566528,0.6479,0.692,1.021,needs_review,False,False,False
+way/544174077,,572400,0.7512,0.333,0.728,needs_review,False,False,False
+way/544174082,,562693,0.6513,0.769,2.632,needs_review,False,False,False
+way/544174084,,533439,0.8339,0.479,1.487,agreement_candidate,False,False,False
+way/544174100,,553377,0.7514,0.793,3.785,needs_review,False,False,False
+way/544174106,,533613,0.921,0.348,0.693,agreement_candidate,False,False,False
+way/544174107,,537843,0.5846,1.598,3.315,needs_review,False,False,False
+way/544174118,,,0,,,no_independent_match,False,False,False
+way/544174124,,556815,0.763,1.023,2.799,needs_review,False,False,False
+way/544174128,,542170,0.6451,0.803,1.685,needs_review,False,False,False
+way/544174129,B3,548980,0.7816,0.662,1.275,needs_review,False,False,False
+way/544174133,,563421,0.8277,0.321,0.908,agreement_candidate,False,False,False
+way/544174140,,543924,0.8497,0.672,1.591,agreement_candidate,False,False,False
+way/544174146,,568970,0.1197,12.268,20.594,needs_review,False,False,False
+way/544174152,,544869,0.8068,0.121,0.883,agreement_candidate,False,False,False
+way/544174156,,563179,0.7659,1.542,3.613,needs_review,False,False,False
+way/544174164,,532065,0.7495,0.771,1.843,needs_review,False,False,False
+way/544174167,,546791,0.7468,1.399,1.823,needs_review,False,False,False
+way/544174168,,562407,0.4895,1.147,1.452,needs_review,False,False,False
+way/544174173,,531752,0.7889,0.711,1.141,needs_review,False,False,False
+way/544174183,,548534,0.855,0.348,0.676,agreement_candidate,False,False,False
+way/544174187,,552736,0.8014,0.913,1.684,agreement_candidate,False,False,False
+way/544174188,,562503,0.8835,0.272,0.92,agreement_candidate,False,False,False
+way/544174196,,572546,0.801,0.605,1.607,agreement_candidate,False,False,False
+way/544174207,,537917,0.7782,1.627,4.086,needs_review,False,False,False
+way/544174208,,541987,0.6272,1.616,2.824,needs_review,False,False,False
+way/544174210,,532063,0.6265,0.9,2.485,needs_review,False,False,False
+way/544174211,,572906,0.6789,0.075,1.452,needs_review,False,False,False
+way/544174214,,542871,0.7734,0.996,4.909,needs_review,False,False,False
+way/544174216,,546379,0.6404,2.309,9.763,needs_review,False,False,False
+way/544174217,,548107,0.7371,0.843,3.49,needs_review,False,False,False
+way/544174222,,550947,0.878,0.219,1.238,agreement_candidate,False,False,False
+way/544174226,,571474,0.8124,0.469,2.328,agreement_candidate,False,False,False
+way/544174230,,566290,0.7589,1.728,3.965,needs_review,False,False,False
+way/544174233,,533649,0.5271,0.727,2.384,needs_review,False,False,False
+way/544174242,,552256,0.6624,0.923,3.433,needs_review,False,False,False
+way/544174245,,568166,0.8603,0.409,1.737,agreement_candidate,False,False,False
+way/544174253,,540969,0.8918,0.365,0.844,agreement_candidate,False,False,False
+way/544174257,,572690,0.5078,4.218,8.977,needs_review,False,False,False
+way/544174263,,560001,0.7957,0.225,1.822,needs_review,False,False,False
+way/544174270,,559209,0.8517,1.007,1.617,agreement_candidate,False,False,False
+way/544174271,,571836,0.5663,2.674,6.174,needs_review,False,False,False
+way/544174281,,543366,0.8075,0.669,1.931,agreement_candidate,False,False,False
+way/544174282,,557057,0.7879,0.863,3.729,needs_review,False,False,False
+way/544174290,,555557,0.8176,0.53,1.304,agreement_candidate,False,False,False
+way/544174299,,555975,0.7967,1.094,3.748,needs_review,False,False,False
+way/544174301,,551006,0.8091,0.655,3.091,agreement_candidate,False,False,False
+way/544174303,,538619,0.6179,1.576,6.013,needs_review,False,False,False
+way/544174313,,550572,0.731,0.971,1.687,needs_review,False,False,False
+way/544174316,,557327,0.7863,0.714,1.27,needs_review,False,False,False
+way/544174333,,543925,0.8019,0.159,2.575,agreement_candidate,False,False,False
+way/544174343,,551941,0.5876,1.663,4.668,needs_review,False,False,False
+way/544174344,,564992,0.7834,0.982,1.917,needs_review,False,False,False
+way/544174348,,552425,0.8131,1.25,5.328,agreement_candidate,False,False,False
+way/544174350,,,0,,,no_independent_match,False,False,False
+way/544174354,,538589,0.8607,0.731,3.184,agreement_candidate,False,False,False
+way/544174356,,545871,0.7358,1.755,1.711,needs_review,False,False,False
+way/544174364,,572803,0.826,0.516,1.386,agreement_candidate,False,False,False
+way/544174378,,571148,0.7176,0.988,3.87,needs_review,False,False,False
+way/544174389,,538782,0.7067,2.686,4.411,needs_review,False,False,False
+way/544174395,,537945,0.552,2.054,7.026,needs_review,False,False,False
+way/544174396,,565110,0.6922,2.409,3.038,needs_review,False,False,False
+way/544174407,,539807,0.8279,0.521,1.523,agreement_candidate,False,False,False
+way/544174416,,565723,0.7418,0.633,1.188,needs_review,False,False,False
+way/544174430,,570440,0.7797,0.759,2.183,needs_review,False,False,False
+way/544174433,,548463,0.822,0.164,3.678,agreement_candidate,False,False,False
+way/544174442,,552906,0.6785,0.844,1.3,needs_review,False,False,False
+way/544174445,,536826,0.7655,1.929,5.556,needs_review,False,False,False
+way/544174452,,570860,0.6611,2.27,5.1,needs_review,False,False,False
+way/544174460,,533755,0.8134,0.919,1.011,agreement_candidate,False,False,False
+way/544174464,,566875,0.7264,1.937,3.556,needs_review,False,False,False
+way/544174469,,542321,0.793,0.326,1.371,needs_review,False,False,False
+way/544174474,,531618,0.8413,0.209,0.622,agreement_candidate,False,False,False
+way/544174476,,553178,0.7866,0.494,0.844,needs_review,False,False,False
+way/544174481,,560349,0.7292,0.935,1.027,needs_review,False,False,False
+way/544174491,B1,542768,0.6655,1.029,2.419,needs_review,False,False,False
+way/544174492,,541331,0.3538,2.117,2.974,needs_review,False,False,False
+way/544174496,,563180,0.676,0.764,1.316,needs_review,False,False,False
+way/544174507,,546553,0.5912,0.835,1.559,needs_review,False,False,False
+way/544174511,,542874,0.8778,0.212,0.359,agreement_candidate,False,False,False
+way/544174515,,573192,0.7286,1.359,2.351,needs_review,False,False,False
+way/544174528,,555004,0.856,1.002,1.158,agreement_candidate,False,False,False
+way/544174531,,572380,0.5008,1.937,5.882,needs_review,False,False,False
+way/544174537,,569961,0.8161,0.522,2.025,agreement_candidate,False,False,False
+way/544174556,,571406,0.8272,0.388,1.502,agreement_candidate,False,False,False
+way/544174563,,543347,0.6716,1.426,1.946,needs_review,False,False,False
+way/544174564,,,0,,,no_independent_match,False,False,False
+way/544174580,,536685,0.6688,1.028,3.114,needs_review,False,False,False
+way/544174581,,542883,0.7428,0.778,1.658,needs_review,False,False,False
+way/544174595,,551119,0.8422,1.372,1.992,agreement_candidate,False,False,False
+way/544174598,,542774,0.0702,11.385,22.108,needs_review,False,False,False
+way/544174601,,534184,0.6438,1.048,1.485,needs_review,False,False,False
+way/544174604,,571658,0.6078,0.846,1.311,needs_review,False,False,False
+way/544174606,,544340,0.8028,0.144,1.564,agreement_candidate,False,False,False
+way/544174608,,542885,0.5443,0.854,1.19,needs_review,False,False,False
+way/544174609,,533290,0.566,1.031,2.725,needs_review,False,False,False
+way/544174610,,559212,0.7378,0.813,1.95,needs_review,False,False,False
+way/544174613,,540240;538395;540239,0.8196,0.908,1.92,agreement_candidate,False,False,False
+way/544174625,,537853,0.7647,0.578,2.599,needs_review,False,False,False
+way/544174627,,557157,0.8387,0.829,1.41,agreement_candidate,False,False,False
+way/544174630,,565294,0.7381,2.047,7.262,needs_review,False,False,False
+way/544174634,,573741,0.7566,1.487,4.561,needs_review,False,False,False
+way/544174638,,552424,0.7767,1.054,3.522,needs_review,False,False,False
+way/544174642,,565100,0.8174,0.55,0.6,agreement_candidate,False,False,False
+way/544174643,,535404,0.8246,0.994,5.68,agreement_candidate,False,False,False
+way/544174646,Park Mansions,552762,0.8213,1.011,5.693,agreement_candidate,False,False,False
+way/544174649,,572489,0.7629,0.531,1.783,needs_review,False,False,False
+way/544174651,,556135,0.7782,0.721,2.012,needs_review,False,False,False
+way/544174653,,533726,0.7478,1.083,2.684,needs_review,False,False,False
+way/544174655,,564314,0.8334,0.612,1.688,agreement_candidate,False,False,False
+way/544174658,,533725,0.8133,0.643,1.994,agreement_candidate,False,False,False
+way/544174660,,560391,0.7911,0.504,1.398,needs_review,False,False,False
+way/544174662,,564998,0.686,0.368,2.904,needs_review,False,False,False
+way/544174664,Alumni Hall,556273,0.9471,0.456,2.129,agreement_candidate,False,False,False
+way/544174666,,572166,0.7799,0.709,2.013,needs_review,False,False,False
+way/544174667,,534221,0.6725,0.954,3.528,needs_review,False,False,False
+way/544174668,,564999,0.7439,1.23,1.816,needs_review,False,False,False
+way/544174669,,534258,0.7328,0.521,2.701,needs_review,False,False,False
+way/544174671,Central Catholic High School,573784,0.8608,2.07,3.775,agreement_candidate,False,False,False
+way/544174672,The Brother's House,573796,0.8986,0.533,2.431,agreement_candidate,False,False,False
+way/544174673,WQED,569226,0.931,0.552,6.26,agreement_candidate,False,False,False
+way/544174675,Morewood Gardens,546903;555134,0.6543,12.473,32.983,needs_review,False,False,False
+way/545283419,,542696,0.8114,1.221,2.826,agreement_candidate,False,False,False
+way/545283426,,544676,0.6565,1.228,3.381,needs_review,False,False,False
+way/545283431,,533370,0.8234,0.316,1.009,agreement_candidate,False,False,False
+way/545283450,Fifth Neville Apartments,573814,0.8308,1.135,3.485,agreement_candidate,False,False,False
+way/545283494,Campus Design and Facility Development,568976,0.8318,1.806,2.696,agreement_candidate,False,False,False
+way/545283549,,573752,0.7908,4.755,20.645,needs_review,False,False,False
+way/545283551,,536692,0.775,2.338,2.523,needs_review,False,False,False
+way/545283627,,546906;562274;572868,0.721,2.958,5.633,needs_review,False,False,False
+way/545283674,,543235,0.7813,1.816,3.81,needs_review,False,False,False
+way/583510520,Tepper School of Business,541264,0.8071,5.651,22.066,needs_review,False,False,False
+way/739910512,Residence on Fifth,559769,0.8606,2.891,7.931,agreement_candidate,False,False,False
+way/853372508,,550748,0.3444,12.181,21.218,needs_review,False,False,False
+way/878747158,,564596,0.9418,0.199,0.47,agreement_candidate,False,False,False
+way/878747159,,541596,0.878,0.572,0.986,agreement_candidate,False,False,False
+way/879491687,Zupanic Family STEM Center,538875,0.9333,0.712,2.21,agreement_candidate,False,False,False
+way/946491335,TCS Hall,547129,0.0449,30.562,55.405,needs_review,False,False,False

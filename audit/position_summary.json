@@ -1,0 +1,16 @@
+{
+  "buildings_checked": 344,
+  "county_features": 355,
+  "agreement_candidates": 115,
+  "needs_review": 222,
+  "no_independent_match": 7,
+  "county_source": "https://gisdata.alleghenycounty.us/arcgis/rest/services/EGIS/Buildings/MapServer/0",
+  "county_snapshot_sha256": "6015c69e76d20f676873ec252d21d32b926061e41a508e77062ce28c0403842c",
+  "county_metadata_date": "not established; possible historical footprints",
+  "method": "Compare independent footprint datasets in UTM metres; union overlapping county parts. No automatic repositioning.",
+  "limits": [
+    "Agreement is not surveyed accuracy",
+    "A disagreement can reflect age, roof overhangs, extensions, or different segmentation",
+    "Building names, current state, facade and height are not validated by this comparison"
+  ]
+}
