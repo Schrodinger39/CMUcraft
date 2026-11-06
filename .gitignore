@@ -6,3 +6,7 @@ __pycache__/
 .DS_Store
 build/
 dist/
+
+*.before-dimension-fix
+*.repairing
+*.class

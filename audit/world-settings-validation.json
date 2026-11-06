@@ -1,0 +1,20 @@
+[
+  {
+    "save": "CMUcraft-Campus-Preview",
+    "vanilla_1_16_5_codec": "Stable",
+    "decode_errors": false,
+    "client_load_verified": false
+  },
+  {
+    "save": "CMUcraft-Hunt-Detail-Preview",
+    "vanilla_1_16_5_codec": "Stable",
+    "decode_errors": false,
+    "client_load_verified": false
+  },
+  {
+    "save": "world",
+    "vanilla_1_16_5_codec": "Stable",
+    "decode_errors": false,
+    "client_load_verified": false
+  }
+]

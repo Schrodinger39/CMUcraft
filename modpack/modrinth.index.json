@@ -1,9 +1,9 @@
 {
   "formatVersion": 1,
   "game": "minecraft",
-  "versionId": "0.3.0-workbench",
+  "versionId": "0.3.0-preview",
   "name": "CMUcraft Architecture Workbench",
-  "summary": "Chris Yu | CMU reconstruction tools; campus geometry audit in progress",
+  "summary": "CMUcraft development preview with Xaero maps; detailed Hunt specimen and legacy campus comparison",
   "files": [
     {
       "path": "mods/chiselsandbits-1.0.63.jar",
@@ -49,6 +49,51 @@
         "https://cdn.modrinth.com/data/uXXizFIs/versions/6gwDuh90/ferritecore-2.1.1-forge.jar"
       ],
       "fileSize": 108557
+    },
+    {
+      "path": "mods/xaerominimap-forge-1.16.5-26.6.0.jar",
+      "hashes": {
+        "sha512": "bc6c5d5999d83f02337b245cd984f4a51b704732dea51326a9ac9687418016c9c27f6e982b34ed3198f9a316591a4bd211e8582579018199a6a749edba46f7a7",
+        "sha1": "396b19cdc186fb90c8251484b334f757edcd39a6"
+      },
+      "env": {
+        "client": "required",
+        "server": "optional"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/1bokaNcj/versions/VLhkjJMS/xaerominimap-forge-1.16.5-26.6.0.jar"
+      ],
+      "fileSize": 1609735
+    },
+    {
+      "path": "mods/xaeroworldmap-forge-1.16.5-1.47.0.jar",
+      "hashes": {
+        "sha512": "45e2dcf373d96547d69894c6b3c00c16b83b92016a671f9aa4a3667bf14ee435d248d3f42f715f63a77f253fca8b2c8e7b4903dfbfdbc243809160aec32b4f6b",
+        "sha1": "3e69a710f62f29328bd6e0f927d3886690ee29fc"
+      },
+      "env": {
+        "client": "required",
+        "server": "optional"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/NcUtCpym/versions/J0hzkJuC/xaeroworldmap-forge-1.16.5-1.47.0.jar"
+      ],
+      "fileSize": 816163
+    },
+    {
+      "path": "mods/xaerolib-forge-1.16.5-1.7.3.jar",
+      "hashes": {
+        "sha1": "1ca9cf01b38b27c09abb6e81d611372cc90328dc",
+        "sha512": "6dc4809c0dfec6d16a42058df37cecdb459e770e66efb4daaca6601df8b88ac0469125095c44fc87bbdb09afed41a8b3f4c6a6ffd1bd2ba57fbb0fb468689f0b"
+      },
+      "env": {
+        "client": "required",
+        "server": "optional"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/ZaQIxZKn/versions/EzhXlKLk/xaerolib-forge-1.16.5-1.7.3.jar"
+      ],
+      "fileSize": 546977
     }
   ],
   "dependencies": {

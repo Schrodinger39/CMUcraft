@@ -1,0 +1,31 @@
+{
+  "mods": [
+    {
+      "file": "mods/chiselsandbits-1.0.63.jar",
+      "integrity_passed": true
+    },
+    {
+      "file": "mods/worldedit-mod-7.2.5-dist.jar",
+      "integrity_passed": true
+    },
+    {
+      "file": "mods/ferritecore-2.1.1-forge.jar",
+      "integrity_passed": true
+    },
+    {
+      "file": "mods/xaerominimap-forge-1.16.5-26.6.0.jar",
+      "integrity_passed": true
+    },
+    {
+      "file": "mods/xaeroworldmap-forge-1.16.5-1.47.0.jar",
+      "integrity_passed": true
+    },
+    {
+      "file": "mods/xaerolib-forge-1.16.5-1.7.3.jar",
+      "integrity_passed": true
+    }
+  ],
+  "all_integrity_checks_passed": true,
+  "runtime_compatibility_verified": false,
+  "note": "Checks bytes only. Launch, save/reload and multiplayer require separate tests."
+}

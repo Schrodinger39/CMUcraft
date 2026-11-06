@@ -4,6 +4,10 @@ A Minecraft Java reconstruction of Carnegie Mellon University's Pittsburgh campu
 
 **Contributor: Chris Yu ([Schrodinger39](https://github.com/Schrodinger39)).**
 
+## Current playable preview
+
+[Download v0.3.0-preview](https://github.com/Schrodinger39/CMUcraft/releases/tag/v0.3.0-preview) for the detailed Hunt specimen, legacy campus comparison, and pinned Xaero maps. This is a development preview. The known experimental world-settings defect is repaired; a full Forge client walkthrough is still pending.
+
 ## Reconstruction status: revision in progress
 
 **v0.2 was rejected during the campus walkthrough for poor recognizability. It is a legacy reference, not the requested realistic campus.** No replacement campus is certified yet. The current workbench contains construction tools and a scale calibration world, not completed realistic buildings.
@@ -30,7 +34,7 @@ A **1024 × 1024 metre Java 1.16.5 world**, generated from real OpenStreetMap fo
 | Elevated bridge segments | 12 |
 | Mapped trees | 337 |
 | Generated chunks | 4,096 |
-| Tests | 48 passed locally (including survey units and external chunk storage) |
+| Tests | 51 passed locally (including survey units, dimension repair and external chunk storage) |
 | Whole-world audit | All 4,096 chunk records decoded; palette indices and region allocation checked |
 
 **This is a runnable architectural approximation, not a finished survey-grade replica.** Footprints and route geometry are real source data. Building heights derived from floors, facade rhythms, roof shapes, bridge elevations, and interiors are estimates. The 2022 CMU inventory is historical. A full realistic reconstruction still needs current exterior references, measured heights, detailed building parts, interior plans, and game walkthroughs.
@@ -98,3 +102,7 @@ The original 256 m view omitted most campus context. The new overview includes T
 ## License
 
 Original code and documentation: MIT. OSM data and derived databases: ODbL 1.0, © OpenStreetMap contributors. USGS terrain is US government geospatial data. The code license does not relicense source datasets. See [DATA_LICENSE.md](DATA_LICENSE.md).
+
+## Development journal
+
+[开发记录 / Chinese development journal](DEVLOG.md) records setbacks, fixes, evidence and unfinished work. The journal is intentionally in Chinese; the rest of the project documentation remains in English.

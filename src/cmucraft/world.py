@@ -62,10 +62,12 @@ def level_file(path,spawn,size):
             n.Compound({'height':n.Int(1),'block':n.String('minecraft:grass_block')})]),
         'structures':n.Compound({'structures':n.Compound({})})})})
     dimensions=n.Compound({'minecraft:overworld':n.Compound({'type':n.String('minecraft:overworld'),'generator':flat})})
-    for dim in ('the_nether','the_end'):
+    for dim,settings in [('the_nether','nether'),('the_end','end')]:
+        biome_source=n.Compound({'type':n.String('minecraft:multi_noise' if dim=='the_nether' else 'minecraft:the_end'),'seed':n.Long(0)})
+        if dim=='the_nether':biome_source['preset']=n.String('minecraft:nether')
         dimensions['minecraft:'+dim]=n.Compound({'type':n.String('minecraft:'+dim),'generator':n.Compound({
-            'type':n.String('minecraft:noise'),'seed':n.Long(0),'settings':n.String('minecraft:'+dim),
-            'biome_source':n.Compound({'type':n.String('minecraft:fixed'),'biome':n.String('minecraft:nether_wastes' if dim=='the_nether' else 'minecraft:the_end')})})})
+            'type':n.String('minecraft:noise'),'seed':n.Long(0),'settings':n.String('minecraft:'+settings),
+            'biome_source':biome_source})})
     rules={'doDaylightCycle':'false','doWeatherCycle':'false','doMobSpawning':'false',
            'doFireTick':'false','randomTickSpeed':'0','keepInventory':'true'}
     data=n.Compound({'DataVersion':n.Int(2586),'version':n.Int(19133),

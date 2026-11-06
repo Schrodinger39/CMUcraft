@@ -87,3 +87,15 @@ def test_block_entity_position_guards(tmp_path):
     entity['x']=nbtlib.Int(1)
     with pytest.raises(ValueError,match='Duplicate'):
         write_world(volume,['minecraft:air'],tmp_path/'duplicate',[0,1,0],extra_entities=[entity,entity])
+
+
+def test_standard_secondary_dimension_settings(tmp_path):
+    from cmucraft.world import level_file
+    level_file(tmp_path,[8,33,8],32)
+    dims=nbtlib.load(tmp_path/'level.dat')['Data']['WorldGenSettings']['dimensions']
+    nether=dims['minecraft:the_nether']['generator'];end=dims['minecraft:the_end']['generator']
+    assert str(nether['settings'])=='minecraft:nether'
+    assert str(nether['biome_source']['type'])=='minecraft:multi_noise'
+    assert str(nether['biome_source']['preset'])=='minecraft:nether'
+    assert str(end['settings'])=='minecraft:end'
+    assert str(end['biome_source']['type'])=='minecraft:the_end'
