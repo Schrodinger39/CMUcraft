@@ -41,5 +41,10 @@ The builder uses the committed roof-fit parameters. To refit from the survey, fo
 | `campus_artifacts/` | Legacy full-campus outputs. |
 | `modpack/` | Pinned mod downloads, portable workbench and upstream credits. |
 
-Start with the [code and file guide](CODE_GUIDE.md). The [reconstruction requirements](RECONSTRUCTION.md) define acceptance; the [development journal](../DEVLOG.md) explains setbacks and decisions. The journal is in Chinese; contributor-facing documentation and code comments are in English.
+Start with the [code and file guide](CODE_GUIDE.md). The [reconstruction requirements](RECONSTRUCTION.md) define acceptance; the [development journal](../DEVLOG.md) explains setbacks and decisions. The journal, contributor-facing documentation and code comments are in English.
 
+## Building Kit tools
+
+See [BUILDER-MAINTENANCE.md](BUILDER-MAINTENANCE.md) for `python -m cmucraft.building_kit` create, unpack, plan and stage commands. Builders do not run these tools. Tests use synthetic saves plus the existing pipeline suite; runtime checks are tracked separately.
+
+Maintainers with GitHub label permissions can run `python scripts/setup_builder_labels.py` after authenticating `gh`. It creates missing labels from `.github/builder-labels.json` and does not overwrite existing labels. Forms work even when labels are unavailable.

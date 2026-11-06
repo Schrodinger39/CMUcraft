@@ -73,9 +73,11 @@ For code, installation and reproduction commands, read [Developer setup](docs/DE
 
 ## Contributing
 
+**Minecraft Builders: [build one building without Python or Git](docs/BUILDERS.md).** Request a kit through a Building claim, build in your own save, and submit a ZIP through the Building submission form. The [example kit](building-kits/README.md) is available for inspection; client checks remain open.
+
 Contributions to campus models, geographic data, generation tools and testing are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) for the development and review workflow, and [Future Plans](ROADMAP.md) for the project's direction.
 
-Use issues to discuss substantial changes and pull requests to submit work. There is no shared build server yet; models are developed in separate saves before integration.
+Use issues to coordinate buildings and submit saves; use pull requests for code and documentation. There is no shared build server yet; models are developed in separate saves before integration.
 
 ## Where to read more
 
@@ -83,6 +85,9 @@ Each document has a specific job:
 
 | Document | Use it when you want to… |
 | --- | --- |
+| [Builder guide](docs/BUILDERS.md) | Claim a building, open a kit and submit a save without coding |
+| [Kit maintenance](docs/BUILDER-MAINTENANCE.md) | Generate kits, review changes and stage imports safely |
+| [Builder compatibility](docs/BUILDER-COMPATIBILITY.md) | See evidence and unverified client tests |
 | [Contribution guide](CONTRIBUTING.md) | Choose how to help, coordinate work and submit a contribution |
 | [Future plans](ROADMAP.md) | Read the broader development priorities |
 | [Launcher guide](docs/LAUNCHERS.md) | Install the preview using your launcher or troubleshoot setup |
@@ -91,7 +96,7 @@ Each document has a specific job:
 | [Code and file guide](docs/CODE_GUIDE.md) | Understand implementation details and data formats |
 | [Survey guide](docs/SURVEY.md) | Download/process lidar and reproduce the roof evidence |
 | [Reconstruction requirements](docs/RECONSTRUCTION.md) | Understand what must be checked before a building is accepted |
-| [Development journal](DEVLOG.md) | Read the history of setbacks and decisions, in Chinese |
+| [Development journal](DEVLOG.md) | Read the history of setbacks and decisions |
 
 ## Credits and licensing
 

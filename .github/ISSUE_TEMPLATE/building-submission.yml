@@ -1,0 +1,54 @@
+name: Building submission
+description: Submit a complete save or a tested plain-block schematic for review.
+title: "[Building submission] "
+labels: [ready-for-review, needs-client-test]
+body:
+  - type: input
+    id: claim
+    attributes:
+      label: Confirmed claim URL
+    validations:
+      required: true
+  - type: textarea
+    id: files
+    attributes:
+      label: Save ZIP or agreed download link and original kit.json
+      description: Close Minecraft before zipping. Keep all .mca and .mcc files. Do not include launcher accounts or JARs.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Exact game, Forge and mod versions; use of Chisels & Bits
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Screenshots, references, dimensions and coordinate bounds
+      description: Show every facade, roof, context and detail close-ups. For schematics record selection corners and copy/paste anchors.
+    validations:
+      required: true
+  - type: textarea
+    id: tests
+    attributes:
+      label: Tests run, tests not run, and known problems
+      description: Include save/quit/reload, collision and any schematic round trip. Screenshots alone do not prove persistence.
+    validations:
+      required: true
+  - type: textarea
+    id: rights
+    attributes:
+      label: Credit name and redistribution permission
+      description: Identify original work and third-party references/permissions. State permission to distribute your original build with CMUcraft; do not relicense third-party assets.
+    validations:
+      required: true
+  - type: checkboxes
+    id: complete
+    attributes:
+      label: Delivery checks
+      options:
+        - label: I kept the original save and included a full save if using Chisels & Bits.
+          required: true
+        - label: I disclosed changes outside the reservation and any added dependencies.
+          required: true

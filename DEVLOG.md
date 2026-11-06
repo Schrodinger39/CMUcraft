@@ -1,101 +1,144 @@
-# CMUcraft 开发记录
+# CMUcraft development journal
 
-这里记录项目实际做到了哪里，哪里走了弯路，以及问题是怎么查出来的。未验证的东西会直接写出来，不把“脚本跑完了”当成“地图做好了”。
+This journal records what actually works, wrong turns, and how problems were found.
+Unverified behavior stays explicit. A completed script is not a completed campus.
 
-## 2026-11-05｜先承认第一版的问题
+## 2026-11-05 — Acknowledging the first version's problems
 
-第一版有了校园的轮廓，也能作为 Minecraft 存档打开，但离想要的效果差得很远。最直接的反馈是：作为在这里上学的人，进去以后还要打开地图，才能大概判断自己在哪里。
+The first version had the campus outline and could be opened as a Minecraft save,
+but it was far from the intended result. The clearest feedback was that a student
+who studies here still needed the map to work out where they were.
 
-这说明问题不只是少了几扇窗。楼高、楼体之间的关系、颜色和建筑本身的特征都影响辨认。把真实 footprint 拉高，再套上类似的窗户，并不能算复刻校园。v0.2 保留作比较，但不再当作完成版。
+This was more than missing windows. Heights, relationships between buildings,
+colors and distinctive architecture all affect recognition. Extruding real
+footprints and applying generic windows does not recreate campus. Version 0.2
+remains a comparison, not a finished map. A daily commit-count target was also
+explicitly dropped: accuracy matters more than splitting work into more commits.
 
-原来还考虑过今天的提交次数。后来明确取消了这个目标。现在更在意的是改动有没有让地图更准确，而不是把一件事拆成多少次 commit。
+### Position checks need an independent source
 
-### 位置不能只和自己的输入比较
+Checking whether exported cells stay inside their input OSM outlines detects
+projection and rasterization errors, but cannot prove that OSM itself is correct.
+County building outlines were added as an independent comparison. Some county
+records combine connected buildings into one outline; a large centroid difference
+is not a reason to move one building. The Wean complex needs this individual review.
+The 41 named-building records are reference packets, not 41 accepted models.
 
-旧地图有一项检查：导出的建筑格子是否落在原始 OSM 轮廓里。这能找出坐标转换和栅格化的问题，却不能证明 OSM 本身就对。
+### Heights need more than floor counts
 
-因此又加入了县里的建筑轮廓作对照。这里也遇到一个坑：县数据有时把相连的几个楼体算成一个大轮廓。直接比较中心点，会得到很大的偏差，但不能因此把单栋楼搬过去。Wean 所在的复杂楼群就需要这样单独看。
+Floor-based estimates were especially poor on sloped ground. An inventory entry
+such as `4+5` cannot simply mean four floors. Earlier models oversimplified the
+parts and ground levels of Wean and Purnell.
 
-目前保留了 41 栋重点建筑的来源记录和核对项。这些是待核对的资料包，不是 41 栋已经验收完成。
+A USGS service repeatedly rate-limited downloads, leaving partial files that were
+not used as valid measurements. After obtaining 2019–2020 data, complete 2024 data
+was found through Pennsylvania PASDA. Two details mattered:
 
-### 高度数据终于不再只靠猜楼层
+- Both horizontal coordinates and elevations use US survey feet. Elevations need
+  their own `1200 / 3937` conversion; reprojection alone does not convert them.
+- The files do not provide a separate classified building population. Unclassified
+  points may include trees. They are surface candidates, not automatically roofs.
 
-最开始用楼层数估计高度，这对坡地上的校园尤其不合适。清单里的 `4+5` 也不能随手当作四层。Wean 和 Purnell 的不同楼体、不同地面高度，都被之前的做法简化得太多。
+The earlier LAZ decoder could not read this compression version. Laszip decoded
+it successfully. Sources, hashes, unit conversions and reproduction steps were kept.
 
-下载新点云时，USGS 的一个服务反复限流，部分文件只下载了一截。那些文件没有当作有效测量使用。后来先拿到了 2019—2020 年的数据，又找到了宾州 PASDA 提供的 2024 年完整数据。
+### Hunt became a specific detailed specimen
 
-新数据还有两个容易漏掉的问题：
+Hunt was developed as a separate preview for inspection, not as evidence that the
+whole campus had been rebuilt. Aerial roof imagery appeared displaced from the OSM
+outline, but 2024 point-cloud building edges mostly agreed with it. The building
+was not shifted to match the aerial roof: image displacement, eaves and ground
+footprints need separate interpretation.
 
-- 水平坐标和高度都是美国测量英尺。高度必须单独乘以 `1200 / 3937`，不能以为换了地图投影就一起变成米了。
-- 这批文件没有单独分好的建筑类别。未分类点里可能混着树木，不能直接叫它们“屋顶”。现在明确把它们叫作表面候选点，再结合轮廓和照片判断。
+The first roof trial used per-cell measured heights and looked fragmented. It was
+replaced with separate lower flat and upper hipped roof models. Held-out measurement
+cells gave a median fit error of about 6.5 cm and a 95th percentile around 22.4 cm.
+These are model-to-measurement differences, not an accuracy guarantee for the building.
 
-另外，原先用的 LAZ 解码器读不了这批文件的压缩版本。换成 Laszip 后才完整读通。下载来源、文件哈希、单位换算和重跑方法都留在了仓库里。
+Silver vertical members, recessed glass, horizontal frames and a bronze-brown
+entrance canopy were added at 1/16-block detail. Blue nighttime lighting in photos
+was not interpreted as blue wall material. Some frame and entrance dimensions remain
+photo estimates. Facades are not fully reviewed, and the preview is an external
+geometry render, not an in-game screenshot. Materials, collisions and reload behavior
+still require client checks.
 
-### Hunt：终于有了一栋具体的精修样板
+### Detailed geometry exposed a storage limit
 
-Hunt 先做成了独立预览，方便检查，不代表整个校园已经重做完了。
+Some detailed chunks exceeded the internal region-file capacity. The exporter now
+uses Minecraft's external `.mcc` data streams with a stub in `.mca`. Regression tests
+and exported-chunk read-back were added. Save transfers must retain sidecars.
+Hunt's 64 exported chunks passed storage checks; this did not validate the mod runtime.
 
-航拍图里，屋顶和 OSM 轮廓看起来有明显偏移。一开始很容易以为建筑位置错了。但 2024 点云中的楼体边缘与轮廓基本吻合，所以没有直接按航拍屋顶去平移整栋楼。影像中的屋顶偏移、屋檐和地面轮廓需要分开判断。
+### The experimental-settings warning had a concrete cause
 
-第一个屋顶试验直接用了逐格测量高度，结果很难看，出现了零碎的高低块。后来改成低处的平屋顶和上方的四面坡屋顶分别建模。用留出的测量格子检查，屋顶拟合误差中位数约 6.5 cm，95% 分位约 22.4 cm。这只是模型与测量的差，不是整栋楼精度的保证。
+The warning was not hidden with another mod. The generator had used fixed biomes
+for Nether/End and the incorrect noise-setting IDs `minecraft:the_nether` and
+`minecraft:the_end`. Those settings should be `minecraft:nether` and `minecraft:end`,
+with standard biome sources.
 
-外墙加入了银色竖向构件、内凹玻璃、横向窗框和棕铜色入口雨棚。细节做到 1/16 方块。照片里的蓝色夜间灯光没有被当成蓝色墙面。
+Minecraft 1.16.5's own parser reported unknown settings and Experimental status for
+the old data. Corrected data parsed as Stable. This did not start a server or change
+the server EULA. The repair script backs up files and only fixes this known defect.
+The delivered preview uses corrected copies without overwriting previously played
+saves. Remaining Forge-client warnings must be checked in the actual client.
 
-目前仍不满意的地方也很明确：部分窗框和入口尺寸还是根据照片估计的；各立面没有全部验收；预览图是从导出的几何画出来的，不是游戏截图。实际材质、碰撞和重新读档后的表现还要进游戏确认。
+### The preview gained Xaero maps
 
-### 细节多了以后，存档也出了新问题
+Xaero's Minimap 26.6.0, World Map 1.47.0 and required XaeroLib 1.7.3 were added using
+Forge 1.16.5 files. Published hashes, declared dependency ranges and JAR integrity
+were checked. Maps reveal areas as the player explores; an initially empty map is
+not itself a fault. The legacy full-campus world and detailed Hunt preview have
+separate names so one building's progress is not presented as a finished campus.
 
-精修楼体让部分区块超过了普通区域文件内部能容纳的大小，最初导出因此报错。修复后，大区块使用 Minecraft 支持的 `.mcc` 外部数据文件，`.mca` 里保留索引。
+### Remaining work at that point
 
-这个问题加了测试，也重新读回了导出的区块。以后分享存档时，不能只拷贝 `.mca`，把旁边的 `.mcc` 漏掉。Hunt 这次导出的 64 个区块通过了存储检查，但这仍然不等于模组已经在客户端通过测试。
+- Test the intended mod profile, Hunt rendering, collisions and save/reload.
+- Resolve building heights, segmentation, colors and facade details individually.
+- Check slopes, bridges and entrances together.
+- Review the full campus in-game before describing a finished release.
 
-### “实验性设置”提示查到了具体原因
+An explicitly failed experiment is more useful here than an unsupported success claim.
 
-截图中的提示不是靠装一个隐藏提示的模组解决的。
+## 2026-11-05 — Making the project easier to continue
 
-之前的生成器把下界和末地写成了固定生物群系，还把噪声设置名称写成了 `minecraft:the_nether` 和 `minecraft:the_end`。这里正确的设置名称应是 `minecraft:nether` 和 `minecraft:end`，生物群系来源也要使用对应的标准类型。
+The README was reorganized around the project goal, current preview and entry points
+for playing, running tools and contributing. Legacy campus and Hunt remained distinct.
+Contribution guidance and building-review, bug, participation and PR templates were
+added. Photos, entrance locations, window patterns and reload checks do not require code.
 
-用 Minecraft 1.16.5 自己的解析器检查旧文件，确实报了未知设置，状态是 Experimental。修正后，同一个检查能正常解析，状态变成 Stable。检查没有启动服务器，也没有修改服务器 EULA。
+Dense statements were reformatted. Forty Python files received module documentation,
+and functions and complex operations received English explanations, especially axes,
+metres/feet, array order, NBT packing and large-chunk storage. The Java checker gained
+comments. JSON, images and worlds were explained in the file guide without altering
+raw measurements to insert comments.
 
-修复脚本只处理这个已知问题，修改前保存备份。当前交付的预览使用修正后的副本，不覆盖原来玩过的存档。Forge 客户端最后是否还有其他提示，要以实际打开的结果为准。
+An AST comparison found no logic changes from formatting/documentation. Fifty-one
+tests passed and the small map rebuilt. This established that cleanup preserved the
+workflow, not that architectural quality improved. The repository was still private
+at this stage; documentation did not itself provide public access or a server.
 
-### 当前预览加上 Xaero 地图
+## 2026-11-05 — Explaining the motivation
 
-加入 Xaero's Minimap 26.6.0、World Map 1.47.0 和它们必需的 XaeroLib 1.7.3。下载的是 Forge 1.16.5 对应版本，核对了发布方提供的哈希、模组声明的依赖范围和 JAR 完整性。
+The introduction was simplified: rebuilding CMU is fun, and might eventually help
+new students explore campus. Navigation remains a goal, not a present guarantee.
+The onboarding review removed the implication that everyone needs HMCL or Python.
+Launcher-format support was separated from actual pack testing. This was a maintainer
+review of likely friction, not a user study.
 
-地图会随着探索逐渐显示。刚打开时没有整张校园地图，不代表地图模组坏了。
+## 2026-11-05 — Publishing the repository
 
-这次提供两个清楚命名的入口：完整校园的旧版预览，以及 Hunt 精修预览。这样可以先看到现有成果，也不会把一栋楼的进展包装成整个校园已经完成。
+Contribution guidance became a direct collaboration process. Future Plans was grouped
+around reconstruction, playing, collaboration and validation. Before publication,
+common secret patterns and sensitive filenames in history, plus account/log/game-binary
+paths in release packages, were checked without finding those issues. Commits used a
+GitHub noreply address. This was a scoped check, not a complete security audit.
+The owner authorized making the repository public and enabling Issues. Publication
+did not imply acceptance of client behavior, multiplayer or architectural fidelity.
 
-## 接下来还欠的事
+## 2026-11-05 — Builder contribution workflow
 
-- 在指定 HMCL 配置里实测模组加载、Hunt 显示、碰撞，以及保存退出后重新进入。
-- 逐栋解决剩余建筑的高度、楼体分段、颜色和立面细节。
-- 继续核对坡地、桥和建筑入口之间的连接。
-- 做真正的全校园位置和外观验收，再谈完成版。
-
-这份日志不是“已经全部解决”的清单。能在这里留下一个明确失败的试验，比只写“效果很好”更有用。
-
-## 2026-11-05｜把项目整理成别人能接手的样子
-
-README 重新写成了面向新参与者的介绍。现在先说明项目想做什么、预览做到哪里，再给出试玩、运行代码和参与开发的入口。完整校园旧版与 Hunt 样板仍然分开说明，避免让刚来的同学误以为整个校园已经精修完成。
-
-补了贡献指南、可以分开认领的任务，以及建筑核对、问题反馈、参与申请和 PR 模板。不写代码也可以帮忙：照片、入口位置、窗户排列和存档重进测试都需要有人实际核对。
-
-原先代码中有不少很挤的单行语句，这次拆开了。40 个 Python 文件补了模块说明，函数和复杂计算加入了英文解释；坐标轴、米和英尺、数组顺序、NBT 位运算和大区块存储是重点。Java 检查工具也补了说明。不能加注释的 JSON、图片和存档，由文件指南解释格式和用途，没有改动原始测量文件来塞注释。
-
-这轮修改核对了 Python 的语法树：排版和说明改变了，程序逻辑没有改变。51 项测试通过，小范围地图也重新构建成功。这些检查只说明整理代码没有破坏现有流程，不代表地图质量突然提高了。
-
-仓库目前仍是私有。协作入口已经准备好，但未受邀的人暂时看不到项目；公开发布和公开服务器不是改完 README 就自动完成的事。
-
-## 2026-11-05｜把“为什么做”说清楚
-
-项目的出发点重新写得简单了一些：把 CMU 搬进 Minecraft，首先是因为好玩，也希望以后能让刚来这里的人提前逛逛校园。校园导览还是目标，当前地图不能当作可靠导航。
-
-从第一次来看项目的同学角度检查了一遍说明：不应该要求每个人都用 HMCL，也不应该让想看地图的人误以为必须先装 Python。README 现在区分试玩、提供观察和改代码，并给了一个不需要写代码的起点。新增的启动器说明区分了格式支持与实际测试，另一份参与门槛记录列出了尚未解决的问题。这只是一次文档检查，不是假装已经做过用户测试。
-
-## 2026-11-05｜公开项目
-
-贡献指南重新改成了直接的协作说明，去掉了教学式任务清单。Future Plans 按校园重建、试玩体验、协作开发和工具验证组织，不再把计划拆成某栋楼的细碎部件。
-
-公开前检查了提交历史中的常见密钥特征和敏感文件名，以及发布包中的账号文件、日志和游戏程序路径，没有发现这些问题。提交邮箱使用 GitHub noreply 地址。这是一次有范围的检查，不是完整安全审计。随后按项目负责人的授权把仓库改为 Public，并启用 Issues。地图仍是开发预览，公开并不代表客户端、联机或建筑外观已经验收完成。
+Added kit generation from an existing campus snapshot, a coordinate-preserving
+whole-chunk staging path, claim/submission forms, English Builder instructions and
+an explicit client-test matrix. The workflow keeps original saves and rejects stale
+target chunks. Schematic compatibility for Chisels & Bits remains unverified.
+The journal is now in English along with the other contributor documentation.

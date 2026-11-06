@@ -1,0 +1,39 @@
+name: Building claim
+description: Request a building and a starter kit; no Python or Git needed.
+title: "[Building claim] "
+labels: [building-request, needs-client-test]
+body:
+  - type: input
+    id: building
+    attributes:
+      label: Building name or reference ID
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Proposed work and references
+      description: Exterior, roof, sources, estimated time, and any neighboring work.
+    validations:
+      required: true
+  - type: dropdown
+    id: details
+    attributes:
+      label: Will you use Chisels & Bits?
+      options:
+        - Not sure yet
+        - Yes
+        - No
+  - type: input
+    id: credit
+    attributes:
+      label: Preferred credit name (optional)
+  - type: checkboxes
+    id: agreement
+    attributes:
+      label: Before starting
+      options:
+        - label: I will wait for a maintainer to confirm my claim, reserved chunks and kit link.
+          required: true
+        - label: I understand the current kit and mod runtime need client testing.
+          required: true

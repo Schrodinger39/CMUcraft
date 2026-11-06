@@ -19,3 +19,15 @@ List the checks actually run and their results. Mention checks you could not run
 - [ ] Runtime limitations and unresolved review items remain explicit.
 
 Contributor credit (optional):
+
+## Building integration (if applicable)
+
+- Claim and original kit/base identifiers:
+- Reserved chunks and overlap review:
+- Submission/candidate hashes and dry-run plan:
+- Exact runtime/mod hashes:
+- Client tests run, failures, and tests not run:
+- Boundary/terrain/entity review, source rights and contributor credit:
+- Backup and rollback location:
+
+Do not mark a model accepted solely because automated tests pass.
