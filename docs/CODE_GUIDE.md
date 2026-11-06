@@ -120,3 +120,7 @@ Tests under `tests/` describe their expected behavior in their names and asserti
 `.gitignore` excludes caches, builds and repair backups. `.github/ISSUE_TEMPLATE/` provides structured entry points for contributors; `.github/pull_request_template.md` asks for evidence and validation. `docs/ci/tests.yml` is an inactive workflow template. README, CONTRIBUTING, ROADMAP, licensing files and the development journal explain their own roles in their opening sections.
 
 When adding a new file type, document its producer, units, field meanings and limitations here. Do not modify upstream data just to make it easier to annotate.
+
+## Builder exchange tools
+
+`building_kit.py` clones a closed base world into a kit, records reserved chunk hashes, checks submitted saves against that baseline, and stages opaque region/POI records into a new target copy. It preserves same-coordinate compressed payloads and external `.mcc` streams. It is deliberately not a schematic converter, mod-NBT translator, live-world editor or automatic acceptance system. See [maintenance](BUILDER-MAINTENANCE.md) for scope and review gates.

@@ -1,0 +1,188 @@
+{
+  "schema": 1,
+  "building_id": "hunt-library",
+  "name": "Hunt Library",
+  "translation_xyz": [
+    0,
+    0,
+    0
+  ],
+  "chunks": [
+    [
+      25,
+      45
+    ],
+    [
+      26,
+      45
+    ],
+    [
+      27,
+      45
+    ],
+    [
+      28,
+      45
+    ],
+    [
+      29,
+      45
+    ],
+    [
+      25,
+      46
+    ],
+    [
+      26,
+      46
+    ],
+    [
+      27,
+      46
+    ],
+    [
+      28,
+      46
+    ],
+    [
+      29,
+      46
+    ],
+    [
+      25,
+      47
+    ],
+    [
+      26,
+      47
+    ],
+    [
+      27,
+      47
+    ],
+    [
+      28,
+      47
+    ],
+    [
+      29,
+      47
+    ],
+    [
+      25,
+      48
+    ],
+    [
+      26,
+      48
+    ],
+    [
+      27,
+      48
+    ],
+    [
+      28,
+      48
+    ],
+    [
+      29,
+      48
+    ],
+    [
+      25,
+      49
+    ],
+    [
+      26,
+      49
+    ],
+    [
+      27,
+      49
+    ],
+    [
+      28,
+      49
+    ],
+    [
+      29,
+      49
+    ]
+  ],
+  "bounds_xz_exclusive": [
+    400,
+    720,
+    480,
+    800
+  ],
+  "utm_origin": [
+    589144.82561034,
+    4478009.6777666835
+  ],
+  "vertical_offset_m": 208,
+  "reference_sha256": "00652bd7b69dc9ff2efa463f9f929127623896fa20f10664c321b5fec812a028",
+  "runtime_verified": false,
+  "modpack_sha256": "b81970ccaf6e6887485b97b7b00c6faa2bc3d801f1337c3eec5484c36fb17c86",
+  "baseline": {
+    "region": {
+      "25,45": "c74a8e7c2aac19339bc5207c06fa62191ca53184ef5476afa330eb843501b2c7",
+      "26,45": "9ae7dfa970e16f83979ac6f27a664e1b2892060143712eafdf044c863a4b5891",
+      "27,45": "0e75dcc900822208c258f305f6b5fb2cb505a704d538cd1068a02a46fcf4a4ce",
+      "28,45": "a491acf27be34076e489fe7acd67b4d4acb95a901365381578abcf6609c2c3f5",
+      "29,45": "2824e2ed3ad58ada62ddc728697982ebde5cb92917ba97f71b81a0c18097999f",
+      "25,46": "df0ae03ce3929f7fcfb2ceef2ba684726b89d1923276e4bffb788b8b011b6c28",
+      "26,46": "9a645fc4e9fe23186b8fdb03937cb3641c1c02b9443a58fa03f8d19fae22fbfc",
+      "27,46": "582d86dcfd24d5a578aa5cf062bbc7c4b723cacd03ec090a7f614f4b3e06d943",
+      "28,46": "6ca701b987fb7dee1c0f8e5608c3bd3cd211aa1eb2299fe404864d7a429a9e9e",
+      "29,46": "b2e5befcb730e0e0014af92b4d726e535eef8dad8b5e610e0cc20f845b91dfdb",
+      "25,47": "cbc0594e498a6d4fbde0b671fc370346389e3b9f28874d07cf9d33a8eb88a769",
+      "26,47": "1d7456d3fe6e03911e9c576b5b3ad2f3db4a44a69143d2b0a93bba52aafb4e71",
+      "27,47": "332b40ee0fa079a109748ee93bb2b35113be83607e90070431f647e72fced33e",
+      "28,47": "843b5ccf8a321fa7643ac08cae3b4d62fa0447d18e7bfff75f705647465ef0cf",
+      "29,47": "c7077e46162c1aec98f282cdb3f4c27d65747db7ca319132d5f2c87b3fd5216b",
+      "25,48": "92295d40cd95a480a7984d4ba60dcbc9979ef4cd3d217a579742999fb346ab38",
+      "26,48": "28793023603356799f8e9da1099ccede6f0ebcdb7291b7c1fccf8cca5e0b20ca",
+      "27,48": "f54f74d179ae785c79a2fe3bdff5b39e3e996e234143eed087c4a928e754892f",
+      "28,48": "de4efe732c3a7c0326d2090667e7dbfd80c485488c8355cc0bc081ad6ba79f21",
+      "29,48": "f14443466adacca26604de73232ec3a80682a92103295b77e6c4c8dc766d2a3f",
+      "25,49": "55250326ec1146d5447bd0f6a86844083d48b901a56fe4bb493f941171e0fb4f",
+      "26,49": "9ea9571c73d7082c0d084819b53c546fa8fc362fe4a2b3e27956c05221d71867",
+      "27,49": "40c4aabe1a0544477f474b061fba4fd2730e863a2130462806971b386fd88812",
+      "28,49": "bcab60b7441bb1a2c05a36023c03054de27ccb82bbdd198fec361162ebffb643",
+      "29,49": "6330afc954d13f3a27376588409edbd267c44edab95cb805471bd8e12c8d631a"
+    },
+    "poi": {
+      "25,45": null,
+      "26,45": null,
+      "27,45": null,
+      "28,45": null,
+      "29,45": null,
+      "25,46": null,
+      "26,46": null,
+      "27,46": null,
+      "28,46": null,
+      "29,46": null,
+      "25,47": null,
+      "26,47": null,
+      "27,47": null,
+      "28,47": null,
+      "29,47": null,
+      "25,48": null,
+      "26,48": null,
+      "27,48": null,
+      "28,48": null,
+      "29,48": null,
+      "25,49": null,
+      "26,49": null,
+      "27,49": null,
+      "28,49": null,
+      "29,49": null
+    }
+  },
+  "global_files": {},
+  "worldgen_snbt": "{seed: 0L, generate_features: 0b, bonus_chest: 0b, dimensions: {\"minecraft:overworld\": {type: \"minecraft:overworld\", generator: {type: \"minecraft:flat\", settings: {biome: \"minecraft:plains\", layers: [{height: 1, block: \"minecraft:bedrock\"}, {height: 31, block: \"minecraft:stone\"}, {height: 1, block: \"minecraft:grass_block\"}], structures: {structures: {}}}}}, \"minecraft:the_nether\": {type: \"minecraft:the_nether\", generator: {type: \"minecraft:noise\", seed: 0L, settings: \"minecraft:nether\", biome_source: {type: \"minecraft:multi_noise\", seed: 0L, preset: \"minecraft:nether\"}}}, \"minecraft:the_end\": {type: \"minecraft:the_end\", generator: {type: \"minecraft:noise\", seed: 0L, settings: \"minecraft:end\", biome_source: {type: \"minecraft:the_end\", seed: 0L}}}}}",
+  "intersecting_references": [
+    "baker-hall",
+    "college-of-fine-arts"
+  ]
+}

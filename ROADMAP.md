@@ -16,7 +16,7 @@ Complete client testing of the detailed geometry, including rendering, collision
 
 ## Collaborative development
 
-Establish a practical way to exchange and integrate building work without losing modded details or overwriting other changes. Improve the distinction between editable source models, generated artifacts and playable releases.
+An experimental Building Kit generator and offline chunk-staging tool now provide a concrete contribution path. Complete the client validation matrix, onboard one real Builder, and review a full-save submission before calling this path production-ready. Verify C&B save/reload and raw-chunk integration; keep C&B schematic-only delivery disabled until its actual round trip is proven. Improve the distinction between editable source models, generated artifacts and playable releases.
 
 Test multiplayer synchronization and persistence before offering a shared building environment. A community server is a possibility, but hosting, maintenance and moderation have not been arranged.
 

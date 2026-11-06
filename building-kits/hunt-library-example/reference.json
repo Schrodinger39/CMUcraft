@@ -1,0 +1,120 @@
+{
+  "name": "Hunt Library",
+  "osm_id": "way/27574204",
+  "source_url": "https://www.openstreetmap.org/way/27574204",
+  "snapshot_sha256": "7d8857f29e2e29a48ddb4d52182175ac4af61c7b7e6c9c7727f93af1192bc1e2",
+  "crs": "EPSG:32617",
+  "axis_convention": "X east; Z south; one coordinate unit is one metre",
+  "utm_origin": [
+    589144.82561034,
+    4478009.6777666835
+  ],
+  "footprint_wgs84": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -79.9440246,
+          40.4413262
+        ],
+        [
+          -79.9441294,
+          40.4410365
+        ],
+        [
+          -79.9434563,
+          40.4408936
+        ],
+        [
+          -79.9433505,
+          40.4411855
+        ],
+        [
+          -79.9437898,
+          40.4412781
+        ],
+        [
+          -79.9440246,
+          40.4413262
+        ]
+      ]
+    ]
+  },
+  "footprint_xz": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          410.7644372214563,
+          732.3377786483616
+        ],
+        [
+          402.26080276211724,
+          764.6012458037585
+        ],
+        [
+          459.53638097876683,
+          779.7807014295831
+        ],
+        [
+          468.1216790159233,
+          747.2719477536157
+        ],
+        [
+          430.7416652244283,
+          737.4388415943831
+        ],
+        [
+          410.7644372214563,
+          732.3377786483616
+        ]
+      ]
+    ]
+  },
+  "centroid_xz_m": [
+    435.21,
+    755.982
+  ],
+  "footprint_area_m2": 1987.788,
+  "bounds_xz_m": [
+    402.261,
+    732.338,
+    468.122,
+    779.781
+  ],
+  "independent_footprint_comparison": {
+    "osm_id": "way/27574204",
+    "name": "Hunt Library",
+    "county_ids": "554925",
+    "overlap_iou": 0.9375,
+    "centroid_difference_m": 0.874,
+    "boundary_hausdorff_m": 2.013,
+    "status": "agreement_candidate",
+    "name_verified": false,
+    "facade_verified": false,
+    "height_verified": false
+  },
+  "exterior_requirements": [
+    "silver aluminum fins and glazing",
+    "roof profile needs photo verification",
+    "replace solid quartz walls and periodic square windows"
+  ],
+  "inventory_source": "https://www.cmu.edu/cdfd/planning-and-design/master-plan/pdf/june-2022-cmu-imp-appendices.pdf",
+  "inventory_date": 2022,
+  "inventory_level_string": "6+2",
+  "surveyed_height_m": null,
+  "height_policy": "Do not convert ambiguous inventory level strings to a verified total height.",
+  "verification": {
+    "identity": false,
+    "location": false,
+    "height": false,
+    "facades": false,
+    "game_walkthrough": false
+  },
+  "status": "reference_packet_not_approved_model",
+  "additional_sources": [
+    "https://library.cmu.edu/visit/hunt",
+    "https://library.cmu.edu/about/news/2024-11/hunt-library"
+  ],
+  "floor_evidence": "CMU Libraries identifies the fifth floor and a basement; this does not establish roof elevation or storey heights."
+}

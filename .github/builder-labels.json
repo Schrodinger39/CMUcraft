@@ -1,0 +1,8 @@
+[
+  {"name":"building-request","color":"C5DEF5","description":"Building claim awaiting coordination"},
+  {"name":"claimed","color":"1D76DB","description":"Maintainer confirmed a building reservation"},
+  {"name":"ready-for-review","color":"FBCA04","description":"Building submission ready for review"},
+  {"name":"needs-client-test","color":"D93F0B","description":"Minecraft runtime evidence is still needed"},
+  {"name":"integration-blocked","color":"B60205","description":"Conflict or unsupported transfer needs resolution"},
+  {"name":"integrated","color":"0E8A16","description":"Reviewed building accepted into a campus candidate"}
+]

@@ -2,6 +2,20 @@
 
 CMUcraft is an unfinished reconstruction of CMU's Pittsburgh campus. Contributions to the world, generation tools, reference data and installation experience are welcome. The project is currently focused on exterior accuracy and making the existing work usable by other people.
 
+## Minecraft Builders — no code required
+
+Start with [BUILDERS.md](docs/BUILDERS.md). Request a building using the Building
+claim form, wait for a confirmed reservation and download the maintainer's kit.
+Build in its independent save and submit the whole world ZIP using Building
+submission. A GitHub issue is enough; Python, Git and a PR are not required.
+A collaborator may handle the issue if you do not have a GitHub account.
+
+Chisels & Bits submissions must include a full save, including `.mcc` sidecars.
+WorldEdit schematic compatibility is **not verified**. Plain-block schematics need
+selection/copy/paste coordinates and a documented round trip. The maintainer stages
+reviewed changes into a new campus copy; no contribution directly overwrites it.
+See [maintenance](docs/BUILDER-MAINTENANCE.md) and [compatibility](docs/BUILDER-COMPATIBILITY.md).
+
 ## Coordination
 
 Use issues to discuss substantial changes before starting, especially when they affect building placement, shared coordinates, mod dependencies or the world format. Check existing issues and pull requests for overlapping work. Small fixes and documentation corrections can go straight to a pull request.
@@ -20,7 +34,7 @@ Use English for code comments and contributor-facing documentation. Explain assu
 
 ## World and architecture changes
 
-Use the pinned game and mod versions and work from a copy of the save. Preserve the campus coordinate system and scale. If a model is built in a separate world, record its translation and elevation offset so it can be integrated without guessing its position.
+Use the pinned game and mod versions and work from a copy of the save. Preserve the campus coordinate system and scale. Kit worlds keep the campus coordinates, with zero translation. Independently created worlds need an explicitly reviewed placement and transfer route; the raw-chunk tool will not translate modded NBT.
 
 Include comparison images and reference sources with a model change. Identify which dimensions are measured and which are estimated. Architectural review should cover the result in context, rather than only a favorable render. Interiors are not a current requirement.
 
