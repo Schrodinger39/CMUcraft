@@ -1,0 +1,139 @@
+{
+  "name": "College of Fine Arts",
+  "osm_id": "way/27591225",
+  "source_url": "https://www.openstreetmap.org/way/27591225",
+  "snapshot_sha256": "7d8857f29e2e29a48ddb4d52182175ac4af61c7b7e6c9c7727f93af1192bc1e2",
+  "crs": "EPSG:32617",
+  "axis_convention": "X east; Z south; one coordinate unit is one metre",
+  "utm_origin": [
+    589144.82561034,
+    4478009.6777666835
+  ],
+  "footprint_wgs84": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -79.9432583,
+          40.4412741
+        ],
+        [
+          -79.9431243,
+          40.441622
+        ],
+        [
+          -79.9430138,
+          40.4419556
+        ],
+        [
+          -79.9427989,
+          40.4419101
+        ],
+        [
+          -79.9425651,
+          40.4418626
+        ],
+        [
+          -79.9426153,
+          40.4417154
+        ],
+        [
+          -79.9427885,
+          40.4412292
+        ],
+        [
+          -79.9428078,
+          40.4411782
+        ],
+        [
+          -79.9432583,
+          40.4412741
+        ]
+      ]
+    ]
+  },
+  "footprint_xz": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          475.82349853240885,
+          737.343636425212
+        ],
+        [
+          486.72591596620623,
+          698.5901425024495
+        ],
+        [
+          495.65419533406384,
+          661.4478064952418
+        ],
+        [
+          513.9401422612136,
+          666.2802397748455
+        ],
+        [
+          533.8316673475783,
+          671.3154407376423
+        ],
+        [
+          529.7698667607037,
+          687.7058724239469
+        ],
+        [
+          515.7269055418437,
+          741.8507718825713
+        ],
+        [
+          514.1578357026447,
+          747.5314541850239
+        ],
+        [
+          475.82349853240885,
+          737.343636425212
+        ]
+      ]
+    ]
+  },
+  "centroid_xz_m": [
+    505.098,
+    704.539
+  ],
+  "footprint_area_m2": 3085.199,
+  "bounds_xz_m": [
+    475.823,
+    661.448,
+    533.832,
+    747.531
+  ],
+  "independent_footprint_comparison": {
+    "osm_id": "way/27591225",
+    "name": "College of Fine Arts",
+    "county_ids": "547189",
+    "overlap_iou": 0.9318,
+    "centroid_difference_m": 1.265,
+    "boundary_hausdorff_m": 1.817,
+    "status": "agreement_candidate",
+    "name_verified": false,
+    "facade_verified": false,
+    "height_verified": false
+  },
+  "exterior_requirements": [
+    "tan masonry, sculptural facade",
+    "cross-hipped roof",
+    "model recessed niches individually"
+  ],
+  "inventory_source": "https://www.cmu.edu/cdfd/planning-and-design/master-plan/pdf/june-2022-cmu-imp-appendices.pdf",
+  "inventory_date": 2022,
+  "inventory_level_string": "5+1",
+  "surveyed_height_m": null,
+  "height_policy": "Do not convert ambiguous inventory level strings to a verified total height.",
+  "verification": {
+    "identity": false,
+    "location": false,
+    "height": false,
+    "facades": false,
+    "game_walkthrough": false
+  },
+  "status": "reference_packet_not_approved_model"
+}
