@@ -1,0 +1,65 @@
+{
+  "name": "Hunt exterior prototype",
+  "status": "NOT APPROVED; not a replacement campus",
+  "source_osm_id": "way/27574204",
+  "standalone_translation_xz_m": [
+    384,
+    704
+  ],
+  "vertical_offset_m": 262,
+  "world_scale_blocks_per_m": 1,
+  "detail_resolution_m": 0.0625,
+  "chiseled_blocks": 10007,
+  "base_elevation_hypothesis_m": 294.5,
+  "eave_elevation_hypothesis_m": 312.0,
+  "roof_source": "2024 USGS/PASDA surface candidates; regularized hip fit with held-out residuals",
+  "roof_fit": {
+    "model": "raised rectangular hipped roof above flat lower deck",
+    "source": "PASDA USGS 2024 surface candidates",
+    "basis_origin_xz": [
+      410.7644372214563,
+      732.3377786483616
+    ],
+    "basis_u": [
+      0.9677349838087236,
+      0.25197023854560574
+    ],
+    "basis_v": [
+      -0.25197023854560574,
+      0.9677349838087236
+    ],
+    "hip_u_min_max_m": [
+      4.625,
+      56.0
+    ],
+    "hip_v_min_max_m": [
+      5.625,
+      28.875
+    ],
+    "hip_eave_elevation_m": 313.925,
+    "hip_slope": 0.20999999999999996,
+    "lower_roof_elevation_m": 310.0,
+    "held_out_cells": 326,
+    "held_out_median_absolute_error_m": 0.06483062027803044,
+    "held_out_p95_absolute_error_m": 0.22368098655782376,
+    "approved": false,
+    "limits": [
+      "Model does not include mechanical equipment or roof seams",
+      "Facade dimensions require separate review",
+      "Fitted surface cannot independently certify original footprint accuracy"
+    ]
+  },
+  "roof_covered_cells": 2095,
+  "roof_footprint_cells": 2095,
+  "unverified": [
+    "all-side facade matching",
+    "entrance and canopy dimensions",
+    "fin pitch and taper",
+    "roof material/shape interpretation",
+    "mod runtime and save/reload"
+  ],
+  "references": [
+    "https://library.cmu.edu/visit/hunt",
+    "https://library.cmu.edu/about/news/2024-11/hunt-library"
+  ]
+}

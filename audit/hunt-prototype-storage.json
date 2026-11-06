@@ -1,0 +1,14 @@
+{
+  "chunks_decoded": 64,
+  "sections_decoded": 208,
+  "region_files": 1,
+  "all_palette_indices_valid": true,
+  "all_region_records_nonoverlapping": true,
+  "data_version": 2586,
+  "spawn": [
+    49,
+    34,
+    18
+  ],
+  "runtime_game_test": false
+}

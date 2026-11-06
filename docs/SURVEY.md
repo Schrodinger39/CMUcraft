@@ -30,3 +30,22 @@ The earlier 2019 project spans two acquisitions: WesternPA 1 ends March 9, 2020;
 ## Sub-block facade work
 
 `python scripts/build_facade_lab.py` creates an experimental detail specimen using the pinned Chisels & Bits schema. Its NBT geometry is tested independently; this is **not** a completed Minecraft load/save compatibility test. Do not include it in a final campus release until the pinned client successfully loads, saves and reloads the specimen.
+
+## Hunt development model (not a release)
+
+```bash
+python scripts/fit_hunt_roof.py \
+  --surface /path/to/measured-campus/roof_elevation.npy \
+  --output /path/to/hunt-fit.json
+python scripts/build_hunt_prototype.py --output build/hunt-prototype
+python scripts/render_hunt_prototype.py build/hunt-prototype
+python scripts/audit_world.py build/hunt-prototype/world --expected-chunks 64
+```
+
+The builder uses the committed 2024 roof fit. The separate 128 m world is a translated development specimen, not a relocated building in the campus. Its X/Z translation and elevation offset are recorded in its manifest. Silver fins, recessed glazing, paired transoms, a bronze-colored canopy, and the four-plane raised roof replace the old generic box. Facade and entrance dimensions remain photo-derived hypotheses. Materials in the offline render are swatches, not evidence of their in-game appearance.
+
+The roof fit holds out one fifth of observed cells: median absolute residual 0.065 m and 95th percentile 0.224 m. Those are fitting residuals, not absolute survey accuracy or a certificate for the exterior. The lower roof and raised hip are modeled separately, avoiding the jagged isolated roof blocks from the earlier experiment.
+
+Dense detail can exceed the 255-sector internal chunk limit. The exporter then writes the standard external `.mcc` stream, retaining a one-sector `.mca` stub; both files must travel with the save. Storage handling follows the [PaperMC region-format specification](https://github.com/PaperMC/SectorTool/blob/master/SPECIFICATION.MD). Read-back and boundary tests pass. A Forge client load/save/reload test is still outstanding.
+
+Photographic references: [CMU Hunt Library](https://library.cmu.edu/visit/hunt), [CMU library exterior article](https://library.cmu.edu/about/news/2024-11/hunt-library), and [Dllu's 2015 front photograph, CC BY-SA 4.0](https://commons.wikimedia.org/wiki/File:Carnegie_Mellon_University_Hunt_Library_front.jpg). Photographs are not bundled. Nighttime blue lighting is not treated as blue wall paint.

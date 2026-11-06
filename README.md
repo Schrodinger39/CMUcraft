@@ -4,8 +4,6 @@ A Minecraft Java reconstruction of Carnegie Mellon University's Pittsburgh campu
 
 **Contributor: Chris Yu ([Schrodinger39](https://github.com/Schrodinger39)).**
 
-![Campus rendered from exported blocks](campus_artifacts/campus_isometric.png)
-
 ## Reconstruction status: revision in progress
 
 **v0.2 was rejected during the campus walkthrough for poor recognizability. It is a legacy reference, not the requested realistic campus.** No replacement campus is certified yet. The current workbench contains construction tools and a scale calibration world, not completed realistic buildings.
@@ -15,7 +13,13 @@ A Minecraft Java reconstruction of Carnegie Mellon University's Pittsburgh campu
 - [Acceptance requirements](docs/RECONSTRUCTION.md): location, exterior, scale, and runtime checks required before a replacement release.
 - [Architecture modpack](modpack/README.md): pinned Forge tools, download hashes, and installation status.
 
+![Unverified Hunt development geometry, not a game screenshot](audit/hunt-exterior-prototype.png)
+
+Hunt development specimen only. The roof uses 2024 measurements; facade details and runtime remain under review. This is not the replacement campus.
+
 ## Legacy release: v0.2
+
+![Legacy approximation — rejected for recognizability](campus_artifacts/campus_isometric.png)
 
 A **1024 × 1024 metre Java 1.16.5 world**, generated from real OpenStreetMap footprints and paths, USGS elevation, and CMU's published building inventory. One horizontal block represents one projected metre. The scene includes surrounding neighborhood buildings; the count is not a count of CMU-owned buildings.
 
