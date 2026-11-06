@@ -1,0 +1,107 @@
+{
+  "name": "Welch House",
+  "osm_id": "way/27591484",
+  "source_url": "https://www.openstreetmap.org/way/27591484",
+  "snapshot_sha256": "7d8857f29e2e29a48ddb4d52182175ac4af61c7b7e6c9c7727f93af1192bc1e2",
+  "crs": "EPSG:32617",
+  "axis_convention": "X east; Z south; one coordinate unit is one metre",
+  "utm_origin": [
+    589144.82561034,
+    4478009.6777666835
+  ],
+  "footprint_wgs84": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -79.939332,
+          40.4412801
+        ],
+        [
+          -79.9392667,
+          40.4411878
+        ],
+        [
+          -79.9396495,
+          40.4410267
+        ],
+        [
+          -79.9397112,
+          40.4411209
+        ],
+        [
+          -79.939332,
+          40.4412801
+        ]
+      ]
+    ]
+  },
+  "footprint_xz": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          808.8051032029325,
+          732.685948763974
+        ],
+        [
+          814.4662495966768,
+          742.86489891354
+        ],
+        [
+          782.2156229002867,
+          761.1371313882992
+        ],
+        [
+          776.8572930801893,
+          750.7435888964683
+        ],
+        [
+          808.8051032029325,
+          732.685948763974
+        ]
+      ]
+    ]
+  },
+  "centroid_xz_m": [
+    795.582,
+    746.871
+  ],
+  "footprint_area_m2": 430.265,
+  "bounds_xz_m": [
+    776.857,
+    732.686,
+    814.466,
+    761.137
+  ],
+  "independent_footprint_comparison": {
+    "osm_id": "way/27591484",
+    "name": "Welch House",
+    "county_ids": "568328",
+    "overlap_iou": 0.9718,
+    "centroid_difference_m": 0.296,
+    "boundary_hausdorff_m": 0.468,
+    "status": "agreement_candidate",
+    "name_verified": false,
+    "facade_verified": false,
+    "height_verified": false
+  },
+  "exterior_requirements": [
+    "tan masonry and stone base",
+    "gable roof",
+    "retain slope-facing elevation"
+  ],
+  "inventory_source": "https://www.cmu.edu/cdfd/planning-and-design/master-plan/pdf/june-2022-cmu-imp-appendices.pdf",
+  "inventory_date": 2022,
+  "inventory_level_string": "3+1",
+  "surveyed_height_m": null,
+  "height_policy": "Do not convert ambiguous inventory level strings to a verified total height.",
+  "verification": {
+    "identity": false,
+    "location": false,
+    "height": false,
+    "facades": false,
+    "game_walkthrough": false
+  },
+  "status": "reference_packet_not_approved_model"
+}
