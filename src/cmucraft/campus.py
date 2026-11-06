@@ -83,7 +83,9 @@ def osm_details(path,region):
     return ways,trees,entrances
 
 
-def build_campus(root,output):
+def build_campus(root,output,allow_approximate=False):
+    if not allow_approximate:
+        raise ValueError("Legacy procedural architecture is not an approved reconstruction; explicitly enable --legacy-approximation for diagnostics")
     root,output=Path(root),Path(output);region=REGION;size=region.size
     if (output/'world'/'level.dat').exists():raise ValueError('Choose an empty output directory; world already exists')
     output.mkdir(parents=True,exist_ok=True)
@@ -309,6 +311,7 @@ def render(volume,ground,output,buildings):
 
 def main():
     p=argparse.ArgumentParser();p.add_argument('--root',type=Path,default=Path('.'));p.add_argument('--output',type=Path,default=Path('campus_artifacts'))
-    args=p.parse_args();build_campus(args.root,args.output)
+    p.add_argument('--legacy-approximation',action='store_true',help='Explicitly generate the rejected approximate model for diagnostics only')
+    args=p.parse_args();build_campus(args.root,args.output,args.legacy_approximation)
 
 if __name__=='__main__':main()
