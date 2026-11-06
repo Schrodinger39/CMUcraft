@@ -16,7 +16,11 @@ Complete client testing of the detailed geometry, including rendering, collision
 
 ## Collaborative development
 
-An experimental Building Kit generator and offline chunk-staging tool now provide a concrete contribution path. Complete the client validation matrix, onboard one real Builder, and review a full-save submission before calling this path production-ready. Verify C&B save/reload and raw-chunk integration; keep C&B schematic-only delivery disabled until its actual round trip is proven. Improve the distinction between editable source models, generated artifacts and playable releases.
+Building Kits and offline chunk staging provide a contribution path without Python
+or Git. A local three-block C&B sample passed save/re-entry and integration into a
+separate campus copy. Next, test a fresh pack installation, CUC world entry and a
+real volunteer's submission. Larger builds and collisions still need testing;
+C&B schematic-only delivery remains unavailable until its round trip is verified.
 
 Test multiplayer synchronization and persistence before offering a shared building environment. A community server is a possibility, but hosting, maintenance and moderation have not been arranged.
 
@@ -30,13 +34,11 @@ Add automated checks where they catch real failures, and complement them with do
 
 Interior spaces, additional campus areas and more detailed environmental work can follow once the exterior world is coherent. Suggestions are welcome through issues and pull requests, especially when they help make the existing project easier to use or develop.
 
-
 ## First contributor round: Hunt and CUC
 
 Fixed exterior trial packs and small tasks now support participation before a
 whole-building commitment. Hunt starts with a window-and-fin proposal; CUC starts
 with entrance/facade identification. One accepted-save coordinator per building
 avoids conflicting whole-chunk submissions. Other building reference packets are
-research inventory, not 41 simultaneous open assignments. A local small C&B transfer
-test passed; next validate fresh pack import, CUC world entry, and one real volunteer
-contribution before expanding scope or offering a shared server.
+research inventory, not 41 simultaneous open assignments. Expand to more buildings
+after this first round works well for contributors.

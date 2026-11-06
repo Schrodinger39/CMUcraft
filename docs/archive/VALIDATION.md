@@ -1,3 +1,5 @@
+> Historical record of an earlier milestone. For current setup, see [Developer setup](../DEVELOPMENT.md); for current client-test results, see [Builder validation](../BUILDER-VALIDATION.md). Test counts and limitations below describe that milestone.
+
 # Week 1 validation record
 
 Validated on November 5, 2026 (America/New_York).

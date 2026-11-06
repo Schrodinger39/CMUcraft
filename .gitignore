@@ -12,3 +12,13 @@ dist/
 *.before-dimension-fix
 *.repairing
 *.class
+
+# Local editor and test-tool caches.
+.vscode/
+.idea/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+*.swp
+*~
