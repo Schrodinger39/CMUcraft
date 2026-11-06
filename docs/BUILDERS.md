@@ -12,6 +12,7 @@ You do not need Python, Git, or a commitment to build a whole building.
 | CUC | Identify an entrance or facade and show what the rough model misses | [CUC brief](buildings/cohon-university-center.md) |
 
 Use the linked building task to post your idea, ask for help or volunteer as a lead.
+Chris (@Schrodinger39) checks these issues at least twice a week and usually replies within 3–4 days.
 **No separate claim issue or permission is needed to download, try or propose.**
 Photos and observations are welcome without Minecraft. A collaborator can post for
 you if you do not use GitHub. We coordinate in the building tasks; no live server is available.
