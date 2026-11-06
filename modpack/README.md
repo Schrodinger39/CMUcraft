@@ -44,3 +44,7 @@ The portable package can be shared through repository releases. A hosted multipl
 ## Current preview
 
 `CMUcraft-Preview.mrpack` additionally includes the Hunt detail specimen and a legacy campus comparison save. Both have corrected vanilla dimension settings. The ordinary Workbench package contains only the calibration save. Xaero maps reveal terrain as it is explored; an empty world map on first load is expected.
+
+## Builder contributions
+
+Use a maintainer-issued [Building Kit](../docs/BUILDERS.md) in a separate save. Keep these exact versions; do not assume WorldEdit can transfer C&B details. [Compatibility evidence](../docs/BUILDER-COMPATIBILITY.md) distinguishes generic block-entity support from a verified C&B round trip. Full original saves are required for chiseled builds.
