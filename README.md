@@ -12,9 +12,41 @@ This is an independent student project, not an official CMU map. The full-campus
 
 [Try the preview](https://github.com/Schrodinger39/CMUcraft/releases/tag/v0.3.0-preview) · [How to contribute](CONTRIBUTING.md) · [Future plans](ROADMAP.md) · [Report a problem](https://github.com/Schrodinger39/CMUcraft/issues/new/choose) · [Development journal](DEVLOG.md)
 
+## Start with Hunt or CUC
+
+Our first contributor round focuses on **Hunt Library** and **Cohon University Center**.
+Help make them recognizable: try one exterior detail, share a reference, or tell us
+what the rough model misses. No Python, Git, or whole-building commitment required.
+
+| Pick a first contribution | What to share | Join here |
+| --- | --- | --- |
+| Hunt window-and-fin section | A small private build or annotated reference, plus a sentence about your design | [Hunt task #3](https://github.com/Schrodinger39/CMUcraft/issues/3) |
+| CUC entrance or facade | A photo/link identifying the side and two or three observations; no Minecraft needed | [CUC task #4](https://github.com/Schrodinger39/CMUcraft/issues/4) |
+| Show the real game | A game-only screenshot with its location and world name | [Screenshot task #5](https://github.com/Schrodinger39/CMUcraft/issues/5) |
+
+**[Download First Builds — Hunt + CUC](https://github.com/Schrodinger39/CMUcraft/releases/tag/builders-round1)**
+· **[Short Builder guide](docs/BUILDERS.md)**
+
+Import the combined `.mrpack` as a new instance to get the pinned mod download list
+and both trial worlds. You can download, try and post a proposal without waiting for
+a claim. Each building has one main-save coordinator once someone volunteers;
+whole-building integration still needs an agreed scope. There is no shared server.
+
+A local three-block C&B sample passed save/re-entry and transfer into a second campus
+copy with another re-entry. This newly packaged download has not had a fresh launcher
+import test; CUC's new trial world and full-building collisions remain unverified.
+See [what was actually tested](docs/BUILDER-VALIDATION.md). Reference tasks need no installation.
+
+<details>
+<summary>Hunt design reference — external render, not a game screenshot</summary>
+
 ![Hunt Library development geometry](audit/hunt-exterior-prototype.png)
 
-*Hunt's current geometry, rendered outside Minecraft. The roof uses 2024 measurements; facade dimensions, materials in-game and save/reload behavior are still being checked. This is not a screenshot of a finished campus.*
+This separate prototype is a design reference, not the rough building included in
+the trial worlds. Facades and in-game behavior are not fully accepted. We are
+collecting game-only views in [task #5](https://github.com/Schrodinger39/CMUcraft/issues/5).
+
+</details>
 
 ## What is here today?
 
@@ -25,7 +57,7 @@ This is an independent student project, not an official CMU map. The full-campus
 | Geographic pipeline | Real OSM footprints → metric coordinates → 1 m cells → inspectable exports and Java world files. |
 | Survey evidence | Reproducible 2024 point-cloud processing and 41 building reference packets. Reference packets are not completed models. |
 | Modpack | Pinned Forge build with Chisels & Bits, WorldEdit, FerriteCore and Xaero maps. |
-| Validation | Automated geometry, units, storage and repair tests. Client walkthroughs and multiplayer testing remain open. |
+| Validation | Automated geometry, units, storage and repair tests. A local C&B small-sample save/integration/re-entry test passed; complete-building and multiplayer checks remain open. |
 
 The earlier v0.2 world was not recognizable enough during a campus walkthrough. It remains available as a legacy reference, not as the target quality. Better screenshots alone will not solve that: the project needs building-by-building checks.
 
@@ -41,7 +73,7 @@ If your launcher cannot import `.mrpack`, see [launcher options and the manual r
 
 Xaero's World Map uses **M** by default and fills as you explore. Hunt requires Chisels & Bits; opening it without the mod can lose its details. Keep copies of saves before changing versions. Bedrock is not supported.
 
-The known experimental-world-settings defect has been corrected and checked with Minecraft 1.16.5's own parser. **That check does not establish Forge client compatibility.** Rendering, collisions, saving/reloading and multiplayer still need direct testing. There is no hosted multiplayer server.
+The known experimental-world-settings defect has been corrected and checked with Minecraft 1.16.5's own parser. **That check does not establish Forge client compatibility.** The legacy kit small-sample save/integration test passed on the existing local setup. Detailed Hunt-specimen rendering, collisions and multiplayer still need direct testing. There is no hosted multiplayer server.
 
 See the [modpack guide](modpack/README.md) for versions, credits and verification limits. The separate worlds ZIP is for people who already have the matching environment.
 
@@ -73,7 +105,7 @@ For code, installation and reproduction commands, read [Developer setup](docs/DE
 
 ## Contributing
 
-**Minecraft Builders: [build one building without Python or Git](docs/BUILDERS.md).** Request a kit through a Building claim, build in your own save, and submit a ZIP through the Building submission form. The [example kit](building-kits/README.md) is available for inspection; client checks remain open.
+**Minecraft Builders: [build one building without Python or Git](docs/BUILDERS.md).** Start in the Hunt or CUC task above. Fixed trial downloads are ready; a screenshot is enough for a first proposal. Full-save delivery is only needed when offering a build for integration.
 
 Contributions to campus models, geographic data, generation tools and testing are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) for the development and review workflow, and [Future Plans](ROADMAP.md) for the project's direction.
 

@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Start here — Hunt exterior proposals
+    url: https://github.com/Schrodinger39/CMUcraft/issues/3
+    about: Try one detail or share a reference. No separate claim required.
+  - name: Start here — CUC entrance and facade references
+    url: https://github.com/Schrodinger39/CMUcraft/issues/4
+    about: A useful first contribution without installing Minecraft.
+  - name: Download the two-world trial pack
+    url: https://github.com/Schrodinger39/CMUcraft/releases/tag/builders-round1
+    about: Fixed Hunt and CUC trial worlds with the pinned mod download list.

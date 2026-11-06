@@ -223,3 +223,24 @@ def test_empty_runtime_region_is_not_a_truncated_record(tmp_path):
     (tmp_path/'r.0.0.mca').write_bytes(b'\0')
     with pytest.raises(ValueError,match='Truncated'):
         k.region_records(tmp_path,0,0)
+
+
+def test_trial_base_removes_player_identity(kit,tmp_path):
+    import importlib.util
+    spec=importlib.util.spec_from_file_location('first_pack',Path(__file__).resolve().parents[1]/'scripts/build_first_contributor_pack.py')
+    module=importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    _,base,_,_=kit
+    (base/'playerdata').mkdir()
+    (base/'playerdata/private.dat').write_bytes(b'private')
+    (base/'level.dat_old').write_bytes(b'private')
+    level=n.load(base/'level.dat')
+    level['Data']['Player']=n.Compound({'name':n.String('private')})
+    level['Data']['WanderingTraderId']=n.String('private')
+    level.save(base/'level.dat')
+    module.sanitize_base(base,tmp_path/'clean')
+    assert not (tmp_path/'clean/playerdata').exists()
+    assert not (tmp_path/'clean/level.dat_old').exists()
+    data=n.load(tmp_path/'clean/level.dat')['Data']
+    assert 'Player' not in data and 'WanderingTraderId' not in data
+    assert (base/'playerdata/private.dat').exists()

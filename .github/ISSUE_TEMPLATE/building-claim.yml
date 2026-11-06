@@ -1,5 +1,5 @@
 name: Building claim
-description: Request a building and a starter kit; no Python or Git needed.
+description: For coordinated full-building work. First Hunt/CUC proposals can use the existing tasks.
 title: "[Building claim] "
 labels: [building-request, needs-client-test]
 body:

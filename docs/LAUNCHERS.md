@@ -2,11 +2,20 @@
 
 CMUcraft does not require HMCL. It requires a matching Minecraft Java/mod environment. You need your own access to Minecraft Java; the downloads do not include the game or an account. Bedrock, console and phone editions cannot load this Java modpack.
 
+## First-time Builders
+
+Use **CMUcraft-First-Builds.mrpack** from [First Builds](https://github.com/Schrodinger39/CMUcraft/releases/tag/builders-round1).
+It includes Hunt and CUC trial worlds plus the pinned mod download list. Import as
+a new instance; this avoids manually picking individual mod versions. Fresh import
+of this new archive is untested. Ask for setup help in [Hunt #3](https://github.com/Schrodinger39/CMUcraft/issues/3)
+or [CUC #4](https://github.com/Schrodinger39/CMUcraft/issues/4), without opening another issue.
+The routes below also describe the older play-only preview.
+
 ## Choose a route
 
 | Your situation | Route | What has actually been checked? |
 | --- | --- | --- |
-| You use HMCL | Import `CMUcraft-Preview.mrpack` into a separate instance. | The local profile and file hashes were checked. Client load/save validation is still pending. |
+| You use HMCL | Import `CMUcraft-Preview.mrpack` into a separate instance. | The local profile and file hashes were checked. A local small C&B save/integration/re-entry test passed on the existing profile; a fresh pack import remains untested. |
 | You use Prism Launcher | Use Add Instance → Import and select the downloaded `.mrpack`. | [Prism officially supports this format](https://prismlauncher.org/wiki/help-pages/Zip-import/); CMUcraft has not been playtested there. |
 | Your launcher documents `.mrpack` import | Import the preview into a new instance and retain its pinned versions. | Format support alone does not certify this pack. Report the launcher/version when testing. |
 | Your launcher does not import `.mrpack` | Prepare a separate Java 1.16.5 / Forge 36.2.42 game directory and install the pinned mods and worlds manually. | This is a manual setup route, not a verified one-click installer. |
@@ -32,6 +41,6 @@ Hunt depends on Chisels & Bits. Do not open and save it without that mod. Use a 
 - **A mod download fails:** record which file and download source failed. A format-compatible launcher may still encounter a blocked or unavailable upstream download.
 - **The campus looks rough:** make sure you know which world you selected. The campus-wide world uses legacy geometry; only the separate Hunt specimen has the current detail work.
 - **The map starts blank:** Xaero's World Map fills as chunks are explored. This is not a prefilled campus atlas.
-- **The game crashes or details disappear:** stop using that test copy and report the launcher, OS, Minecraft/Forge versions, exact world and relevant sanitized error lines. The pack has not yet passed a complete client save/reload test.
+- **The game crashes or details disappear:** stop using that test copy and report the launcher, OS, Minecraft/Forge versions, exact world and relevant sanitized error lines. A small local sample passed save/re-entry, but that does not certify every world or mod feature.
 
 There is no public multiplayer server or shared live building session yet. Installing the pack does not connect you to other contributors.

@@ -4,11 +4,13 @@ CMUcraft is an unfinished reconstruction of CMU's Pittsburgh campus. Contributio
 
 ## Minecraft Builders — no code required
 
-Start with [BUILDERS.md](docs/BUILDERS.md). Request a building using the Building
-claim form, wait for a confirmed reservation and download the maintainer's kit.
-Build in its independent save and submit the whole world ZIP using Building
-submission. A GitHub issue is enough; Python, Git and a PR are not required.
-A collaborator may handle the issue if you do not have a GitHub account.
+Start with [BUILDERS.md](docs/BUILDERS.md). The first round focuses on
+[Hunt #3](https://github.com/Schrodinger39/CMUcraft/issues/3) and
+[CUC #4](https://github.com/Schrodinger39/CMUcraft/issues/4). Download a fixed trial
+pack, try one exterior idea, or share a reference in the existing task. No separate
+claim or submission form is needed for a first proposal. Python and Git are not required.
+For a building lead or actual integration, coordinate scope in the same task before
+replacing architecture; each building has one accepted main save.
 
 Chisels & Bits submissions must include a full save, including `.mcc` sidecars.
 WorldEdit schematic compatibility is **not verified**. Plain-block schematics need

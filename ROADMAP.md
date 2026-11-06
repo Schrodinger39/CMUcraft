@@ -29,3 +29,14 @@ Add automated checks where they catch real failures, and complement them with do
 ## Longer term
 
 Interior spaces, additional campus areas and more detailed environmental work can follow once the exterior world is coherent. Suggestions are welcome through issues and pull requests, especially when they help make the existing project easier to use or develop.
+
+
+## First contributor round: Hunt and CUC
+
+Fixed exterior trial packs and small tasks now support participation before a
+whole-building commitment. Hunt starts with a window-and-fin proposal; CUC starts
+with entrance/facade identification. One accepted-save coordinator per building
+avoids conflicting whole-chunk submissions. Other building reference packets are
+research inventory, not 41 simultaneous open assignments. A local small C&B transfer
+test passed; next validate fresh pack import, CUC world entry, and one real volunteer
+contribution before expanding scope or offering a shared server.
