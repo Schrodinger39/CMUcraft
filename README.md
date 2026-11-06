@@ -12,6 +12,10 @@ This is an independent student project, not an official CMU map. The full-campus
 
 [Try the preview](https://github.com/Schrodinger39/CMUcraft/releases/tag/v0.3.0-preview) · [How to contribute](CONTRIBUTING.md) · [Future plans](ROADMAP.md) · [Report a problem](https://github.com/Schrodinger39/CMUcraft/issues/new/choose) · [Development journal](DEVLOG.md)
 
+**Questions or ideas?** Contact Chris (@Schrodinger39) in [Hunt #3](https://github.com/Schrodinger39/CMUcraft/issues/3)
+or [CUC #4](https://github.com/Schrodinger39/CMUcraft/issues/4). I check these issues
+at least twice a week and usually reply within 3–4 days.
+
 ## Start with Hunt or CUC
 
 Our first contributor round focuses on **Hunt Library** and **Cohon University Center**.
