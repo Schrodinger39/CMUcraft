@@ -1,0 +1,116 @@
+{
+  "name": "Smith Hall",
+  "osm_id": "way/27591104",
+  "source_url": "https://www.openstreetmap.org/way/27591104",
+  "snapshot_sha256": "7d8857f29e2e29a48ddb4d52182175ac4af61c7b7e6c9c7727f93af1192bc1e2",
+  "crs": "EPSG:32617",
+  "axis_convention": "X east; Z south; one coordinate unit is one metre",
+  "utm_origin": [
+    589144.82561034,
+    4478009.6777666835
+  ],
+  "footprint_wgs84": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -79.9458589,
+          40.4440392
+        ],
+        [
+          -79.9458514,
+          40.4438759
+        ],
+        [
+          -79.9456655,
+          40.4438809
+        ],
+        [
+          -79.9452118,
+          40.4438931
+        ],
+        [
+          -79.9452194,
+          40.4440563
+        ],
+        [
+          -79.9458589,
+          40.4440392
+        ]
+      ]
+    ]
+  },
+  "footprint_xz": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          251.60304193582851,
+          433.0484458524734
+        ],
+        [
+          252.4554579956457,
+          451.16744357254356
+        ],
+        [
+          268.2144040232524,
+          450.4242334924638
+        ],
+        [
+          306.6750430520624,
+          448.6105561899021
+        ],
+        [
+          305.8141476644669,
+          430.50276389718056
+        ],
+        [
+          251.60304193582851,
+          433.0484458524734
+        ]
+      ]
+    ]
+  },
+  "centroid_xz_m": [
+    279.134,
+    440.833
+  ],
+  "footprint_area_m2": 984.208,
+  "bounds_xz_m": [
+    251.603,
+    430.503,
+    306.675,
+    451.167
+  ],
+  "independent_footprint_comparison": {
+    "osm_id": "way/27591104",
+    "name": "Smith Hall",
+    "county_ids": "570776",
+    "overlap_iou": 0.8292,
+    "centroid_difference_m": 1.736,
+    "boundary_hausdorff_m": 2.49,
+    "status": "agreement_candidate",
+    "name_verified": false,
+    "facade_verified": false,
+    "height_verified": false
+  },
+  "exterior_requirements": [
+    "tan masonry",
+    "metal roof",
+    "identity ambiguous: inventory uses Smith for EDSH; do not certify OSM Smith Hall from name alone"
+  ],
+  "inventory_source": "https://www.cmu.edu/cdfd/planning-and-design/master-plan/pdf/june-2022-cmu-imp-appendices.pdf",
+  "inventory_date": 2022,
+  "inventory_level_string": "2",
+  "surveyed_height_m": null,
+  "height_policy": "Do not convert ambiguous inventory level strings to a verified total height.",
+  "verification": {
+    "identity": false,
+    "location": false,
+    "height": false,
+    "facades": false,
+    "game_walkthrough": false
+  },
+  "status": "reference_packet_not_approved_model",
+  "identity_warning": "Official 2024 visitor map labels EDS in West Quad and SH south of ANSYS. These must not be treated as the same building solely because the inventory says Smith."
+}
