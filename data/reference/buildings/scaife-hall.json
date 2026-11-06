@@ -1,0 +1,155 @@
+{
+  "name": "Scaife Hall",
+  "osm_id": "way/27550292",
+  "source_url": "https://www.openstreetmap.org/way/27550292",
+  "snapshot_sha256": "7d8857f29e2e29a48ddb4d52182175ac4af61c7b7e6c9c7727f93af1192bc1e2",
+  "crs": "EPSG:32617",
+  "axis_convention": "X east; Z south; one coordinate unit is one metre",
+  "utm_origin": [
+    589144.82561034,
+    4478009.6777666835
+  ],
+  "footprint_wgs84": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -79.9476703,
+          40.4418146
+        ],
+        [
+          -79.9477558,
+          40.4415646
+        ],
+        [
+          -79.947402,
+          40.4415014
+        ],
+        [
+          -79.9473227,
+          40.4416957
+        ],
+        [
+          -79.9471979,
+          40.4416743
+        ],
+        [
+          -79.9469686,
+          40.4416239
+        ],
+        [
+          -79.9469261,
+          40.4417453
+        ],
+        [
+          -79.9471671,
+          40.4418069
+        ],
+        [
+          -79.9473942,
+          40.4418482
+        ],
+        [
+          -79.9474249,
+          40.4417603
+        ],
+        [
+          -79.9476703,
+          40.4418146
+        ]
+      ]
+    ]
+  },
+  "footprint_xz": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          100.92687360069249,
+          681.8150027776137
+        ],
+        [
+          94.0063045771094,
+          709.6518301228061
+        ],
+        [
+          124.09556317108218,
+          716.3095826422796
+        ],
+        [
+          130.56390429928433,
+          694.6617895253003
+        ],
+        [
+          141.17644281045068,
+          696.9110631691292
+        ],
+        [
+          160.68996484030504,
+          702.2737063821405
+        ],
+        [
+          164.13369177817367,
+          688.7551197558641
+        ],
+        [
+          143.61311207292601,
+          682.1610955139622
+        ],
+        [
+          124.29827472975012,
+          677.8063006736338
+        ],
+        [
+          121.8109154534759,
+          687.5943833719939
+        ],
+        [
+          100.92687360069249,
+          681.8150027776137
+        ]
+      ]
+    ]
+  },
+  "centroid_xz_m": [
+    124.69,
+    695.655
+  ],
+  "footprint_area_m2": 1434.95,
+  "bounds_xz_m": [
+    94.006,
+    677.806,
+    164.134,
+    716.31
+  ],
+  "independent_footprint_comparison": {
+    "osm_id": "way/27550292",
+    "name": "Scaife Hall",
+    "county_ids": "562184",
+    "overlap_iou": 0.3125,
+    "centroid_difference_m": 14.339,
+    "boundary_hausdorff_m": 22.276,
+    "status": "needs_review",
+    "name_verified": false,
+    "facade_verified": false,
+    "height_verified": false
+  },
+  "exterior_requirements": [
+    "metal/glass above gray masonry",
+    "flat roof",
+    "inventory described planned 2023 building; check current footprint"
+  ],
+  "inventory_source": "https://www.cmu.edu/cdfd/planning-and-design/master-plan/pdf/june-2022-cmu-imp-appendices.pdf",
+  "inventory_date": 2022,
+  "inventory_level_string": "4+2",
+  "surveyed_height_m": null,
+  "height_policy": "Do not convert ambiguous inventory level strings to a verified total height.",
+  "verification": {
+    "identity": false,
+    "location": false,
+    "height": false,
+    "facades": false,
+    "game_walkthrough": false
+  },
+  "status": "reference_packet_not_approved_model"
+}
