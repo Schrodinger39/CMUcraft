@@ -1,0 +1,775 @@
+{
+  "schema": 1,
+  "building_id": "cohon-university-center",
+  "name": "Cohon University Center",
+  "translation_xyz": [
+    0,
+    0,
+    0
+  ],
+  "chunks": [
+    [
+      32,
+      25
+    ],
+    [
+      33,
+      25
+    ],
+    [
+      34,
+      25
+    ],
+    [
+      35,
+      25
+    ],
+    [
+      36,
+      25
+    ],
+    [
+      37,
+      25
+    ],
+    [
+      38,
+      25
+    ],
+    [
+      39,
+      25
+    ],
+    [
+      40,
+      25
+    ],
+    [
+      41,
+      25
+    ],
+    [
+      42,
+      25
+    ],
+    [
+      32,
+      26
+    ],
+    [
+      33,
+      26
+    ],
+    [
+      34,
+      26
+    ],
+    [
+      35,
+      26
+    ],
+    [
+      36,
+      26
+    ],
+    [
+      37,
+      26
+    ],
+    [
+      38,
+      26
+    ],
+    [
+      39,
+      26
+    ],
+    [
+      40,
+      26
+    ],
+    [
+      41,
+      26
+    ],
+    [
+      42,
+      26
+    ],
+    [
+      32,
+      27
+    ],
+    [
+      33,
+      27
+    ],
+    [
+      34,
+      27
+    ],
+    [
+      35,
+      27
+    ],
+    [
+      36,
+      27
+    ],
+    [
+      37,
+      27
+    ],
+    [
+      38,
+      27
+    ],
+    [
+      39,
+      27
+    ],
+    [
+      40,
+      27
+    ],
+    [
+      41,
+      27
+    ],
+    [
+      42,
+      27
+    ],
+    [
+      32,
+      28
+    ],
+    [
+      33,
+      28
+    ],
+    [
+      34,
+      28
+    ],
+    [
+      35,
+      28
+    ],
+    [
+      36,
+      28
+    ],
+    [
+      37,
+      28
+    ],
+    [
+      38,
+      28
+    ],
+    [
+      39,
+      28
+    ],
+    [
+      40,
+      28
+    ],
+    [
+      41,
+      28
+    ],
+    [
+      42,
+      28
+    ],
+    [
+      32,
+      29
+    ],
+    [
+      33,
+      29
+    ],
+    [
+      34,
+      29
+    ],
+    [
+      35,
+      29
+    ],
+    [
+      36,
+      29
+    ],
+    [
+      37,
+      29
+    ],
+    [
+      38,
+      29
+    ],
+    [
+      39,
+      29
+    ],
+    [
+      40,
+      29
+    ],
+    [
+      41,
+      29
+    ],
+    [
+      42,
+      29
+    ],
+    [
+      32,
+      30
+    ],
+    [
+      33,
+      30
+    ],
+    [
+      34,
+      30
+    ],
+    [
+      35,
+      30
+    ],
+    [
+      36,
+      30
+    ],
+    [
+      37,
+      30
+    ],
+    [
+      38,
+      30
+    ],
+    [
+      39,
+      30
+    ],
+    [
+      40,
+      30
+    ],
+    [
+      41,
+      30
+    ],
+    [
+      42,
+      30
+    ],
+    [
+      32,
+      31
+    ],
+    [
+      33,
+      31
+    ],
+    [
+      34,
+      31
+    ],
+    [
+      35,
+      31
+    ],
+    [
+      36,
+      31
+    ],
+    [
+      37,
+      31
+    ],
+    [
+      38,
+      31
+    ],
+    [
+      39,
+      31
+    ],
+    [
+      40,
+      31
+    ],
+    [
+      41,
+      31
+    ],
+    [
+      42,
+      31
+    ],
+    [
+      32,
+      32
+    ],
+    [
+      33,
+      32
+    ],
+    [
+      34,
+      32
+    ],
+    [
+      35,
+      32
+    ],
+    [
+      36,
+      32
+    ],
+    [
+      37,
+      32
+    ],
+    [
+      38,
+      32
+    ],
+    [
+      39,
+      32
+    ],
+    [
+      40,
+      32
+    ],
+    [
+      41,
+      32
+    ],
+    [
+      42,
+      32
+    ],
+    [
+      32,
+      33
+    ],
+    [
+      33,
+      33
+    ],
+    [
+      34,
+      33
+    ],
+    [
+      35,
+      33
+    ],
+    [
+      36,
+      33
+    ],
+    [
+      37,
+      33
+    ],
+    [
+      38,
+      33
+    ],
+    [
+      39,
+      33
+    ],
+    [
+      40,
+      33
+    ],
+    [
+      41,
+      33
+    ],
+    [
+      42,
+      33
+    ],
+    [
+      32,
+      34
+    ],
+    [
+      33,
+      34
+    ],
+    [
+      34,
+      34
+    ],
+    [
+      35,
+      34
+    ],
+    [
+      36,
+      34
+    ],
+    [
+      37,
+      34
+    ],
+    [
+      38,
+      34
+    ],
+    [
+      39,
+      34
+    ],
+    [
+      40,
+      34
+    ],
+    [
+      41,
+      34
+    ],
+    [
+      42,
+      34
+    ],
+    [
+      32,
+      35
+    ],
+    [
+      33,
+      35
+    ],
+    [
+      34,
+      35
+    ],
+    [
+      35,
+      35
+    ],
+    [
+      36,
+      35
+    ],
+    [
+      37,
+      35
+    ],
+    [
+      38,
+      35
+    ],
+    [
+      39,
+      35
+    ],
+    [
+      40,
+      35
+    ],
+    [
+      41,
+      35
+    ],
+    [
+      42,
+      35
+    ]
+  ],
+  "bounds_xz_exclusive": [
+    512,
+    400,
+    688,
+    576
+  ],
+  "utm_origin": [
+    589144.82561034,
+    4478009.6777666835
+  ],
+  "vertical_offset_m": 208,
+  "reference_sha256": "13b75005dd27b907bcf690aa77238e9f25864acfa48d8a67b632b5f152618632",
+  "runtime_verified": false,
+  "modpack_sha256": "b81970ccaf6e6887485b97b7b00c6faa2bc3d801f1337c3eec5484c36fb17c86",
+  "baseline": {
+    "region": {
+      "32,25": "5c9ed42ef3463e32cf20bb292cefa4af02b28f9ddb7f8217af7515289daf0e63",
+      "33,25": "16d25d0ec10a2edcde50d667b5d9386f84326e0e0b0c427666c3aa76e194108a",
+      "34,25": "2f8cff252ae841296fb2140d63235e367a450c9a115dd0ca7da22476032cb2eb",
+      "35,25": "f771fc2759919822ef67b7c18c238808b0616a4f01ee8f0ed7ef9603675c40bc",
+      "36,25": "ce0d28e75804fbf15b6913192152e5ce7731a8f81160e98ba19453a970f84e28",
+      "37,25": "0b5e3ff6a8c9789e1faf98e60c8784594a320355e899ab65b2d8db279481c867",
+      "38,25": "81ec12c09d631e315d50e66ca2b74e8e7dba1fd8fb3f99e284e5656229e54f1a",
+      "39,25": "f3c0206d6d758edbe0b77df16626dabf5629178133cd8c1225813a5fdf0bda0d",
+      "40,25": "dc1b4f016bdce7585b12b34295bd35d525af3fd5ab9a25f8af84ffbb11788e59",
+      "41,25": "29ee8830d8583ea5e8ceb7ef12c95f7ea77641ffad1202d9cf33d888e9386732",
+      "42,25": "dee59a3f769e33d11cc289d6f2a358a781b3dc595b9bc39a2d4a9d858b4fafed",
+      "32,26": "6137d7a85359249f60c8024b97f3cc951e3c82d496c1b7e8d63b1f4eeb8b0ddc",
+      "33,26": "bb844a13a0b7668b7ef1e4f79997b70c0925d1bf41dc21f722c697a3009e08d2",
+      "34,26": "bbe7f6afd1cf76dba5aeb4c8f2639186d55a94d64cd69799d579833fb899c048",
+      "35,26": "3f08496ce74bfe3b66f60a000a2ca58e7b3c529e4456668eaa75f00b839bf1b8",
+      "36,26": "ce3def348e640cd0e891d24236212e8a9d9f18c4d95d9b449f36d5c498c3bf6d",
+      "37,26": "3a249ecc41545120180d52452145b8cb2fbfae625a6c5901b663ee535097050b",
+      "38,26": "9419e651f221ba5f7dd89554f058b8c8cfbe3df22011858f0349e04326f880d8",
+      "39,26": "8317dd51bf19e97c4a293fb428b31fe2a2835eb05943bf64d17ef1ce683c2ca9",
+      "40,26": "3456fb9fe2563c0fa1d384aae3969dddbc39250900f4c552a273ec3a9f22a820",
+      "41,26": "f2923d0b23479beb0c90e670579b583bbd569551fe07beae666378b9a495928c",
+      "42,26": "125f1824f26666ddefc0091f12512adf41d4ce0bbf0210b6a6d34b68839f8ca5",
+      "32,27": "dbd8be48b882a29348a0a82b55f84d405a33966491ffada278cafa8efe74e3fb",
+      "33,27": "8f0d0c1bfc1c7f9bb3ee3819c4db30d3023f748f182f6c52103ba25b78b71aa1",
+      "34,27": "b283820fd29b31befe80b3c1568a2370c3678b9cc2cacac206d91918766a7055",
+      "35,27": "9b97987565f8c70310ffd3b19f7d3d99103fe08eaa143ccc37ee7f5362dbf971",
+      "36,27": "7135b2dd1de767920beb03b7a8f030ed0d2257607ac105c11a5669a975084c09",
+      "37,27": "6b1cb773372ec7d010512ce8d8531152db10e7ce2ab9fa1a94dfd2ef118ecf81",
+      "38,27": "c5c1ecca718895f431d04183e0e89ce001de4756ca8603e41cc4c61a5b41564e",
+      "39,27": "f2d4b0eee316cbbd4b340b7cdf411a1149a5ed38bca9f2d223c8faeb6c9d18c2",
+      "40,27": "3e55f3678bb28627e9fa7540dfd98a7aea4acad39bbe24935482ac2c83d1314c",
+      "41,27": "b6dee9ab338b67071bd3ba18d9a527cf6e05134c68ff2441bade3ec38b6a00d3",
+      "42,27": "8f42e058756c119074ee6d558b1c8058ff3d98ae5865af92a05cdce1c69389fd",
+      "32,28": "bbf765e3e8cb4bf52052f43987cbfe7e059d08cbaa99ba21c09f27fb97734acb",
+      "33,28": "33c52881bb6a7043553e47780661c5c267d7dc0cb6d4a92ffd2c93bec1fd26ac",
+      "34,28": "bc740dea6ca8ca8147b1fd8e56e4a218d912a2adfa275814c464a8c3f01c78f9",
+      "35,28": "398b9a417c70c4c9e0478755443dfb99c9c376a0563e501873b47bc5fdea91e0",
+      "36,28": "63203ccaa2e5055b2be4171b238a86011bf7339215c04583750f7d89243a06bb",
+      "37,28": "5010981567dacc0ae14ff9014d5c9f7c91fde55653e5266db19af2cc597b3c1d",
+      "38,28": "c1fc5154a4a733c84b48680db8d41c897c127ec263f6b455f5e39c307974aa94",
+      "39,28": "97beb59f56c9f307cce23b7bb10294702fa527880dfd064c26143c8918e3b9a1",
+      "40,28": "ff07864e3664a35cb486f5742929fff2152b394caeb2be1184fc6bb211a64204",
+      "41,28": "94ef54101694d6644f9b8d7df9749d00b2e5c491849c173ad0d90623ae3b1aa6",
+      "42,28": "e6832d4a4d5060df2d1a1f56db60314264a766305b7f8037f350b2c80cef9b10",
+      "32,29": "90c5d3453e3b614e09e0797db9294ec580effb143b1c2e0cd0535c343bd6b079",
+      "33,29": "bee34ec4d240a22b177749d03a095dc672b65ea0c05f0efb978e4a137fed5d12",
+      "34,29": "f53b4e8c261ff157bf416be0138a69513ab0146c8e22bd7162a4743c83b80e10",
+      "35,29": "d2b1f0f693fbd7679f462a913b2f23337f8010af7e550c18cca6d8077d220c4d",
+      "36,29": "fd20f6ac1820179c84ed35073440b437ce4852080cd3d5ad2d6dce3d287698aa",
+      "37,29": "9f5a98fbbe41281ccafb4e3e7ddfbd891892c2f119afbd0a64f4a80bbdedf26e",
+      "38,29": "82e829ae52ad2615153287386152a8cb12f06481e95f59ca84c77c232e23df2d",
+      "39,29": "cee813da85c312c4a573ea9d82da3a0a9c1d2221f44c775e5d2141152755804a",
+      "40,29": "2fdcff9c4717eff48590659d39b8db3e415913f283b665ec50a27359e2d47acb",
+      "41,29": "70647a6b1ccd9003e75de6c932455aa12834837e4fafb6d51466076def96f8b7",
+      "42,29": "c6108ffa8768c3f58d850ad612df87606becea863367e5ea78c665b3cf3be02b",
+      "32,30": "c70280722322513c10ceea14d088286d67747ac99a01891ec6c7cc10b42c0053",
+      "33,30": "c03048063fdaa0a3ad39a6e6f026e01ea0beacc00f2240e906e5c9037894d5aa",
+      "34,30": "6c332867aef20fea9188372c4c178555b0be46f9c76ac012f6772fab8df9be9c",
+      "35,30": "08985742e3e94d2b04d96bffc9d273aa52618997ad6fa45ed8b8a74985e9647c",
+      "36,30": "cb6994239f57a62d465e0170a8afd075c9f4b3007178a1e8ea79748eee589c24",
+      "37,30": "78bf474b745b43672778b8f437884dca86e1a1ec7b8ff3dce87377b72fbfd4bb",
+      "38,30": "32e6fd25ff99d7cd9d24c61629230b72d439028d538d79d4c8e838b3d9024b14",
+      "39,30": "612e9816b3eaf7d67e9e63c04c1adbcade3cba8931f414521ab20121ce96b6a0",
+      "40,30": "2da4d0e24936f4449e97937643a8600e9c4f29d503cc969177cdb6679175a754",
+      "41,30": "8a7ffd751cd84ba102ff04c22a3c0b96c692424dd87c7f37566b83922332b99f",
+      "42,30": "d66a9411feb1787d88475145bf80ecfb814f27b2af244c938c14a1aaf84f71c1",
+      "32,31": "80e70b116341624c54e3832ba53d2050a6b432dcc6f89fcad970105581e51f2f",
+      "33,31": "cf548bc23e0243c6a2c8bb925a95c405d82b728774ca81d6b0e741bfbe2bb469",
+      "34,31": "b436eadc6c4f08f26ee71e595a0528df94144ecf64dd429c3d3340bf70337398",
+      "35,31": "f8312e84cf2913d3d5554eed48bb7b69fba897b55d7e9b23def12e3a14a9088d",
+      "36,31": "d1194823f7cd0fb353801f56b86933f14fe4267b01b9c169bbc900b0809237c9",
+      "37,31": "c95ed7b7f4ca2fa4a6c8aa47437aae5252b65c5f38b8ae20a7982ed06ac033ff",
+      "38,31": "85c31e0adab703b094ba2c17b6980f0d70fba4b62c9b230957e0cf5944b69ed8",
+      "39,31": "487421b84c9ecfaac7ba03c735f693c42756cf38d3594185468d8672e3031a6d",
+      "40,31": "400148874009012a550cdb3132d8f805372dc308af24885731e8af0feb8aec83",
+      "41,31": "e611a75ff3c932c4d00385a83a5819a41f17659e8087592e5c1afec0cd3da662",
+      "42,31": "5f9bc88b31b131d07d8cecc3b9a771e5746d1956f7c040eacb81d1541d6feb89",
+      "32,32": "a5e32a7c3155690664f036e7c28824564895fed3a287fcb4e5e5341f9c558e3d",
+      "33,32": "190ce48bc5ddbe7e9124cde77588c2a97b7fd766bbabb496c8ea5e25b08db70c",
+      "34,32": "e3919823e1f25115b7535b97df22f00928bdd2a11c65e2f0835c5a8d7547bcdf",
+      "35,32": "dd118cf4f14e78311d8849ca0e6c4eae015d8f7cd7aa87242bff587a1d1725ce",
+      "36,32": "f7135dcbb2e1a0eae5161525baa90a1113e4c3b2250930874213bda7f65a7bbc",
+      "37,32": "b069eeeac7e8b3dfd488ffacb46ecf139eca0badaabb671eed694b5751b5b045",
+      "38,32": "82626f4a26c759dbc9387407d3cbd0fac07a961ecf20c56d1810067334eab3b6",
+      "39,32": "b31aa7ff7a4650f7f5413c4b5cec72956e608543c1b0675b4f72bd81251aa20e",
+      "40,32": "97202ad830b42d8e2b94af0dd8ba0f30de96fcf3f30c57d4c581732678ea9e35",
+      "41,32": "f35ae6eba864269d3c21d54f93921b8ebe04bd97beb3612ea8ecc0923025b14a",
+      "42,32": "6550313e8fd0ead6e616e0b5439c051a14f4bc2dd110273150a64a19d47d9a92",
+      "32,33": "bdf27a208be404da0da72e253edd00b45a67c7e306c85cb094853c6641502916",
+      "33,33": "e0f66742a9f3594940c82a30d02bdf34be12eadfbad5e31b9e9d0e4b8e76b72a",
+      "34,33": "c474209f8b3f6be023645e1e7d5fad13d3d021f10a1b306c92df72192a04ba72",
+      "35,33": "309731e163801cff7156278dd5ba34521109b0ec687f28c41198f88436310249",
+      "36,33": "e0f481c7d42d2fa39583f2d16358d8dce0b54419cadd2c32b980a1cb59cc5185",
+      "37,33": "77efdf30ca4bd732a8438fe00419affd33a1f6b4c0161bd15c6458789b7a8f23",
+      "38,33": "96612d96993b99a230c8aa3235c8a9965b27f283b9a25c16a157dcb3353dac93",
+      "39,33": "df21c8a268713e9ce0b8e7688c35aa2b6709e01b2ebe267556f85a99130485f9",
+      "40,33": "b0603e79ba5702ce869b47859716637e6f3cbff9e984273477131ad062316370",
+      "41,33": "0089bab54fe818a8924e18a54d121f851b421b9f8de02d12024f516ee07250ae",
+      "42,33": "93eaf9b9d759d5466450a156ca8fd6ea69f1d717414d2e826d1849d86be31bf7",
+      "32,34": "23482895970ae0559832455bb2e7f649e7faa9c525de0690c0f0547908172f1c",
+      "33,34": "50e747d31749f7330fbdaca2f45bc00b82fa513c11a4b78a003117a456d30c14",
+      "34,34": "86a8ff65ecb1fe619e6e97e7263cfb7e07c0cd77c562d3275135cb2eb9b11ef7",
+      "35,34": "9ac805b8d720c5d428d6d43fd30a9e3809d5adba57d3b1cfae2f1cb75da12e0d",
+      "36,34": "346bc6a734063e012619d3c1d9e2cbb86c3f6a0954df6d973198113caffe0f11",
+      "37,34": "cdb318a88523bb4769b39e588ae73b753076458735cae74403b64366b069a811",
+      "38,34": "d4bea4ebc6fe42e1bf400417eda08bffee0a02f7f970e41dc391ae8a8db3b01e",
+      "39,34": "6c774e1dce6cd16d453116908e6b7eb42145e68b941ea9dec914b0a8ae9fd108",
+      "40,34": "7e8e0c0253c81a12cda16dae27a99234b9b66270bebc9030618cbd57e21e0a3f",
+      "41,34": "85168ebdaed826f4e0e7c1fb0d079ed2c6dc4483a720b19af6f26f87def0d937",
+      "42,34": "e26c29ca632d580dfb36559f00a96048ceaea321467de73e678bb8c37e048d6c",
+      "32,35": "0885dd7186709e90316210b253bc0f9a009f604c270a197571fe48229b554647",
+      "33,35": "9ced8bb7ac3efc389a270e30916f2da7b3614805d0d8d4c7215801176f39c56f",
+      "34,35": "00118ed81260755a4468a3b2c8f5b5484f9257ff23e7ae45cd4db4cc752a23f4",
+      "35,35": "5489021bc8717bfa9df7f9d62b24c444e486cd080d30d404034874d70a73578d",
+      "36,35": "8554c1828e60794bf0a50c701f915553d80526589820a658d788eea3a136d71d",
+      "37,35": "2c703b8cd1169fde6b53e5e31b815909294ec3ec2b1da9b29c33bc47a3ae908f",
+      "38,35": "5feacac9e7170683c2f751a078f7b7acf384a4c210c8a5fc3fe829cc8ab7f7cf",
+      "39,35": "580e6687522c031dbe2f4565a0df79912cd4c3c1f02e1586377b13f221a3cb23",
+      "40,35": "3b3dbd9b433d4f544ab4ac4f202b64a8b564617c0c6ae4f9eb97c251be1b2054",
+      "41,35": "372b3285a72e93642fd97de6f7c336056f97dd78ec210126c085f643ef5d8e38",
+      "42,35": "b815a8893f3a6f78c40172a43ce2b45fe04dae483a441e5b094930545b81cba4"
+    },
+    "poi": {
+      "32,25": null,
+      "33,25": null,
+      "34,25": null,
+      "35,25": null,
+      "36,25": null,
+      "37,25": null,
+      "38,25": null,
+      "39,25": null,
+      "40,25": null,
+      "41,25": null,
+      "42,25": null,
+      "32,26": null,
+      "33,26": null,
+      "34,26": null,
+      "35,26": null,
+      "36,26": null,
+      "37,26": null,
+      "38,26": null,
+      "39,26": null,
+      "40,26": null,
+      "41,26": null,
+      "42,26": null,
+      "32,27": null,
+      "33,27": null,
+      "34,27": null,
+      "35,27": null,
+      "36,27": null,
+      "37,27": null,
+      "38,27": null,
+      "39,27": null,
+      "40,27": null,
+      "41,27": null,
+      "42,27": null,
+      "32,28": null,
+      "33,28": null,
+      "34,28": null,
+      "35,28": null,
+      "36,28": null,
+      "37,28": null,
+      "38,28": null,
+      "39,28": null,
+      "40,28": null,
+      "41,28": null,
+      "42,28": null,
+      "32,29": null,
+      "33,29": null,
+      "34,29": null,
+      "35,29": null,
+      "36,29": null,
+      "37,29": null,
+      "38,29": null,
+      "39,29": null,
+      "40,29": null,
+      "41,29": null,
+      "42,29": null,
+      "32,30": null,
+      "33,30": null,
+      "34,30": null,
+      "35,30": null,
+      "36,30": null,
+      "37,30": null,
+      "38,30": null,
+      "39,30": null,
+      "40,30": null,
+      "41,30": null,
+      "42,30": null,
+      "32,31": null,
+      "33,31": null,
+      "34,31": null,
+      "35,31": null,
+      "36,31": null,
+      "37,31": null,
+      "38,31": null,
+      "39,31": null,
+      "40,31": null,
+      "41,31": null,
+      "42,31": null,
+      "32,32": null,
+      "33,32": null,
+      "34,32": null,
+      "35,32": null,
+      "36,32": null,
+      "37,32": null,
+      "38,32": null,
+      "39,32": null,
+      "40,32": null,
+      "41,32": null,
+      "42,32": null,
+      "32,33": null,
+      "33,33": null,
+      "34,33": null,
+      "35,33": null,
+      "36,33": null,
+      "37,33": null,
+      "38,33": null,
+      "39,33": null,
+      "40,33": null,
+      "41,33": null,
+      "42,33": null,
+      "32,34": null,
+      "33,34": null,
+      "34,34": null,
+      "35,34": null,
+      "36,34": null,
+      "37,34": null,
+      "38,34": null,
+      "39,34": null,
+      "40,34": null,
+      "41,34": null,
+      "42,34": null,
+      "32,35": null,
+      "33,35": null,
+      "34,35": null,
+      "35,35": null,
+      "36,35": null,
+      "37,35": null,
+      "38,35": null,
+      "39,35": null,
+      "40,35": null,
+      "41,35": null,
+      "42,35": null
+    }
+  },
+  "global_files": {
+    "DIM-1/data/capabilities.dat": "05a2834fd5e6f6bfb1fc52235d508b56e3faa26d5442c9b1a71759dbed0c4f60",
+    "DIM-1/data/raids.dat": "pristine-raid-manager-2586",
+    "DIM1/data/capabilities.dat": "05a2834fd5e6f6bfb1fc52235d508b56e3faa26d5442c9b1a71759dbed0c4f60",
+    "DIM1/data/raids_end.dat": "pristine-raid-manager-2586",
+    "data/capabilities.dat": "05a2834fd5e6f6bfb1fc52235d508b56e3faa26d5442c9b1a71759dbed0c4f60",
+    "data/raids.dat": "pristine-raid-manager-2586",
+    "serverconfig/chiselsandbits-server.toml": "e380d01b6c59a4e3d1bff2aab5251d94422d19977b49dada8915d422bde0918c",
+    "serverconfig/forge-server.toml": "53414e823db10c9677917fd3361edda51b4d6572d73a22f9fd53565d3dfa9ef9"
+  },
+  "worldgen_snbt": "{bonus_chest: 0b, seed: 0L, generate_features: 0b, dimensions: {\"minecraft:overworld\": {generator: {settings: {features: 0b, biome: \"minecraft:plains\", structures: {structures: {}}, layers: [{block: \"minecraft:bedrock\", height: 1}, {block: \"minecraft:stone\", height: 31}, {block: \"minecraft:grass_block\", height: 1}], lakes: 0b}, type: \"minecraft:flat\"}, type: \"minecraft:overworld\"}, \"minecraft:the_nether\": {generator: {settings: \"minecraft:nether\", seed: 0L, biome_source: {seed: 0L, preset: \"minecraft:nether\", type: \"minecraft:multi_noise\"}, type: \"minecraft:noise\"}, type: \"minecraft:the_nether\"}, \"minecraft:the_end\": {generator: {settings: \"minecraft:end\", seed: 0L, biome_source: {seed: 0L, type: \"minecraft:the_end\"}, type: \"minecraft:noise\"}, type: \"minecraft:the_end\"}}}",
+  "intersecting_references": [
+    "east-campus-garage",
+    "west-wing"
+  ],
+  "trial_release": "builders-round1",
+  "scope": "Independent exterior proposals; no automatic integration or exclusive claim"
+}

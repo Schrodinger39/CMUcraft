@@ -95,3 +95,26 @@ WorldEdit schematic export/import, multiplayer and independent volunteer onboard
 The original example ZIP remains an uninitialized experimental example; issue new
 Builder kits from a separately initialized, reviewed base. Do not describe this
 small-sample result as general C&B compatibility certification.
+
+## First Builds distribution preparation
+
+The first round now exposes Hunt #3 and CUC #4 as small public proposal tasks;
+screenshots are requested in #5. No claim is needed for an independent trial or
+reference contribution. Main-save ownership and actual integration remain coordinated.
+
+A combined `.mrpack` and two world ZIPs were built from the clean, runtime-initialized
+comparison world, not the player's modified test world. Player NBT, player files,
+progress, old level files, session locks, map identity, icon and config backups were
+removed from the publication copy. The retained world-owned config/data was inspected.
+Archives contain no game binaries, mod JARs, account folders or desktop screenshots.
+Pinned mod metadata is unchanged. Both trial reservations are disjoint from each
+other; their overlaps with neighboring buildings remain documented restrictions.
+Starter chunk payloads match the reviewed base. Archive integrity, included worlds,
+privacy exclusions, manifest consistency and local documentation links were checked.
+Regression suite: **65 passed**.
+
+The new downloadable pack has not been freshly imported in a launcher. The CUC trial
+world has not been entered in a client. These are explicit trial downloads, not an
+approved full-building handoff. The earlier Hunt example remains historical. Source
+code, public kit manifests and download checksums allow tracking this fixed round;
+maintainers retain the exact sanitized base and issued kit archives for future review.

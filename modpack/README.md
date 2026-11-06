@@ -30,7 +30,7 @@ The included `CMUcraft - Scale Calibration` world contains nominal rooms at thre
 
 JAR integrity and pinned versions were checked. WorldEdit and FerriteCore hashes were compared with published Modrinth metadata. The Chisels & Bits download was taken from the official CurseForge file; its recorded hashes pin that download, rather than claiming an independently published signature.
 
-**Modded runtime, saving/reloading chiseled blocks, and multiplayer remain unverified.** A reported main-menu launch may have used the original profile. Do not interpret static checks as a crash-free guarantee.
+**A local three-block C&B sample passed save/re-entry and raw-chunk integration/re-entry on the existing HMCL profile. Full-building behavior, collisions and multiplayer remain unverified.** A reported main-menu launch may have used the original profile. Do not interpret static checks as a crash-free guarantee.
 
 Before distributing a finished world: launch the exact pack, confirm all six mods in the Mods menu, load a copied world, place a chiseled test block, save/quit/reload, and verify persistence. Check client/server matching versions before multiplayer. Keep backups; never downgrade an upgraded save.
 

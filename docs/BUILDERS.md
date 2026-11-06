@@ -1,97 +1,60 @@
-# Build one CMU building
+# Your first CMUcraft contribution
 
-You can contribute without Python, Git or a pull request. You need Minecraft Java,
-the pinned Workbench, and a Building Kit supplied by a maintainer. There is no
-shared server. The current kits are **experimental**: one local small-sample load/save/integration test has passed, but each issued kit
-still needs maintainer review; collisions and full-building transfer are not certified.
+Help make **Hunt Library** and **Cohon University Center (CUC)** recognizable in
+Minecraft. Start with one window section, an entrance, a reference photo or an idea.
+You do not need Python, Git, or a commitment to build a whole building.
 
-## 1. Claim a building
+## Pick something small
 
-Open [Building claim](https://github.com/Schrodinger39/CMUcraft/issues/new?template=building-claim.yml).
-Give the building name, preferred credit name, whether you plan to use Chisels &
-Bits, and the part you want to build. Search existing issues first. A request is
-not an assignment: wait for the maintainer's confirmation and kit link.
-If you do not have a GitHub account, a collaborator can open and maintain the
-issue for you; agree a file-transfer channel with that person. No Discord,
-email address or hosted upload service is assumed to exist.
+| Building | Try this first | Details |
+| --- | --- | --- |
+| Hunt | Suggest a repeating window-and-fin section; a small private build or annotated reference is enough | [Hunt brief](buildings/hunt-library.md) |
+| CUC | Identify an entrance or facade and show what the rough model misses | [CUC brief](buildings/cohon-university-center.md) |
 
-The maintainer reserves a square group of 16 × 16 block chunks, at **all heights**.
-Nearby buildings may share that group. Those claims must be combined or scheduled
-one after another. A kit is tied to a specific base-world snapshot; do not reuse
-an old kit for a new assignment.
+Use the linked building task to post your idea, ask for help or volunteer as a lead.
+**No separate claim issue or permission is needed to download, try or propose.**
+Photos and observations are welcome without Minecraft. A collaborator can post for
+you if you do not use GitHub. We coordinate in the building tasks; no live server is available.
 
-## 2. Download and open your kit
+## Want to build? One download, two worlds
 
-1. Get the ZIP linked in your confirmed claim. The maintainer prepares it; you do
-   not run the generator. See the [example kit](../building-kits/README.md).
-2. Set up a separate instance using [the launcher guide](LAUNCHERS.md) and
-   [the Workbench versions](../modpack/README.md): Java 1.16.5, Forge 36.2.42,
-   Chisels & Bits 1.0.63, WorldEdit 7.2.5, and the other pinned mods. Do not update
-   individual mods or open this save in vanilla, Fabric, Bedrock or newer Minecraft.
-3. Close Minecraft. Unzip the kit. Open your launcher's instance folder, then its
-   Minecraft folder and `saves`. Copy `starter-world` there; give the copied folder
-   a unique name. `level.dat` must be directly inside that folder, not two levels down.
-4. Read `START-HERE.md`, `reference.json` and `footprint.png`. Launch the instance
-   and select **CMUcraft Kit - [building]**. Verify the Mods menu matches the pack.
-5. If the world fails to open, stop and report the error with versions. Keep the
-   original ZIP. Never try to repair it by removing Chisels & Bits.
+1. Download **CMUcraft-First-Builds.mrpack** from the [First Builds release](https://github.com/Schrodinger39/CMUcraft/releases/tag/builders-round1).
+2. Import it as a **new instance** in a launcher that supports `.mrpack`. It contains
+   the pinned mod download list and both trial worlds; you do not need to choose each
+   mod yourself. You still need your own Minecraft Java access. See [launcher help](LAUNCHERS.md)
+   if import fails. Fresh import of this new package has not been client-tested.
+3. Open **CMUcraft Kit - Hunt Library** or **CMUcraft Kit - Cohon University Center**.
+   Read the building brief, try one small exterior detail, and keep neighbors intact.
+   One block is one metre; keep the existing location and orientation. Ordinary
+   blocks are fine; learning C&B is not a prerequisite for a design proposal.
+4. Post a screenshot and a sentence about the change in the building task. That is
+   enough for your first design contribution. No full-building review form is needed.
 
-A kit includes real existing terrain/context, not an empty flat building plot.
-Existing architecture is rough and must be replaced only as agreed in the claim.
-The world border marks your reserved square; the green footprint in the plan is
-source geometry, not a claim that the facade or height has been verified.
+Already have the exact Workbench? The release also has a ZIP for each building.
+Copy its `starter-world` into your instance's `saves` folder with a unique name;
+`level.dat` belongs directly inside that folder. Keep the original download.
+Do not upgrade the game/mods or open these saves in vanilla or Bedrock.
 
-## 3. Build in place
+## When you want your build integrated
 
-- One full block is one metre. North is decreasing Z; east is increasing X.
-  Use F3 to see coordinates. Keep the exact position and orientation in the kit.
-- Work only inside the coordinates in `START-HERE.md`, including roofs, basements,
-  overhangs and temporary blocks. Ask for a larger reservation before extending it.
-- Use the linked references. Record estimated dimensions; do not turn an unknown
-  height or ambiguous floor count into a measured fact. Exterior and roof come first.
-- Preserve neighboring buildings, terrain, paths and underground features unless
-  the claim explicitly authorizes replacing them. All reserved chunks are imported,
-  not just the new walls. Remove scaffolding and temporary work before delivery.
-- Do not add mods, datapacks, command blocks or executable files. Avoid free-moving
-  entities, villagers, portals and mod features that store data outside their chunks.
-  Ask the maintainer if these are essential; the automatic path may reject them.
-- Save, quit and reopen regularly. For chiseled details, compare close-ups, materials,
-  transparency and collision behavior after reopening. Record failures honestly.
+Tell the building coordinator in the same task. Close Minecraft and ZIP the complete
+world folder, including `.mca` and `.mcc` files; attach it or agree on a download link.
+Include the original `kit.json`, reference links, credit name and permission to share
+your original build. Do not send your launcher/account folder. The maintainer handles
+coordinate checks, backup and staging into a new campus copy.
 
-## 4. Submit a complete save
+A trial proposal is not an exclusive building assignment. Each building has one main
+save coordinator; overlapping submissions are reviewed as alternatives, not automatically
+combined. Whole-building work gets an agreed scope and current integration kit before
+acceptance. C&B contributions require the original full save; schematic-only C&B
+transfer has not been verified. No need to learn WorldEdit export for this route.
 
-1. Save and quit, then close Minecraft completely so no files are changing.
-2. ZIP the **entire world folder**, including `level.dat`, `region`, every `.mcc`,
-   `data`, `poi`, `serverconfig` and other world-owned files if present. Do not send
-   the whole launcher instance: it contains mods, account information and logs.
-3. Open [Building submission](https://github.com/Schrodinger39/CMUcraft/issues/new?template=building-submission.yml).
-   Link the claim and attach the ZIP, or use an agreed downloadable file link if
-   GitHub refuses its size. Do not split a region file or omit sidecars to shrink it.
-4. Include the original `kit.json`; front, back, both sides, roof and context views;
-   close-ups before/after reload; exact game/mod versions; known issues; reference
-   URLs and rights; your credit name and permission to redistribute your original build.
-   Say which tests you did **not** run. Never include account files or private logs.
+## What has been tested?
 
-Screenshots do not replace the save. Keep your original until integration is accepted.
-The maintainer may ask for changes or a new kit if the campus has changed.
+On the existing local HMCL setup, a three-block C&B sample survived building,
+save/re-entry, transfer into a separate campus copy, and another save/re-entry.
+Automated checks verified the transferred payloads. This is a small-sample result.
+Fresh pack import, the new CUC trial world's client behavior, complete-building
+transfer, detailed collisions, schematics and multiplayer remain unverified.
 
-## Optional schematic delivery
-
-For ordinary blocks, a WorldEdit `.schem` may accompany or replace a save after a
-successful export → fresh-world import → save/quit/reload test. Record both selection
-corners, the exact position used for `//copy`, the intended campus paste position,
-versions, dimensions and screenshots. Do not rotate or mirror during transfer.
-Modern `.schem` and legacy `.schematic` are different formats; do not rename an extension.
-
-For **Chisels & Bits**, always submit the full original world, even if you attach a
-schematic. We have not certified WorldEdit 7.2.5 + C&B 1.0.63 round trips. A schematic
-that has the right block names may still lose voxel data or runtime state. See
-[compatibility evidence and the test protocol](BUILDER-COMPATIBILITY.md).
-
-## What happens next?
-
-The maintainer checks the claim, sources, dimensions and neighborhood; reviews a
-chunk-change plan; stages into a new campus copy; and tests that copy in the pinned
-client. Passing automated checks does not accept a building. Accepted work receives
-credit in `CONTRIBUTORS.md` and release notes. If integration fails, the original
-submission stays intact and the claim stays open.
+[Full validation record](BUILDER-VALIDATION.md) · [Maintainer workflow](BUILDER-MAINTENANCE.md)
