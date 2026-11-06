@@ -1,0 +1,203 @@
+{
+  "name": "Donner House",
+  "osm_id": "way/27591346",
+  "source_url": "https://www.openstreetmap.org/way/27591346",
+  "snapshot_sha256": "7d8857f29e2e29a48ddb4d52182175ac4af61c7b7e6c9c7727f93af1192bc1e2",
+  "crs": "EPSG:32617",
+  "axis_convention": "X east; Z south; one coordinate unit is one metre",
+  "utm_origin": [
+    589144.82561034,
+    4478009.6777666835
+  ],
+  "footprint_wgs84": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -79.9401816,
+          40.4419826
+        ],
+        [
+          -79.9397718,
+          40.4421562
+        ],
+        [
+          -79.9396982,
+          40.4420569
+        ],
+        [
+          -79.9397202,
+          40.4420489
+        ],
+        [
+          -79.9400941,
+          40.4418898
+        ],
+        [
+          -79.9400469,
+          40.4418229
+        ],
+        [
+          -79.9400381,
+          40.441811
+        ],
+        [
+          -79.9401735,
+          40.4417559
+        ],
+        [
+          -79.9402715,
+          40.4418887
+        ],
+        [
+          -79.9402788,
+          40.4418851
+        ],
+        [
+          -79.9406389,
+          40.4417331
+        ],
+        [
+          -79.9406679,
+          40.4417705
+        ],
+        [
+          -79.9406806,
+          40.4417647
+        ],
+        [
+          -79.9406972,
+          40.4417589
+        ],
+        [
+          -79.9407413,
+          40.4418201
+        ],
+        [
+          -79.9402225,
+          40.442038
+        ],
+        [
+          -79.9401816,
+          40.4419826
+        ]
+      ]
+    ]
+  },
+  "footprint_xz": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          735.8147541686194,
+          655.5722115235403
+        ],
+        [
+          770.3382078072755,
+          635.8851591488346
+        ],
+        [
+          776.7124769279035,
+          646.8326993109658
+        ],
+        [
+          774.8573388485238,
+          647.7431134469807
+        ],
+        [
+          743.3591774028027,
+          665.7841212330386
+        ],
+        [
+          747.4512989657233,
+          673.1620979774743
+        ],
+        [
+          748.2134745478397,
+          674.4740618783981
+        ],
+        [
+          736.8036834970117,
+          680.7280689096078
+        ],
+        [
+          728.315480445628,
+          666.0867672525346
+        ],
+        [
+          727.7011677646078,
+          666.4938023500144
+        ],
+        [
+          697.3637349823257,
+          683.7324572158977
+        ],
+        [
+          694.8544656647136,
+          679.610492086038
+        ],
+        [
+          693.7851083971327,
+          680.267221396789
+        ],
+        [
+          692.384994209744,
+          680.9279177477583
+        ],
+        [
+          688.5634213316953,
+          674.1794686177745
+        ],
+        [
+          732.2722680945881,
+          649.4643375426531
+        ],
+        [
+          735.8147541686194,
+          655.5722115235403
+        ]
+      ]
+    ]
+  },
+  "centroid_xz_m": [
+    733.675,
+    661.612
+  ],
+  "footprint_area_m2": 1332.179,
+  "bounds_xz_m": [
+    688.563,
+    635.885,
+    776.712,
+    683.732
+  ],
+  "independent_footprint_comparison": {
+    "osm_id": "way/27591346",
+    "name": "Donner House",
+    "county_ids": "569642",
+    "overlap_iou": 0.9075,
+    "centroid_difference_m": 0.903,
+    "boundary_hausdorff_m": 1.202,
+    "status": "agreement_candidate",
+    "name_verified": false,
+    "facade_verified": false,
+    "height_verified": false
+  },
+  "exterior_requirements": [
+    "pale turquoise metal and glazing",
+    "flat roof",
+    "replace generic white solid facade"
+  ],
+  "inventory_source": "https://www.cmu.edu/cdfd/planning-and-design/master-plan/pdf/june-2022-cmu-imp-appendices.pdf",
+  "inventory_date": 2022,
+  "inventory_level_string": "2+3",
+  "surveyed_height_m": null,
+  "height_policy": "Do not convert ambiguous inventory level strings to a verified total height.",
+  "verification": {
+    "identity": false,
+    "location": false,
+    "height": false,
+    "facades": false,
+    "game_walkthrough": false
+  },
+  "status": "reference_packet_not_approved_model"
+}
