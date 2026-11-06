@@ -1,0 +1,171 @@
+{
+  "name": "Posner Hall",
+  "osm_id": "way/27591241",
+  "source_url": "https://www.openstreetmap.org/way/27591241",
+  "snapshot_sha256": "7d8857f29e2e29a48ddb4d52182175ac4af61c7b7e6c9c7727f93af1192bc1e2",
+  "crs": "EPSG:32617",
+  "axis_convention": "X east; Z south; one coordinate unit is one metre",
+  "utm_origin": [
+    589144.82561034,
+    4478009.6777666835
+  ],
+  "footprint_wgs84": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -79.9421926,
+          40.4416182
+        ],
+        [
+          -79.9420249,
+          40.4415849
+        ],
+        [
+          -79.9418622,
+          40.4415541
+        ],
+        [
+          -79.9421211,
+          40.4409443
+        ],
+        [
+          -79.9421368,
+          40.4409477
+        ],
+        [
+          -79.9421479,
+          40.4409184
+        ],
+        [
+          -79.9422147,
+          40.440933
+        ],
+        [
+          -79.9424263,
+          40.4409792
+        ],
+        [
+          -79.9423847,
+          40.4410896
+        ],
+        [
+          -79.9423726,
+          40.4411215
+        ],
+        [
+          -79.9423797,
+          40.4411231
+        ],
+        [
+          -79.9423721,
+          40.4411433
+        ],
+        [
+          -79.9421926,
+          40.4416182
+        ]
+      ]
+    ]
+  },
+  "footprint_xz": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          565.7480557713425,
+          698.0659535806626
+        ],
+        [
+          580.0149033510825,
+          701.5919503057376
+        ],
+        [
+          593.8543919039657,
+          704.8454962261021
+        ],
+        [
+          572.7079476356739,
+          772.797399145551
+        ],
+        [
+          571.3719032972585,
+          772.4359420444816
+        ],
+        [
+          570.4694630260346,
+          775.6995688015595
+        ],
+        [
+          564.7847136523342,
+          774.1467986991629
+        ],
+        [
+          546.7774138521636,
+          769.2334329104051
+        ],
+        [
+          550.1587774615036,
+          756.9365925071761
+        ],
+        [
+          551.1425780502614,
+          753.3833480682224
+        ],
+        [
+          550.5382987343473,
+          753.2129561239854
+        ],
+        [
+          551.1560052072164,
+          750.9630022756755
+        ],
+        [
+          565.7480557713425,
+          698.0659535806626
+        ]
+      ]
+    ]
+  },
+  "centroid_xz_m": [
+    569.639,
+    736.304
+  ],
+  "footprint_area_m2": 2034.292,
+  "bounds_xz_m": [
+    546.777,
+    698.066,
+    593.854,
+    775.7
+  ],
+  "independent_footprint_comparison": {
+    "osm_id": "way/27591241",
+    "name": "Posner Hall",
+    "county_ids": "573710",
+    "overlap_iou": 0.4463,
+    "centroid_difference_m": 26.73,
+    "boundary_hausdorff_m": 54.544,
+    "status": "needs_review",
+    "name_verified": false,
+    "facade_verified": false,
+    "height_verified": false
+  },
+  "exterior_requirements": [
+    "tan masonry and metal shading",
+    "flat roof",
+    "upper metal level differs from lower facade"
+  ],
+  "inventory_source": "https://www.cmu.edu/cdfd/planning-and-design/master-plan/pdf/june-2022-cmu-imp-appendices.pdf",
+  "inventory_date": 2022,
+  "inventory_level_string": "4",
+  "surveyed_height_m": null,
+  "height_policy": "Do not convert ambiguous inventory level strings to a verified total height.",
+  "verification": {
+    "identity": false,
+    "location": false,
+    "height": false,
+    "facades": false,
+    "game_walkthrough": false
+  },
+  "status": "reference_packet_not_approved_model"
+}
