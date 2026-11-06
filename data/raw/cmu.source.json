@@ -1,0 +1,16 @@
+{
+  "source_kind": "real_osm",
+  "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-79.946,40.441,-79.940,40.445",
+  "bbox_wgs84": [
+    -79.946,
+    40.441,
+    -79.94,
+    40.445
+  ],
+  "retrieved_utc": "2026-11-06T00:06:07.853189+00:00",
+  "sha256": "595be97babf22e113575c67dc5706db4ebde10f1badb7c7c4acb360176f63041",
+  "attribution": "\u00a9 OpenStreetMap contributors",
+  "license": "ODbL 1.0",
+  "license_url": "https://www.openstreetmap.org/copyright",
+  "note": "Original unmodified OSM API response; not synthetic. Initial broad survey bbox."
+}
