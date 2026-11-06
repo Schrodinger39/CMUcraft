@@ -1,69 +1,39 @@
-# Contributing to CMUcraft
+# Contributing
 
-Thanks for helping. The most useful contribution is one that makes a particular building, measurement or instruction easier to trust. A good reference photo or a clear bug report can help as much as code.
+CMUcraft is an unfinished reconstruction of CMU's Pittsburgh campus. Contributions to the world, generation tools, reference data and installation experience are welcome. The project is currently focused on exterior accuracy and making the existing work usable by other people.
 
-## Start here
+## Coordination
 
-If this is your first GitHub project, you can start with an issue containing one observation or photo link. You do not need to make a commit or install the development tools. A pull request becomes useful when you have a specific file or model change to share. You can also ask for help choosing a small part of your favorite building.
+Use issues to discuss substantial changes before starting, especially when they affect building placement, shared coordinates, mod dependencies or the world format. Check existing issues and pull requests for overlapping work. Small fixes and documentation corrections can go straight to a pull request.
 
-1. Read the current limitations in [README.md](README.md).
-2. Pick one task from [ROADMAP.md](ROADMAP.md), or open an issue describing a specific problem.
-3. Comment on the issue before starting a substantial model change. Include the building or file you want to work on and the evidence you will use. A maintainer can help narrow the scope.
-4. Work on a branch or fork, then submit a pull request. A private repository requires an invitation before this workflow is available.
+There is no shared build server at the moment. World changes are developed in separate copies and reviewed before integration. The current direction is described in [Future Plans](ROADMAP.md); it is not a list of assigned tasks or a release schedule.
 
-No Discord, public build server or external coordination channel has been set up. Use repository issues and pull requests for project work. Do not post account tokens, launcher account files or unfiltered logs.
+## Code changes
 
-## Ways to contribute
-
-| If you enjoy… | A useful first contribution |
-| --- | --- |
-| Walking around campus | Compare one building's entrance, window pattern or roof with the model. Include a dated reference. |
-| Minecraft building | Improve one facade in a copied save, preserving the building's coordinates and scale. |
-| Photography | Share your own exterior photos with building name, side, date and permission to reuse them. |
-| Maps and measurements | Investigate one flagged footprint or height discrepancy without moving a whole building on a guess. |
-| Testing games | Load the pinned preview, inspect Hunt, save/reload, and report what persists or breaks. |
-| Python | Improve a documented pipeline step or reproduce a bug with a small test. |
-| Explaining things | Try the setup instructions on a fresh machine and fix unclear steps. |
-
-## You do not need to code
-
-For a building observation, include its name or OSM ID, the side you are looking at, and a screenshot or coordinate. Describe one concrete mismatch: a missing wing, the wrong entrance level, a roof shape, a color, or a window pattern. “This facade has six bays; the model has four” is more actionable than “make it realistic.” Mark estimates as estimates.
-
-For photographs, use your own images or links to permitted sources. Record the date, viewpoint, credit and reuse permission. Avoid identifiable bystanders and private interior information. Linking a photograph is not permission to redistribute it.
-
-For playtesting, record the pack version, operating system and exact world name. Check appearance, collisions and a save/quit/reload cycle separately. Share only relevant error lines after removing tokens, usernames you do not want public, and private server addresses. The bug-report template has a checklist.
-
-## Contributing a Minecraft build
-
-- Use the pinned Java/Forge environment and a copy of the save. Keep the original as a rollback point.
-- Pick one facade, roof or building section. Do not merge work from the legacy campus into the detailed specimen without explaining the coordinate conversion.
-- Keep the shared origin, orientation and metre scale. Document a standalone specimen's translation and vertical offset so it can be placed back in the campus.
-- Include before/after views from the same angle, reference links, material choices and any dimensions that remain guesses.
-- Preserve mod block entities. Do not assume a schematic tool retains Chisels & Bits geometry; test export/import before relying on it. A small zipped save is acceptable when the tool cannot preserve the details.
-- Keep `.mcc` files beside `.mca` files when sharing a save. Large detail chunks may depend on them.
-- Coordinate large binary uploads in an issue first. Keep account data, game binaries, caches and unrelated saves out of Git.
-
-## Contributing code
-
-Follow [Developer setup](docs/DEVELOPMENT.md) to install the tools and reproduce builds. See [CODE_GUIDE.md](docs/CODE_GUIDE.md) for module responsibilities, array layouts and data flow.
-
-Write readable English comments. Explain units, coordinate axes, assumptions, validation boundaries and reasons for unusual operations. Split dense statements so another contributor can follow them. A comment should explain the operation or decision, not simply repeat the variable name. Machine-readable formats that do not support comments are documented in the file guide instead.
-
-For a change that affects behavior, run the relevant tests and add a regression test where it catches a real failure. Run the complete suite before submitting changes to shared geometry or world storage:
+Set up the project using [DEVELOPMENT.md](docs/DEVELOPMENT.md). Keep a pull request focused on one change and explain the reason for it. Include the checks you ran and any behavior that remains unverified. Changes to coordinates, rasterization or save generation should include a regression test where appropriate.
 
 ```bash
 python -m pytest -q
-cmucraft build --output build/pr-check
 ```
 
-Use a fresh output directory for world builders; they refuse to overwrite existing worlds. Document required network access or optional survey dependencies. Synthetic test shapes are welcome in tests; they must never be substituted for real campus data in a download or build result.
+Use English for code comments and contributor-facing documentation. Explain assumptions, units and non-obvious operations. The [code guide](docs/CODE_GUIDE.md) covers the existing modules and file formats. The workflow in `docs/ci/` is a template; it should not be presented as a successful CI run.
 
-The Actions workflow under `docs/ci/` is a template, not evidence that hosted CI ran. Include the checks you actually ran and any you could not run.
+## World and architecture changes
 
-## What a useful PR includes
+Use the pinned game and mod versions and work from a copy of the save. Preserve the campus coordinate system and scale. If a model is built in a separate world, record its translation and elevation offset so it can be integrated without guessing its position.
 
-Explain the problem, the change, and how it was checked. For architecture, include comparable model/reference views. For source data, include provenance and why the snapshot changed. Keep unrelated refactoring and binary exports out of a small fix.
+Include comparison images and reference sources with a model change. Identify which dimensions are measured and which are estimated. Architectural review should cover the result in context, rather than only a favorable render. Interiors are not a current requirement.
 
-Passing tests does not approve a building's appearance. Keep its review record incomplete until the relevant evidence and runtime checks exist. Do not remove a failing acceptance gate merely to make a report green.
+Discuss delivery of large saves in the issue or PR before adding them to Git. Keep `.mcc` files with their `.mca` region files. Schematic exports are acceptable only if the export/import process preserves the modded geometry; that round trip still needs verification for the current detailing workflow.
 
-Contributions to original code and documentation use the repository's MIT license. Data, photographs and third-party assets need their own compatible permissions and attribution. You can add your name or GitHub handle to `CONTRIBUTORS.md`; do not attribute work to someone without their agreement.
+## Data and references
+
+Keep source IDs, acquisition dates, coordinate systems, units and attribution with data changes. Do not hand-edit a raw snapshot without updating its provenance. Conflicting datasets should be documented rather than resolved by silently moving geometry.
+
+Photographs and drawings need a source and reuse permission if included in the repository. Links can be used for references that cannot be redistributed. Do not commit game binaries, launcher account files, private server information or unfiltered logs.
+
+## Review and credit
+
+A pull request should explain what changed, why, and how it was checked. For visual changes, provide comparable before/after views. Passing code tests does not establish architectural accuracy or client compatibility; leave unresolved review items explicit.
+
+Contributions to original code and documentation fall under the project's MIT license. Source data and third-party assets retain their own licensing requirements. Contributors may add their preferred name or handle and contribution to [CONTRIBUTORS.md](CONTRIBUTORS.md).

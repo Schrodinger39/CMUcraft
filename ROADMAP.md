@@ -1,29 +1,31 @@
-# Open work
+# Future Plans
 
-These are proposed tasks, not claims that someone has taken them on. Open an issue before starting and link it here once work is coordinated. There are no promised completion dates.
+The aim is to turn the current experiments into a recognizable, explorable CMU campus that people can build on together. The full-campus preview and the detailed Hunt model are still separate. These plans describe the direction of the project, not a promised release schedule.
 
-| Task | Good fit | A useful first result | Completion evidence |
-| --- | --- | --- | --- |
-| Test the current preview | Playtester; small first task | Load Hunt with the exact pack and document appearance and collisions | Same details survive save/quit/reload; relevant errors recorded |
-| Check one Hunt facade | Builder or campus photographer | Compare one side's window bays, fins and entrance with a dated reference | Matching views, measured or labeled estimated dimensions, remaining mismatches |
-| Resolve Wean's massing | GIS contributor and builder | Separate the hillside levels and main roof sections | Survey/footprint comparisons; no single floor-count estimate for the whole building |
-| Resolve Gates/Hillman connections | GIS contributor and builder | Check independent building parts and the elevated connector | Preserved geographic placement and supported deck elevation |
-| Check a flagged footprint | GIS contributor; bounded task | Review one row of the independent position audit | Explain agreement or discrepancy, including merged county footprints and source dates |
-| Test installation elsewhere | Windows/Linux/macOS contributor; small first task | Follow the README on a fresh environment | Exact commands, versions and failure or success; no account information |
-| Document one module | Python reader; small first task | Reproduce its inputs/outputs and improve an unclear explanation | Working example and accurate comments without changing data formats |
-| Test multiplayer | Forge/server contributor | Prepare an isolated server and connect two matching clients | Mod block synchronization and save/reload checks; server owner handles EULA and hosting |
-| Improve release validation | Python contributor | Verify packaged saves and their required external chunk files | Regression test for missing or corrupted files |
+## Campus reconstruction
 
-## Release priorities
+Replace the generic architecture in the original campus model with building-specific geometry. Improve proportions, materials, roof forms and the relationship between buildings and the surrounding terrain. Geographic sources and photographs should support these changes, with uncertainty recorded where the evidence is incomplete.
 
-1. Verify the pinned preview in a real client, including save/reload.
-2. Finish and review the Hunt specimen before treating it as a reusable quality reference.
-3. Correct the most visible building and terrain discrepancies in small, documented changes.
-4. Integrate accepted models into one campus world and check placement, routes and entrances.
-5. Test the shared world with multiple clients before advertising multiplayer as verified.
+Bring reviewed models into a single world with a consistent coordinate system. Improve paths, entrances, elevation changes and connections between campus areas so the map makes sense from a player's perspective, not just from above.
 
-The long-term target is a recognizable, explorable campus. Full interiors, additional campus areas and a permanent public server can follow; they should not delay correcting the buildings already in scope.
+## Playing and exploring
 
-## Make it easier to join
+Verify installation across commonly used launchers and operating systems. Simplify the release downloads and document a tested setup that does not depend on one person's launcher configuration.
 
-Before expanding the feature list, work through the [first-time contributor review](docs/ONBOARDING_REVIEW.md): verify another launcher, simplify the download choice, show an actual in-game walkthrough, and create a few small reference-backed issues. These are proposed improvements, not completed usability tests.
+Complete client testing of the detailed geometry, including rendering, collisions and save/reload behavior. Navigation tools and a short campus introduction could eventually make the world useful to people who are new to CMU, once the layout and routes are reliable enough.
+
+## Collaborative development
+
+Establish a practical way to exchange and integrate building work without losing modded details or overwriting other changes. Improve the distinction between editable source models, generated artifacts and playable releases.
+
+Test multiplayer synchronization and persistence before offering a shared building environment. A community server is a possibility, but hosting, maintenance and moderation have not been arranged.
+
+## Tools and validation
+
+Make the generation pipeline easier to extend beyond the current hard-coded examples. Strengthen placement checks, data provenance, release validation and reproducible builds while keeping the tools understandable to new contributors.
+
+Add automated checks where they catch real failures, and complement them with documented visual and in-game reviews. Neither survey data nor a passing test suite is enough on its own to establish that the campus looks right.
+
+## Longer term
+
+Interior spaces, additional campus areas and more detailed environmental work can follow once the exterior world is coherent. Suggestions are welcome through issues and pull requests, especially when they help make the existing project easier to use or develop.

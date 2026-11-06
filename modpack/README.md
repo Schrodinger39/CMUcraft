@@ -39,7 +39,7 @@ python scripts/build_modpack.py
 python scripts/verify_mods.py /path/to/instance
 ```
 
-The repository remains private. A portable package can be shared separately; public hosting and multiplayer server publication have not been configured.
+The portable package can be shared through repository releases. A hosted multiplayer server has not been configured.
 
 ## Current preview
 

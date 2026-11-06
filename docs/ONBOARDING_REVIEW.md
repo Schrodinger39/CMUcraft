@@ -1,3 +1,5 @@
+> Historical planning notes. The current contribution process is in [CONTRIBUTING.md](../CONTRIBUTING.md), and the project direction is in [Future Plans](../ROADMAP.md).
+
 # First-time contributor review
 
 This is a maintainer's walkthrough of likely friction, not feedback collected from a user study. The intended visitor is a CMU student who likes the idea and might spend a little time helping. They may not know Python, GIS, Git, Forge or HMCL.

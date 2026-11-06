@@ -1,6 +1,6 @@
 ---
-name: Offer a contribution
-about: Pick up a roadmap task or suggest a small new one
+name: Development proposal
+about: Discuss a change to models, data, tooling or distribution
 title: "[Contribution] "
 ---
 
@@ -10,7 +10,7 @@ Link a roadmap item or describe one specific improvement.
 
 ## What I can contribute
 
-Building, reference photos, measurements, Python, documentation or playtesting are all useful. No experience requirement; explain what you would like to try.
+Building, reference photos, measurements, Python, documentation or playtesting are all useful. Describe the proposed contribution and relevant context.
 
 ## Proposed first result
 

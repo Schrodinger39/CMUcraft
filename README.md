@@ -6,11 +6,11 @@ CMUcraft is a project to recreate Carnegie Mellon's Pittsburgh campus in Minecra
 
 Hopefully, it can also become a cool way for people who are new to CMU to explore campus and get a feel for where things are before arriving. That is a goal, not a promise that the current map is accurate enough for navigation.
 
-It's still a work in progress. If you know campus, enjoy building in Minecraft, or just want to help, you're welcome to join—even if you've never written code. **Want to help build your favorite spot on campus?**
+It's still a work in progress. If you know campus, enjoy building in Minecraft, or just want to help, contributions are welcome.
 
 This is an independent student project, not an official CMU map. The full-campus preview is still rough, and Hunt Library is the first detailed specimen. You can start by looking at the images below; Minecraft, Python and a different launcher are not prerequisites for giving feedback.
 
-[Try the preview](https://github.com/Schrodinger39/CMUcraft/releases/tag/v0.3.0-preview) · [How to contribute](CONTRIBUTING.md) · [Open tasks](ROADMAP.md) · [Report a problem](https://github.com/Schrodinger39/CMUcraft/issues/new/choose) · [Development journal](DEVLOG.md)
+[Try the preview](https://github.com/Schrodinger39/CMUcraft/releases/tag/v0.3.0-preview) · [How to contribute](CONTRIBUTING.md) · [Future plans](ROADMAP.md) · [Report a problem](https://github.com/Schrodinger39/CMUcraft/issues/new/choose) · [Development journal](DEVLOG.md)
 
 ![Hunt Library development geometry](audit/hunt-exterior-prototype.png)
 
@@ -71,13 +71,11 @@ The underlying rule is one block per metre with a consistent campus origin. Sour
 
 For code, installation and reproduction commands, read [Developer setup](docs/DEVELOPMENT.md). For the detailed explanation of modules, arrays and save formats, read the [Code and file guide](docs/CODE_GUIDE.md).
 
-## Want to help?
+## Contributing
 
-**Want to help build your favorite spot on campus?** You can contribute observations, photographs, building work, playtesting, code or clearer instructions. You do not need to know Python or Git to start with one observation.
+Contributions to campus models, geographic data, generation tools and testing are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) for the development and review workflow, and [Future Plans](ROADMAP.md) for the project's direction.
 
-[The contribution guide](CONTRIBUTING.md) explains the different ways to help and how to submit work. [The task list](ROADMAP.md) shows proposed work and what a useful result would look like.
-
-The repository is currently private; people without an invitation cannot view its issues or release downloads. Public visibility has not been enabled.
+Use issues to discuss substantial changes and pull requests to submit work. There is no shared build server yet; models are developed in separate saves before integration.
 
 ## Where to read more
 
@@ -86,7 +84,7 @@ Each document has a specific job:
 | Document | Use it when you want to… |
 | --- | --- |
 | [Contribution guide](CONTRIBUTING.md) | Choose how to help, coordinate work and submit a contribution |
-| [Task list](ROADMAP.md) | Find proposed tasks and release priorities |
+| [Future plans](ROADMAP.md) | Read the broader development priorities |
 | [Launcher guide](docs/LAUNCHERS.md) | Install the preview using your launcher or troubleshoot setup |
 | [Modpack reference](modpack/README.md) | Check exact mod versions, credits and verification limits |
 | [Developer setup](docs/DEVELOPMENT.md) | Install Python dependencies and reproduce builds |
@@ -94,7 +92,6 @@ Each document has a specific job:
 | [Survey guide](docs/SURVEY.md) | Download/process lidar and reproduce the roof evidence |
 | [Reconstruction requirements](docs/RECONSTRUCTION.md) | Understand what must be checked before a building is accepted |
 | [Development journal](DEVLOG.md) | Read the history of setbacks and decisions, in Chinese |
-| [First-time contributor review](docs/ONBOARDING_REVIEW.md) | See planned improvements to the joining experience |
 
 ## Credits and licensing
 
