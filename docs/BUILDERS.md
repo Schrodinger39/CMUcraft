@@ -2,8 +2,8 @@
 
 You can contribute without Python, Git or a pull request. You need Minecraft Java,
 the pinned Workbench, and a Building Kit supplied by a maintainer. There is no
-shared server. The current kits are **experimental**: client loading, collisions,
-and save/reload still need a real player to test them before public distribution.
+shared server. The current kits are **experimental**: one local small-sample load/save/integration test has passed, but each issued kit
+still needs maintainer review; collisions and full-building transfer are not certified.
 
 ## 1. Claim a building
 

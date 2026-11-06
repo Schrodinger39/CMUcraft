@@ -7,7 +7,7 @@ and never point tools at a live server or the only copy of a save.
 ## Inspect and reserve
 
 1. Confirm the building identity, reference packet and approved scope in the claim.
-2. Choose a base campus snapshot in the repository's 1024 m coordinate frame.
+2. Open and save a separate clean base once in the pinned client, then close the game. Generate kits from this initialized snapshot so Forge-created config/global data and default world settings are present before the baseline is recorded. Keep the original generated save. Choose a base campus snapshot in the repository's 1024 m coordinate frame.
    The small 256 m calibration/core worlds and the separate Hunt specimen have
    different origins: **do not use them as a base or substitute their region files**.
 3. Reserve the entire square, chunk-aligned footprint extent, all Y=0..255. Inspect
@@ -71,7 +71,7 @@ and payload, not timestamps or padding. A target change since kit generation fai
 closed, even if Minecraft only recompressed a chunk. Regenerate a kit and coordinate
 rework; do not bypass the baseline to force a merge. The planner rejects missing
 terrain chunks, wrong versions/coordinates, changed world generation settings and
-changed global saved data/config/dimensions. Global-state rejections are expected
+changed global saved data/config/dimensions, except a strictly recognized Xaero map identity and the elapsed Tick in a pristine empty raid manager. World-generation NBT key order alone is not a conflict. Global-state rejections are expected
 for some real saves: investigate the specific mod/runtime data and leave integration
 blocked until a dedicated supported transfer is implemented. Do not delete data to
 make a test pass.

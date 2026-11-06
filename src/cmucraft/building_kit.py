@@ -58,6 +58,9 @@ def region_records(folder, rx, rz):
     if not path.exists():
         return {}
     raw = path.read_bytes()
+    if not raw:
+        # Java may create an empty region file before writing its first record.
+        return {}
     if len(raw) < 8192 or len(raw) % 4096:
         raise ValueError('Truncated region')
     used = {0, 1}
@@ -153,9 +156,27 @@ def global_files(world):
     """
     ignored = {'region', 'poi', 'playerdata', 'stats', 'advancements',
                'level.dat', 'level.dat_old', 'session.lock', 'icon.png'}
-    return {p.relative_to(world).as_posix(): digest(p.read_bytes())
-            for p in sorted(Path(world).rglob('*')) if p.is_file()
-            and p.relative_to(world).parts[0] not in ignored}
+    result = {}
+    raid_paths = {'data/raids.dat', 'DIM-1/data/raids.dat', 'DIM1/data/raids_end.dat'}
+    for p in sorted(Path(world).rglob('*')):
+        if not p.is_file() or p.relative_to(world).parts[0] in ignored:
+            continue
+        key = p.relative_to(world).as_posix()
+        if key == 'xaeromap.txt' and re.fullmatch(r'id:-?\d+\s*', p.read_text()):
+            # Per-world client map identity is not building data; retain target ID.
+            continue
+        if key in raid_paths:
+            obj = n.load(p)
+            data = obj.get('data', {})
+            if (set(obj) == {'data', 'DataVersion'} and int(obj['DataVersion']) == 2586
+                    and set(data) == {'Raids', 'NextAvailableID', 'Tick'}
+                    and len(data['Raids']) == 0 and int(data['NextAvailableID']) == 1):
+                # Only a pristine raid manager's elapsed tick counter is irrelevant.
+                # Active/history-bearing/unknown records still compare exact bytes.
+                result[key] = 'pristine-raid-manager-2586'
+                continue
+        result[key] = digest(p.read_bytes())
+    return result
 
 
 def validate_manifest(m):
@@ -282,7 +303,7 @@ def plan_import(base, submission, manifest):
     check_world(submission)
     chunks = validate_manifest(manifest)
     for world in (base, submission):
-        if n.load(world/'level.dat')['Data']['WorldGenSettings'].snbt() != manifest['worldgen_snbt']:
+        if n.load(world/'level.dat')['Data']['WorldGenSettings'] != n.parse_nbt(manifest['worldgen_snbt']):
             raise ValueError('World generation settings differ')
         if global_files(world) != manifest['global_files']:
             raise ValueError('Global data/config/dimensions differ; manual compatibility review required')

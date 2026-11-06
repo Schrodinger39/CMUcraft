@@ -3,7 +3,7 @@
 Recorded 2026-11-05 (America/New_York). This is offline implementation evidence,
 not a completed client or end-to-end Builder acceptance test.
 
-## Executed
+## Initial offline checks
 
 - `python -m pytest -q`: **61 passed** (51 existing cases and 10 new cases).
   New cases cover kit metadata/bounds, same-coordinate payload identity, synthetic
@@ -47,3 +47,51 @@ was accepted, no production world was replaced, and the PR is not an approval of
 playable release. Global-data changes intentionally block automatic staging; that
 may require additional mod-specific work after the first actual client submission.
 Use the [client test matrix](BUILDER-COMPATIBILITY.md) before distributing an approved kit.
+
+
+## Follow-up: local client small-sample test
+
+On 2026-11-05, Chris tested the existing `CMUcraft-Architecture-1.16.5`
+instance on macOS. All six installed mod files matched the pinned manifest.
+The user reported successful world entry, ordinary-block save/re-entry, and
+C&B detail save/re-entry; supplied screenshots showed the world and carved blocks.
+This was an existing instance, not a fresh launcher installation test.
+
+A closed-save backup contained three `chiselsandbits:chiseled` block entities at
+(469,88,725), (469,88,726), and (470,88,725). A separate clean legacy campus copy
+was opened and saved by the user to establish a runtime-initialized comparison.
+Both backups were retained. Their world-generation settings were semantically
+equal; first-save additions in the generated base made the old, uninitialized
+manifest unsuitable. A new test kit was issued against the initialized baseline,
+not by disabling the stale-target guard on the old kit.
+
+The real client exposed three overly strict checks, now corrected:
+
+- World-generation NBT compares structurally, not by serialized key order.
+- Zero-byte region files created before the first POI write represent no records;
+  nonempty truncated files still fail.
+- A strictly recognized per-world Xaero map ID is excluded from building-global
+  comparison. Only a pristine 1.16.5 raid manager with no raids, NextAvailableID=1
+  and exactly the expected fields may differ in its elapsed Tick value. Unknown,
+  active or history-bearing data still compares by exact hash. Target data stays
+  in the candidate; these source files are not copied over it.
+
+The planner and staging tool then completed against the initialized baseline.
+All reserved terrain/POI payloads matched the submission, all other existing chunk
+payloads matched the baseline, and target global data was retained. The three
+C&B entities remained in the candidate. A separately named test copy was installed
+with a nearby spawn. Chris reported that the sample looked correct after integration
+and remained correct after another save/re-entry.
+
+**Result: one local, small C&B full-save/raw-chunk integration round trip passed
+based on file verification and user-reported client observations.** The post-import
+visual check was performed by the user, not by automated UI inspection. Current
+regression suite: **64 passed**. No full-desktop screenshots, player data or private
+world backups are published in this repository.
+
+Still unverified: fresh install, a complete contributed building, collision details,
+multimaterial/transparent geometry, client-created oversized external chunks,
+WorldEdit schematic export/import, multiplayer and independent volunteer onboarding.
+The original example ZIP remains an uninitialized experimental example; issue new
+Builder kits from a separately initialized, reviewed base. Do not describe this
+small-sample result as general C&B compatibility certification.
