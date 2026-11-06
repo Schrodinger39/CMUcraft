@@ -1,0 +1,3429 @@
+{
+  "method": "Legacy exported ID grid versus the same OSM snapshot; centre-in-cell rasterization",
+  "limits": "Checks export placement only, not source accuracy, building identity, elevations or actual final roof blocks.",
+  "buildings": [
+    {
+      "osm_id": "relation/13441031",
+      "name": "Scott Hall",
+      "source_cells": 1802,
+      "export_cells": 1802,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "relation/18260908",
+      "name": "Phipps Conservatory",
+      "source_cells": 3061,
+      "export_cells": 3061,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "relation/21724638",
+      "name": "Gates and Hillman Centers",
+      "source_cells": 4008,
+      "export_cells": 4008,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "relation/21724639",
+      "name": "Wean Hall",
+      "source_cells": 3930,
+      "export_cells": 3930,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "relation/2785563",
+      "name": "Phipps Conservatory",
+      "source_cells": 5535,
+      "export_cells": 2474,
+      "missing_source_cells": 3061,
+      "outside_source_cells": 0,
+      "exact_raster_match": false,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/1000419332",
+      "name": "Tartans Pavilion",
+      "source_cells": 461,
+      "export_cells": 461,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/1001793197",
+      "name": "",
+      "source_cells": 20,
+      "export_cells": 20,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/1001941217",
+      "name": "ANSYS Hall",
+      "source_cells": 805,
+      "export_cells": 805,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/1002531075",
+      "name": "Morewood E-Tower",
+      "source_cells": 792,
+      "export_cells": 792,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/1002857138",
+      "name": "Hall of the Arts",
+      "source_cells": 2074,
+      "export_cells": 2074,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/1007453778",
+      "name": "Fifth and Clyde Residence Hall",
+      "source_cells": 1486,
+      "export_cells": 1486,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/1010489527",
+      "name": "Seoul Mart",
+      "source_cells": 161,
+      "export_cells": 161,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/1039908831",
+      "name": "Highmark Center",
+      "source_cells": 5137,
+      "export_cells": 5137,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/118675283",
+      "name": "Holy Spirit Byzantine Catholic Church",
+      "source_cells": 181,
+      "export_cells": 181,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/118675284",
+      "name": "Holy Spirit Byzantine Church",
+      "source_cells": 809,
+      "export_cells": 809,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/1203786280",
+      "name": "Forbes Beeler Apartments",
+      "source_cells": 3745,
+      "export_cells": 3745,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/1306720931",
+      "name": "Starbucks",
+      "source_cells": 149,
+      "export_cells": 149,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/1511149577",
+      "name": "",
+      "source_cells": 4928,
+      "export_cells": 4928,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/152567349",
+      "name": "Fairfax Apartments",
+      "source_cells": 1729,
+      "export_cells": 1729,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/158307506",
+      "name": "Rodef Shalom Congregation",
+      "source_cells": 2152,
+      "export_cells": 2152,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/166499085",
+      "name": "",
+      "source_cells": 2745,
+      "export_cells": 2745,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/166507535",
+      "name": "Warwick Plaza",
+      "source_cells": 1164,
+      "export_cells": 1164,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/166507536",
+      "name": "",
+      "source_cells": 482,
+      "export_cells": 482,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/166507537",
+      "name": "",
+      "source_cells": 842,
+      "export_cells": 842,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/166852448",
+      "name": "",
+      "source_cells": 492,
+      "export_cells": 492,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/167498538",
+      "name": "Park Plaza",
+      "source_cells": 320,
+      "export_cells": 320,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/167499007",
+      "name": "University Square",
+      "source_cells": 3327,
+      "export_cells": 3327,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/171843174",
+      "name": "Chipotle",
+      "source_cells": 146,
+      "export_cells": 146,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/172171273",
+      "name": "",
+      "source_cells": 952,
+      "export_cells": 952,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/172290635",
+      "name": "",
+      "source_cells": 2259,
+      "export_cells": 2259,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/172658859",
+      "name": "",
+      "source_cells": 103,
+      "export_cells": 103,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/172658860",
+      "name": "Pepper Space",
+      "source_cells": 217,
+      "export_cells": 217,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/172661098",
+      "name": "Joseph Stern Building",
+      "source_cells": 433,
+      "export_cells": 433,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/172661493",
+      "name": "",
+      "source_cells": 220,
+      "export_cells": 220,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/172662340",
+      "name": "",
+      "source_cells": 268,
+      "export_cells": 268,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/172662341",
+      "name": "Union Grill",
+      "source_cells": 251,
+      "export_cells": 251,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/172944549",
+      "name": "",
+      "source_cells": 145,
+      "export_cells": 145,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/172944551",
+      "name": "",
+      "source_cells": 433,
+      "export_cells": 433,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/173057615",
+      "name": "Cr\u00eapes Parisiennes",
+      "source_cells": 125,
+      "export_cells": 125,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/173057616",
+      "name": "",
+      "source_cells": 99,
+      "export_cells": 99,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/173057617",
+      "name": "",
+      "source_cells": 94,
+      "export_cells": 94,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/173057618",
+      "name": "Michael J. Feigel, DMD LLC",
+      "source_cells": 95,
+      "export_cells": 95,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/173057992",
+      "name": "",
+      "source_cells": 224,
+      "export_cells": 224,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/173058901",
+      "name": "",
+      "source_cells": 356,
+      "export_cells": 356,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/173059417",
+      "name": "",
+      "source_cells": 131,
+      "export_cells": 131,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/173059419",
+      "name": "",
+      "source_cells": 177,
+      "export_cells": 177,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/220799870",
+      "name": "",
+      "source_cells": 1330,
+      "export_cells": 1330,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/27549961",
+      "name": "Porter Hall",
+      "source_cells": 3836,
+      "export_cells": 3836,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/27550292",
+      "name": "Scaife Hall",
+      "source_cells": 1432,
+      "export_cells": 1432,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/27551077",
+      "name": "Hamerschlag Hall",
+      "source_cells": 2614,
+      "export_cells": 2614,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/27551590",
+      "name": "Newell-Simon Hall",
+      "source_cells": 3445,
+      "export_cells": 3445,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/27574204",
+      "name": "Hunt Library",
+      "source_cells": 1987,
+      "export_cells": 1987,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/27574237",
+      "name": "East Campus Garage",
+      "source_cells": 6451,
+      "export_cells": 6451,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/27574394",
+      "name": "Cohon University Center",
+      "source_cells": 11266,
+      "export_cells": 11266,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/27574406",
+      "name": "Purnell Center for the Arts",
+      "source_cells": 3959,
+      "export_cells": 3959,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/27574545",
+      "name": "Doherty Hall",
+      "source_cells": 5127,
+      "export_cells": 5127,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/27574704",
+      "name": "Warner Hall",
+      "source_cells": 537,
+      "export_cells": 537,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/27574718",
+      "name": "Cyert Hall",
+      "source_cells": 1962,
+      "export_cells": 1962,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/27590641",
+      "name": "Roberts Engineering Hall",
+      "source_cells": 1790,
+      "export_cells": 1790,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/27590907",
+      "name": "Baker Hall",
+      "source_cells": 4597,
+      "export_cells": 4597,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/27590940",
+      "name": "Facilities Management Services Building",
+      "source_cells": 2177,
+      "export_cells": 2177,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/27591069",
+      "name": "Collaborative Innovation Center",
+      "source_cells": 2999,
+      "export_cells": 2999,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/27591096",
+      "name": "Hamburg Hall",
+      "source_cells": 3869,
+      "export_cells": 3869,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/27591104",
+      "name": "Smith Hall",
+      "source_cells": 983,
+      "export_cells": 983,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/27591225",
+      "name": "College of Fine Arts",
+      "source_cells": 3088,
+      "export_cells": 3088,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/27591241",
+      "name": "Posner Hall",
+      "source_cells": 2035,
+      "export_cells": 2035,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/27591314",
+      "name": "Margaret Morrison Carnegie Hall",
+      "source_cells": 2205,
+      "export_cells": 2205,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/27591346",
+      "name": "Donner House",
+      "source_cells": 1335,
+      "export_cells": 1335,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/27591351",
+      "name": "West Wing",
+      "source_cells": 884,
+      "export_cells": 884,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/27591352",
+      "name": "Resnik House",
+      "source_cells": 1472,
+      "export_cells": 1472,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/27591450",
+      "name": "Boss House",
+      "source_cells": 463,
+      "export_cells": 463,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/27591456",
+      "name": "McGill House",
+      "source_cells": 467,
+      "export_cells": 467,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/27591466",
+      "name": "Hamerschlag House",
+      "source_cells": 1311,
+      "export_cells": 1311,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/27591482",
+      "name": "Scobell House",
+      "source_cells": 422,
+      "export_cells": 422,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/27591484",
+      "name": "Welch House",
+      "source_cells": 430,
+      "export_cells": 430,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/27591488",
+      "name": "Henderson House",
+      "source_cells": 458,
+      "export_cells": 458,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/27591497",
+      "name": "Spirit House",
+      "source_cells": 123,
+      "export_cells": 123,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/27591503",
+      "name": "Woodlawn Apartments",
+      "source_cells": 312,
+      "export_cells": 312,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/27591583",
+      "name": "",
+      "source_cells": 279,
+      "export_cells": 279,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/27591588",
+      "name": "",
+      "source_cells": 275,
+      "export_cells": 275,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/27591593",
+      "name": "",
+      "source_cells": 270,
+      "export_cells": 270,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/27591602",
+      "name": "Tech House",
+      "source_cells": 176,
+      "export_cells": 176,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/27591621",
+      "name": "Delta Tau Delta House",
+      "source_cells": 226,
+      "export_cells": 226,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/27591646",
+      "name": "Disability Resources",
+      "source_cells": 329,
+      "export_cells": 329,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/27591674",
+      "name": "",
+      "source_cells": 242,
+      "export_cells": 242,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/27591681",
+      "name": "Margaret Morrison Apartments",
+      "source_cells": 581,
+      "export_cells": 581,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/27591700",
+      "name": "Stever House",
+      "source_cells": 1123,
+      "export_cells": 1123,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/27591702",
+      "name": "Mudge House C Building",
+      "source_cells": 570,
+      "export_cells": 570,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/27591703",
+      "name": "Mudge House A Building",
+      "source_cells": 614,
+      "export_cells": 614,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/27591706",
+      "name": "Mudge House B Building",
+      "source_cells": 565,
+      "export_cells": 565,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/27630030",
+      "name": "",
+      "source_cells": 597,
+      "export_cells": 597,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/27630031",
+      "name": "",
+      "source_cells": 471,
+      "export_cells": 471,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/27630032",
+      "name": "",
+      "source_cells": 613,
+      "export_cells": 613,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/27630033",
+      "name": "",
+      "source_cells": 494,
+      "export_cells": 494,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/27630034",
+      "name": "Alumni House",
+      "source_cells": 257,
+      "export_cells": 257,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/27630035",
+      "name": "",
+      "source_cells": 493,
+      "export_cells": 493,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/27630242",
+      "name": "",
+      "source_cells": 614,
+      "export_cells": 614,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/27630262",
+      "name": "",
+      "source_cells": 491,
+      "export_cells": 491,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/27643470",
+      "name": "99 Gladstone",
+      "source_cells": 125,
+      "export_cells": 125,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/27643505",
+      "name": "1094 Devon",
+      "source_cells": 161,
+      "export_cells": 161,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/27643509",
+      "name": "Bramer House",
+      "source_cells": 197,
+      "export_cells": 197,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/31899525",
+      "name": "Carnegie Museum of Art",
+      "source_cells": 1031,
+      "export_cells": 1031,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/34264357",
+      "name": "PNC Bank",
+      "source_cells": 919,
+      "export_cells": 919,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/44156182",
+      "name": "",
+      "source_cells": 601,
+      "export_cells": 601,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/44156183",
+      "name": "",
+      "source_cells": 280,
+      "export_cells": 280,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/44156184",
+      "name": "Information Networking Institute",
+      "source_cells": 680,
+      "export_cells": 680,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/44157443",
+      "name": "Carnegie Mellon University",
+      "source_cells": 588,
+      "export_cells": 588,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/44157444",
+      "name": "Center for Technology Transfer and Enterprise Creation",
+      "source_cells": 1058,
+      "export_cells": 1058,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/534164154",
+      "name": "",
+      "source_cells": 40,
+      "export_cells": 40,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/543159678",
+      "name": "",
+      "source_cells": 71,
+      "export_cells": 71,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/543159679",
+      "name": "",
+      "source_cells": 70,
+      "export_cells": 70,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/543159680",
+      "name": "",
+      "source_cells": 959,
+      "export_cells": 959,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/543159681",
+      "name": "",
+      "source_cells": 92,
+      "export_cells": 92,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/543159682",
+      "name": "",
+      "source_cells": 64,
+      "export_cells": 64,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/543159683",
+      "name": "",
+      "source_cells": 16,
+      "export_cells": 16,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/543159685",
+      "name": "",
+      "source_cells": 76,
+      "export_cells": 76,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/543159687",
+      "name": "",
+      "source_cells": 121,
+      "export_cells": 121,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/543159688",
+      "name": "",
+      "source_cells": 122,
+      "export_cells": 122,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/543159689",
+      "name": "",
+      "source_cells": 130,
+      "export_cells": 130,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/543159690",
+      "name": "",
+      "source_cells": 108,
+      "export_cells": 108,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/543159691",
+      "name": "",
+      "source_cells": 63,
+      "export_cells": 63,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/543159692",
+      "name": "",
+      "source_cells": 25,
+      "export_cells": 25,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/543159693",
+      "name": "",
+      "source_cells": 95,
+      "export_cells": 95,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/543159694",
+      "name": "",
+      "source_cells": 119,
+      "export_cells": 119,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/543159695",
+      "name": "",
+      "source_cells": 56,
+      "export_cells": 56,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/543159696",
+      "name": "",
+      "source_cells": 96,
+      "export_cells": 96,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/543159697",
+      "name": "",
+      "source_cells": 47,
+      "export_cells": 47,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/543159698",
+      "name": "",
+      "source_cells": 111,
+      "export_cells": 111,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/543159699",
+      "name": "",
+      "source_cells": 73,
+      "export_cells": 73,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/543159700",
+      "name": "",
+      "source_cells": 192,
+      "export_cells": 192,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/543159701",
+      "name": "",
+      "source_cells": 116,
+      "export_cells": 116,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/543159702",
+      "name": "",
+      "source_cells": 55,
+      "export_cells": 55,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/543159703",
+      "name": "",
+      "source_cells": 38,
+      "export_cells": 38,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/543159704",
+      "name": "",
+      "source_cells": 146,
+      "export_cells": 146,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/543159705",
+      "name": "",
+      "source_cells": 118,
+      "export_cells": 118,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/543159706",
+      "name": "",
+      "source_cells": 126,
+      "export_cells": 126,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/543159707",
+      "name": "",
+      "source_cells": 79,
+      "export_cells": 79,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544173491",
+      "name": "",
+      "source_cells": 150,
+      "export_cells": 150,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544173496",
+      "name": "",
+      "source_cells": 294,
+      "export_cells": 294,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544173522",
+      "name": "",
+      "source_cells": 84,
+      "export_cells": 84,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544173533",
+      "name": "",
+      "source_cells": 139,
+      "export_cells": 139,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544173568",
+      "name": "",
+      "source_cells": 137,
+      "export_cells": 137,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544173578",
+      "name": "",
+      "source_cells": 85,
+      "export_cells": 85,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544173584",
+      "name": "",
+      "source_cells": 209,
+      "export_cells": 209,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544173587",
+      "name": "",
+      "source_cells": 220,
+      "export_cells": 220,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544173588",
+      "name": "",
+      "source_cells": 135,
+      "export_cells": 135,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544173599",
+      "name": "",
+      "source_cells": 107,
+      "export_cells": 107,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544173601",
+      "name": "",
+      "source_cells": 265,
+      "export_cells": 265,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544173613",
+      "name": "",
+      "source_cells": 89,
+      "export_cells": 89,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544173618",
+      "name": "",
+      "source_cells": 108,
+      "export_cells": 108,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544173620",
+      "name": "",
+      "source_cells": 42,
+      "export_cells": 42,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544173624",
+      "name": "Pittsburgh Golf Club",
+      "source_cells": 2403,
+      "export_cells": 2403,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544173641",
+      "name": "",
+      "source_cells": 205,
+      "export_cells": 205,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544173654",
+      "name": "",
+      "source_cells": 120,
+      "export_cells": 120,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544173665",
+      "name": "Pittsburgh Golf Club",
+      "source_cells": 1127,
+      "export_cells": 1127,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544173680",
+      "name": "",
+      "source_cells": 160,
+      "export_cells": 160,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544173688",
+      "name": "",
+      "source_cells": 95,
+      "export_cells": 95,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544173689",
+      "name": "",
+      "source_cells": 120,
+      "export_cells": 120,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544173701",
+      "name": "",
+      "source_cells": 359,
+      "export_cells": 359,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544173702",
+      "name": "",
+      "source_cells": 126,
+      "export_cells": 126,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544173710",
+      "name": "",
+      "source_cells": 182,
+      "export_cells": 182,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544173711",
+      "name": "",
+      "source_cells": 28,
+      "export_cells": 28,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544173714",
+      "name": "",
+      "source_cells": 168,
+      "export_cells": 168,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544173719",
+      "name": "",
+      "source_cells": 29,
+      "export_cells": 29,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544173721",
+      "name": "",
+      "source_cells": 84,
+      "export_cells": 84,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544173723",
+      "name": "",
+      "source_cells": 159,
+      "export_cells": 159,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544173729",
+      "name": "",
+      "source_cells": 129,
+      "export_cells": 129,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544173742",
+      "name": "",
+      "source_cells": 34,
+      "export_cells": 34,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544173747",
+      "name": "",
+      "source_cells": 96,
+      "export_cells": 96,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544173749",
+      "name": "",
+      "source_cells": 36,
+      "export_cells": 36,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544173751",
+      "name": "",
+      "source_cells": 92,
+      "export_cells": 92,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544173759",
+      "name": "",
+      "source_cells": 194,
+      "export_cells": 194,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544173779",
+      "name": "",
+      "source_cells": 496,
+      "export_cells": 496,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544173787",
+      "name": "",
+      "source_cells": 192,
+      "export_cells": 192,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544173801",
+      "name": "",
+      "source_cells": 106,
+      "export_cells": 106,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544173803",
+      "name": "",
+      "source_cells": 130,
+      "export_cells": 130,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544173804",
+      "name": "",
+      "source_cells": 41,
+      "export_cells": 41,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544173825",
+      "name": "",
+      "source_cells": 14,
+      "export_cells": 14,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544173836",
+      "name": "",
+      "source_cells": 83,
+      "export_cells": 83,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544173841",
+      "name": "",
+      "source_cells": 55,
+      "export_cells": 55,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544173847",
+      "name": "",
+      "source_cells": 115,
+      "export_cells": 115,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544173848",
+      "name": "",
+      "source_cells": 98,
+      "export_cells": 98,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544173859",
+      "name": "",
+      "source_cells": 32,
+      "export_cells": 32,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544173879",
+      "name": "",
+      "source_cells": 135,
+      "export_cells": 135,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544173882",
+      "name": "",
+      "source_cells": 32,
+      "export_cells": 32,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544173891",
+      "name": "",
+      "source_cells": 98,
+      "export_cells": 98,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544173893",
+      "name": "",
+      "source_cells": 41,
+      "export_cells": 41,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544173918",
+      "name": "",
+      "source_cells": 177,
+      "export_cells": 177,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544173919",
+      "name": "",
+      "source_cells": 30,
+      "export_cells": 30,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544173961",
+      "name": "",
+      "source_cells": 353,
+      "export_cells": 353,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544173966",
+      "name": "",
+      "source_cells": 153,
+      "export_cells": 153,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174002",
+      "name": "",
+      "source_cells": 94,
+      "export_cells": 94,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174014",
+      "name": "",
+      "source_cells": 128,
+      "export_cells": 128,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174024",
+      "name": "",
+      "source_cells": 87,
+      "export_cells": 87,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174028",
+      "name": "",
+      "source_cells": 25,
+      "export_cells": 25,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174030",
+      "name": "",
+      "source_cells": 128,
+      "export_cells": 128,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174033",
+      "name": "",
+      "source_cells": 24,
+      "export_cells": 24,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174034",
+      "name": "",
+      "source_cells": 123,
+      "export_cells": 123,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174036",
+      "name": "",
+      "source_cells": 278,
+      "export_cells": 278,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174042",
+      "name": "",
+      "source_cells": 22,
+      "export_cells": 22,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174046",
+      "name": "",
+      "source_cells": 159,
+      "export_cells": 159,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174050",
+      "name": "",
+      "source_cells": 107,
+      "export_cells": 107,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174054",
+      "name": "",
+      "source_cells": 116,
+      "export_cells": 116,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174058",
+      "name": "",
+      "source_cells": 271,
+      "export_cells": 271,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174062",
+      "name": "B2",
+      "source_cells": 81,
+      "export_cells": 81,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174071",
+      "name": "",
+      "source_cells": 20,
+      "export_cells": 20,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174077",
+      "name": "",
+      "source_cells": 20,
+      "export_cells": 20,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174082",
+      "name": "",
+      "source_cells": 79,
+      "export_cells": 79,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174084",
+      "name": "",
+      "source_cells": 181,
+      "export_cells": 181,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174100",
+      "name": "",
+      "source_cells": 174,
+      "export_cells": 174,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174106",
+      "name": "",
+      "source_cells": 169,
+      "export_cells": 169,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174107",
+      "name": "",
+      "source_cells": 166,
+      "export_cells": 166,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174118",
+      "name": "",
+      "source_cells": 34,
+      "export_cells": 34,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174124",
+      "name": "",
+      "source_cells": 189,
+      "export_cells": 189,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174128",
+      "name": "",
+      "source_cells": 16,
+      "export_cells": 16,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174129",
+      "name": "B3",
+      "source_cells": 87,
+      "export_cells": 87,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174133",
+      "name": "",
+      "source_cells": 44,
+      "export_cells": 44,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174140",
+      "name": "",
+      "source_cells": 125,
+      "export_cells": 125,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174146",
+      "name": "",
+      "source_cells": 24,
+      "export_cells": 24,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174152",
+      "name": "",
+      "source_cells": 62,
+      "export_cells": 62,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174156",
+      "name": "",
+      "source_cells": 177,
+      "export_cells": 177,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174164",
+      "name": "",
+      "source_cells": 81,
+      "export_cells": 81,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174167",
+      "name": "",
+      "source_cells": 234,
+      "export_cells": 234,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174168",
+      "name": "",
+      "source_cells": 17,
+      "export_cells": 17,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174173",
+      "name": "",
+      "source_cells": 63,
+      "export_cells": 63,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174183",
+      "name": "",
+      "source_cells": 69,
+      "export_cells": 69,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174187",
+      "name": "",
+      "source_cells": 169,
+      "export_cells": 169,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174188",
+      "name": "",
+      "source_cells": 123,
+      "export_cells": 123,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174196",
+      "name": "",
+      "source_cells": 103,
+      "export_cells": 103,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174207",
+      "name": "",
+      "source_cells": 603,
+      "export_cells": 603,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174208",
+      "name": "",
+      "source_cells": 118,
+      "export_cells": 118,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174210",
+      "name": "",
+      "source_cells": 76,
+      "export_cells": 76,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174211",
+      "name": "",
+      "source_cells": 70,
+      "export_cells": 70,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174214",
+      "name": "",
+      "source_cells": 530,
+      "export_cells": 530,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174216",
+      "name": "",
+      "source_cells": 388,
+      "export_cells": 388,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174217",
+      "name": "",
+      "source_cells": 274,
+      "export_cells": 274,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174222",
+      "name": "",
+      "source_cells": 185,
+      "export_cells": 185,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174226",
+      "name": "",
+      "source_cells": 411,
+      "export_cells": 411,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174230",
+      "name": "",
+      "source_cells": 171,
+      "export_cells": 171,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174233",
+      "name": "",
+      "source_cells": 39,
+      "export_cells": 39,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174242",
+      "name": "",
+      "source_cells": 79,
+      "export_cells": 79,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174245",
+      "name": "",
+      "source_cells": 286,
+      "export_cells": 286,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174253",
+      "name": "",
+      "source_cells": 296,
+      "export_cells": 296,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174257",
+      "name": "",
+      "source_cells": 172,
+      "export_cells": 172,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174263",
+      "name": "",
+      "source_cells": 101,
+      "export_cells": 101,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174270",
+      "name": "",
+      "source_cells": 248,
+      "export_cells": 248,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174271",
+      "name": "",
+      "source_cells": 118,
+      "export_cells": 118,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174281",
+      "name": "",
+      "source_cells": 122,
+      "export_cells": 122,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174282",
+      "name": "",
+      "source_cells": 279,
+      "export_cells": 279,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174290",
+      "name": "",
+      "source_cells": 124,
+      "export_cells": 124,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174299",
+      "name": "",
+      "source_cells": 136,
+      "export_cells": 136,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174301",
+      "name": "",
+      "source_cells": 113,
+      "export_cells": 113,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174303",
+      "name": "",
+      "source_cells": 112,
+      "export_cells": 112,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174313",
+      "name": "",
+      "source_cells": 68,
+      "export_cells": 68,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174316",
+      "name": "",
+      "source_cells": 64,
+      "export_cells": 64,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174333",
+      "name": "",
+      "source_cells": 96,
+      "export_cells": 96,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174343",
+      "name": "",
+      "source_cells": 67,
+      "export_cells": 67,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174344",
+      "name": "",
+      "source_cells": 127,
+      "export_cells": 127,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174348",
+      "name": "",
+      "source_cells": 264,
+      "export_cells": 264,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174350",
+      "name": "",
+      "source_cells": 112,
+      "export_cells": 112,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174354",
+      "name": "",
+      "source_cells": 280,
+      "export_cells": 280,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174356",
+      "name": "",
+      "source_cells": 189,
+      "export_cells": 189,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174364",
+      "name": "",
+      "source_cells": 245,
+      "export_cells": 245,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174378",
+      "name": "",
+      "source_cells": 143,
+      "export_cells": 143,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174389",
+      "name": "",
+      "source_cells": 531,
+      "export_cells": 531,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174395",
+      "name": "",
+      "source_cells": 99,
+      "export_cells": 99,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174396",
+      "name": "",
+      "source_cells": 244,
+      "export_cells": 244,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174407",
+      "name": "",
+      "source_cells": 162,
+      "export_cells": 162,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174416",
+      "name": "",
+      "source_cells": 94,
+      "export_cells": 94,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174430",
+      "name": "",
+      "source_cells": 148,
+      "export_cells": 148,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174433",
+      "name": "",
+      "source_cells": 230,
+      "export_cells": 230,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174442",
+      "name": "",
+      "source_cells": 68,
+      "export_cells": 68,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174445",
+      "name": "",
+      "source_cells": 270,
+      "export_cells": 270,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174452",
+      "name": "",
+      "source_cells": 140,
+      "export_cells": 140,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174460",
+      "name": "",
+      "source_cells": 150,
+      "export_cells": 150,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174464",
+      "name": "",
+      "source_cells": 282,
+      "export_cells": 282,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174469",
+      "name": "",
+      "source_cells": 86,
+      "export_cells": 86,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174474",
+      "name": "",
+      "source_cells": 47,
+      "export_cells": 47,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174476",
+      "name": "",
+      "source_cells": 48,
+      "export_cells": 48,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174481",
+      "name": "",
+      "source_cells": 62,
+      "export_cells": 62,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174491",
+      "name": "B1",
+      "source_cells": 69,
+      "export_cells": 69,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174492",
+      "name": "",
+      "source_cells": 24,
+      "export_cells": 24,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174496",
+      "name": "",
+      "source_cells": 17,
+      "export_cells": 17,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174507",
+      "name": "",
+      "source_cells": 18,
+      "export_cells": 18,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174511",
+      "name": "",
+      "source_cells": 26,
+      "export_cells": 26,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174515",
+      "name": "",
+      "source_cells": 103,
+      "export_cells": 103,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174528",
+      "name": "",
+      "source_cells": 165,
+      "export_cells": 165,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174531",
+      "name": "",
+      "source_cells": 171,
+      "export_cells": 171,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174537",
+      "name": "",
+      "source_cells": 134,
+      "export_cells": 134,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174556",
+      "name": "",
+      "source_cells": 127,
+      "export_cells": 127,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174563",
+      "name": "",
+      "source_cells": 119,
+      "export_cells": 119,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174564",
+      "name": "",
+      "source_cells": 39,
+      "export_cells": 39,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174580",
+      "name": "",
+      "source_cells": 125,
+      "export_cells": 125,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174581",
+      "name": "",
+      "source_cells": 114,
+      "export_cells": 114,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174595",
+      "name": "",
+      "source_cells": 530,
+      "export_cells": 530,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174598",
+      "name": "",
+      "source_cells": 14,
+      "export_cells": 14,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174601",
+      "name": "",
+      "source_cells": 50,
+      "export_cells": 50,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174604",
+      "name": "",
+      "source_cells": 26,
+      "export_cells": 26,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174606",
+      "name": "",
+      "source_cells": 149,
+      "export_cells": 149,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174608",
+      "name": "",
+      "source_cells": 26,
+      "export_cells": 26,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174609",
+      "name": "",
+      "source_cells": 11,
+      "export_cells": 11,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174610",
+      "name": "",
+      "source_cells": 115,
+      "export_cells": 115,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174613",
+      "name": "",
+      "source_cells": 216,
+      "export_cells": 216,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174625",
+      "name": "",
+      "source_cells": 126,
+      "export_cells": 126,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174627",
+      "name": "",
+      "source_cells": 167,
+      "export_cells": 167,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174630",
+      "name": "",
+      "source_cells": 229,
+      "export_cells": 229,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174634",
+      "name": "",
+      "source_cells": 673,
+      "export_cells": 673,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174638",
+      "name": "",
+      "source_cells": 233,
+      "export_cells": 233,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174642",
+      "name": "",
+      "source_cells": 57,
+      "export_cells": 57,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174643",
+      "name": "",
+      "source_cells": 1005,
+      "export_cells": 1005,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174646",
+      "name": "Park Mansions",
+      "source_cells": 952,
+      "export_cells": 952,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174649",
+      "name": "",
+      "source_cells": 96,
+      "export_cells": 96,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174651",
+      "name": "",
+      "source_cells": 169,
+      "export_cells": 169,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174653",
+      "name": "",
+      "source_cells": 163,
+      "export_cells": 163,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174655",
+      "name": "",
+      "source_cells": 202,
+      "export_cells": 202,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174658",
+      "name": "",
+      "source_cells": 184,
+      "export_cells": 184,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174660",
+      "name": "",
+      "source_cells": 141,
+      "export_cells": 141,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174662",
+      "name": "",
+      "source_cells": 133,
+      "export_cells": 133,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174664",
+      "name": "Alumni Hall",
+      "source_cells": 1318,
+      "export_cells": 1318,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174666",
+      "name": "",
+      "source_cells": 158,
+      "export_cells": 158,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174667",
+      "name": "",
+      "source_cells": 136,
+      "export_cells": 136,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174668",
+      "name": "",
+      "source_cells": 156,
+      "export_cells": 156,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174669",
+      "name": "",
+      "source_cells": 90,
+      "export_cells": 90,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174671",
+      "name": "Central Catholic High School",
+      "source_cells": 2384,
+      "export_cells": 2384,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174672",
+      "name": "The Brother's House",
+      "source_cells": 621,
+      "export_cells": 621,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174673",
+      "name": "WQED",
+      "source_cells": 2674,
+      "export_cells": 2674,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/544174675",
+      "name": "Morewood Gardens",
+      "source_cells": 2577,
+      "export_cells": 2577,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/545283419",
+      "name": "",
+      "source_cells": 364,
+      "export_cells": 364,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/545283426",
+      "name": "",
+      "source_cells": 132,
+      "export_cells": 132,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/545283431",
+      "name": "",
+      "source_cells": 60,
+      "export_cells": 60,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/545283450",
+      "name": "Fifth Neville Apartments",
+      "source_cells": 783,
+      "export_cells": 783,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/545283494",
+      "name": "Campus Design and Facility Development",
+      "source_cells": 737,
+      "export_cells": 737,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/545283549",
+      "name": "",
+      "source_cells": 1254,
+      "export_cells": 1254,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/545283551",
+      "name": "",
+      "source_cells": 17,
+      "export_cells": 17,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/545283627",
+      "name": "",
+      "source_cells": 183,
+      "export_cells": 183,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/583510520",
+      "name": "Tepper School of Business",
+      "source_cells": 6545,
+      "export_cells": 6545,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/739910512",
+      "name": "Residence on Fifth",
+      "source_cells": 1050,
+      "export_cells": 1050,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/853372508",
+      "name": "",
+      "source_cells": 7,
+      "export_cells": 7,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/878747158",
+      "name": "",
+      "source_cells": 83,
+      "export_cells": 83,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/878747159",
+      "name": "",
+      "source_cells": 152,
+      "export_cells": 152,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/879491687",
+      "name": "Zupanic Family STEM Center",
+      "source_cells": 882,
+      "export_cells": 882,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    },
+    {
+      "osm_id": "way/946491335",
+      "name": "TCS Hall",
+      "source_cells": 2064,
+      "export_cells": 2064,
+      "missing_source_cells": 0,
+      "outside_source_cells": 0,
+      "exact_raster_match": true,
+      "real_world_location_verified": false
+    }
+  ],
+  "exact_matches": 341,
+  "buildings_with_source_loss": 1,
+  "buildings_outside_source": 0
+}
