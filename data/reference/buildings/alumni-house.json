@@ -1,0 +1,123 @@
+{
+  "name": "Alumni House",
+  "osm_id": "way/27630034",
+  "source_url": "https://www.openstreetmap.org/way/27630034",
+  "snapshot_sha256": "7d8857f29e2e29a48ddb4d52182175ac4af61c7b7e6c9c7727f93af1192bc1e2",
+  "crs": "EPSG:32617",
+  "axis_convention": "X east; Z south; one coordinate unit is one metre",
+  "utm_origin": [
+    589144.82561034,
+    4478009.6777666835
+  ],
+  "footprint_wgs84": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -79.9420242,
+          40.4446738
+        ],
+        [
+          -79.9419855,
+          40.4448154
+        ],
+        [
+          -79.9420682,
+          40.4448285
+        ],
+        [
+          -79.9420537,
+          40.4448817
+        ],
+        [
+          -79.9421295,
+          40.4448937
+        ],
+        [
+          -79.9421827,
+          40.4446988
+        ],
+        [
+          -79.9420242,
+          40.4446738
+        ]
+      ]
+    ]
+  },
+  "footprint_xz": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          575.9667869833065,
+          358.7178359301761
+        ],
+        [
+          579.0604628290748,
+          342.96066059730947
+        ],
+        [
+          572.0296225008788,
+          341.5905574494973
+        ],
+        [
+          573.1885594620835,
+          335.67052989825606
+        ],
+        [
+          566.7443475314649,
+          334.41551386285573
+        ],
+        [
+          562.4918359831208,
+          356.10380991362035
+        ],
+        [
+          575.9667869833065,
+          358.7178359301761
+        ]
+      ]
+    ]
+  },
+  "centroid_xz_m": [
+    570.564,
+    347.774
+  ],
+  "footprint_area_m2": 260.134,
+  "bounds_xz_m": [
+    562.492,
+    334.416,
+    579.06,
+    358.718
+  ],
+  "independent_footprint_comparison": {
+    "osm_id": "way/27630034",
+    "name": "Alumni House",
+    "county_ids": "541728",
+    "overlap_iou": 0.7414,
+    "centroid_difference_m": 0.979,
+    "boundary_hausdorff_m": 3.163,
+    "status": "needs_review",
+    "name_verified": false,
+    "facade_verified": false,
+    "height_verified": false
+  },
+  "exterior_requirements": [
+    "red masonry",
+    "gambrel roof",
+    "generic stepped hip roof is incorrect"
+  ],
+  "inventory_source": "https://www.cmu.edu/cdfd/planning-and-design/master-plan/pdf/june-2022-cmu-imp-appendices.pdf",
+  "inventory_date": 2022,
+  "inventory_level_string": "3",
+  "surveyed_height_m": null,
+  "height_policy": "Do not convert ambiguous inventory level strings to a verified total height.",
+  "verification": {
+    "identity": false,
+    "location": false,
+    "height": false,
+    "facades": false,
+    "game_walkthrough": false
+  },
+  "status": "reference_packet_not_approved_model"
+}
