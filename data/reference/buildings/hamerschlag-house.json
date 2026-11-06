@@ -1,0 +1,219 @@
+{
+  "name": "Hamerschlag House",
+  "osm_id": "way/27591466",
+  "source_url": "https://www.openstreetmap.org/way/27591466",
+  "snapshot_sha256": "7d8857f29e2e29a48ddb4d52182175ac4af61c7b7e6c9c7727f93af1192bc1e2",
+  "crs": "EPSG:32617",
+  "axis_convention": "X east; Z south; one coordinate unit is one metre",
+  "utm_origin": [
+    589144.82561034,
+    4478009.6777666835
+  ],
+  "footprint_wgs84": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -79.9391227,
+          40.4414603
+        ],
+        [
+          -79.9390818,
+          40.441437
+        ],
+        [
+          -79.9390067,
+          40.4413318
+        ],
+        [
+          -79.9389629,
+          40.4413712
+        ],
+        [
+          -79.9388957,
+          40.4413792
+        ],
+        [
+          -79.938967,
+          40.4414781
+        ],
+        [
+          -79.9389773,
+          40.4415226
+        ],
+        [
+          -79.9388153,
+          40.4415442
+        ],
+        [
+          -79.9386359,
+          40.4412845
+        ],
+        [
+          -79.9386898,
+          40.4412429
+        ],
+        [
+          -79.9386627,
+          40.4412026
+        ],
+        [
+          -79.9387486,
+          40.441183
+        ],
+        [
+          -79.9388204,
+          40.4412762
+        ],
+        [
+          -79.9389299,
+          40.4412313
+        ],
+        [
+          -79.9388624,
+          40.4411399
+        ],
+        [
+          -79.9389643,
+          40.4410737
+        ],
+        [
+          -79.9390459,
+          40.4411073
+        ],
+        [
+          -79.9392308,
+          40.4413678
+        ],
+        [
+          -79.9391227,
+          40.4414603
+        ]
+      ]
+    ]
+  },
+  "footprint_xz": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          826.31557122292,
+          712.4702298156917
+        ],
+        [
+          829.8153605159605,
+          715.014903768897
+        ],
+        [
+          836.3248631673632,
+          726.6157766655087
+        ],
+        [
+          839.9869974534959,
+          722.1976805469021
+        ],
+        [
+          845.6755545370979,
+          721.2411947073415
+        ],
+        [
+          839.4967200297397,
+          710.3357690526173
+        ],
+        [
+          838.5638366930652,
+          705.4066848419607
+        ],
+        [
+          852.274203003617,
+          702.8439756119624
+        ],
+        [
+          867.8354943438899,
+          731.4883047966287
+        ],
+        [
+          863.3197241516318,
+          736.1609120471403
+        ],
+        [
+          865.6718345838599,
+          740.6066637830809
+        ],
+        [
+          858.4127875807462,
+          742.8698423197493
+        ],
+        [
+          852.199114948744,
+          732.5976465139538
+        ],
+        [
+          842.9722946743714,
+          737.6932035703212
+        ],
+        [
+          848.8188738712342,
+          747.7699852911755
+        ],
+        [
+          840.2649948437465,
+          755.2221317039803
+        ],
+        [
+          833.2996716540074,
+          751.5756106702611
+        ],
+        [
+          817.2709546780679,
+          722.8480132101104
+        ],
+        [
+          826.31557122292,
+          712.4702298156917
+        ]
+      ]
+    ]
+  },
+  "centroid_xz_m": [
+    842.949,
+    728.39
+  ],
+  "footprint_area_m2": 1308.206,
+  "bounds_xz_m": [
+    817.271,
+    702.844,
+    867.835,
+    755.222
+  ],
+  "independent_footprint_comparison": {
+    "osm_id": "way/27591466",
+    "name": "Hamerschlag House",
+    "county_ids": "564418",
+    "overlap_iou": 0.9292,
+    "centroid_difference_m": 0.584,
+    "boundary_hausdorff_m": 1.688,
+    "status": "agreement_candidate",
+    "name_verified": false,
+    "facade_verified": false,
+    "height_verified": false
+  },
+  "exterior_requirements": [
+    "tan masonry and exposed concrete",
+    "flat roof",
+    "do not confuse with Hamerschlag Hall"
+  ],
+  "inventory_source": "https://www.cmu.edu/cdfd/planning-and-design/master-plan/pdf/june-2022-cmu-imp-appendices.pdf",
+  "inventory_date": 2022,
+  "inventory_level_string": "3+1",
+  "surveyed_height_m": null,
+  "height_policy": "Do not convert ambiguous inventory level strings to a verified total height.",
+  "verification": {
+    "identity": false,
+    "location": false,
+    "height": false,
+    "facades": false,
+    "game_walkthrough": false
+  },
+  "status": "reference_packet_not_approved_model"
+}
