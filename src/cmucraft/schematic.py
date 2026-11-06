@@ -14,7 +14,7 @@ def export(grid, path):
                'minecraft:stone_bricks':nbt.Int(2)}
     # All palette IDs <128, so each varint is exactly one byte.
     file = nbt.File({
-        'Version':nbt.Int(2),'DataVersion':nbt.Int(3465),
+        'Version':nbt.Int(2),'DataVersion':nbt.Int(2586),
         'Width':nbt.Short(size),'Height':nbt.Short(2),'Length':nbt.Short(size),
         'Offset':nbt.IntArray([0,0,0]),'PaletteMax':nbt.Int(len(palette)),
         'Palette':nbt.Compound(palette),'BlockData':nbt.ByteArray(blocks.ravel()),
