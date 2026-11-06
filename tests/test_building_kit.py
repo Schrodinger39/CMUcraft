@@ -190,3 +190,36 @@ def test_worldgen_mismatch_and_output_overwrite(kit,tmp_path):
     level.save(source/'level.dat')
     with pytest.raises(ValueError,match='generation settings'):
         k.plan_import(base,source,m)
+
+
+def test_runtime_global_normalization_is_narrow(tmp_path):
+    a,b=tmp_path/'a',tmp_path/'b'
+    for folder,tick,map_id in ((a,10,1),(b,999,-42)):
+        (folder/'data').mkdir(parents=True)
+        n.File({'DataVersion':n.Int(2586),'data':n.Compound({
+            'Raids':n.List[n.Compound]([]),'NextAvailableID':n.Int(1),'Tick':n.Int(tick)})},gzipped=True).save(folder/'data/raids.dat')
+        (folder/'xaeromap.txt').write_text(f'id:{map_id}\n')
+    assert k.global_files(a)==k.global_files(b)
+    raid=n.load(b/'data/raids.dat')
+    raid['data']['NextAvailableID']=n.Int(2)
+    raid.save(b/'data/raids.dat')
+    assert k.global_files(a)!=k.global_files(b)
+    (b/'xaeromap.txt').write_text('id:1\nunknown:data')
+    assert 'xaeromap.txt' in k.global_files(b)
+
+
+def test_worldgen_key_order_is_not_a_conflict(kit):
+    _,base,source,m=kit
+    level=n.load(source/'level.dat')
+    old=level['Data']['WorldGenSettings']
+    level['Data']['WorldGenSettings']=n.Compound(dict(reversed(list(old.items()))))
+    level.save(source/'level.dat')
+    k.plan_import(base,source,m)
+
+
+def test_empty_runtime_region_is_not_a_truncated_record(tmp_path):
+    (tmp_path/'r.0.0.mca').touch()
+    assert k.region_records(tmp_path,0,0)=={}
+    (tmp_path/'r.0.0.mca').write_bytes(b'\0')
+    with pytest.raises(ValueError,match='Truncated'):
+        k.region_records(tmp_path,0,0)

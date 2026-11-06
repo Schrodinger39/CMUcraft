@@ -20,7 +20,7 @@ WorldEdit tag `7.2.5`, commit `57d5ac961d310f653f7fa5faafeb61ab3b3b687d`, was in
   obtains block-entity data through Forge, including `TileEntityUtils.copyNbtData`.
 - This provides a generic NBT path, **not proof** that C&B's voxel data, cached
   statistics, collision or lifecycle behavior survives copy/paste. No C&B-specific
-  integration test was found in the inspected path, and no client round trip was run.
+  integration test was found in the inspected path, and no schematic client round trip was run.
 
 The hash-matched C&B JAR was also inspected with `javap -p -c` (no game launch).
 `ChiseledBlockEntity` reads `chiselBlockData`, `compressedStorage` and `statistics`;
@@ -50,15 +50,15 @@ prove synthetic C&B payload preservation and neighboring chunk protection. They 
 not prove that C&B accepts the original payload or that all mod state is chunk-local.
 Full-save submissions retain the evidence needed if another transfer path is required.
 
-## Required client matrix — all currently unverified
+## Client matrix — updated after a local small-sample test
 
 | Check | Test input and required evidence | Status |
 | --- | --- | --- |
 | Clean installation | Fresh launcher import; exact Mods menu and hashes | Not run |
-| Starter world | Correct spawn, border, context and F3 coordinates | Not run |
-| C&B persistence | Client-created asymmetric multicolor/transparent detail, save/quit/reload twice | Not run |
+| Starter world | Correct spawn, border, context and F3 coordinates | World entry and visible border observed locally; full spawn/bounds audit pending |
+| C&B persistence | Client-created asymmetric multicolor/transparent detail, save/quit/reload twice | Simple carved-block persistence reported passed; multicolor/transparency still untested |
 | Generated C&B | Existing Hunt specimen rendering, materials, collision and reload | Not run |
-| Raw-chunk integration | Original save vs staged campus, same coordinates, boundary checks and reload | Not run |
+| Raw-chunk integration | Original save vs staged campus, same coordinates, boundary checks and reload | Three-block local sample passed file checks and user-reported re-entry; full building/boundary review pending |
 | WorldEdit plain blocks | Selection/copy anchor, export/import to fresh world, reload | Not run |
 | WorldEdit C&B | Same asymmetric detail, material/voxel comparison, collisions and reload | Not run; not an approved delivery path |
 | Multiplayer | Matching server/client versions, two-client visibility and server restart | Not run |
