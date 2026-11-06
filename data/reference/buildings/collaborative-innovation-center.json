@@ -1,0 +1,187 @@
+{
+  "name": "Collaborative Innovation Center",
+  "osm_id": "way/27591069",
+  "source_url": "https://www.openstreetmap.org/way/27591069",
+  "snapshot_sha256": "7d8857f29e2e29a48ddb4d52182175ac4af61c7b7e6c9c7727f93af1192bc1e2",
+  "crs": "EPSG:32617",
+  "axis_convention": "X east; Z south; one coordinate unit is one metre",
+  "utm_origin": [
+    589144.82561034,
+    4478009.6777666835
+  ],
+  "footprint_wgs84": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -79.9463746,
+          40.4436215
+        ],
+        [
+          -79.9468084,
+          40.4437142
+        ],
+        [
+          -79.9468638,
+          40.443726
+        ],
+        [
+          -79.9467093,
+          40.4443074
+        ],
+        [
+          -79.9466016,
+          40.444313
+        ],
+        [
+          -79.9463316,
+          40.444327
+        ],
+        [
+          -79.9463316,
+          40.4443008
+        ],
+        [
+          -79.9462887,
+          40.4443008
+        ],
+        [
+          -79.9462801,
+          40.4442094
+        ],
+        [
+          -79.9463059,
+          40.4442094
+        ],
+        [
+          -79.9462716,
+          40.4438371
+        ],
+        [
+          -79.9463145,
+          40.4438371
+        ],
+        [
+          -79.9463316,
+          40.4437979
+        ],
+        [
+          -79.9462973,
+          40.4437848
+        ],
+        [
+          -79.9463746,
+          40.4436215
+        ]
+      ]
+    ]
+  },
+  "footprint_xz": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          208.42147787718568,
+          479.9357917755842
+        ],
+        [
+          171.50946694472805,
+          470.0847503710538
+        ],
+        [
+          166.795543314307,
+          468.83095792960376
+        ],
+        [
+          179.12850270234048,
+          404.1382682994008
+        ],
+        [
+          188.2547146155266,
+          403.40771768800914
+        ],
+        [
+          211.13384260458406,
+          401.58053350634873
+        ],
+        [
+          211.16854117403273,
+          404.48878011479974
+        ],
+        [
+          214.80672708014026,
+          404.4453716976568
+        ],
+        [
+          215.6571138392901,
+          414.58223209157586
+        ],
+        [
+          213.46911095629912,
+          414.60833826381713
+        ],
+        [
+          216.8710566519294,
+          455.8995915045962
+        ],
+        [
+          213.23284573224373,
+          455.94300051312894
+        ],
+        [
+          211.8345646581147,
+          460.31157228536904
+        ],
+        [
+          214.76078860845882,
+          461.73098920751363
+        ],
+        [
+          208.42147787718568,
+          479.9357917755842
+        ]
+      ]
+    ]
+  },
+  "centroid_xz_m": [
+    193.997,
+    440.453
+  ],
+  "footprint_area_m2": 2997.499,
+  "bounds_xz_m": [
+    166.796,
+    401.581,
+    216.871,
+    479.936
+  ],
+  "independent_footprint_comparison": {
+    "osm_id": "way/27591069",
+    "name": "Collaborative Innovation Center",
+    "county_ids": "562161",
+    "overlap_iou": 0.8722,
+    "centroid_difference_m": 2.551,
+    "boundary_hausdorff_m": 4.335,
+    "status": "agreement_candidate",
+    "name_verified": false,
+    "facade_verified": false,
+    "height_verified": false
+  },
+  "exterior_requirements": [
+    "beige tile and glass",
+    "flat roof",
+    "model garage podium separately"
+  ],
+  "inventory_source": "https://www.cmu.edu/cdfd/planning-and-design/master-plan/pdf/june-2022-cmu-imp-appendices.pdf",
+  "inventory_date": 2022,
+  "inventory_level_string": "5",
+  "surveyed_height_m": null,
+  "height_policy": "Do not convert ambiguous inventory level strings to a verified total height.",
+  "verification": {
+    "identity": false,
+    "location": false,
+    "height": false,
+    "facades": false,
+    "game_walkthrough": false
+  },
+  "status": "reference_packet_not_approved_model"
+}
