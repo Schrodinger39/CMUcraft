@@ -1,0 +1,219 @@
+{
+  "name": "Hall of the Arts",
+  "osm_id": "way/1002857138",
+  "source_url": "https://www.openstreetmap.org/way/1002857138",
+  "snapshot_sha256": "7d8857f29e2e29a48ddb4d52182175ac4af61c7b7e6c9c7727f93af1192bc1e2",
+  "crs": "EPSG:32617",
+  "axis_convention": "X east; Z south; one coordinate unit is one metre",
+  "utm_origin": [
+    589144.82561034,
+    4478009.6777666835
+  ],
+  "footprint_wgs84": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -79.9426881,
+          40.4411661
+        ],
+        [
+          -79.94266,
+          40.4411604
+        ],
+        [
+          -79.9424516,
+          40.4411178
+        ],
+        [
+          -79.9424206,
+          40.4411118
+        ],
+        [
+          -79.9424251,
+          40.4410987
+        ],
+        [
+          -79.9423847,
+          40.4410896
+        ],
+        [
+          -79.9424263,
+          40.4409792
+        ],
+        [
+          -79.9422147,
+          40.440933
+        ],
+        [
+          -79.9422806,
+          40.4407535
+        ],
+        [
+          -79.9422752,
+          40.440752
+        ],
+        [
+          -79.9423028,
+          40.4406751
+        ],
+        [
+          -79.9424339,
+          40.4407043
+        ],
+        [
+          -79.9424423,
+          40.4406831
+        ],
+        [
+          -79.9428732,
+          40.4407709
+        ],
+        [
+          -79.9428432,
+          40.4408682
+        ],
+        [
+          -79.9428867,
+          40.4408808
+        ],
+        [
+          -79.942805,
+          40.4411134
+        ],
+        [
+          -79.9427106,
+          40.441094
+        ],
+        [
+          -79.9426881,
+          40.4411661
+        ]
+      ]
+    ]
+  },
+  "footprint_xz": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          524.3256887230091,
+          748.7530492292717
+        ],
+        [
+          526.7164288299391,
+          749.3572284970433
+        ],
+        [
+          544.4474891708232,
+          753.8742851195857
+        ],
+        [
+          547.0845811114414,
+          754.508813389577
+        ],
+        [
+          546.7203475737479,
+          755.9675062568858
+        ],
+        [
+          550.1587774615036,
+          756.9365925071761
+        ],
+        [
+          546.7774138521636,
+          769.2334329104051
+        ],
+        [
+          564.7847136523342,
+          774.1467986991629
+        ],
+        [
+          559.4343270508107,
+          794.1385474810377
+        ],
+        [
+          559.8942987632472,
+          794.2995652826503
+        ],
+        [
+          557.6557502612704,
+          802.8636318473145
+        ],
+        [
+          546.4982459293678,
+          799.7555285757408
+        ],
+        [
+          545.8140140051255,
+          802.1172959525138
+        ],
+        [
+          509.1524033599999,
+          792.8088533822447
+        ],
+        [
+          511.56744399794843,
+          781.9779302673414
+        ],
+        [
+          507.86144550784957,
+          780.6234670374542
+        ],
+        [
+          514.4814051399007,
+          754.7215243950486
+        ],
+        [
+          522.5132694606436,
+          756.7791190044954
+        ],
+        [
+          524.3256887230091,
+          748.7530492292717
+        ]
+      ]
+    ]
+  },
+  "centroid_xz_m": [
+    534.961,
+    777.554
+  ],
+  "footprint_area_m2": 2071.949,
+  "bounds_xz_m": [
+    507.861,
+    748.753,
+    564.785,
+    802.864
+  ],
+  "independent_footprint_comparison": {
+    "osm_id": "way/1002857138",
+    "name": "Hall of the Arts",
+    "county_ids": "573710",
+    "overlap_iou": 0.4325,
+    "centroid_difference_m": 27.194,
+    "boundary_hausdorff_m": 71.453,
+    "status": "needs_review",
+    "name_verified": false,
+    "facade_verified": false,
+    "height_verified": false
+  },
+  "exterior_requirements": [
+    "tan masonry and cream stone",
+    "flat roof",
+    "verify addition and hillside levels"
+  ],
+  "inventory_source": "https://www.cmu.edu/cdfd/planning-and-design/master-plan/pdf/june-2022-cmu-imp-appendices.pdf",
+  "inventory_date": 2022,
+  "inventory_level_string": "1+3",
+  "surveyed_height_m": null,
+  "height_policy": "Do not convert ambiguous inventory level strings to a verified total height.",
+  "verification": {
+    "identity": false,
+    "location": false,
+    "height": false,
+    "facades": false,
+    "game_walkthrough": false
+  },
+  "status": "reference_packet_not_approved_model"
+}
