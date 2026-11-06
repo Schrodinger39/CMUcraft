@@ -1,0 +1,123 @@
+{
+  "name": "Boss House",
+  "osm_id": "way/27591450",
+  "source_url": "https://www.openstreetmap.org/way/27591450",
+  "snapshot_sha256": "7d8857f29e2e29a48ddb4d52182175ac4af61c7b7e6c9c7727f93af1192bc1e2",
+  "crs": "EPSG:32617",
+  "axis_convention": "X east; Z south; one coordinate unit is one metre",
+  "utm_origin": [
+    589144.82561034,
+    4478009.6777666835
+  ],
+  "footprint_wgs84": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -79.9394868,
+          40.4417157
+        ],
+        [
+          -79.9393537,
+          40.441773
+        ],
+        [
+          -79.9393268,
+          40.4417392
+        ],
+        [
+          -79.9392545,
+          40.4416389
+        ],
+        [
+          -79.93915,
+          40.441492
+        ],
+        [
+          -79.9392824,
+          40.4414356
+        ],
+        [
+          -79.9394868,
+          40.4417157
+        ]
+      ]
+    ]
+  },
+  "footprint_xz": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          795.0958993847016,
+          684.4912375519052
+        ],
+        [
+          806.3076557696331,
+          677.9952797628939
+        ],
+        [
+          808.6340879134368,
+          681.7197411386296
+        ],
+        [
+          814.899530927767,
+          692.7795754689723
+        ],
+        [
+          823.9579972870415,
+          708.9792850036174
+        ],
+        [
+          812.8043750356883,
+          715.3746537901461
+        ],
+        [
+          795.0958993847016,
+          684.4912375519052
+        ]
+      ]
+    ]
+  },
+  "centroid_xz_m": [
+    809.564,
+    696.637
+  ],
+  "footprint_area_m2": 463.706,
+  "bounds_xz_m": [
+    795.096,
+    677.995,
+    823.958,
+    715.375
+  ],
+  "independent_footprint_comparison": {
+    "osm_id": "way/27591450",
+    "name": "Boss House",
+    "county_ids": "538892",
+    "overlap_iou": 0.9304,
+    "centroid_difference_m": 0.511,
+    "boundary_hausdorff_m": 0.854,
+    "status": "agreement_candidate",
+    "name_verified": false,
+    "facade_verified": false,
+    "height_verified": false
+  },
+  "exterior_requirements": [
+    "red masonry, stone base",
+    "gable roof",
+    "separate from McGill"
+  ],
+  "inventory_source": "https://www.cmu.edu/cdfd/planning-and-design/master-plan/pdf/june-2022-cmu-imp-appendices.pdf",
+  "inventory_date": 2022,
+  "inventory_level_string": "3+1",
+  "surveyed_height_m": null,
+  "height_policy": "Do not convert ambiguous inventory level strings to a verified total height.",
+  "verification": {
+    "identity": false,
+    "location": false,
+    "height": false,
+    "facades": false,
+    "game_walkthrough": false
+  },
+  "status": "reference_packet_not_approved_model"
+}
