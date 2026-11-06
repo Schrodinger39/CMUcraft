@@ -1,0 +1,115 @@
+{
+  "name": "Warner Hall",
+  "osm_id": "way/27574704",
+  "source_url": "https://www.openstreetmap.org/way/27574704",
+  "snapshot_sha256": "7d8857f29e2e29a48ddb4d52182175ac4af61c7b7e6c9c7727f93af1192bc1e2",
+  "crs": "EPSG:32617",
+  "axis_convention": "X east; Z south; one coordinate unit is one metre",
+  "utm_origin": [
+    589144.82561034,
+    4478009.6777666835
+  ],
+  "footprint_wgs84": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -79.9433486,
+          40.4440147
+        ],
+        [
+          -79.9435337,
+          40.4440523
+        ],
+        [
+          -79.9434329,
+          40.4443393
+        ],
+        [
+          -79.9432478,
+          40.4443017
+        ],
+        [
+          -79.9432968,
+          40.4441601
+        ],
+        [
+          -79.9433486,
+          40.4440147
+        ]
+      ]
+    ]
+  },
+  "footprint_xz": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          464.5254246974364,
+          433.2238287096843
+        ],
+        [
+          448.7778000923572,
+          429.2379648797214
+        ],
+        [
+          456.9451575737912,
+          397.27818201389164
+        ],
+        [
+          472.6927205309039,
+          401.2640278376639
+        ],
+        [
+          468.7252873806283,
+          417.03160567581654
+        ],
+        [
+          464.5254246974364,
+          433.2238287096843
+        ]
+      ]
+    ]
+  },
+  "centroid_xz_m": [
+    460.75,
+    415.255
+  ],
+  "footprint_area_m2": 536.834,
+  "bounds_xz_m": [
+    448.778,
+    397.278,
+    472.693,
+    433.224
+  ],
+  "independent_footprint_comparison": {
+    "osm_id": "way/27574704",
+    "name": "Warner Hall",
+    "county_ids": "544018",
+    "overlap_iou": 0.8241,
+    "centroid_difference_m": 0.262,
+    "boundary_hausdorff_m": 5.569,
+    "status": "agreement_candidate",
+    "name_verified": false,
+    "facade_verified": false,
+    "height_verified": false
+  },
+  "exterior_requirements": [
+    "dark glazing and pale columns",
+    "flat roof",
+    "distinct podium and upper facade"
+  ],
+  "inventory_source": "https://www.cmu.edu/cdfd/planning-and-design/master-plan/pdf/june-2022-cmu-imp-appendices.pdf",
+  "inventory_date": 2022,
+  "inventory_level_string": "6+2",
+  "surveyed_height_m": null,
+  "height_policy": "Do not convert ambiguous inventory level strings to a verified total height.",
+  "verification": {
+    "identity": false,
+    "location": false,
+    "height": false,
+    "facades": false,
+    "game_walkthrough": false
+  },
+  "status": "reference_packet_not_approved_model"
+}
