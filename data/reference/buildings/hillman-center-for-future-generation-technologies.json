@@ -1,0 +1,221 @@
+{
+  "name": "Hillman Center for Future Generation Technologies",
+  "osm_id": "way/1569847706",
+  "source_url": "https://www.openstreetmap.org/way/1569847706",
+  "snapshot_sha256": "7d8857f29e2e29a48ddb4d52182175ac4af61c7b7e6c9c7727f93af1192bc1e2",
+  "crs": "EPSG:32617",
+  "axis_convention": "X east; Z south; one coordinate unit is one metre",
+  "utm_origin": [
+    589144.82561034,
+    4478009.6777666835
+  ],
+  "footprint_wgs84": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -79.9443713,
+          40.4437701
+        ],
+        [
+          -79.9444927,
+          40.4438052
+        ],
+        [
+          -79.9445155,
+          40.4438115
+        ],
+        [
+          -79.9447427,
+          40.4438783
+        ],
+        [
+          -79.9447382,
+          40.4440367
+        ],
+        [
+          -79.9445593,
+          40.4440338
+        ],
+        [
+          -79.9441672,
+          40.4440274
+        ],
+        [
+          -79.9441681,
+          40.4439845
+        ],
+        [
+          -79.9441482,
+          40.4439842
+        ],
+        [
+          -79.9441454,
+          40.4439993
+        ],
+        [
+          -79.9440819,
+          40.4439985
+        ],
+        [
+          -79.9441299,
+          40.4437897
+        ],
+        [
+          -79.9441061,
+          40.4437865
+        ],
+        [
+          -79.9441244,
+          40.4436947
+        ],
+        [
+          -79.9442305,
+          40.4437083
+        ],
+        [
+          -79.9442166,
+          40.4437682
+        ],
+        [
+          -79.9442845,
+          40.4437877
+        ],
+        [
+          -79.9443045,
+          40.4437501
+        ],
+        [
+          -79.9443396,
+          40.4437605
+        ],
+        [
+          -79.9443713,
+          40.4437701
+        ]
+      ]
+    ]
+  },
+  "footprint_xz": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          378.1182885101298,
+          461.4120902400464
+        ],
+        [
+          367.7761679061223,
+          457.63898515794426
+        ],
+        [
+          365.8342143520713,
+          456.9627836411819
+        ],
+        [
+          346.4775039658416,
+          449.7781236162409
+        ],
+        [
+          346.64903783320915,
+          432.19088132865727
+        ],
+        [
+          361.8247745310655,
+          432.3314810851589
+        ],
+        [
+          395.0859131939942,
+          432.6444129757583
+        ],
+        [
+          395.06651922431774,
+          437.4073020964861
+        ],
+        [
+          396.7545688042883,
+          437.4204256925732
+        ],
+        [
+          396.9719878990436,
+          435.7414597356692
+        ],
+        [
+          402.3582679248648,
+          435.7658747434616
+        ],
+        [
+          398.56465634319466,
+          458.99171760026366
+        ],
+        [
+          400.58730628481135,
+          459.3227911964059
+        ],
+        [
+          399.15717158536427,
+          469.5313100935891
+        ],
+        [
+          390.1411049372982,
+          468.12926029320806
+        ],
+        [
+          391.24043330166023,
+          461.46616110485047
+        ],
+        [
+          385.4561711868737,
+          459.3704652041197
+        ],
+        [
+          383.8099258294096,
+          463.56440783664584
+        ],
+        [
+          380.81940429576207,
+          462.4455722216517
+        ],
+        [
+          378.1182885101298,
+          461.4120902400464
+        ]
+      ]
+    ]
+  },
+  "centroid_xz_m": [
+    376.219,
+    446.497
+  ],
+  "footprint_area_m2": 1427.686,
+  "bounds_xz_m": [
+    346.478,
+    432.191,
+    402.358,
+    469.531
+  ],
+  "independent_footprint_comparison": {
+    "status": "not_compared_as_separate_building"
+  },
+  "exterior_requirements": [
+    "dark zinc and irregular glazing",
+    "flat roof",
+    "separate from Gates; shared level numbering is not total floors"
+  ],
+  "inventory_source": "https://www.cmu.edu/cdfd/planning-and-design/master-plan/pdf/june-2022-cmu-imp-appendices.pdf",
+  "inventory_date": 2022,
+  "inventory_level_string": "9+2 (combined complex only)",
+  "surveyed_height_m": null,
+  "height_policy": "Do not convert ambiguous inventory level strings to a verified total height.",
+  "verification": {
+    "identity": false,
+    "location": false,
+    "height": false,
+    "facades": false,
+    "game_walkthrough": false
+  },
+  "status": "reference_packet_not_approved_model",
+  "additional_sources": [
+    "https://www.cmu.edu/cdfd/buildings/gates-hillman/index.html"
+  ]
+}
