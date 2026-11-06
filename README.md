@@ -2,6 +2,13 @@
 
 **Rebuilding CMU in Minecraft, just for fun.**
 
+![Rough legacy campus building in the Hunt area, captured in Minecraft](docs/images/hunt-area-rough-in-game.png)
+
+*Hunt area — rough, in-game. Screenshot by Chris Yu. This is the current legacy
+blockout, not the finished library or the separate detailed specimen.*
+[More in-game views: campus map and surroundings](docs/GALLERY.md)
+
+
 CMUcraft is a project to recreate Carnegie Mellon's Pittsburgh campus in Minecraft. The idea is simple: build a place we know, explore it with friends, and make something fun together.
 
 Hopefully, it can also become a cool way for people who are new to CMU to explore campus and get a feel for where things are before arriving. That is a goal, not a promise that the current map is accurate enough for navigation.
@@ -26,7 +33,7 @@ what the rough model misses. No Python, Git, or whole-building commitment requir
 | --- | --- | --- |
 | Hunt window-and-fin section | A small private build or annotated reference, plus a sentence about your design | [Hunt task #3](https://github.com/Schrodinger39/CMUcraft/issues/3) |
 | CUC entrance or facade | A photo/link identifying the side and two or three observations; no Minecraft needed | [CUC task #4](https://github.com/Schrodinger39/CMUcraft/issues/4) |
-| Show the real game | A game-only screenshot with its location and world name | [Screenshot task #5](https://github.com/Schrodinger39/CMUcraft/issues/5) |
+| See the current game | Three real captures of the rough campus | [In-game gallery](docs/GALLERY.md) |
 
 **[Download First Builds — Hunt + CUC](https://github.com/Schrodinger39/CMUcraft/releases/tag/builders-round1)**
 · **[Short Builder guide](docs/BUILDERS.md)**
@@ -47,8 +54,7 @@ See [what was actually tested](docs/BUILDER-VALIDATION.md). Reference tasks need
 ![Hunt Library development geometry](audit/hunt-exterior-prototype.png)
 
 This separate prototype is a design reference, not the rough building included in
-the trial worlds. Facades and in-game behavior are not fully accepted. We are
-collecting game-only views in [task #5](https://github.com/Schrodinger39/CMUcraft/issues/5).
+the trial worlds. Facades and in-game behavior are not fully accepted. See the [actual in-game gallery](docs/GALLERY.md) for the current playable appearance.
 
 </details>
 
