@@ -1,0 +1,58 @@
+{
+  "formatVersion": 1,
+  "game": "minecraft",
+  "versionId": "0.3.0-workbench",
+  "name": "CMUcraft Architecture Workbench",
+  "summary": "Chris Yu | CMU reconstruction tools; campus geometry audit in progress",
+  "files": [
+    {
+      "path": "mods/chiselsandbits-1.0.63.jar",
+      "hashes": {
+        "sha1": "e8651c1cce8df80a932875e2810c0b9e9ded6a85",
+        "sha512": "4a6050319f91044b4f5655a4f6f022d9d18eac191a7d16c8af91293ee20c8f39c79ec2d763d8758e1564f8286d2a96bd66c38c42ee5d5b4e31d24399df02114a"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://mediafilez.forgecdn.net/files/3593/643/chiselsandbits-1.0.63.jar"
+      ],
+      "fileSize": 1283988
+    },
+    {
+      "path": "mods/worldedit-mod-7.2.5-dist.jar",
+      "hashes": {
+        "sha1": "9524fbe78c31228f80730313df3abbc7bfebc77c",
+        "sha512": "c37f3a06fc607e121178a9d2871341c90776e32b72a5fa198420eb2b55e8e9678868af9f11e3662d2d4470935cda3f86a8bde9383722cc8a3a8e6125fea8df3d"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/1u6JkXh5/versions/sWdgcYmE/worldedit-mod-7.2.5-dist.jar"
+      ],
+      "fileSize": 5312767
+    },
+    {
+      "path": "mods/ferritecore-2.1.1-forge.jar",
+      "hashes": {
+        "sha1": "3ae8dbe663156a8dec621d255856356444586905",
+        "sha512": "129eaec4743214258ed2f426192eba65f8268697fd37a0fc67f868d22b2eaea4d60d8e29100b034a00347672f830f3c4a4a3a94d2307d02f60c00ff4bd27f6a7"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/uXXizFIs/versions/6gwDuh90/ferritecore-2.1.1-forge.jar"
+      ],
+      "fileSize": 108557
+    }
+  ],
+  "dependencies": {
+    "minecraft": "1.16.5",
+    "forge": "36.2.42"
+  }
+}
