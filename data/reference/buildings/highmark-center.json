@@ -1,0 +1,155 @@
+{
+  "name": "Highmark Center",
+  "osm_id": "way/1039908831",
+  "source_url": "https://www.openstreetmap.org/way/1039908831",
+  "snapshot_sha256": "7d8857f29e2e29a48ddb4d52182175ac4af61c7b7e6c9c7727f93af1192bc1e2",
+  "crs": "EPSG:32617",
+  "axis_convention": "X east; Z south; one coordinate unit is one metre",
+  "utm_origin": [
+    589144.82561034,
+    4478009.6777666835
+  ],
+  "footprint_wgs84": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -79.9409468,
+          40.4414645
+        ],
+        [
+          -79.9413983,
+          40.4415534
+        ],
+        [
+          -79.9416334,
+          40.4408922
+        ],
+        [
+          -79.941735,
+          40.4409119
+        ],
+        [
+          -79.9418398,
+          40.440618
+        ],
+        [
+          -79.9416351,
+          40.4405813
+        ],
+        [
+          -79.9416753,
+          40.4404524
+        ],
+        [
+          -79.9413234,
+          40.4403814
+        ],
+        [
+          -79.9411406,
+          40.4408987
+        ],
+        [
+          -79.9410934,
+          40.4410378
+        ],
+        [
+          -79.9409468,
+          40.4414645
+        ]
+      ]
+    ]
+  },
+  "footprint_xz": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          671.6084301006049,
+          713.8607060024515
+        ],
+        [
+          633.1985301099485,
+          704.4517216011882
+        ],
+        [
+          614.1393007643055,
+          778.0850428305566
+        ],
+        [
+          605.4963514155243,
+          776.0015620728955
+        ],
+        [
+          596.9990775719052,
+          808.7314683282748
+        ],
+        [
+          614.4086756899487,
+          812.5972113348544
+        ],
+        [
+          611.1707305491436,
+          826.9461902854964
+        ],
+        [
+          641.1102116740076,
+          834.4696246571839
+        ],
+        [
+          655.9252675104653,
+          776.8625704012811
+        ],
+        [
+          659.7431994552026,
+          761.3742335233837
+        ],
+        [
+          671.6084301006049,
+          713.8607060024515
+        ]
+      ]
+    ]
+  },
+  "centroid_xz_m": [
+    635.92,
+    769.674
+  ],
+  "footprint_area_m2": 5138.835,
+  "bounds_xz_m": [
+    596.999,
+    704.452,
+    671.608,
+    834.47
+  ],
+  "independent_footprint_comparison": {
+    "osm_id": "way/1039908831",
+    "name": "Highmark Center",
+    "county_ids": "561635",
+    "overlap_iou": 0.6597,
+    "centroid_difference_m": 6.822,
+    "boundary_hausdorff_m": 20.358,
+    "status": "needs_review",
+    "name_verified": false,
+    "facade_verified": false,
+    "height_verified": false
+  },
+  "exterior_requirements": [
+    "tan masonry, terracotta and glass",
+    "flat roof",
+    "verify new complex and retained gym separately"
+  ],
+  "inventory_source": "https://www.cmu.edu/cdfd/planning-and-design/master-plan/pdf/june-2022-cmu-imp-appendices.pdf",
+  "inventory_date": 2022,
+  "inventory_level_string": "4",
+  "surveyed_height_m": null,
+  "height_policy": "Do not convert ambiguous inventory level strings to a verified total height.",
+  "verification": {
+    "identity": false,
+    "location": false,
+    "height": false,
+    "facades": false,
+    "game_walkthrough": false
+  },
+  "status": "reference_packet_not_approved_model"
+}
