@@ -6,7 +6,15 @@ A Minecraft Java reconstruction of Carnegie Mellon University's Pittsburgh campu
 
 ![Campus rendered from exported blocks](campus_artifacts/campus_isometric.png)
 
-## Current release: v0.2
+## Reconstruction status: revision in progress
+
+**v0.2 was rejected during the campus walkthrough for poor recognizability. It is a legacy reference, not the requested realistic campus.** No replacement campus is certified yet. The current workbench contains construction tools and a scale calibration world, not completed realistic buildings.
+
+- [Position comparison](audit/position_overlay.png): independent county footprint comparison, with unresolved cases explicitly flagged.
+- [Acceptance requirements](docs/RECONSTRUCTION.md): location, exterior, scale, and runtime checks required before a replacement release.
+- [Architecture modpack](modpack/README.md): pinned Forge tools, download hashes, and installation status.
+
+## Legacy release: v0.2
 
 A **1024 × 1024 metre Java 1.16.5 world**, generated from real OpenStreetMap footprints and paths, USGS elevation, and CMU's published building inventory. One horizontal block represents one projected metre. The scene includes surrounding neighborhood buildings; the count is not a count of CMU-owned buildings.
 
@@ -17,7 +25,7 @@ A **1024 × 1024 metre Java 1.16.5 world**, generated from real OpenStreetMap fo
 | Elevated bridge segments | 12 |
 | Mapped trees | 337 |
 | Generated chunks | 4,096 |
-| Tests | 27 passed locally |
+| Tests | 39 passed locally (including new review guards) |
 | Whole-world audit | All 4,096 chunk records decoded; palette indices and region allocation checked |
 
 **This is a runnable architectural approximation, not a finished survey-grade replica.** Footprints and route geometry are real source data. Building heights derived from floors, facade rhythms, roof shapes, bridge elevations, and interiors are estimates. The 2022 CMU inventory is historical. A full realistic reconstruction still needs current exterior references, measured heights, detailed building parts, interior plans, and game walkthroughs.
@@ -35,9 +43,9 @@ For the delivery computer, a separate copy is installed under the existing Minec
 - A world border keeps exploration within the modeled square. Off-campus sites outside this square are not included.
 - Java 1.16.5 data format is the target. Newer Java editions may upgrade a copied world; downgrade is not supported. Bedrock Edition is not supported.
 
-Runtime loading in a Minecraft client is **not yet verified**. The installed Java launcher could be opened but its window could not be controlled by the available UI tool; file validation is not presented as an in-game test.
+The legacy world was loaded by the user. The new modded workbench has **not** been verified in-game: the reported main-menu launch may have used the original profile. Loading the old world does not verify the new modpack.
 
-## Rebuild without a GUI
+## Rebuild the legacy approximation for diagnostics
 
 Python 3.10+:
 
@@ -46,7 +54,7 @@ python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements.txt
 python -m pytest -q
-python -m cmucraft.campus --output build/campus
+python -m cmucraft.campus --output build/campus --legacy-approximation
 ```
 
 The output directory must not contain an existing world; the generator refuses to overwrite one. The committed OSM/DEM sources allow offline builds after dependencies are installed. An approximately 200 MB voxel array is used for the current map; Python and rendering add overhead. This is designed for an 8 GB Mac, without a GIS GUI. Minecraft memory is separate.
