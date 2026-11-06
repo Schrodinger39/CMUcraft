@@ -1,0 +1,211 @@
+{
+  "name": "Roberts Engineering Hall",
+  "osm_id": "way/27590641",
+  "source_url": "https://www.openstreetmap.org/way/27590641",
+  "snapshot_sha256": "7d8857f29e2e29a48ddb4d52182175ac4af61c7b7e6c9c7727f93af1192bc1e2",
+  "crs": "EPSG:32617",
+  "axis_convention": "X east; Z south; one coordinate unit is one metre",
+  "utm_origin": [
+    589144.82561034,
+    4478009.6777666835
+  ],
+  "footprint_wgs84": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -79.9470726,
+          40.4427696
+        ],
+        [
+          -79.9472105,
+          40.4428002
+        ],
+        [
+          -79.9472386,
+          40.4428123
+        ],
+        [
+          -79.9474734,
+          40.4421786
+        ],
+        [
+          -79.947292,
+          40.4421493
+        ],
+        [
+          -79.9472632,
+          40.442082
+        ],
+        [
+          -79.9471985,
+          40.4421324
+        ],
+        [
+          -79.9471965,
+          40.4421382
+        ],
+        [
+          -79.9472032,
+          40.4421399
+        ],
+        [
+          -79.9471139,
+          40.4423913
+        ],
+        [
+          -79.9470346,
+          40.4423781
+        ],
+        [
+          -79.9469996,
+          40.44248
+        ],
+        [
+          -79.9470753,
+          40.4424964
+        ],
+        [
+          -79.9469854,
+          40.4427457
+        ],
+        [
+          -79.9469672,
+          40.4427449
+        ],
+        [
+          -79.9469664,
+          40.4427511
+        ],
+        [
+          -79.9469923,
+          40.4428274
+        ],
+        [
+          -79.9470726,
+          40.4427696
+        ]
+      ]
+    ]
+  },
+  "footprint_xz": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          150.35357016709168,
+          575.2041781777516
+        ],
+        [
+          138.61803973384667,
+          571.9469477143139
+        ],
+        [
+          136.2189220439177,
+          570.6322346888483
+        ],
+        [
+          117.14430226455443,
+          641.211381229572
+        ],
+        [
+          132.56739680713508,
+          644.2803712952882
+        ],
+        [
+          135.0989405263681,
+          651.7216737102717
+        ],
+        [
+          140.51939135731664,
+          646.0617776364088
+        ],
+        [
+          140.68133448751178,
+          645.4159456081688
+        ],
+        [
+          140.11086529877502,
+          645.2340162564069
+        ],
+        [
+          147.35161507618614,
+          617.2378952931613
+        ],
+        [
+          154.09440607239958,
+          618.622937515378
+        ],
+        [
+          156.9278447413817,
+          607.2764695612714
+        ],
+        [
+          150.48613891773857,
+          605.532584477216
+        ],
+        [
+          157.78047010221053,
+          577.76894746162
+        ],
+        [
+          159.32503726682626,
+          577.8393449736759
+        ],
+        [
+          159.38467789045535,
+          577.1503251781687
+        ],
+        [
+          157.0871638751123,
+          568.7070819642395
+        ],
+        [
+          150.35357016709168,
+          575.2041781777516
+        ]
+      ]
+    ]
+  },
+  "centroid_xz_m": [
+    138.695,
+    608.966
+  ],
+  "footprint_area_m2": 1790.402,
+  "bounds_xz_m": [
+    117.144,
+    568.707,
+    159.385,
+    651.722
+  ],
+  "independent_footprint_comparison": {
+    "osm_id": "way/27590641",
+    "name": "Roberts Engineering Hall",
+    "county_ids": "531918",
+    "overlap_iou": 0.291,
+    "centroid_difference_m": 25.196,
+    "boundary_hausdorff_m": 78.645,
+    "status": "needs_review",
+    "name_verified": false,
+    "facade_verified": false,
+    "height_verified": false
+  },
+  "exterior_requirements": [
+    "pale exposed concrete",
+    "flat roof",
+    "retain steep-site base elevations"
+  ],
+  "inventory_source": "https://www.cmu.edu/cdfd/planning-and-design/master-plan/pdf/june-2022-cmu-imp-appendices.pdf",
+  "inventory_date": 2022,
+  "inventory_level_string": "5+1",
+  "surveyed_height_m": null,
+  "height_policy": "Do not convert ambiguous inventory level strings to a verified total height.",
+  "verification": {
+    "identity": false,
+    "location": false,
+    "height": false,
+    "facades": false,
+    "game_walkthrough": false
+  },
+  "status": "reference_packet_not_approved_model"
+}
