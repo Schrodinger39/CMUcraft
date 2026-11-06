@@ -49,15 +49,45 @@ Use a separate instance and keep copies of your saves. Keep Chisels & Bits insta
 so its details are preserved. Bedrock is not supported. HMCL is not required;
 see [launcher help](docs/LAUNCHERS.md) for setup options.
 
-## How it works
+## How is the campus built?
 
-The first campus was generated from map footprints and terrain data, with one block
-representing one metre. That gives us a starting layout; photos, measurements and
-hand-built details help turn it into a place people recognize.
+### The simple version
 
-The repository includes the Python tools, 41 building reference packets and a separate
-Hunt detail prototype. WorldEdit helps with editing, Chisels & Bits adds smaller
-details, and Xaero's maps help you find your way around.
+Imagine tracing each building on a map, putting that drawing on squared paper, and
+using a program to place Minecraft blocks on the squares. Height measurements help
+decide how tall the buildings should be. Photos help work out what the windows,
+walls and entrances should look like.
+
+That is roughly how CMUcraft works. Python programs generated the initial campus,
+with **one block representing one metre**. They can place lots of blocks quickly,
+but they do not automatically know what makes a building look right. The first
+campus model used many generic building patterns, so it gives us a starting layout
+to improve together. Hunt also has a separate detail prototype with more specific
+geometry and references.
+
+Builders bring the recognizable details: a window pattern, an entrance, a roofline,
+or a facade that feels like the real place. You can work on those directly in
+Minecraft without using the Python tools.
+
+### The technical version
+
+| Step | Tools and approach | What it does |
+| --- | --- | --- |
+| Collect building outlines | OpenStreetMap XML and county footprints | Establish building shapes and their positions on campus |
+| Convert coordinates | Python, pyproj, UTM zone 17N (`EPSG:32617`) | Convert map coordinates to metres, with Minecraft X pointing east and Z south |
+| Make the block grid | Shapely and NumPy | Turn outlines and courtyards into one-metre grid cells |
+| Measure terrain and roofs | USGS/PASDA 2024 lidar, laspy and Laszip | Help distinguish ground and roof heights; trees still need filtering |
+| Model architecture | Building-specific Python rules, photographs and roof fitting | Shape features such as Hunt's fins, glazing and roof, with some dimensions still estimated |
+| Add finer detail | Chisels & Bits, with 16 subdivisions per block edge | Build details smaller than a full Minecraft block |
+| Write and check worlds | nbtlib, Java Anvil/NBT files, Pillow and pytest | Export saves, render geometry previews and check coordinates and file structure |
+
+These tools support different stages of the project; the rough campus preview and
+Hunt detail prototype are separate builds. WorldEdit helps with in-game editing,
+FerriteCore reduces memory use, and Xaero's maps help you find your way around.
+
+For installation and build commands, see [Developer setup](docs/DEVELOPMENT.md).
+For a closer look at the Python modules, arrays and Minecraft save format, see the
+[Code and file guide](docs/CODE_GUIDE.md).
 
 <details>
 <summary>Hunt detail prototype — external render</summary>
